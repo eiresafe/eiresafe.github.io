@@ -1,0 +1,9 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Scraper Temporary Outputs
+proposed_incidents.json
+
+# Local Logs
+*.log
