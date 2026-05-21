@@ -404,15 +404,15 @@ def write_yearly_data(incidents, output_dir):
     for year, incs in by_year.items():
         incs.sort(key=lambda x: x.get("date", ""), reverse=True)
         path = os.path.join(output_dir, f"data_{year}.js")
-        js_content = f"// Irish Stabbings & Crime Tracker - Year {year}\\n"
-        js_content += f"// Total incidents: {len(incs)}\\n\\n"
+        js_content = f"// Irish Stabbings & Crime Tracker - Year {year}\n"
+        js_content += f"// Total incidents: {len(incs)}\n\n"
         js_content += f'''export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
   "Kildare", "Kilkenny", "Laois", "Leitrim", "Limerick", "Longford", "Louth",
   "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon", "Sligo", "Tipperary",
   "Waterford", "Westmeath", "Wexford", "Wicklow"
-];\\n\\n'''
-        js_content += f"export const mockIncidents = {json.dumps(incs, indent=2)};\\n"
+];\n\n'''
+        js_content += f"export const mockIncidents = {json.dumps(incs, indent=2)};\n"
         
         with open(path, 'w', encoding='utf-8') as f:
             f.write(js_content)

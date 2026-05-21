@@ -1,9 +1,14 @@
-// Irish Stabbings & Crime Tracker - Year 2026\n// Total incidents: 192\n\nexport const countiesList = [
+// Irish Stabbings & Crime Tracker - Year 2026
+// Total incidents: 192
+
+export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
   "Kildare", "Kilkenny", "Laois", "Leitrim", "Limerick", "Longford", "Louth",
   "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon", "Sligo", "Tipperary",
   "Waterford", "Westmeath", "Wexford", "Wicklow"
-];\n\nexport const mockIncidents = [
+];
+
+export const mockIncidents = [
   {
     "id": "INC-781C4515",
     "date": "2026-05-21T13:29:29+00:00",
@@ -2125,4 +2130,4 @@
       "url": "https://www.google.com/search?q=Swords+Dublin+aggravated+burglary+knife+New+Years+Day+2026"
     }
   }
-];\n
+];
