@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2026
-// Total incidents: 192
+// Total incidents: 207
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -9,6 +9,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-BBE8F69B",
+    "date": "2026-05-21T14:32:04+00:00",
+    "county": "Cork",
+    "location": "Cork Court",
+    "description": "Man who stabbed partner 13 times learns fate at Cork Court - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIcU1oOFFranhJR2VBaFRETUpzTWIwa2RJempGczEwVVdUOXZXTUg1ejg4cnVTaFhPT1JWQ3RmTHU4T1ZnSVlsU2kwTUtlZ25qS1ozcDhBYzhvam1BOEhjNUEwMll3a2Z4dkhxZXlKWUpJMTN5NEh5OEtfdF9qQ0XSAYQBQVVfeXFMUDJXOFNlUzZ4d1VmVS10T2l5b3BnbmhudU9XbHY1WEhOY1BRc1J5emtyRFViLUNJUkozblNKTWNWNzlNSFhDVGpPSjlkR0RIZ1FHWExpd3NSOW8tUnFVczU5VzBJSnNTZENFSHNhb0lta1dDb3drVXhnaXFSeWRVWFB2ZGNs?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:37.096750+00:00"
+  },
   {
     "id": "INC-781C4515",
     "date": "2026-05-21T13:29:29+00:00",
@@ -68,6 +81,19 @@ export const mockIncidents = [
       "title": "RT\u00c9 News",
       "url": "https://www.rte.ie/news/2026/0520/1574373-blanchardstown-assault/"
     }
+  },
+  {
+    "id": "INC-BCB2AA0A",
+    "date": "2026-05-17T10:53:36+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "West Belfast: Three men arrested after stabbing released on bail - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ib2tCTzllbDZndnNRWGxQdnItLVhtNXRTQ0loT1owUUFUOFRVenV5T29ZdjJpaHpORk1uUmdndWYxb1poaDlJd3N3dnVJOG1PWElCWkxWQVpZdHVX?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:25.173602+00:00"
   },
   {
     "id": "INC-DD34E52D",
@@ -279,6 +305,32 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:55.345465+00:00"
   },
   {
+    "id": "INC-B87C3D42",
+    "date": "2026-05-01T07:00:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Small boat migrant guilty of attempted knife attack on Israeli embassy - Ireland Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYnF2Qkxpbm1UOGVrMlczUGl1WXVaQlBfVjFneHo1MGd5c0xJVnlsdG1HbEtNdnlSazBESGt3Z0h0cE9fVkdKeldXT2V2ckxiZy1MVFdJWFZaTEx3aEtQUDVzVjE5eVNQdWFDbkxBZkdxMUhsZ3BfYV9RZXBZUExnNWdpRmJyT0I0Y2hYQ3dXMlBnUE9DbndTbTU5LU4tbExOUVdSZ1FMdjgwZG5acjFTN2dOdDdKMnBnTjlr?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:27.246831+00:00"
+  },
+  {
+    "id": "INC-9DB72490",
+    "date": "2026-05-01T07:00:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Small boat migrant guilty of attempted knife attack on Israeli embassy - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNT2NwbUkxU2NoLWQxVUFwQ0tmT3kxQXhOSlhKRnduV3pQOFhvRW1RUVJaX2VNTXIxa2FVcmJxM1h0UVVKcDIzekdDZmlLaTUwTXpBZm54MmFjSExza0tGX1ZHZzhlTGU1Tkd6UkVqRkI5cC03dWJic2lOMTFScy1HSGlxM3lJQUtBM0pnN2RsTHQyX1Jfemo0WFMyYkFVb1YwTzlMY2lnQ21LaEx1RlpSRnYyOGVkN0xicnZlbllfbnhLSzEta3FtT1N3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:33.201369+00:00"
+  },
+  {
     "id": "INC-3D65D0A1",
     "date": "2026-04-30T10:45:00+00:00",
     "county": "Cork",
@@ -464,6 +516,19 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOREljNWFIb2lrZS14aDV0VkNVcjhLaE0tYlUzbS1NenVBNVQ2WTBkdFpJZVNvSHFFVFlsamFvNlZoMm5RVkhZQjhNQ2d6U3JsVHI2UGFLdktHc0J5LUFvUi1aaGx1b3BnQUFaaFdaTmxtZ2hZOFFqOHdYdFlvUFo3aFcteFh4X3oyMWJNT2c2SEZ4TmVZQ0o1WWZmS0xPYWs3OHJadFJkQVhBRzd0YVZleDQycjF4VjNCWTFZVFdBSkJQbHZ1MXhz?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:57.083494+00:00"
+  },
+  {
+    "id": "INC-B1D8605C",
+    "date": "2026-04-20T07:00:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "At least two children die each month from knife injuries in England, study finds - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTUMtZWt5RlRUbHBxTlVxbUtSQkROcHd1Y0lXbEdLYUNiN2Z2NTNDOHpZN01kYTVSc2llTVlMXzgzVjdxT0N4X3ktMEVIWU16Z2NnSFQzR2o5RWxLb2lpY3dYM2pLRWxPY3FSendyRWFCUWhQU1VLanhvSTZNTHYyaHVXVDJOY202T01ENXRZaHVFNDdYSjYyR1lEUTBNdFJ1WTNNUXYxclg5eHpVZGlzYXRkMU5XbVRtZmp5N0RnUFItZGEzRmQ5a1NZZU45NlUzS3hEQ0Fn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:33.207549+00:00"
   },
   {
     "id": "INC-EC23EA91",
@@ -775,6 +840,19 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:53.746647+00:00"
   },
   {
+    "id": "INC-2847142B",
+    "date": "2026-03-26T07:00:00+00:00",
+    "county": "Louth",
+    "location": "",
+    "description": "Further remand in custody for Louth stabbing accused - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ21Gdk5LQUZMWDhuLTNMaDZlRDRiQW5OTmViRlo1bk1fZ3J6VktBRlJ0c2Nmcnp4SVdEVzZaLXBBZk5Iel9fNERQcWZWRDFTUEVGYmZRd0s0UVpjdjJ6anVjRkNwUjVLNzdJN191X2VmNnRRcUh1Q2JNNEVDeWxmc0FVblExRjQ4WXVySDNRSTNlWnF6VnlnWXhnQ3A2cTY0SVF3bUJIX2NWUGs2VmptUGJlSDdhUnRnN0tybFh6eWlBdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:25.202615+00:00"
+  },
+  {
     "id": "INC-B4A0B384",
     "date": "2026-03-25T07:00:00+00:00",
     "county": "Antrim",
@@ -982,6 +1060,19 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81bFI1WFlGZF80eXUtXzhfcE1fT2JZYjZnbENfYV9MNGFHWGRCV0VWSW50RHQ5aHpUaDdWVXB6d1lsOElMV2oyeG9ybE0yRGFadHA4Z1ZtUTR5Vm9oR1Jpb0dJVE1sTTZySFJxSzBXLWlNWEpfMTdRSUw4Q2YtejTSAYQBQVVfeXFMT3BMbVJ1UXlDTWducnlpNzNYWGU3N1liT1VTRDI4ZXZhdzZtbTFpOUtjU2VwV2hiaTZYaXdDM212SEJEMTUzT1A2c2R5QWM2MU9UYmpQbHoxR2NuVDh3Nng1aGVrY1dzUHZnM0w5OUkyQlVKTEl2cHkwTXUxV3BBb2wwdGVS?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:51.901608+00:00"
+  },
+  {
+    "id": "INC-96199225",
+    "date": "2026-03-19T07:00:00+00:00",
+    "county": "Cork",
+    "location": "Cork city -",
+    "description": "Arrest made in fatal stabbing of Ukrainian man in Cork city - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVEJEMV9qQlREVThwRDJVRE1hMU1RQ0M2QlkwQTQzMmFSU2xjY0Q1QzFHNXltUnFpRkN3dHo2VVhOUi1JZ0RiV3ZXUW0yNjVxWnVOZGMwbUZsUl94SHlOZm9aOTc0YmlBODRpMjItVDZSSlQtWEJlQkQwNlFXWG5kcnBrZGZvTGg1UE5Ia9IBkgFBVV95cUxPN1Y1SzZ0TGRjT2JsZjdud0NOeHB0RDVlcjlWWlgzcW9JN1V6WEQzQ1pYN1k0V2ZoUzRlV09QOWFEeXkzMDZBTHBTVlJCYng4LUd1dUNSYmI5aFVfaUFReDd3ekVxN1NHalpSTnpwTUlVZ0Q3TEViYWJCRHlKSXN0VHB3Wl82Nm5VZ3hYUEFxLWU0QQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:37.144530+00:00"
   },
   {
     "id": "INC-463424A8",
@@ -1225,6 +1316,19 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbmFPZmQ3OFpVR3dJckNqdXlvN200S1dXOGJac0Nad0l5N1BIMXI5QWhJT2JQZEg0dWdvNWxxR09oUzhjQXV6S2d2NldfVUY2UV90YktvdXlaV1ZHMDhRWFBEaDFpUkZNVGJHaWJ0ODlUZjhReFdzVGp0WXhITWZtdFZnS29jLXV0WWx0elhSWEpXX2lHTV9Z?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:58.771521+00:00"
+  },
+  {
+    "id": "INC-BD859D12",
+    "date": "2026-03-17T07:00:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Gardai launch murder probe after Ukrainian father-of-one stabbed in suspected 'random' attack - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMDh0SU1FZDFRWlNvRUl6MGhZVTMtX0RJM29tSEVGVWRicmRId0JkazlXRU84VHJ4elkxbVpNMHg3c1RBM0k1S2c4YmplOEJfWlFfeFB1MExJdWNsdVRXcHlicnByTXRUdkI5NEVnRlJkSmEzanFPSlBXMDhQdVBVQlRCakpQU2owbmRVZNIBkgFBVV95cUxOeXZYa3J0M0o0ZE5DdUdmZ0RpRnpmMU1OTzktSlQ5OVZPb0s2SHBadVY0QVhHWEVnWUFJb3lWbGxVQmloY2tJRDNva2pvNUxVVnowOUd0dEtqWE91U241c2RlZWlUSmRkR2NseHZ6Sk5JWHIxTEFkTjhlOFdEZV9pdWhjamxIS01QRGQ4M2RvdWJBdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:46.808275+00:00"
   },
   {
     "id": "INC-BE135E41",
@@ -1557,6 +1661,19 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:53.741952+00:00"
   },
   {
+    "id": "INC-4847A5A6",
+    "date": "2026-02-21T08:00:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Public urged to stay away as police deal with stabbing incident - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcVo5bmlsR2llNUpiN1Z1dlVTVVB2OTEwSjVtMW1BSFFrR2tjanFmWHVRYVVhdmNBM1ZjMVhlLV9LMnBmTk1PcGdOSFFtdThFaTZtMHFjdEZYeF9scjRXQThUSDVqUnpCMzdDQndoSnZHdno4Y25IeExvMWFTZ01tVjR6bU5fRlZtbjRLRm5scFhiM1Jq0gGaAUFVX3lxTE9uTnRjWl9LanFtYnBORHZ3Z1gtcG5WNWtpcGRIcWRzWm9ZTWp2YXJxQUNLRThDbFAtY2JsdGtHS2swNWhwWGxQb2Q2M09OTkNSaVhHcnptQnBtb2pJZkllakpScGJaMXB0VlFIYnhROTc1QVVtWW1ObGx2dl9LejB0WURwSnUxaXZrc0E1Z0wyNmEzRG85TDNWdkE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:42.906562+00:00"
+  },
+  {
     "id": "INC-F240CE77",
     "date": "2026-02-20T08:00:00+00:00",
     "county": "Dublin",
@@ -1588,6 +1705,19 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVEEyU29GZEJQVXBQeGNPTWpZX1k1aWx4VzhJbC0xYmM3blB2c1B4T0RYVjl2YUg1Rk9wS2g2dUl1dFZZUWZKZ29XRkgwcml2LWhJcTFRakdRd2J3YXN6bGR3ZU1ueVZFUzJjcFRUSlFGMzdCaTE0QUJiV29iYWc3M1gwQmJKemZjdG1pTUR2VmlzbkR2VTFJNEpnSnhNR1pibDQwTEdURlBYcWgwNGl2QjYzTFR4MVNUay1yVnljOWxCblRmem0zVDR3MThONlBtdEdNRw?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:53.744053+00:00"
+  },
+  {
+    "id": "INC-519F4E76",
+    "date": "2026-02-18T08:00:00+00:00",
+    "county": "Wicklow",
+    "location": "",
+    "description": "Court hears man accused of Wicklow stabbing arrived by e-bike - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTGZPWWUxSzlrZWdybUJxODRWOVl4cklsM2Z5YUdVQUt1UC1KNWRNeUtabXo3TkVpRF9OWmdCcDh5MWd0Q1p2d2JNWE1lMmhyazhoWE42TDhVUUZDMlRabFZkR05HVlJlRVgzS3N1Y0twLUZFZEljYjJ6WmxaM2RnVTFYeUpweUxKRnJXZ1lueFFUWG93cklZZnlnb3g0UXE5QTBxTkJtLUFEdWtLY0hGdGwyN0tZeGh0YnZMMmk0LTBhVUpvOWtqUjFIaXZlZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:25.214025+00:00"
   },
   {
     "id": "INC-F8C745CA",
@@ -1700,6 +1830,32 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:48.415667+00:00"
   },
   {
+    "id": "INC-431B1E02",
+    "date": "2026-02-06T08:00:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man, 40s, rushed to hospital after brutal daylight stabbing in Cork city centre - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNDRad0g4MmZ3dTRfaVF3WjdxcjRoTTdIS0JUcGtlRDd5ZlVzcHc3UkZDc2lyMEZGRTVtc0tMZTJfYzBzYzNhNzNCZnVuOG5YY3RxcVRhdHpmaXpUVnVWUWpITmtpTGN0ZHBzWUVqTzVUdjlxWVZNc050ZlpwSXpfQm5XeHM0UE8y0gGOAUFVX3lxTFBrYXJNLWFkNHdndHlwOUN0UnJReTMwVlhWNlpzelgzVFdRZUwwcEVoWkRwUm9mVG1qOGQ4RzlSbG05eG5aRFg2Q2pmWEl5V3NmcUlaaVRIekh3WThNWVp0TzZ5NDhEV1Q3VXhOdDR6aTh1bEk5Um5kRFZOVzNhdlh2SW5YMkVuTG1fT3ZhdUE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:25.221321+00:00"
+  },
+  {
+    "id": "INC-7A0F5DE6",
+    "date": "2026-02-06T08:00:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man in hospital with stab wounds after attack on Cork city centre street - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLWthQnRZUEVtWWRTY2xycGVuM21ySEo2endkTVFjYUZiYVhJZGtCck1MMmc5Vm5KNlNlb0ZsSE5QNWpZMjdmVmpWaldLeXEybzhBTEI1LVBNZlYxZUkxR1RHU1FSbzlwQ0RnVHJzakNKVU1hQlBNeFRsWmpEMm1BdmJDUWJITWl3QXJfdkNSN0hqelE3bTUw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:27.272223+00:00"
+  },
+  {
     "id": "INC-1A5952A7",
     "date": "2026-02-05T08:00:00+00:00",
     "county": "Dublin",
@@ -1742,6 +1898,19 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZkd3aGRBbVZTRkNhejJfTmlhM3FBYzVfeGwwZVNFb1VnMFB3NDJQeE9tRF9rUzN3clEzTXk1M25LSWhwZnhhb2JSV05uZU5Pa25SRHFZTHRkc3YzdWdzZkhSVTlISUtyTEVNVHF2X0ZWREVWc043STRIdmRlVEZIeTlFLUZTeThub2ZsWGhKS3l2NmF3RkZ4QzF4SVQyck03UERwMXo2cmZIeGVRU3VNd0pGVU1SNGhHal9XcTF0NVdjajQ0M1cza0FMZWpScHhxRHhPd3NmZFVvc1ZZejZzVUhPM3VEQQ?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:57.101112+00:00"
+  },
+  {
+    "id": "INC-A6A09CD2",
+    "date": "2026-02-04T08:00:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Schoolboy, 7, brutally stabbed by frenzied knifeman calling child 'the devil' - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUEpneXB3TERaTWR6OVJ3SFhKd2F6MmRpdGhxLWlKVkRaa1ZabFJESHNmWUEwVVpSV0lIalVxamFmODE1NnJtLVBGSXlqZ2pxcF90M3pGMlJHcUI4OW0yTl91bDlDc21SNDJuT0dxVWpucUJYc0dNLTdyV2JNWVoxRE83UW1OX21MNmJlSmVqTU5fQdIBlwFBVV95cUxOQXh6MGY0UlhmcHpsUGtjaU9NOTE4R1JOb0lWOHRlcnVQVVFHelJubi1KN01ZQTd6Rkhfb3B1T1hBNUgzb0tvR1R2aTZJNTk3YkktM3BXTjZHNU9WeWRSZVVDR2k0dWotdmVUaXFwNGVCcnl4cXlQdmlmRFprMTBYakpUSnR0Qmh4QUJRZGxZRTF6MDBoQ1BN?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:35.224528+00:00"
   },
   {
     "id": "INC-6D133AA6",
@@ -1832,6 +2001,19 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:57.095826+00:00"
   },
   {
+    "id": "INC-205C6308",
+    "date": "2026-02-01T08:00:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Tributes flow for man, 50s, killed in alleged stabbing in Dublin - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWDZXVnhtVmN6UVItU0padFM1b1pyUTE5MGZwSDJGdzJjcWtmRFVkaTBzWmVkd1p2anhoaldkdzNCLThzRmM4anJ6MUtIRkNUeFl5c05PTDA2dmN4UmJGb1QxMjJ0Z0tRLXFKS1Z3MWo0YzF3b01pS0dVbjYxQ2Nvemx2SV9vdUnSAYwBQVVfeXFMTTE4QnhiMjFkVlpPdE1qM1hHbE44c19SclhYSlkxYlBGT1ltUVk0MzRXLVFaeFRBTHNWUWlRVzhtUndMdTk3eDBSM09Ka0RLVXJzNS1BNlBtZzlPSUZyaXd6MFVZYWhfbW5rd1RjdHZpVGl6RXp2SXE2bVZYVHlXdFo2a3BhMFRtOEhmSWc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:35.225570+00:00"
+  },
+  {
     "id": "INC-0EC8D63E",
     "date": "2026-01-31T08:00:00+00:00",
     "county": "Dublin",
@@ -1875,6 +2057,19 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA4QlZIZmxTQlpmWm9HOFBKc0ltWDVoSmUtWlNleG9GWW96NzBYcEd3ZFYxeGliNUxnamVZMzNIandTRmRLM1hlRTduTUt5ZWFwWS01aHlNUlgyUTUtZW5wRDlPX1k0YjBBWWZuaDRha2ZacmVjT2c?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:43.097050+00:00"
+  },
+  {
+    "id": "INC-5DF598F2",
+    "date": "2026-01-29T08:00:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Garda\u00ed arrest young man over fatal stabbing of Anthony \u2018Josh\u2019 Fowler in Finglas - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNUVULXJ4ZzVxUXhhVGRnc3RWODFqQ3hzYUVHVjY0ODRxTWNuVk9rRm41OEdYS2hCT3JSb1BoeF8tLWFVdncyWDV0RkZQVmM5S0NjdWVQa3BlVzZ0Qm04UUFWZG5fb1lnTzF6RVlQTTZCRGdsazRURkV6SE9nMVM1dzJ2b0ptaHVyYnF5WVN6S3c4dE40Ym9sTmsxWTZTYXBJZ2hWYUY2Y2NfYmJacTBfMHp3NHpZaVQ1c1lRMHhUaUxUUlBJTS01aw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T14:58:25.218811+00:00"
   },
   {
     "id": "INC-71417E6C",
