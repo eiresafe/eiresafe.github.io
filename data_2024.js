@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2024
-// Total incidents: 37
+// Total incidents: 36
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -437,19 +437,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:31.268852+00:00"
-  },
-  {
-    "id": "INC-A30B097C",
-    "date": "2024-02-19T08:00:00+00:00",
-    "county": "Antrim",
-    "location": "East",
-    "description": "Ian Ogle murder trial told knife and baton found in East Belfast river weeks after attack - Belfast Live",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYk1QNDFOTkpXR0FjX3RpLXZpUWdyMm9DYkpGb1JfYnNodC11VkJJZ0tVMVVib0RXTERfaFpRQlRMUU4yaThmQ1hmUWEtTFJkd19EY0lEQnNieFJLS182THRnZzBBWEtKYkd3V3dQM0lVSl81dlZlV3VycTNYX2wzdEttWExIbi1MTDBv0gGQAUFVX3lxTE1KVWNoVzNGTEpkV2NhUXhTMGxUWVFtRzNrVzZ6aUNxU2lBa3FTeFFvTlJCYjdYdGkxUDBDdEY5c0g2aEE2NVVUOUZyOUF3ZE5UT1k1V1pxYjhGaEdRTWRJeHJaTmxMRHZZZUY0TFB1TVQ5LXBwb3lJNU1RRU1kY0pTam43R1Z4LVpsMEM0Tl9yNQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:33.244230+00:00"
   },
   {
     "id": "INC-446E9B0B",

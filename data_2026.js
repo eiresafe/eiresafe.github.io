@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2026
-// Total incidents: 179
+// Total incidents: 170
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -9,19 +9,6 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
-  {
-    "id": "INC-781C4515",
-    "date": "2026-05-21T13:29:29+00:00",
-    "county": "Unknown",
-    "location": "",
-    "description": "Girl tells murder trial she saw her boyfriend stabbed twice on beach - Ireland Live",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTXRmaGRSWTZUM3M3YW55dXlYMi14b3pVbDBMdjJWN3NjUGFXS1JhRF9haDJnSDdUSTlFMzhHN3plSmtxZEl2RUlWWFg3aDRMU0FTcjBfektXY1ZiWWdXT01LVC1ZQnFta1FueExlajdEbGdBdTliaDdpZ1ZEMG44VjN3TjQtWk03MkYzRGh1ZElPMXlyNldnWEtMUEpZeG83dlZRTkVTOFNNTmplQk4yM0h6dXhHZXZh?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T13:51:37.375206+00:00"
-  },
   {
     "id": "INC-F6B47F0C",
     "date": "2026-05-18T07:00:00+00:00",
@@ -146,17 +133,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:48.405854+00:00"
   },
   {
-    "id": "INC-73B73A7A",
-    "date": "2026-05-06T06:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Brother tells trial that West Cork stabbing scene was like 'a horror movie' - echo live",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pQ2ZFclo3QXp4MDlzUVc4VUpLeDk0R29sblZ1NVVsTVZKcV8zU3JHYkNPUmFCaWZvTG1NSlBLQnVHeC1oZzhuREd2ZkhSa25Ra0pzQndJQWNwVkV4NjA0Sg?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:48.407430+00:00"
-  },
-  {
     "id": "INC-1DD4552C",
     "date": "2026-05-05T07:00:00+00:00",
     "county": "Antrim",
@@ -212,17 +188,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:48.403975+00:00"
   },
   {
-    "id": "INC-C60E3077",
-    "date": "2026-05-01T07:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "West Cork assault trial hears one man 'had a stab wound...which was actively hissing' - Irish Examiner",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84QzlfWkM1ZV91X19BNzZydGttX2JsQmRjSGJEaDNSYXFCUVZWMnVnYnJ4TExlSHUxZWpsMjJ0ZWQ5TnY0dGUwRHU5U2dXaVZWcDRNNnpqVmxELTA1S0JQUHdPMmJuSU9jNDlkTEwzcy1RYW01b0E?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:48.418737+00:00"
-  },
-  {
     "id": "INC-B87C3D42",
     "date": "2026-05-01T07:00:00+00:00",
     "county": "Unknown",
@@ -247,17 +212,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:33.201369+00:00"
-  },
-  {
-    "id": "INC-3D65D0A1",
-    "date": "2026-04-30T10:45:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "West Cork man goes on trial for alleged knife attack on brothers over property",
-    "source": "GDELT (southernstar.ie)",
-    "sourceUrl": "https://www.southernstar.ie/courts/west-cork-man-goes-on-trial-for-alleged-knife-attack-on-brothers-over-property-4362160",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:43:34.917704+00:00"
   },
   {
     "id": "INC-1C1396C0",
@@ -390,17 +344,6 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVndwVEpyYmxKNU1vYVVVNC05ZjdfX013NTdOUGJRdnk2QmtYQXBYMjlIS0RQa1BQY3hNQjF2TkcyTTJzekRWaC1iOXFXZ29UZGFDZEhfekx3djcwYl9laUlBMEhXbUJmS3FVcTNGOVZ4bjBSNFpKREJpbGhDNHQwd1ZmRjJhTUo5VmZSdE5uNXRySURvREHSAZsBQVVfeXFMT1Z4dHUzeEtYY2RqZzV3bmxMM3RpY1FYeWhkbWprM0NRczRqbXR5c0laeHFobkozUndPZUltUG1KYVpoZEdhQmNwS21rTTFma0oyWFNGTnJtZ1RyZkxmdEFXZWtZeTVzc2t0SXdfX3NNTnZXZVJad1kyNjR3azBjdkdydm9HczloVFdWYmRTLXBlWWE5N3VGd1pLUDA?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:53.746297+00:00"
-  },
-  {
-    "id": "INC-56F42D1E",
-    "date": "2026-04-20T07:00:00+00:00",
-    "county": "Unknown",
-    "location": "",
-    "description": "Sentencing of man who stabbed garda, set fire to Conor McGregor pub is adjourned - The Irish Times",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOREljNWFIb2lrZS14aDV0VkNVcjhLaE0tYlUzbS1NenVBNVQ2WTBkdFpJZVNvSHFFVFlsamFvNlZoMm5RVkhZQjhNQ2d6U3JsVHI2UGFLdktHc0J5LUFvUi1aaGx1b3BnQUFaaFdaTmxtZ2hZOFFqOHdYdFlvUFo3aFcteFh4X3oyMWJNT2c2SEZ4TmVZQ0o1WWZmS0xPYWs3OHJadFJkQVhBRzd0YVZleDQycjF4VjNCWTFZVFdBSkJQbHZ1MXhz?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:57.083494+00:00"
   },
   {
     "id": "INC-B1D8605C",
@@ -1259,17 +1202,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:58.769528+00:00"
   },
   {
-    "id": "INC-286BF277",
-    "date": "2026-03-10T07:00:00+00:00",
-    "county": "Mayo",
-    "location": "",
-    "description": "Jury in murder trial hears Mayo man was stabbed 27 times - RTE.ie",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOd2FRSERuckhuNVVEdEdDYk1IOXlmZXFVcFl0aENubmE2YWJIZEU1SzVZVC05NlE2YXJ5dDBiRXBRMDRYc3kweGM4WmlYWUxlQlBhOUFoYjNYelF3N1B4NWdmWU9lQWV1cVEtX0Izd0ZwYU5qemJscWxDWmR5dVJfb2lPN1M?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:37.886128+00:00"
-  },
-  {
     "id": "INC-F3775B85",
     "date": "2026-03-10T07:00:00+00:00",
     "county": "Dublin",
@@ -1459,17 +1391,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:42.906562+00:00"
   },
   {
-    "id": "INC-F240CE77",
-    "date": "2026-02-20T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Jury rejects Dublin man's claim that stabbing was done in self defence - BreakingNews.ie",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxON2doMFViTzNYbVktd1lrUEhVanY0dGN3SXc5VVIwV0FVa2JfU1ptX19IYVhGcVlzNHg3MnpMcUJoMnpHYjk5cHpYQU5RZTJlME5IS05TUnBOczBnTWUtdHFZdFh2Zm56My1RRkdScFJkdkdoODBCankwa19HRnZKYVdiaVM4OWIzWVhHcWRqZ2c3RFlidzZpbE9VQjVLRnVZTVNZLXpiS2xMVUNIcEFEVVdKal96YzdWNkE?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:37.891139+00:00"
-  },
-  {
     "id": "INC-9CE83A2A",
     "date": "2026-02-19T08:00:00+00:00",
     "county": "Dublin",
@@ -1490,17 +1411,6 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVEEyU29GZEJQVXBQeGNPTWpZX1k1aWx4VzhJbC0xYmM3blB2c1B4T0RYVjl2YUg1Rk9wS2g2dUl1dFZZUWZKZ29XRkgwcml2LWhJcTFRakdRd2J3YXN6bGR3ZU1ueVZFUzJjcFRUSlFGMzdCaTE0QUJiV29iYWc3M1gwQmJKemZjdG1pTUR2VmlzbkR2VTFJNEpnSnhNR1pibDQwTEdURlBYcWgwNGl2QjYzTFR4MVNUay1yVnljOWxCblRmem0zVDR3MThONlBtdEdNRw?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:53.744053+00:00"
-  },
-  {
-    "id": "INC-F8C745CA",
-    "date": "2026-02-17T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Cork man who produced large knife in Cobh pub gets suspended sentence - Irish Examiner",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6VHVtNF9KbXJ0TlRTQ0pEdGlaWVBTTnBaOUdTRzRQT1hQcVVWTHBiOXdvYklNZFRBNGwyQUdMd1FUdnlYWHJzWktTSlRrS1RuSlY5dlBTQi1KWXUwRFpnc3MzQlpyV2dmdmxXQzJWblN5ZFR1N1E?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:43.099491+00:00"
   },
   {
     "id": "INC-32815FFA",
@@ -1615,17 +1525,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:27.272223+00:00"
-  },
-  {
-    "id": "INC-1A5952A7",
-    "date": "2026-02-05T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Dublin man died of stab wound to neck severing artery and jugular, murder trial hears - The Irish Times",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMkJGVC1oWi1BMzJVbjNpWWc5TVN6Y0gtN2FOQXJfWmNoX29PZUFnSzdjRnBBbkxNaUVEWk5RSHVnT3NmUlFfby1mNGJScXF1bmdrNDFPSnNiY19jZWVqR3pTYmFVazdwSmtCdDgwdmZXdURlS29nOWF0aHoxRTBxVy01QTl0ZGVCc3hXN3lETkJOa0tIMjRtR2lQQWJ0OW9YNmN4SHpzRzZBcTBlaG8yYWR4TjdUMU9QYUJtZjV4aWQyZHlsZWVMTmZIV3NoVGI0a0hlU0prMA?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:37.898232+00:00"
   },
   {
     "id": "INC-8E59CBA9",

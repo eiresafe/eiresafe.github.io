@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2025
-// Total incidents: 182
+// Total incidents: 176
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -177,19 +177,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:40.964074+00:00"
-  },
-  {
-    "id": "INC-46A6C3B5",
-    "date": "2025-12-10T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Jury views CCTV footage of fatal stabbing outside Dublin home - BreakingNews.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWDRISjlVbUJ2SjhuTGpxcmpHTzRuWHBmMEkzdE92X2ZVUkFGWFd0ZXhlaFpFOGFJcmlSblZCdnJwLVhTZWdZMmdGd3JacHdwUS03SmJLeXRGU0lWd2M2SzRLMFVZYXdobkJqYW8zNTc4T0xyVHFoV3JSbmw2TUZJSE0xelRZY0NmX0pwRlBpbVpNSE5nLTI3d1RDaGtYUldQak55d1QwLURXdGg3ZEVR?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:25.220264+00:00"
   },
   {
     "id": "INC-362178A9",
@@ -1973,19 +1960,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:46.834496+00:00"
   },
   {
-    "id": "INC-5ECCD60E",
-    "date": "2025-06-24T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Jury shown CCTV of man fatally stabbed on Dublin street defending himself with carryall bag - Irish Mirror",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWHk2SmRnVHFRbGItX1JEdDZFSWZvN2FpanYwb3RDdmNZeXJGZjNBdkhJVmJKeXZ4UjVTMkM1M1A3U2Z5bXRsazZwdkNSdHFjT051aWsxMERKc2NKVWJRblg2MlZETU1LWktqUVkwNkxFRjh3U054TUJpWEFxNFFscm5mR1pVcGR4STBHOTV30gGTAUFVX3lxTE13QmF5Z2VrZTVISkxOUXJWdVRpcHpkd0d0SEI2SUdCSHRDZVZ3d21UR29ZOFVOOFMyNzhOSG9JYW5IOXVIVUJpa1hqaUJKYk9HUEJLZjFrQXJDcHk4dnVTV2dNUDdLRG94WFg1RkJVel9RVlhvNWZMYi16VXVfQzRQRjVvNmFyb2NLQUVxVEFBOG5Qcw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:29.428805+00:00"
-  },
-  {
     "id": "INC-55E5756D",
     "date": "2025-06-24T07:00:00+00:00",
     "county": "Unknown",
@@ -1997,19 +1971,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:44.849121+00:00"
-  },
-  {
-    "id": "INC-B699205C",
-    "date": "2025-06-24T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Jury watches CCTV footage of moment man is fatally stabbed on Dublin street - BreakingNews.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRkFlRC0yY0Z4RXpWX0tCT1ZPVUxGQWFCTFlPbEVIRWZPVTM4Q3pUOUtpWU5IT25OMzdSclM2cnc2bFZXdXhlc0xMWkxRN3EyVXV4RnVxUExDNE5yMU85U3dRUDdmdndzdDhUYklFeXlxWnVwdVVjOFVaaFNsdnE0UDFXZWs2UTVFbWxjME5naWlUOUQ5aTNVckNYbVh4cU5vNXhySzYxQlIxeDEwaGczdC00M3F4SXhNQzRFQ0Q4MlRNZw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:44.858804+00:00"
   },
   {
     "id": "INC-321E8083",
@@ -2090,19 +2051,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:41.024337+00:00"
   },
   {
-    "id": "INC-4236605D",
-    "date": "2025-05-20T07:00:00+00:00",
-    "county": "Limerick",
-    "location": "Limerick -",
-    "description": "Woman suffers facial injury as she attempts to stop stabbing in Limerick - Limerick's Live 95",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPM1JBQWlZOUJjMHlJU3lRQ05WX0g3WGhpbUZGRkdTV08wYlU1enQ1UnkyUXRTMmh3NWIxeUc4S1VxWUJLeWFlbnBuYUZlSGlDNGZUS0pscFZuLTJKUzI0eXRRX3Y2R2FoQTFtcTlUM3dZNXhVMEJWLVBDS0U3alVsX1Y2eXhxR1pvN3l2RmxBWnJKNEZQTTdTdjcxUEtPVHFNZklFUjdjcXk3dkRjY1c1MC1YSnE?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:41.017150+00:00"
-  },
-  {
     "id": "INC-C3BCAF8C",
     "date": "2025-05-08T07:00:00+00:00",
     "county": "Antrim",
@@ -2127,19 +2075,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:39.007323+00:00"
-  },
-  {
-    "id": "INC-A04C3733",
-    "date": "2025-05-02T07:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Life sentence for man who killed his wife in Cork home with knife bought 2 days earlier - Cork Beo",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQV3NrVzVaZndFMnpfbnp4blB4QmVQaU5JQ1dzdVJ1SHBVMFRJQ280UmdBbEM0Yl9kVGFiVk5ITTZLRWt3dElQc0FGYmNOLWpKT1VWejE3Vy03dFNLalFEMVhoRlBwMWZUMEFiUXRiY1Y3U0pCaG9aZVhfS3F3U1d1NTZn0gGHAUFVX3lxTE1uUVN4eGZScUlET3A4N0wweEw3Q0UwS1pJQVNUQTFvTlV5VzNZaUI2UDRIQWpQSzVyWk5hNzJrUDBuX0xVcm11dmNQWnBOZ1RnVWVRVWVzc25RdVpzMkg3MVpTT1JXUXZ3OUxzUTduNVdqWlBIak1ZOU1lTURWcmR2a3VoZUpjZw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:31.276230+00:00"
   },
   {
     "id": "INC-1D88D04B",
@@ -2296,19 +2231,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:27.262922+00:00"
-  },
-  {
-    "id": "INC-81D73E84",
-    "date": "2025-02-11T08:00:00+00:00",
-    "county": "Meath",
-    "location": "",
-    "description": "Woman stabbed to death by \u2018jealous and controlling\u2019 partner at their Meath home, murder trial hears - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSDRKLVV4a2h4bkFuOWFYa095SEVpY29tOXluXzlUYVNKVlk1SnJ0bU1TcENoUzE3QWY3SnY4RkJ1VENmRjNaZnZSSGFZYkUzQWNhZDg0eUlTT3Z4LXJFSm1TbUJ4MHI1YXhsTy11d0Fxa1pUQmM1eHZmc2kxY05iQXJYMXpweVJxbVNwNjUtM183b0NBUHY3V0p4VUllUkExQ2p1NTNWSkI0cDIzdWJuMnk2VHYzRFE5ZU9fSDE1UjQ1ZVVfd3duc3NmaVljY1hiM3htYVhWM1o3RFZPWWoybWIxbk9McEU?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:48.796004+00:00"
   },
   {
     "id": "INC-23DDB66A",

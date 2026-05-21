@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2022
-// Total incidents: 10
+// Total incidents: 8
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -34,19 +34,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:31.292917+00:00"
-  },
-  {
-    "id": "INC-08B08CA3",
-    "date": "2022-11-13T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Man suffers facial injury during knife attack on staff in Cork pub - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHJMcl9BMFFEUzNOeDJaNWFNazJwbkx2SGoxOU42T1lsOUE2LUNNX0Z4aUdWa2dYamZWYW9OT3hJOVFVLW9DY1F3R2hVZEdyM1J3Q2x3MGprV3gyNlFuZUF3Y2Y3cjRpOFpIREc2aHFjQXo4Ui10TUdfb0lTSWZ5UjlTUkJNQnZ3bmdGbGhnS3VVNU9xdWl1dXJ0TlhVU2EzTnF2SGZ5alg4Z3FCU3I0UEstSlhEUQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:31.267100+00:00"
   },
   {
     "id": "INC-1103B0FD",
@@ -99,19 +86,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:39.048059+00:00"
-  },
-  {
-    "id": "INC-A7B2BD52",
-    "date": "2022-07-04T07:00:00+00:00",
-    "county": "Waterford",
-    "location": "",
-    "description": "Waterford man died from \u2018catastrophic\u2019 blood loss from stab wound, murder trial told - BreakingNews.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPM3FFZUcwcm8yTEdhZVAtbEVjWHBDQkxtSkdUYjJQakxLQkUtVWpZSzJNVVFDd3ZXNGk3dVV1blBxWXp2d0N6aGk5X1NGaDNHenlLWmx0S2tDSGNiUXBLT3VBcmFpQTNWVGhNc2lGSERHcnRjQTFMcXN4MC02eTFGU0RjVmZpUE14ZVNnU0MyZzM3cjBmbDF4bUlrTjhYWUQ0S0g4alV6UzAwQ3R1VWpmOGlTeHN0LVdnbmRJVl9BYmlfVl82bTFkdlZB?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:44.867620+00:00"
   },
   {
     "id": "INC-DB02BFCB",

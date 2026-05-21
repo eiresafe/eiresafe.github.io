@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2023
-// Total incidents: 24
+// Total incidents: 23
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -151,19 +151,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:39.014933+00:00"
-  },
-  {
-    "id": "INC-72B37C7F",
-    "date": "2023-10-09T07:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Galway man, 24, \u2018stabbed in heart with such force that knife broke rib\u2019, Cork murder trial told - The Irish Sun",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWEFtS1ZEdWx3M1ItdDZHWFFTTGFfTXV2T3FaZzV1TW1oRW12QmljWHVOYVBEM2Y3SHk3ZmlySDM2RTkxTElvUnB3RmdSNUlwMGM4VUtJZ1lrVEJiakptN1hCY2RKVk81MnZBa2Fid1FQektJcmo1bV9fZHlKRGk1MnlTR0k4M1NjLXZ0Z0hhcTlXaFU?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:39.029045+00:00"
   },
   {
     "id": "INC-453AD113",

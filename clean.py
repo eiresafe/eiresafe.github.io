@@ -12,7 +12,8 @@ EXCLUDE_KEYWORDS = [
     "tribute to", "anniversary of", "vigil for", "memorial for",
     "released from hospital", "stable condition",
     "previous convictions", "prior convictions",
-    "historic abuse", "historical"
+    "historic abuse", "historical",
+    "court", "trial", "trials", "judge", "jury", "prosecution", "sentence", "sentences", "sentencing"
 ]
 
 def load_existing(path):
