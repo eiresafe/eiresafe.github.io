@@ -11,20 +11,26 @@ let incidents = [];
 let selectedCounty = null; // null represents Whole Ireland
 let currentPage = 1;
 
-// Load Data from Local Storage (persisted admin entries) or fallback to mockIncidents
+// Load Data: Merge custom admin entries from localStorage with scraped data.js entries
 function loadInitialData() {
-  const saved = localStorage.getItem('eire_safe_incidents');
-  if (saved) {
+  const savedCustom = localStorage.getItem('eire_safe_custom_incidents');
+  let customIncidents = [];
+  if (savedCustom) {
     try {
-      incidents = JSON.parse(saved);
+      customIncidents = JSON.parse(savedCustom);
     } catch (e) {
-      console.error("Failed to parse saved incidents, falling back to mock data.", e);
-      incidents = [...mockIncidents];
+      console.error("Failed to parse custom incidents.", e);
     }
-  } else {
-    incidents = [...mockIncidents];
-    localStorage.setItem('eire_safe_incidents', JSON.stringify(incidents));
   }
+  
+  // Combine custom incidents and scraped mockIncidents, filtering out duplicate IDs
+  const combined = [...customIncidents, ...mockIncidents];
+  const seenIds = new Set();
+  incidents = combined.filter(inc => {
+    if (seenIds.has(inc.id)) return false;
+    seenIds.add(inc.id);
+    return true;
+  });
 }
 
 // 32 Irish Counties matching the SVG paths
@@ -723,8 +729,20 @@ function setupAdminPortal() {
       }
     };
     
-    incidents.push(newInc);
-    localStorage.setItem('eire_safe_incidents', JSON.stringify(incidents));
+    const savedCustom = localStorage.getItem('eire_safe_custom_incidents');
+    let customIncidents = [];
+    if (savedCustom) {
+      try {
+        customIncidents = JSON.parse(savedCustom);
+      } catch (err) {
+        console.error(err);
+      }
+    }
+    customIncidents.push(newInc);
+    localStorage.setItem('eire_safe_custom_incidents', JSON.stringify(customIncidents));
+    
+    // Reload database state
+    loadInitialData();
     
     // Reset form fields
     document.getElementById('inc-location').value = '';
