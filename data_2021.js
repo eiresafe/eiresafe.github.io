@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2021
-// Total incidents: 5
+// Total incidents: 4
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -47,19 +47,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:42.930292+00:00"
-  },
-  {
-    "id": "INC-E2F8717B",
-    "date": "2021-07-12T07:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "Belfast: Man in court over carpet knife attack on neighbour - BBC",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92Um5LVW1sQkN2YldwRzhtMVBvcTNTN1JTWWpjX0NFNmRKT0lLY3ZVZGpwdnRKblBYQmtJNlBPbGduR3NRSjZVYTdPODhZZFVWYVNtQkVOR004V2VZY29GbXh3MTNuUQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:33.241749+00:00"
   },
   {
     "id": "INC-F46547C8",

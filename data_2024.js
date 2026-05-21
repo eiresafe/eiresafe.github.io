@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2024
-// Total incidents: 38
+// Total incidents: 37
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -320,19 +320,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:39.050756+00:00"
-  },
-  {
-    "id": "INC-72D3433C",
-    "date": "2024-06-27T07:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "Anthony Browne died from single stab wound to neck, court told - Belfast Live",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNY2J4VVRVVjQ0MlhBekdUZEtEUzk5TFg1M2FVVEhjTnNBRTVULWlaQ2ZqNl9kb3BSbllILUwybEt0NmhRZUxLaWotd3c5QlFlS2JWSXVRdVVXb1pmSm5CdHg3dUVZaU0ybE1ZNjZlcXpJWDloZlNBdWxSbmFfcjlydFJmNFRlaUNWWmcwUVNPUDM4Z9IBlwFBVV95cUxQdnVZamNMcUFaMDZIdDBJelNTV1BwWl9oSG9vczBzSm1ORXlDX0Y1bC1ZOEE2V0ZSY0FQalE0TUhBMDl0NTF0S0E3Z2VNc3FIam91QUVoNzY2OUdjWU1jNkVYUUlobFg1VVR4ZUg4dlJpdUlsRi13bjY4T3VnVV9lazNQZjNqaXBmNTR1MUZ1RlhQbDJ2VTE4?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:33.228619+00:00"
   },
   {
     "id": "INC-0E8B576F",

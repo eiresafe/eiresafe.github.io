@@ -41,7 +41,8 @@ EXCLUDE_KEYWORDS = [
     "tribute to", "anniversary of", "vigil for", "memorial for",
     "released from hospital", "stable condition",
     "previous convictions", "prior convictions",
-    "historic abuse", "historical"
+    "historic abuse", "historical",
+    "court"
 ]
 
 COUNTY_MAP = {
@@ -72,7 +73,7 @@ def get(url, **kwargs):
                 time.sleep(3 * attempt)
     return None
 
-def is_relevant(text):
+def is_relevant(text, pub_year=None):
     text_lower = text.lower()
     
     # 1. Check for negative keywords
@@ -80,8 +81,12 @@ def is_relevant(text):
         return False
         
     # 2. Date-proximity check
-    # Reject if it mentions any year from 1900 to (MIN_YEAR - 1).
-    past_years = [str(y) for y in range(1900, MIN_YEAR)]
+    if pub_year is None:
+        pub_year = datetime.datetime.now(datetime.timezone.utc).year
+        
+    # Reject if it mentions any year from 1900 to (pub_year - 2).
+    # We allow pub_year and pub_year - 1 to account for late-year incidents.
+    past_years = [str(y) for y in range(1900, pub_year - 1)]
     if any(re.search(r'\b' + y + r'\b', text_lower) for y in past_years):
         return False
         
@@ -167,11 +172,17 @@ class GoogleNewsRSS:
                     link = item.link.text if item.link else ""
                     pub_date_raw = item.pubDate.text if item.pubDate else ""
                     
+                    date_iso = parse_date(pub_date_raw)
+                    pub_year = None
+                    if date_iso:
+                        try:
+                            pub_year = parser.parse(date_iso).year
+                        except: pass
+                        
                     full_text = title + " " + desc
-                    if not is_relevant(full_text):
+                    if not is_relevant(full_text, pub_year):
                         continue
                         
-                    date_iso = parse_date(pub_date_raw)
                     if since and date_iso:
                         dt = parser.parse(date_iso)
                         if dt < since:
@@ -223,9 +234,7 @@ class GardaPressReleaseScraper:
                 body_text = content_div.text.strip() if content_div else ""
                 
                 full_text = title + " " + body_text
-                if not is_relevant(full_text):
-                    continue
-                    
+                
                 # Find date (usually in a specific format or time tag)
                 date_iso = None
                 time_el = page_soup.find("time")
@@ -239,6 +248,15 @@ class GardaPressReleaseScraper:
                 
                 if not date_iso:
                     date_iso = datetime.datetime.now(datetime.timezone.utc).isoformat()
+                    
+                pub_year = None
+                if date_iso:
+                    try:
+                        pub_year = parser.parse(date_iso).year
+                    except: pass
+
+                if not is_relevant(full_text, pub_year):
+                    continue
                     
                 if since and date_iso:
                     dt = parser.parse(date_iso)
@@ -285,17 +303,19 @@ class GDELTScraper:
                     seendate = art.get("seendate", "") # Format: 20260101T000000Z
                     domain = art.get("domain", "")
                     
-                    if not is_relevant(title):
-                        continue
-                        
                     date_iso = None
+                    pub_year = None
                     if seendate:
                         try:
                             dt = datetime.datetime.strptime(seendate, "%Y%m%dT%H%M%SZ").replace(tzinfo=datetime.timezone.utc)
                             if since and not is_backfill and dt < since:
                                 continue
                             date_iso = dt.isoformat()
+                            pub_year = dt.year
                         except: pass
+                        
+                    if not is_relevant(title, pub_year):
+                        continue
                         
                     county = extract_county(title)
                     location = extract_location_detail(title)
@@ -461,7 +481,7 @@ def main():
             
     unique_incidents = deduplicate(all_incidents)
     
-    # Final filter to ensure we don't grab super old unrelated stuff unless it's in the DB
+    # Final filter to ensure we don't grab super old unrelated stuff and filter DB elements too
     final_incidents = []
     for inc in unique_incidents:
         dt_str = inc.get("date")
@@ -469,9 +489,19 @@ def main():
             try:
                 dt = parser.parse(dt_str)
                 if dt.year >= args.start_year:
-                    final_incidents.append(inc)
-            except:
-                final_incidents.append(inc) # keep if date is unparseable but somehow got in
+                    # Run relevance check with the dynamic year context
+                    desc = inc.get("description", "")
+                    title = inc.get("title", "")
+                    full_text = desc if desc else title
+                    if is_relevant(full_text, dt.year):
+                        final_incidents.append(inc)
+                    else:
+                        logger.info(f"Filtering out irrelevant incident from DB: {title or desc[:30]} ({dt.year})")
+            except Exception as e:
+                # Keep if date is unparseable
+                final_incidents.append(inc)
+        else:
+            final_incidents.append(inc)
                 
     write_yearly_data(final_incidents, args.output_dir)
     

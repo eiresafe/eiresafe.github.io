@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2020
-// Total incidents: 16
+// Total incidents: 13
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -47,19 +47,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:48.840820+00:00"
-  },
-  {
-    "id": "INC-F6158051",
-    "date": "2020-08-25T07:00:00+00:00",
-    "county": "Cork",
-    "location": "Rochestown -",
-    "description": "Survivor recounts horrific knife murder from 2002 in Rochestown - Cork Beo",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOVpPaVFtT0FqeUx1a0plM0EzUl9mY3dXMXRLbTloOExJWFdrdm9XZ0V1Q0VTTWN1aXN5Ymoxd0NLNGd5VkNLYXVjOEVWbFlKbTFicHhFbEtnRXNQQWQ2cWViQ0RXeWcwWDdjOEdrb0FPalJFUmhxUjU3TGRTM0JKeW1HenVsQ2hDVDlzbV9uZDM?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:31.289774+00:00"
   },
   {
     "id": "INC-469F9C12",
@@ -114,19 +101,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:31.277968+00:00"
   },
   {
-    "id": "INC-5DFC1340",
-    "date": "2020-06-08T07:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "\u2018Frenzied\u2019 Dundonald knife attack may be linked to row over dog, court is told - Belfast News Letter",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNGdHa2ZkNXNhOHNhUU9ZR3BKRm4xdHdqZEVKYklDVVVmQ0o2T2d5QlJkSW9hTFdqMmpBUzA5cHZ6UGtwajlBVjFsMkdNZlFQT1ZOQVEyUC0yX2tvLWhVbkdrcmlxcXFNVFlCT2pPOUUyQ1FtTXBpRW9IQS1oV3V4eTlJWjBVUjJjdGVHYTgyN0pDd1p6VWpIYUZ1ZDloMDdFS0V3dWl4b2hHUEt5bDk4YWUxeDQ4VjlqMExkT1VWUjA?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:33.251072+00:00"
-  },
-  {
     "id": "INC-7D4AFDAB",
     "date": "2020-05-30T07:00:00+00:00",
     "county": "Limerick",
@@ -151,19 +125,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:42.933908+00:00"
-  },
-  {
-    "id": "INC-C60E63BD",
-    "date": "2020-03-24T07:00:00+00:00",
-    "county": "Galway",
-    "location": "",
-    "description": "Man brought to special court sitting over Ballinasloe stabbing - Galway Daily",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVTNoY2dtUU5lN0szaFRpWkJjS0xYTzl6OWtWLUNmVERhNWRfNDdGRnprUk12elhHR2NvUk8wcEozWEoxYzB5N0RmQjdYcVN5ejlpekNURnhyNXk5X25fbmk3WkZfNlF2eDZJdHA2REliay1lRWtBRVR4ZTBDMGcwVkNvWlB1bkZBUnVpSWUxYjVoUzh4Z1pFbHc4Wmx0ZTg?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:39.028030+00:00"
   },
   {
     "id": "INC-3DDE7D90",

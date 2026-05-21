@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2026
-// Total incidents: 207
+// Total incidents: 179
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -9,19 +9,6 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
-  {
-    "id": "INC-BBE8F69B",
-    "date": "2026-05-21T14:32:04+00:00",
-    "county": "Cork",
-    "location": "Cork Court",
-    "description": "Man who stabbed partner 13 times learns fate at Cork Court - Cork Beo",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIcU1oOFFranhJR2VBaFRETUpzTWIwa2RJempGczEwVVdUOXZXTUg1ejg4cnVTaFhPT1JWQ3RmTHU4T1ZnSVlsU2kwTUtlZ25qS1ozcDhBYzhvam1BOEhjNUEwMll3a2Z4dkhxZXlKWUpJMTN5NEh5OEtfdF9qQ0XSAYQBQVVfeXFMUDJXOFNlUzZ4d1VmVS10T2l5b3BnbmhudU9XbHY1WEhOY1BRc1J5emtyRFViLUNJUkozblNKTWNWNzlNSFhDVGpPSjlkR0RIZ1FHWExpd3NSOW8tUnFVczU5VzBJSnNTZENFSHNhb0lta1dDb3drVXhnaXFSeWRVWFB2ZGNs?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:37.096750+00:00"
-  },
   {
     "id": "INC-781C4515",
     "date": "2026-05-21T13:29:29+00:00",
@@ -36,30 +23,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T13:51:37.375206+00:00"
   },
   {
-    "id": "inc-2026-real-007",
-    "date": "2026-05-20T12:00:00Z",
-    "location": "Mullingar, County Westmeath",
-    "county": "Westmeath",
-    "description": "Mary Nevin (25) pleaded guilty at Mullingar Circuit Criminal Court to stabbing her 22-year-old cousin 12 times in an unprovoked attack on Austin Friars Street in May 2024. The court heard the victim sustained 'catastrophic injuries'.",
-    "status": "Garda Confirmed",
-    "source": {
-      "title": "Irish Times",
-      "url": "https://www.google.com/search?q=Mary+Nevin+Mullingar+stabbing+cousin+12+times+2026"
-    }
-  },
-  {
-    "id": "inc-2026-real-002",
-    "date": "2026-05-19T12:00:00Z",
-    "location": "Ballymun, Dublin",
-    "county": "Dublin",
-    "description": "Luke Gilligan (19) was sentenced to nine years in prison (final six months suspended) for his role in a February 2025 aggravated burglary in Ballymun during which a 14-year-old boy was stabbed in the chest with a 'zombie' knife. The attack was part of an ongoing tit-for-tat feud.",
-    "status": "Garda Confirmed",
-    "source": {
-      "title": "Courts News Ireland",
-      "url": "https://www.google.com/search?q=Luke+Gilligan+zombie+knife+Ballymun+sentenced+2026"
-    }
-  },
-  {
     "id": "INC-F6B47F0C",
     "date": "2026-05-18T07:00:00+00:00",
     "county": "Antrim",
@@ -69,18 +32,6 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYW1JekdXRjdlMldONDctU245c3ZMVHcwQm9FbTlwLUplMVcxb1lla0dfSy03UlB1VVlFVUQ2T1owNUdpdllKMVg4RXp4d2JWQTZReVdaOUd5QzRGUzN4aTBiUXF0amx4UXhXNVhWdm51YXJSM3BnUjl6ZDlWSkhLQUtvcGxGck5rUHo2Yy1uS2ZESHRzZVZ3RNIBngFBVV95cUxQWmlFbFpQd3cwNDFkLUxpNmRXN2pFTGxpcWtzSmFKME5xc1NMekxOZGgzVkJCRnR0ckhPN085TDVHNFA0T09EaVlZZmE1b25tV205SU0tTkFYMlZhNkVia183SjZNdDh2N0hKMlFEdHVEYU5jZy1BcURGUmdDMFR2emF4ZFUxOG4zYzNOWnliMW1UMTZ3ZWp5NnQwUGh0UQ?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:37.880644+00:00"
-  },
-  {
-    "id": "inc-2026-real-001",
-    "date": "2026-05-17T16:15:00Z",
-    "location": "Mill Road, Blanchardstown, Dublin 15",
-    "county": "Dublin",
-    "description": "Alexander Coughlan, a man in his 30s, was found unresponsive after a serious assault on Mill Road, Blanchardstown at approximately 4:15 pm. He was taken to Connolly Hospital in critical condition and passed away on May 20. Two 16-year-old boys were charged with assault causing serious harm and appeared before Dublin District Court.",
-    "status": "Garda Confirmed",
-    "source": {
-      "title": "RT\u00c9 News",
-      "url": "https://www.rte.ie/news/2026/0520/1574373-blanchardstown-assault/"
-    }
   },
   {
     "id": "INC-BCB2AA0A",
@@ -184,17 +135,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:46.554477+00:00"
   },
   {
-    "id": "INC-88DA63D2",
-    "date": "2026-05-08T07:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Cork man previously accused of attacking tourist found today with knife down his sock, court told - Irish Examiner",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CYVBGNk9CcHZ5c3BCcEZXaWxfQTFrc25yME10SVpIM0ZUeU9XVHFwQ2hUZWJ0cVNZMU1vTTV6QVJNNjQ1bmlVTkpiT3Q3cWVVRXNCUXAzT29EUE1WaW9ILUF1YldfZHBCa0liVTVWYXNBUXNFYmc?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:43.095242+00:00"
-  },
-  {
     "id": "INC-7DF2E3D6",
     "date": "2026-05-07T07:00:00+00:00",
     "county": "Cork",
@@ -226,17 +166,6 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMnF1c0RSVkJRYm10Wi1zUXVJTnUycUhVbVZQdWQtQlpGRGx5UlRjMENDLWtqRTdoM183RUZsVTByUEpZOXd3WDNuODJmY2FNY2dXeHVDTkYyRzNDem13WXhKaktTdmtXZml0TWRGWHYwRE5rUV84THRyZDlHXzIyS0xlaWdKSTlpcl9sUmdvUXBsbFVwQlY4WUtB0gGfAUFVX3lxTE1ncDhBRmZDT0hjZTBWUVBRRU5RN3M1bWd4TnBJLU8zUVREUUxYMEI3U1NHaVpBZXRFaHBWS25CYXdNbm5qWEtQanpTeVIydUxBenhDdk5CbVRVMUFSLXAwZ2V4RTlBd0taanBCYWhzZ0V2TXUzS2ZiZm5LUktzcHc5N2FCU0NuUnRTZGdvUjJsdll5akNNX3dPei1YYlk2VQ?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:44.734570+00:00"
-  },
-  {
-    "id": "INC-48DF8D41",
-    "date": "2026-05-05T07:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Scene of Co Cork stabbing like 'horror film', court told - RTE.ie",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSGFkajUxbk8xWDRRaE9JSEhqZnAtNUZjRFVwSVJoM19pdjdFZ0VmN3hjQ2JYN1NQOXBiVlQ3QmpieTlyaEtLcW1nMVNhS0lzR0NBZzliRG1JdDJydFFiUjl0UTdxOXJRbldfLVdHMnFuWVFxYXZTVmtkd2dYanFUanNqRFlVMll3ZXFzUFlxSlBMN0Y5U3dQdVBPZmVHRzVoMkcxWW93?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:48.407108+00:00"
   },
   {
     "id": "INC-F747A2D2",
@@ -292,17 +221,6 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84QzlfWkM1ZV91X19BNzZydGttX2JsQmRjSGJEaDNSYXFCUVZWMnVnYnJ4TExlSHUxZWpsMjJ0ZWQ5TnY0dGUwRHU5U2dXaVZWcDRNNnpqVmxELTA1S0JQUHdPMmJuSU9jNDlkTEwzcy1RYW01b0E?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:48.418737+00:00"
-  },
-  {
-    "id": "INC-1523EB7F",
-    "date": "2026-05-01T07:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Cork man's chest 'actively hissing' from stab wound after 'family dispute' as brother claims self-defence, court hears - The Irish Sun",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVnowU05yLWg0UjZDSU9ZclgxTXhlZ0l0eHFKQ2JRZ2tVTjkxRFlGay13aFlTSXhsc0tsUXdFYVJLM2JuRTF5YjFBYS1XUWhVbEladmhqd1cyeEY2bHcxN3BZckZ3ZjlwWml2dm9HYUdXNjN3VGgyVlVFckh0dTkzR3U4RzdHZ28?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:55.345465+00:00"
   },
   {
     "id": "INC-B87C3D42",
@@ -461,39 +379,6 @@ export const mockIncidents = [
     "sourceUrl": "https://www.irishmirror.ie/news/irish-news/crime/isis-supporter-who-stabbed-garda-37041082",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:42:29.961759+00:00"
-  },
-  {
-    "id": "INC-8AD3006A",
-    "date": "2026-04-20T14:15:00+00:00",
-    "county": "Unknown",
-    "location": "",
-    "description": "Sentencing adjourned for Isis terrorist who stabbed garda as court looks to address radicalisation",
-    "source": "GDELT (breakingnews.ie)",
-    "sourceUrl": "https://www.breakingnews.ie/ireland/sentencing-adjourned-for-isis-terrorist-who-stabbed-garda-as-court-looks-to-address-radicalisation-1889254.html",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:42:29.960564+00:00"
-  },
-  {
-    "id": "INC-B1DF3622",
-    "date": "2026-04-20T12:30:00+00:00",
-    "county": "Unknown",
-    "location": "",
-    "description": "Court delays sentencing of IS supporter who stabbed garda",
-    "source": "GDELT (limerickleader.ie)",
-    "sourceUrl": "https://www.limerickleader.ie/news/national-news/2065663/court-delays-sentencing-of-is-supporter-who-stabbed-garda.html",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:42:29.961571+00:00"
-  },
-  {
-    "id": "INC-A543601B",
-    "date": "2026-04-20T07:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "Court delays sentencing of IS supporter who stabbed garda - Limerick Leader",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMkIxT2Z0cWRoOXBMd1c3Z2VmWHFERnFqWVJtc3hoUEE1ZlpxSUdlc3dwX3VuQllPb2NQYzVHMGR0VWFyMnZSOFJENmthN3dmT2puX3VDa3FHcjVaNElBUDEyWkYwWHQ2YXJRREVMbVEyZWRzZ3gtWnJCdXFKb3hVdWMzbFF0N1REeHUydHpmaVRLai1rdkxQdW1wUnRLY1NHaktGd2xwdWlHRDQ5Sk1Ycy1DTXJ5dXdMZHRB?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:51.893150+00:00"
   },
   {
     "id": "INC-026E37B2",
@@ -663,17 +548,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:44.722569+00:00"
   },
   {
-    "id": "INC-12EB23DA",
-    "date": "2026-04-06T16:45:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Teenage twin sisters stabbed with broken glass bottle after rejecting  prolonged  advances from man in Dublin , court told",
-    "source": "GDELT (independent.ie)",
-    "sourceUrl": "https://www.independent.ie/irish-news/courts/teenage-twin-sisters-stabbed-with-broken-glass-bottle-after-rejecting-prolonged-advances-from-man-in-dublin-court-told/a499905300.html",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:42:29.959299+00:00"
-  },
-  {
     "id": "INC-80EBB58E",
     "date": "2026-04-06T07:00:00+00:00",
     "county": "Dublin",
@@ -685,18 +559,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:46.538404+00:00"
   },
   {
-    "id": "inc-2026-real-003",
-    "date": "2026-04-05T02:30:00Z",
-    "location": "Dame Street, Dublin 2",
-    "county": "Dublin",
-    "description": "Shando Alfa (27) attacked two 18-year-old twin sisters and a male passerby with a broken glass bottle on Dame Street after making prolonged unwanted advances. One sister suffered a deep laceration to her hand requiring surgery, the other sustained a cut to her head requiring staples. The passerby was struck in the head. Alfa was charged with assault causing harm and was refused bail.",
-    "status": "Garda Confirmed",
-    "source": {
-      "title": "Irish Times",
-      "url": "https://www.google.com/search?q=Shando+Alfa+Dame+Street+Dublin+twins+bottle+attack+2026"
-    }
-  },
-  {
     "id": "INC-ADEFED9E",
     "date": "2026-04-01T07:00:00+00:00",
     "county": "Dublin",
@@ -706,17 +568,6 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOEU2dEVBcnVUbTVTMkRkR0pDeElOYzRIek1nM2dqRWpRd0FEeDJXaVZFci1LbVZndG1IUDJfcTlVelN6a2FfYXRKVy1RaWt0S1pLV3NvQ0RuTy01eUE0UDlQYmJzV0hJSHVBOWtsRnVydkxHTmF2eDZNVFBRdWl5V1JMTHROWExCVFZKVXkzNXV1azVNVWdfalpRM0VjWnd3d1RiRDBaWkZZUGQ4cVV3dVdEWDFhbjVQTTJoOGNrY3V4dVQ3YVI3X2NRT0xtNEVpR0NhM0ZvWXBKUQ?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:46.549880+00:00"
-  },
-  {
-    "id": "INC-264F14D5",
-    "date": "2026-03-30T07:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "Two friends allegedly stabbed each other following drink and drug-taking meet in north Belfast, court told - The Irish News",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQWm45dXpENjNCYXhfUDVudVNBcFhiTVp5a3VKanVSbjFmOFNrOGdtWnJiSG1mNXdtbVVZR1lnODRRNC1mNkFEYmFoZVQ2OXhGVWNPb2VhTnB0Qmd3Q0RJVnRtakZ6U28xc2J3a1VrVTloRnl6TE9NNXRZNVBFSWFMeGJQRDFHVWxNd0t0Nm5wYWVybFRHQ1ZEMmstSzg5VEpEbmd0dlUxOWtDTU5RVzZUdFhQMUVzbE50bmhqMEh3SWxjZHY1TWYyU01TcURxeG5PUWR1UklHbXpDdFAwTmExZmEzYmZGNWo0cUF2U0EtRUwyak9uRXJXeXRhcndodDBablYxNkxXUGZnN2R5Vnc?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:53.744858+00:00"
   },
   {
     "id": "INC-1E6B8FB0",
@@ -864,17 +715,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:44.721534+00:00"
   },
   {
-    "id": "INC-55E40871",
-    "date": "2026-03-24T18:45:00+00:00",
-    "county": "Louth",
-    "location": "",
-    "description": "Man accused of Louth stabbing due back in court after bail refused",
-    "source": "GDELT (dundalkdemocrat.ie)",
-    "sourceUrl": "https://www.dundalkdemocrat.ie/news/crime---court/2046386/man-accused-of-louth-stabbing-due-back-in-court-after-bail-refused.html",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:43:34.917122+00:00"
-  },
-  {
     "id": "INC-F1DC1C50",
     "date": "2026-03-24T07:00:00+00:00",
     "county": "Cork",
@@ -895,17 +735,6 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FRWFfZTNDaGVsdlAxTFo2R1phNGRPa19hTG9mZ0MzTVJxYUNFVUpaQVBHbWwyajl5cVktRDEtMUZRbGY0cHVEek8zMWRBUlludEJHbk13UnBQNDh5ZU5GQg?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:48.417997+00:00"
-  },
-  {
-    "id": "INC-83EE2411",
-    "date": "2026-03-23T07:00:00+00:00",
-    "county": "Unknown",
-    "location": "",
-    "description": "Man who stabbed garda tells court he supported ISIS - RTE.ie",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBhNUxxX0w2OGhDWUlSMTdfSXpmeXZmX1ktdjlEaENaQXlVRFVFWVk1WHBsNFBZVEl5MUJLbzNfZDBvTW1ncWFFc29ZQ2ZueVU4WDRic0x4RVJrdlVadzFhRjh2cW9zaHJhbWVaYlM2aUpUcm44dklKSFhn?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:37.884624+00:00"
   },
   {
     "id": "INC-3778D374",
@@ -1027,28 +856,6 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SVjl2ZUV3aWtqa3VMMlZnN1dVMVh0bmVqNktLTmhfQ3FoZ1F4X0RLUnRkMzFOZVdGaGszMFZmT1Iwb1RLcGt3eHRxdzVGX0drZFJfN0dGMzlXOGhyeGUxMTcwNk1TRURoNHJPUGE1M2hSQ2JkZEtwelB3?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:48.427634+00:00"
-  },
-  {
-    "id": "INC-A0E9009F",
-    "date": "2026-03-19T07:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Man, 42, in court charged with murder of dad-of-one who was stabbed in Cork city while making his way home - The Irish Sun",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMWl3dllPUjJyODBRbms5VC1zT2tvX2xxX0RkVGFBcGFPZk5ETHBqSnM1X3NKWkNkMHc0aGU0WGZtRzA2dlBTT2VyU3hncHhHOEFxMmtYYnRBZlJ2MGpqcVBqeDJkcFZuR3kxT3prVW9sN1JYUUxNcmtVOExOQjBsc0hhNzdpSkRydnVDWkZmTlBlSDNrN0E?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:48.429409+00:00"
-  },
-  {
-    "id": "INC-2F4EDC21",
-    "date": "2026-03-19T07:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "Man accused of St Patrick's Day assault in Limerick had been stabbed by victim, court hears - Limerick Leader",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOLTNKOS1FV1hmYXlsNjV3aW9fc1ZSYWYwWWk5OHQtb19ybHRrQm5LN3B0dld2SFhiMkM1Z2ZrSVhIR2VwSXc3NjNRUGdNZ1dXWGVIdExvWmpPX3lhcHBURUhKenMzcHlrdmV2N0xWRTdJVWowTkhwZFF4bHVmQWNiYlB0ZFN2akZYank1SlpUd09SSlk2YlhZQ0gxSjhGZDVYU0x3NS1lX1h1U185NlVzU0dmWWR2T21yWWVjVDhYRFVxakgydmNXVWhCeHFsTnRNdWJCVzVYQndQMVFwZ200eUE2aU54eXRlYlBF?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:51.888969+00:00"
   },
   {
     "id": "INC-528F6F01",
@@ -1507,17 +1314,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:39.636330+00:00"
   },
   {
-    "id": "INC-E57179EF",
-    "date": "2026-03-09T07:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Cork man charged with murdering partner in Midleton told garda\u00ed she stabbed herself, court told - Irish Examiner",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpU2ltaG5ZNlBJTVZzUFRwOU05d0lMZ2Z3NmtQakhuNWVEOVZybkFIS3FtVEJNXzUyMXhYTkVuUnNRSjJHZ09CM0Z0R3BDcU9rU1h5MVpTSlUwREtKV3ZObTFIbm1MSEQzcUk0aDlJRVdBMjRDaHc?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:48.424974+00:00"
-  },
-  {
     "id": "INC-0AC0C28E",
     "date": "2026-03-08T08:00:00+00:00",
     "county": "Dublin",
@@ -1604,17 +1400,6 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeXF5aHJoRUpsSnRFcEl5eVNPUjhTcGZRNFBPZHllNmJsR0FocUswWmdLN0ZhQ0hzdTRNWXRMQ0hQS3BicUNZY09tbkJZUUtGY2FFNEd0MU9PUmFDVS1HNVl0LU43ektYYW8wT1hOVlR6MVZQT1dVN0cwODRwME80a3lrbV91REFmNDJaenZnTFdLdFhrNzdEYmZHcHZyY2pqOXdRNTVtdEY4UEVOMzR0eGRRVnRYVEF1OW9ZZWdTaDJRUWdlb0E2T3N3?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:41.476786+00:00"
-  },
-  {
-    "id": "INC-59BC54F9",
-    "date": "2026-02-23T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Mum accused of stabbing partner outside Dublin home told garda\u00ed \u2018you\u2019ve got to protect yourself\u2019, court hears - Irish Independent",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPLWRTVTFEUDdOSW1UTWF6bl94V2dobWY2UWlyaVVpbzZYREduazFGOWVPZHllNV9BYjdNZlZTbmFLVURLSTBYZXlNVmpBcFlLRmJ2WTlmWm83RlJJVUxnZXNEVTNrVWRiSkdMcVBJdFRaY240cHk4RVVieEQwRk54RnV2Yld0VzZudUdYTGxGQW9hWmNXZE9Kd1paN0JUenB1c05oZzBlX3NGaGQ4N3ppYW8wRUszeGlzT0pUUk5pUHgxd2xWMi10eDktMmRzWEkyZ2VXTFBwZ2NlQUxPaDMxc2VlbHRrM1JGcHJJQjFoRUdIZjVlQUoyY2Vzbw?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:46.557409+00:00"
   },
   {
     "id": "INC-57DDFA03",
@@ -1707,19 +1492,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:53.744053+00:00"
   },
   {
-    "id": "INC-519F4E76",
-    "date": "2026-02-18T08:00:00+00:00",
-    "county": "Wicklow",
-    "location": "",
-    "description": "Court hears man accused of Wicklow stabbing arrived by e-bike - Irish Independent",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTGZPWWUxSzlrZWdybUJxODRWOVl4cklsM2Z5YUdVQUt1UC1KNWRNeUtabXo3TkVpRF9OWmdCcDh5MWd0Q1p2d2JNWE1lMmhyazhoWE42TDhVUUZDMlRabFZkR05HVlJlRVgzS3N1Y0twLUZFZEljYjJ6WmxaM2RnVTFYeUpweUxKRnJXZ1lueFFUWG93cklZZnlnb3g0UXE5QTBxTkJtLUFEdWtLY0hGdGwyN0tZeGh0YnZMMmk0LTBhVUpvOWtqUjFIaXZlZw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:25.214025+00:00"
-  },
-  {
     "id": "INC-F8C745CA",
     "date": "2026-02-17T08:00:00+00:00",
     "county": "Cork",
@@ -1808,17 +1580,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:37.900072+00:00"
   },
   {
-    "id": "INC-E33A056C",
-    "date": "2026-02-06T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Soccer player raped woman in bedroom at knifepoint, Cork court told - echo live",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQRGdueTNvVWkxandrSlhDdHpwb1dGdlNWZzl6WkV5aXFtbm1wNFNZdlNHUXZ2bTVidUlXSFZwNkhaV2xjYTV6a2JjYnJXVXlWRGVqM1FSeURzOGl3WUZrOQ?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:43.101239+00:00"
-  },
-  {
     "id": "INC-09AE6E8C",
     "date": "2026-02-06T08:00:00+00:00",
     "county": "Cork",
@@ -1865,17 +1626,6 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMkJGVC1oWi1BMzJVbjNpWWc5TVN6Y0gtN2FOQXJfWmNoX29PZUFnSzdjRnBBbkxNaUVEWk5RSHVnT3NmUlFfby1mNGJScXF1bmdrNDFPSnNiY19jZWVqR3pTYmFVazdwSmtCdDgwdmZXdURlS29nOWF0aHoxRTBxVy01QTl0ZGVCc3hXN3lETkJOa0tIMjRtR2lQQWJ0OW9YNmN4SHpzRzZBcTBlaG8yYWR4TjdUMU9QYUJtZjV4aWQyZHlsZWVMTmZIV3NoVGI0a0hlU0prMA?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:37.898232+00:00"
-  },
-  {
-    "id": "INC-958EC060",
-    "date": "2026-02-05T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Dublin dad died from stab wound that severed artery and vein, court hears - BreakingNews.ie",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObi11SEx5cWs5R2hoaFlTQUtZSTFNQXk3TVhDZ29DSjByYnNUN0lPbXBWY19pb2VFUEFGZnUzY1lCbUFXaV9fRlZ4T3FaZGhTeEQ0WVVsWXhCcFVOdHVhVjdPTjNRdzhVX3ZaY29BSDNYSTAydWZuWHowdVg2TkhZZXkxeGlmRGl0eHQyVkhBWlA2TkR2Rjh4al9uOTVHaWhiX3lkRlZkRWRoclBmSF9TbWROdi1Ua19MRTJRend3?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:55.347025+00:00"
   },
   {
     "id": "INC-8E59CBA9",
@@ -2025,18 +1775,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:57.100469+00:00"
   },
   {
-    "id": "inc-2026-real-005",
-    "date": "2026-01-30T23:30:00Z",
-    "location": "North Wall Quay, Dublin 1",
-    "county": "Dublin",
-    "description": "A man in his 20s was seriously injured in an assault at approximately 11:30 pm on North Wall Quay following an event in the area. Garda\u00ed issued public appeals for witnesses and CCTV/dashcam footage. On March 10, two males \u2014 a teenager and an adult in his late teens \u2014 were arrested and charged in connection with the assault.",
-    "status": "Garda Confirmed",
-    "source": {
-      "title": "An Garda S\u00edoch\u00e1na / Irish Mirror",
-      "url": "https://www.google.com/search?q=North+Wall+Quay+Dublin+assault+January+2026+gardai+appeal"
-    }
-  },
-  {
     "id": "INC-312E1356",
     "date": "2026-01-29T08:00:00+00:00",
     "county": "Dublin",
@@ -2070,17 +1808,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:25.218811+00:00"
-  },
-  {
-    "id": "INC-71417E6C",
-    "date": "2026-01-26T08:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "Doctor stabbed multiple times during \u2018vicious\u2019 home invasion in Limerick, court told - The Irish Times",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd0JuOExNaDctdGVnQ3pyXzB0RHlCU0o3Wk52RmQ1LTJINng3eFdoS0tQdUVWTG5IZjh4YjlWc3VXaEt5Unl6VzhZU2QtbUFFelllZ3Z1a2xHVVpweVJyMjRCOGV1eXVXT1lLVm9WS3F5ejhwdW9rS1dvTGl2cTFPUEdXNUtXU0xqNUhUdlpxaTZYZHJBMldnUlk4TjBKaW40dmRCcUZLY1RHcmRlTC1rUE9oazNLTEpNMERDQ2U4QlF5aUk?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:51.889932+00:00"
   },
   {
     "id": "INC-F61FB1B3",
@@ -2182,28 +1909,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T09:38:46.544576+00:00"
   },
   {
-    "id": "INC-23CCB45E",
-    "date": "2026-01-16T08:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "\u2018Chaos took over my mind\u2019: Court told mother was suffering mental disorder during alleged stabbing of 8-year-old daughter - Limerick Post",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOSGVMTVNVZDJBVXQ2WU9xNEZiTXlBRHdhZlRMRkJUZDFDa2pVSXp2d3NDWmJCVVVjZmk0aUxvRXEtRnZ4VnVBU1dTTXllSnBwWEpqV0xnbzhNN0o0WWg3QWk2eE5keVk3cW1TUXBCUmNxOFN0Wk9UemlHb0pKXzdlOVluTjl2UzFtUnBUaG56bjcwa1c4TUc2M0diRmFrQ2Rpb0FVWWdMS0dfMWJscjJCMGtXN1dwTUJNZFBUdG5fOEVSU19obW00U2VyT3BTMS11Z1JKelR4NGdBWlVtTk4wMTBvck1aeF92TEdWY2xB?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:51.899274+00:00"
-  },
-  {
-    "id": "INC-3CEF0D86",
-    "date": "2026-01-14T08:00:00+00:00",
-    "county": "Unknown",
-    "location": "",
-    "description": "Garda found eight-year-old \u2018gasping for breath\u2019 after alleged knife attack by mother, court hears - The Irish Times",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMHFKeVk4bW02Y1BtV2lHeGxKRFgzOVd2UFVxa1lQcmVISkF3RC1VeE5hUHFVUU5qSXN0YjFmUDNOTXkzT0VRc3NFMnd2V2FTVnp2bnlIdjZVWFdpN01NQXgtVWxuUWhZZUVLVVplVDVtbTdVUXZDeTN1OEdHUG5MNVhMbXE4OURvZFBYeFY0ZkE2LVcteUdNZ19fR2xNM00xenAzbHNxaldRb0Jrb1ppVklncmxIWlBuR2dBZngwVDhsdUtMNWc5OGxmNjcwSnNZa1FQdA?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:39.634550+00:00"
-  },
-  {
     "id": "INC-FCB82BD0",
     "date": "2026-01-12T08:00:00+00:00",
     "county": "Dublin",
@@ -2235,17 +1940,6 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZDYwMUkzOTliNlV1ZDI0N1pfa1ZHNVM0WmtiWmJUTk9sTk9PeXRSSzJNbkhIMnFlWXp1djZxZFZJZmd5TWR0UFdWRmJzQ3E4TWpfa2RRY2pTVnRYMkl0eWpicnp4QjRVNHFRRUcwaWtwMVNtSlRMeC1xbmtuOG1hYUpidVI4Y2lRLTZVd0tFaWdYZVEzYktWa0I1dVJJZkx1VVBXd3Eza0VQcnRpVk9UeHpHbUxOZkp2MnhNbEdVY2RRdndfczNkcHRXWHVReldCRWstemFEQWZJc1BNc3ZwdG9QUQ?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:50.181610+00:00"
-  },
-  {
-    "id": "INC-81D5CD22",
-    "date": "2026-01-12T08:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "BREAKING: Mother allegedly stabbed daughter, aged 8, more than 70 times, Limerick court hears - Limerick Leader",
-    "source": "Google News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNXBYYmQzcjVmNU1VV0ZDRHNQaHhMNmhFMHBFcVRDTDVFUldSdVF0SF9kcDZMZzN3eHVmd1AyTy1MMUEtTkxTclFqMVZkWm1fbjRPbUtqZnZQUUxuZjhBZk9DamVyVW80SnRpWC1WWWx6Tlh6ZExaaWJvVEJ2T014TGI3WUh2Wkp3LXF2SkUzWlZZS244bWVEWmRBMFVyV3VDV1ViSExNZzhHN0U1ZEpqejZ5c1FYN1pSc1Y5cy1nM25FQnVLVkFBWll0YUI3V3RIT0hwMTZhNWFBTC1Ed2FqTWlCYUw0Y2x5V3c?oc=5",
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T09:38:51.893482+00:00"
   },
   {
     "id": "INC-88894B09",
@@ -2312,17 +2006,5 @@ export const mockIncidents = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRmZ3N29lY3ZhU25JS01GWHhneEl0djdwM1M0UjlUeTVfSlcyMm1PX3ZSb2JtdW9fZVJVcWMyQllnZHYwV3BrMk1hdmE0amNVeTJHVThQV3MzbTN5RHJFdXM4RWFyQjVhc3BmSmpfT0JiS3dZNEpSNEZmQkY1TXJyS01pS2Ria2lFTHJn0gGQAUFVX3lxTE9RbHh5VG0wODVuai1ncnpsSC1IcW1BNzZBbE0zY0RUQy1fcTJFdHhsNk1KMlVJNDRUUlZrWGkwLTFORDE4SVozeTB5NC1qSWJTaUIxeksxazRDVURyVFdxdDF5Qzc3TVpsY3JEZm1WYkpYNmZGSWQyN2VSaGJEXzdrdF9KZVMtaFpKQ3g0YmVpdg?oc=5",
     "status": "Media Reported",
     "addedAt": "2026-05-21T09:38:48.414491+00:00"
-  },
-  {
-    "id": "inc-2026-real-006",
-    "date": "2026-01-01T07:00:00Z",
-    "location": "Swords, County Dublin",
-    "county": "Dublin",
-    "description": "An aggravated burglary took place at a home in Swords at approximately 7:00 am on New Year's Day. Two men, aged in their 30s and 40s, were assaulted during the break-in. One victim sustained knife wounds to his fingers and suffered significant blood loss after attackers broke into the home while he was in bed. Both were treated for non-life-threatening injuries.",
-    "status": "Garda Confirmed",
-    "source": {
-      "title": "Irish Times / Dublin Live",
-      "url": "https://www.google.com/search?q=Swords+Dublin+aggravated+burglary+knife+New+Years+Day+2026"
-    }
   }
 ];

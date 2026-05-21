@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2018
-// Total incidents: 13
+// Total incidents: 11
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -73,19 +73,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:42.950827+00:00"
-  },
-  {
-    "id": "INC-95C73C9D",
-    "date": "2018-07-27T07:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "Limerick woman scalded, stabbed, and beaten by boyfriend, court told - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUzNlM1lQUm0zM1NwMl9oUXJJMWJGdWpJeGVJRzBic0huWGNzNzh5ZkNTV2R6QTNrYzlxZndpM0RidWhSTXNxNHd0NjVqZVo5YUpxaDdEbXdXajd1VTVtOVBLeG5JWEZzbXNYRTZpQ0FUaktobXBtbnJDTHZrLTBOa0F5YlpLNkpfV00xNVlJaHlGQlNQWDAwY045TWRwMVpLZEgzb0hEc1FhaXFadmpoSE5IVjRLUm9NWGlsaDJtekdOQ3JwTVpEZk5ob3d0ZEdoZzYzOVJtTmN3Zw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:48.840100+00:00"
   },
   {
     "id": "INC-5EDA4977",
@@ -164,18 +151,5 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:41.017897+00:00"
-  },
-  {
-    "id": "INC-4C1257D8",
-    "date": "2018-02-19T08:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "Man granted bail after facing court over Limerick stabbing - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdUJnUmNYTFBYMVBOVXJ2VUZhczNJYmhVRm5DeVhIN3hFM0RwYzB1S01ObmFaVkluWEQ5V256c1RzZDVVZFc3X0RsdGFKZnR0NHZQcGFNZ1JId0JyQmhnRk9YWmQ5RXZjQ0ZHeDlIUGNDSXU0X3kxQ2wxd1NYcnRGa0xjME5VMzdQY2hCb19panRVcFNQWjQ4TFdfbl9TTk1UbzU1eEFMemM3ZlVwWGdXdWlZVGg2R2lwZ29jN3FYd3lGMkFlWHVsN0ZVU1huV204WUE?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:41.006932+00:00"
   }
 ];

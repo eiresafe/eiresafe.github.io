@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2016
-// Total incidents: 2
+// Total incidents: 1
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -21,18 +21,5 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:42.931741+00:00"
-  },
-  {
-    "id": "INC-B3B743AA",
-    "date": "2016-02-02T08:00:00+00:00",
-    "county": "Kilkenny",
-    "location": "",
-    "description": "Man repeatedly stabbed woman in Kilkenny shop, court told - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOW5LMndsZ0xYdTBmc095SG9SYkxVS2szZHRoUkdlVXZkZEtZb2FWbDM1MjdCc2VGTjFtWE9QUHpLeUlzcWc2LXRZUW1KZWcyYzZKVnNoRm16UF83UlozSllMMXgxV2c5ak1yZGpmMi1zZjhVSFB5cTZsWnBLTVhOdEhraE1YZ19aY204T3gzYU1nMlM0bjA2a2JiOUVtQTRBNmd2UDlZSHdXOS1VOENKSURRbkZJM054?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:48.802335+00:00"
   }
 ];

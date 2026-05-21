@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2023
-// Total incidents: 25
+// Total incidents: 24
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -86,19 +86,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:31.281417+00:00"
-  },
-  {
-    "id": "INC-EAFF440C",
-    "date": "2023-11-27T08:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "Comber stabbing: Two men appear in court facing charges - Belfast Live",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLWc1U3JwZmUxMXBrTjQyUU1aSXhfQklOOUVteFRLbUVoVXFjZkJRWFBYYXVjRG84aXdfem1OOGs0NU9kbWVNU2lUUjFoT1ppdUYxU0dyVkdBd3A4M05Lc29idE1nNVFSc3pnVFQxa1h6TGVBWFJONU8wQ29iT2VNTkpya3ByVG1WZ3lSVERYNENqZnFuY2fSAZsBQVVfeXFMTmIyc0tfaU1DMERjNHNJZExvUTJpTTM0aE94ZG1OS21OenFlSzlHVUdCTkxJQTdxYkJRRXd2NjIwUGJzcWJBTkZUeTdibE1jVUpMZ0pVX2ZsM3dYQ3c0Z1BWYjhVbVZGX1pQdHYtRzM2dnpEOXBUcDZNMW5XVF9XXzVKYy1iUTRsVVFZZ2lIaXgwZnJkRzR2ajdkUGc?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:33.254737+00:00"
   },
   {
     "id": "INC-F2EB6EF6",

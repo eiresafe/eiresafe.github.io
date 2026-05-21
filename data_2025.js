@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2025
-// Total incidents: 202
+// Total incidents: 182
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -127,19 +127,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:40.995877+00:00"
   },
   {
-    "id": "INC-F9A02F2D",
-    "date": "2025-12-18T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Court Told Man Accused Of Knife Attack On Children Outside Dublin School Unfit To Stand Trial - kfmradio.com",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNWhiS0EySGo4Zk9RaU83R1lHRjdVYkgzQ1hOZ0o3THM1X3h1U01CNXpwcXJlNVB3cHF1OWxUa0lCM3pYbk9oaHRvdTJNX0MxTDN2YmlQYUhPNHVQRHVRYm00TnpIVkE5dUFMRExnNGpaUjVtRThpeEFVUjVERC1WY2tnS0Fad0NtWE5zZFYtRXVWZVBjVTVJVU1WYUNtQXUwWTlqVWNPdTgxSEpJMTQ4TURLd0E3NkE5LVozSUlKQ1Z0Rlc4c3dLaVVxaTBtUQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:29.360593+00:00"
-  },
-  {
     "id": "INC-6CF75C40",
     "date": "2025-12-18T08:00:00+00:00",
     "county": "Dublin",
@@ -151,32 +138,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:35.159384+00:00"
-  },
-  {
-    "id": "INC-A38C4963",
-    "date": "2025-12-17T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Grandmother stabbed with seven-inch knife after Dublin Christmas lights event, court hears - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaWJOX0liUG05a0FLMTc0ZFAwcU85dkNLVHVJbVJXeFZvdzdWNDkzU210NzFDLWxwSV9pa09wblJTUDZEUDlXZkMwaFlQV0xKcEstS1R3b01SaGR0WE5DdXdyRUhadUM3YXdIbFhubGNZZDl5NjJ0aHBLRXVoVU9TRFBXMEtEV0lTaGxKTWtJSTZJbGFad2d1VUV5dEZmX2Q4VVJKckZfWEt0TzhHbC13bWRKN0doR0pGUGRIc0NfcHNzWS1nMjR3V3U0T2czQUFaeGVVbC1TZWlXQm9YZ3c?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:29.369110+00:00"
-  },
-  {
-    "id": "INC-C8B69E06",
-    "date": "2025-12-17T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "\u2018Deeply distressing sensation as knife penetrated the back of my head\u2019 \u2013 woman tells court of random attack in Dublin city centre - Irish Independent",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQZ3g4YXdfWGE4dW0tQTdUbHB4Y0ZySFJmODRIODNmdjBBOTg5bG5ndW1iSHJDRDF6Zk95eE0zRjdFS0Uya0o4UnJ6cXlfVmlkaFVFNlpsQ2UzWnpNeGttaWlwczFtUER5Y3paTnMweXV0ZlotS0Mtb0lsZXNWbV84X1czSVVQQ01XMlNGdXhaNUI1NXVlUUw4WWhhMVZtQVJ3YldtYlNOT21GaVNRMHZxMERYeDRoR2FEYVNyZF84aGRscUZZM2YwdWhYS2xRaVJ2Q0tPVHhQZ1dsTTJHSFJZZTVkajViMk94Y25hQ0EwMEtLUVhuaDYyejZ2OHRKUTIwQ0pqTnllUFNhSUxXVm9xNWNybmZYUQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:29.401553+00:00"
   },
   {
     "id": "INC-CFE98C81",
@@ -452,19 +413,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:25.243852+00:00"
   },
   {
-    "id": "INC-89D0D881",
-    "date": "2025-11-19T08:00:00+00:00",
-    "county": "Cork",
-    "location": "Cork -",
-    "description": "Man (20s) charged with fatal knife attack to appear before the courts in Cork - Cork Beo",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeHF0cHVwem0xQkVCX0g2dXk5Ym83YnBLVWEwTFY5b3EzNjVPaC05SjhNLVdITTVsUlNhQVBHa0l3YXVnVmFyT3o2bFIySENXYk0wMVBaZ2M5cUJITlMwNnhGSU9KQjNHVXU4U3JHSEttQXZrM3Jwc2l0bkVqUlJvNdIBhgFBVV95cUxQM0J2MzllWGQ0ZUxub1FnVXN5dXpMT2std05PSjR6YnRtT1hhbmd1dWxXV1diZWZDUmo4Ukd4Q205blZtMU16d3JnSGtNTS1KaDR2bFZJZ0p1MHJFWlIwb1NUN08yWmhUb1FVRXJqMVljX0JfTUlNX1phcXdpdUVzUUJSWWx4QQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:31.249538+00:00"
-  },
-  {
     "id": "INC-37953543",
     "date": "2025-11-19T08:00:00+00:00",
     "county": "Cork",
@@ -684,19 +632,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:29.387280+00:00"
-  },
-  {
-    "id": "INC-052320C8",
-    "date": "2025-11-08T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Dublin man brandished large knife at staff during pharmacy raid, court hears - Sunday World",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNDliZENBU2NtaXdfUVdjYVEzbXcxLXlwZEcwcVQ5clpGY2YzTWdid0ZOVWRRc1JXTFpZREdDTkVmdFU2QTNtTTNDVG5zLXQ0QkNQUV9ER01zVHA5aFhFN1h6bEQ5SURhd3VPRmRxWTdBZzFMZV9qZUh4bXZDckRST3Z0bDkzZjRVa3l1MzVqcFIxUDdwMlNtUE84Ql9IRjlPWEUzTHpPZTdsRkxCVmtrQWRoTHREdmdtOGtMbU9lQlFHWXZH?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:29.406866+00:00"
   },
   {
     "id": "INC-158F5C0D",
@@ -1128,19 +1063,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:29.421082+00:00"
   },
   {
-    "id": "INC-D8F9DFE7",
-    "date": "2025-10-09T07:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Man (30s) died of stab wounds after being attacked in pub in Cork, court hears - BreakingNews.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVERmbVN1ZjBYRTI2X2c0XzFxSFB0VnNhc1JXR2t2OWdEaVR5UlU0YVBNMXVhNGJXWXBTcHJuMnZXQWo1T3RXc3E1V3hqMWd5NVVyVzY2a3ZqbWVqUFZuQWJJRV9fSFAwODBaN0FMM3c1anRESW5Xd0ljLWt2MkFhdmtsUUNDRTdBTEJCRm0xazRoaHVQUnJtN05sZ0Jvd1E5bTE2STZhcktZeTd6RFp3ZnhwVWNZc0l2TVhNRzRBRnpUZw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.260353+00:00"
-  },
-  {
     "id": "INC-8B6FB1FE",
     "date": "2025-10-06T07:00:00+00:00",
     "county": "Tipperary",
@@ -1375,32 +1297,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:35.210213+00:00"
   },
   {
-    "id": "INC-647ABFCE",
-    "date": "2025-09-21T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Man stabbed in face after being pinned to ground by three attackers in Dublin, court hears - Irish Mirror",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOV290QjNpTEpBRXJVUVhPaTNyeHcyTy1mZHh0c013VmpBREZUMzlMSVp5aGpyVTRUcmtTUzlOUGlCSjhYX0FvRkthT0FaUF9samJ1VUs0clhjYU9JSzlhZWJ2blMxMV92dHk3TVZsT3FZbENRendudG9VNHZfTlB1UjhNUWEwLVJoOEEtMlRmb9IBlAFBVV95cUxPMFFNa1EyR0RVTWlmSlMtaXlNenBxS05UV09aTnR6TkVEejBCa3NmbFFLMjdfeUZNTHpKaFYwRzFINHNROEVkMnNBTUs3R2poOFA3eFFYMnBpQThldFJKQXhKWXR6U3lIRTRyWXdmbFdxaVdrV1ZlT1MyZzVsOEdybk8wcG1hUFZtVVl5R0REVVV0QldI?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:46.828765+00:00"
-  },
-  {
-    "id": "INC-F568B53A",
-    "date": "2025-09-20T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Man stabbed in face after being pinned to ground in 'premeditated' attack in Dublin, court hears - BreakingNews.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQWJVcGxneExsWVVRdkJxUWNFV0hnd2JIelBoeHlwOFVJRnd1TWFLYVR0MDZxY1RoU1IwWHZOMHV1eXZTVGp6aEpoZXEtSUJHdjdJTHg0ZWpsRVdNbWJNc2l4ekdwa3Y1N0hrdm0yTmxOUzZJQlZ5ZHZVTjFaMVpDVlluaGhwdk1lT1RmYTRCSjVpMFhaS0s2UEZfMDRwam94d2JMUW5ZM0RWaG5tUTV5dTBfdEU0VHA1RWNqUUIxNEc1ZkZmY18wLS1fakFjaXBqQVBmY3FEVllhZw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.236830+00:00"
-  },
-  {
     "id": "INC-5ABEBE45",
     "date": "2025-09-18T07:00:00+00:00",
     "county": "Antrim",
@@ -1622,32 +1518,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:35.192159+00:00"
   },
   {
-    "id": "INC-572238D4",
-    "date": "2025-08-26T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Unsupervised teen fled to Dublin and stabbed man six times in daytime robbery, court hears - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSUVRMTl2NGdZdUg3ZmVlc2VQUmNCbjNpc3B0OHRKS1pTbFpacnZLMzJTSVhxQ3l4bmVlNDhzNGp5OW9MLUJER2xJZkhMdHA0RVlMZnE5OTlwSkE1MTZiSTI0Z2lEelhrNFBocjdFc2tIMjZ0bC16bkt3ZmFCSzk1UTROY3FSUFdBaHpVSFNoeE10VjZZTXlzUl90SEhUZ3ZGNnNObGIyQTh6Qmp2MEFNbVRwSDNLZkxKSzdISkR6NzJIU3hhRVVtZ3ZzbFU1MWx3VFFyVlVxSXhSdw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:35.206469+00:00"
-  },
-  {
-    "id": "INC-B1B5543A",
-    "date": "2025-08-23T07:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "Twinbrook: Man in court after west Belfast stabbing - BBC",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE41S0E3eWVYOW5GM00tc0ZtaC1tYjRELWFvbkdjaVdJeEx4aWZrajA3UTl2b3RlcjF4cmNSOUVKbDFfQ2FJTWFiNFZNOU9QVENoRUJwZzBCOXpab28z?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:42.918362+00:00"
-  },
-  {
     "id": "INC-8EF3E59A",
     "date": "2025-08-22T07:00:00+00:00",
     "county": "Antrim",
@@ -1763,19 +1633,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:27.256812+00:00"
-  },
-  {
-    "id": "INC-BC9C39C1",
-    "date": "2025-07-31T07:00:00+00:00",
-    "county": "Unknown",
-    "location": "",
-    "description": "Man to appear in court over knife attack on garda - BreakingNews.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNlF0MklRY2MySjU2U0hxUUtkN2NMQkFtcnBuY1llSkVYaDNuQ1M1VzBZdHZNY0p4QWt2ZXZMQ29UODYyNmI2cDdMa003NFR0VHMxMlUxX3p5SUNYaUNFNFZnNFVNcHFIZnFXOTZZaHFiall2M3FwNzVuOVY5WmRfcnRYR29uQ2k1amkxSWh1SkduTXhMVVMtRU5sMi1uN0k?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.241001+00:00"
   },
   {
     "id": "INC-DCD20344",
@@ -1947,19 +1804,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:44.846848+00:00"
   },
   {
-    "id": "INC-BE2A6396",
-    "date": "2025-07-22T07:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "Valentine\u2019s Day knife attack accused returned for circuit court trial - Limerick Post",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMDRQUGNJalo1Wlp4bVRuQkpQZzdwalplUU8wMXdFQWRHdWFvMF9UZlI2OUZLbEl3RXJHZllZZlc0aGpOdDJLS2NOUXIxcHlKMEx6V0M4THIzekM5cFNRZXUzNU1IMnVMR3k1T3BYVzdaekpHcUY2eDZVMlQ5bWYtQndUS3oyWVFzWjdnMWxSTG8xb3NRN0dfemQ4NnFqQlBOeVRMYUVHcTlHREh2?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:41.001010+00:00"
-  },
-  {
     "id": "INC-6378E4EE",
     "date": "2025-07-20T07:00:00+00:00",
     "county": "Dublin",
@@ -2049,19 +1893,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:42.916985+00:00"
-  },
-  {
-    "id": "INC-07A875A8",
-    "date": "2025-06-30T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Teen murdered man with knife he had stashed behind bin in Dublin, court hears - BreakingNews.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLWRtdmhEZld1ZWVHUF80RW44SjFiUHpPX2VsM0NtTWN5dU9qY1JQZFljMFE4ODdTRjlKZl8yZnRWYzR1ZlM2WUdmZG02VERPYS1GLVJyQUR4YnpHN0RuZXoxREZ0Ni13TmtDcTg1N2cyY0tzZWJHcng2eENRQkdFalNvcFNDRmRHaFhRa1FsTklQSXR2Z1c1eWMtdFFXRllRMTB1cW96TkRZdjZjbW81MF9UM1FaVlZpdEN4eTZENWJFVW8?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:29.417950+00:00"
   },
   {
     "id": "INC-8DAE2E64",
@@ -2207,19 +2038,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:29.432030+00:00"
   },
   {
-    "id": "INC-C7667959",
-    "date": "2025-06-05T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Young man (24) held Algerian in headlock during stabbing on Dublin bridge, court told - BreakingNews.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRW9RWE1TS3ZfMkgwLURTMF9CMHMwNVA3OXpncXp3LUtVRXNIUUI2LXdmNExncEItZHZHS2ozUmQzaG9Qa2JrenZOMU9pNUNVTXBERU1HVVRScGswRFJ1S1RGVmVmWFdaMVVYVGFud1pDVkFrN2M5Z3dLZWtjSFMzbGhpeDhObkVpb3FYeHBiOS1paWtNSTRYaFBmODZVRUp4X0REWWJSMVV2U1FYeWxXcTRfVjFOSGR0SmxZUjRKbE1ITlZLZmJoTGxBSTlPdWY5cDA1a3p3?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.264845+00:00"
-  },
-  {
     "id": "INC-5C825631",
     "date": "2025-06-04T07:00:00+00:00",
     "county": "Dublin",
@@ -2231,32 +2049,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:27.269759+00:00"
-  },
-  {
-    "id": "INC-F515C24E",
-    "date": "2025-06-04T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Algerian man left victim critically injured in Dublin quays knife attack, court told - Sunday World",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUmNEcFRGN2FfVmJBa0lma3ZJRUNlZFAyblMzMDU4eHpRbXB3YjI4N2k4cUZuNUhiRlFZb0pDd0tRVTRkQk1ZbWV0XzhsZVFpM2puSnFOUGJNa0NXZ2g2dmVtQ0x0OGtCUFFLYmVNZEZmbnk4azBDZDI4ZGVjVWtZS3JwS1BQMkFUUDZvQ3lHS1piUkVJVXY2NTRKVUVHTmswYmV6MFZDMnZndXZaX2JXVExuZ1dpQkNJVFlHSXRzZ2daYlE3UVNyUV9FMzJvOW8?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.282224+00:00"
-  },
-  {
-    "id": "INC-8A84F557",
-    "date": "2025-06-04T07:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Knife attack accused with Cork address a 'flight risk', court hears - Cork Beo",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVTJqNDNBS1FRRlMzNmpaemhWWWhhY2g0VmJCVnB6LXZlNXlDX3ZHNEFXaWI5bHRiRmtORExhaXlxUUVlRnNGa1JXOEozdlpBYzdDbldBUHJvREFma0p5dU5FZG1PbHc4Um1tRXVDa0dwUC0tc1pqMlNOYVdNb29PcWgyUms0aE020gGOAUFVX3lxTFB2dmpFT1pVdkdmSlZiLTJrSThxcXhCUHh1bXVaQVYzZlhnREFPYy1FNldNdDdYYjZ4c0UxVFBPbjhLczc4ZWlSdVhOSGpqdVpCbW5GNm5IeXhfaEFfTGxLZEVjSjJKS085V0xDTWwtODRIZnJaa2ZqR0dUT2stTmxpVDIzaVV3WkE3OEZ3cWc?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:31.263137+00:00"
   },
   {
     "id": "INC-2577E115",
@@ -2350,19 +2142,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:31.276230+00:00"
   },
   {
-    "id": "INC-04AE8FFB",
-    "date": "2025-04-10T07:00:00+00:00",
-    "county": "Galway",
-    "location": "",
-    "description": "Priest forgives teenage attacker in court after near-fatal stabbing at Galway army barracks - Irish Examiner",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90UmZ6Sk04aEpmS21hRV9Tc2FKUVNYaUZJMm1FSXcycV8zVXZ5Mkl3UTByT2hUWi00QWtEM3p4eEtCTjUxaVdYTnFqR05YWmk0RkI2emtaRGFWazZ0X0lBVVE1bFI3MThrNmpCU21hbk5JcWREaVE?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:38.999549+00:00"
-  },
-  {
     "id": "INC-1D88D04B",
     "date": "2025-03-31T07:00:00+00:00",
     "county": "Antrim",
@@ -2454,19 +2233,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:42.937472+00:00"
   },
   {
-    "id": "INC-D7D6A4EC",
-    "date": "2025-02-21T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Dublin murder accused captured on CCTV stabbing man in heart, court told - BreakingNews.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS1VrOEhaTzdRTVFYNnhwRk8tYzNaOTVDdFhsNXg3d0NsYjAxeExNWnJmRkZFWk55Q2x0dmJSUkI1eUZObDA0R2x5cW43LU0wLWFrVEswN0UtSUxkSmxzd0FYUkZkZVNlakhQYXpQY2Jva1h5ZXlwYkJ4RElUakMzemVTcEpRNDNEWGkwV2oyeGF2QUZfREJkTVBlTy1zUDlweE1uNmtRQ2J6U2tDLUZZbDRZdjFGZUcyR1dyNg?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:42.938993+00:00"
-  },
-  {
     "id": "INC-9A26580B",
     "date": "2025-02-20T08:00:00+00:00",
     "county": "Dublin",
@@ -2504,32 +2270,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:46.839477+00:00"
-  },
-  {
-    "id": "INC-94A06677",
-    "date": "2025-02-16T08:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "Man stabbed on Valentine\u2019s Day seven times over 'threatening eyes', Limerick court hears - Limerick Leader",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUU1GaW1XWnp5UGM0azB5bExLRHpBbWhXOG5aZlhtOV9nSmFCUzZxVTNCVWxsTEZldnI4OUhJR2FpNks2aVB5emV0dUhBd3NmOHpZVUlGd0puWWp0VVJyaEcwaWctR3RPMlBQcURkMkJqRWRpSGE0SFNzRUM1ZXpfRVgwQkQ0Q1NiSXNKQTJrak00SWJkSU9CUUZTbE9VdUpFUkxtY1ZSc2RDZXRfek9aUXJwQTlyRlFfY1VocTFjR1VubS1hWHlVVWFlNGdOT3Z3VDVBVzJKS1I3MHkzRU9qUFU2VQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:41.005060+00:00"
-  },
-  {
-    "id": "INC-08B564C9",
-    "date": "2025-02-16T08:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "Man accused of Valentine\u2019s Day stabbing in Limerick tells court he is 'not a risk' to public - The Journal",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ3ZfYkNlSUpGNTdjaGV0UXdiNmhmMHBCYmJ2YWZ6OVZ3Mm45Q3UtTWpJbVNaN1QyaE5FckJnZXhrbE1FaExjTVpNM3dRZ0Y0eU5Tc3R6Q0R1b09nNXhydThERXdsLXZxOHo4Z3FXUmt6eUJDd2pINjhKRFhscl9WWQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:41.008856+00:00"
   },
   {
     "id": "INC-DE31684B",
