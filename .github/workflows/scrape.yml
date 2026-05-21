@@ -1,0 +1,39 @@
+name: Auto Scrape & Update Website
+
+on:
+  schedule:
+    # Run 5 times a day: 00:00, 05:00, 10:00, 15:00, 20:00 UTC
+    - cron: '0 0,5,10,15,20 * * *'
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions tab
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push code changes back to repo
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Scraper
+        run: node scripts/fetch_press_releases.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "eiresafe-bot"
+          git config --global user.email "bot@eiresafe.github.io"
+          
+          # Check if there are changes to data.js or others
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "New incidents found! Committing to database..."
+            git add data.js
+            git commit -m "Automated incident database sync [skip ci]"
+            git push origin main
+          else
+            echo "No new incidents detected."
+          fi
