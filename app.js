@@ -3,7 +3,7 @@ import { mockIncidents, countiesList } from './data.js';
 import { countyPaths } from './countyPaths.js';
 
 // Constants
-const FIXED_NOW_DATE = new Date("2026-05-21T00:00:00Z"); // Set relative to prompt context time
+const FIXED_NOW_DATE = new Date(); // Use real current date
 const ITEMS_PER_PAGE = 5;
 
 // State Management
