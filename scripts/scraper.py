@@ -106,8 +106,10 @@ def build_incident(date_iso, county, location, description, source, source_url, 
         "county": county,
         "location": location,
         "description": description[:500] if description else "",
-        "source": source,
-        "sourceUrl": source_url,
+        "source": {
+            "title": source,
+            "url": source_url
+        },
         "status": status,
         "addedAt": datetime.datetime.now(datetime.timezone.utc).isoformat()
     }
