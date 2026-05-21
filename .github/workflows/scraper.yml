@@ -1,0 +1,47 @@
+name: EireSafe Daily Scraper
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC daily
+  workflow_dispatch:
+    inputs:
+      backfill_2026:
+        description: "Run full 2026 backfill?"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r scripts/requirements.txt
+
+      - name: Run scraper (incremental)
+        if: github.event.inputs.backfill_2026 != 'true'
+        run: python scripts/scraper.py --output data.js --days 3
+
+      - name: Run scraper (full 2026 backfill)
+        if: github.event.inputs.backfill_2026 == 'true'
+        run: python scripts/scraper.py --output data.js --backfill-2026
+
+      - name: Commit updated data.js
+        run: |
+          git config user.name "eiresafe-bot"
+          git config user.email "bot@eiresafe.github.io"
+          git add data.js
+          git diff --cached --quiet || git commit -m "chore: auto-update incident data [$(date -u +%Y-%m-%d)]"
+          git push

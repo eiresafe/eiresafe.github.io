@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Manual entries verified from news sources.
+// Total incidents: 7
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -11,15 +11,15 @@ export const countiesList = [
 
 export const mockIncidents = [
   {
-    "id": "inc-2026-real-001",
-    "date": "2026-05-17T16:15:00Z",
-    "location": "Mill Road, Blanchardstown, Dublin 15",
-    "county": "Dublin",
-    "description": "Alexander Coughlan, a man in his 30s, was found unresponsive after a serious assault on Mill Road, Blanchardstown at approximately 4:15 pm. He was taken to Connolly Hospital in critical condition and passed away on May 20. Two 16-year-old boys were charged with assault causing serious harm and appeared before Dublin District Court.",
+    "id": "inc-2026-real-007",
+    "date": "2026-05-20T12:00:00Z",
+    "location": "Mullingar, County Westmeath",
+    "county": "Westmeath",
+    "description": "Mary Nevin (25) pleaded guilty at Mullingar Circuit Criminal Court to stabbing her 22-year-old cousin 12 times in an unprovoked attack on Austin Friars Street in May 2024. The court heard the victim sustained 'catastrophic injuries'.",
     "status": "Garda Confirmed",
     "source": {
-      "title": "RTÉ News",
-      "url": "https://www.rte.ie/news/2026/0520/1574373-blanchardstown-assault/"
+      "title": "Irish Times",
+      "url": "https://www.google.com/search?q=Mary+Nevin+Mullingar+stabbing+cousin+12+times+2026"
     }
   },
   {
@@ -32,6 +32,18 @@ export const mockIncidents = [
     "source": {
       "title": "Courts News Ireland",
       "url": "https://www.google.com/search?q=Luke+Gilligan+zombie+knife+Ballymun+sentenced+2026"
+    }
+  },
+  {
+    "id": "inc-2026-real-001",
+    "date": "2026-05-17T16:15:00Z",
+    "location": "Mill Road, Blanchardstown, Dublin 15",
+    "county": "Dublin",
+    "description": "Alexander Coughlan, a man in his 30s, was found unresponsive after a serious assault on Mill Road, Blanchardstown at approximately 4:15 pm. He was taken to Connolly Hospital in critical condition and passed away on May 20. Two 16-year-old boys were charged with assault causing serious harm and appeared before Dublin District Court.",
+    "status": "Garda Confirmed",
+    "source": {
+      "title": "RT\u00c9 News",
+      "url": "https://www.rte.ie/news/2026/0520/1574373-blanchardstown-assault/"
     }
   },
   {
@@ -63,10 +75,10 @@ export const mockIncidents = [
     "date": "2026-01-30T23:30:00Z",
     "location": "North Wall Quay, Dublin 1",
     "county": "Dublin",
-    "description": "A man in his 20s was seriously injured in an assault at approximately 11:30 pm on North Wall Quay following an event in the area. Gardaí issued public appeals for witnesses and CCTV/dashcam footage. On March 10, two males — a teenager and an adult in his late teens — were arrested and charged in connection with the assault.",
+    "description": "A man in his 20s was seriously injured in an assault at approximately 11:30 pm on North Wall Quay following an event in the area. Garda\u00ed issued public appeals for witnesses and CCTV/dashcam footage. On March 10, two males \u2014 a teenager and an adult in his late teens \u2014 were arrested and charged in connection with the assault.",
     "status": "Garda Confirmed",
     "source": {
-      "title": "An Garda Síochána / Irish Mirror",
+      "title": "An Garda S\u00edoch\u00e1na / Irish Mirror",
       "url": "https://www.google.com/search?q=North+Wall+Quay+Dublin+assault+January+2026+gardai+appeal"
     }
   },
@@ -80,18 +92,6 @@ export const mockIncidents = [
     "source": {
       "title": "Irish Times / Dublin Live",
       "url": "https://www.google.com/search?q=Swords+Dublin+aggravated+burglary+knife+New+Years+Day+2026"
-    }
-  },
-  {
-    "id": "inc-2026-real-007",
-    "date": "2026-05-20T12:00:00Z",
-    "location": "Mullingar, County Westmeath",
-    "county": "Westmeath",
-    "description": "Mary Nevin (25) pleaded guilty at Mullingar Circuit Criminal Court to stabbing her 22-year-old cousin 12 times in an unprovoked attack on Austin Friars Street in May 2024. The court heard the victim sustained 'catastrophic injuries'.",
-    "status": "Garda Confirmed",
-    "source": {
-      "title": "Irish Times",
-      "url": "https://www.google.com/search?q=Mary+Nevin+Mullingar+stabbing+cousin+12+times+2026"
     }
   }
 ];
