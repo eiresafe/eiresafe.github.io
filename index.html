@@ -61,6 +61,9 @@
         <select id="scope-county-dropdown" class="county-dropdown" aria-label="Filter statistics by county">
           <option value="">Select County...</option>
         </select>
+        <select id="scope-year-dropdown" class="county-dropdown" aria-label="Select Year">
+          <!-- Populated by JS -->
+        </select>
       </div>
       
       <div class="meta-status">
@@ -71,7 +74,7 @@
         <div class="status-indicator">
           <span>Data Sync:</span>
           <span class="status-dot"></span>
-          <strong>Verified May 2026</strong>
+          <strong id="data-sync-label">Verified Data</strong>
         </div>
       </div>
     </section>
@@ -81,7 +84,7 @@
       <!-- Week Card -->
       <article class="stat-card" style="--card-accent: var(--accent-color);">
         <div class="stat-header">
-          <span class="stat-title">This Week</span>
+          <span class="stat-title" id="stat-week-title">This Week</span>
           <div class="stat-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
           </div>
@@ -89,14 +92,14 @@
         <div id="stat-week-value" class="stat-value">0</div>
         <div class="stat-meta">
           <span id="stat-week-trend" class="stat-trend">0%</span>
-          <span>vs previous 7 days</span>
+          <span id="stat-week-trend-label">vs previous 7 days</span>
         </div>
       </article>
 
       <!-- Month Card -->
       <article class="stat-card" style="--card-accent: var(--accent-warning);">
         <div class="stat-header">
-          <span class="stat-title">This Month</span>
+          <span class="stat-title" id="stat-month-title">This Month</span>
           <div class="stat-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24"><path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg>
           </div>
@@ -104,14 +107,14 @@
         <div id="stat-month-value" class="stat-value">0</div>
         <div class="stat-meta">
           <span id="stat-month-trend" class="stat-trend">0%</span>
-          <span>vs previous month</span>
+          <span id="stat-month-trend-label">vs previous month</span>
         </div>
       </article>
 
       <!-- Year Card -->
       <article class="stat-card" style="--card-accent: var(--accent-info);">
         <div class="stat-header">
-          <span class="stat-title">This Year</span>
+          <span class="stat-title" id="stat-year-title">This Year</span>
           <div class="stat-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11z"/></svg>
           </div>
@@ -119,7 +122,7 @@
         <div id="stat-year-value" class="stat-value">0</div>
         <div class="stat-meta">
           <span id="stat-year-trend" class="stat-trend">0%</span>
-          <span>overall count for 2026</span>
+          <span id="stat-year-trend-label">overall count</span>
         </div>
       </article>
     </section>

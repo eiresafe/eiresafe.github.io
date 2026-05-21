@@ -21,6 +21,8 @@ HEADERS = {
 REQUEST_TIMEOUT = 20
 THROTTLE_SECS = 1.2
 
+MIN_YEAR = datetime.datetime.now(datetime.timezone.utc).year - 30
+
 REQUIRED_KEYWORDS = ["stab", "knife", "blade", "slash", "knifed", "knife attack", "knife crime", "knife wound", "stabbing"]
 
 IRELAND_SIGNALS = [
@@ -78,10 +80,8 @@ def is_relevant(text):
         return False
         
     # 2. Date-proximity check
-    # Reject if it mentions any year from 1990 to (current_year - 2).
-    # We allow (current_year - 1) to account for late-year incidents reported in early Jan.
-    current_year = datetime.datetime.now(datetime.timezone.utc).year
-    past_years = [str(y) for y in range(1990, current_year - 1)]
+    # Reject if it mentions any year from 1900 to (MIN_YEAR - 1).
+    past_years = [str(y) for y in range(1900, MIN_YEAR)]
     if any(re.search(r'\b' + y + r'\b', text_lower) for y in past_years):
         return False
         
@@ -403,65 +403,92 @@ def deduplicate(incidents):
             
     return unique_incidents
 
-def load_existing(path):
-    if not os.path.exists(path):
+def load_all_existing(output_dir):
+    all_incidents = []
+    if not os.path.exists(output_dir):
         return []
-        
-    try:
-        with open(path, 'r', encoding='utf-8') as f:
-            content = f.read()
-            
-        # extract JSON array
-        match = re.search(r'export const mockIncidents\s*=\s*(\[.*\]);', content, re.DOTALL)
-        if match:
-            json_str = match.group(1)
-            # Basic cleanup in case there are JS comments inside JSON
-            # This is a very naive approach, a robust solution would use a JS parser
-            return json.loads(json_str)
-    except Exception as e:
-        logger.error(f"Error loading existing data.js: {e}")
-        
-    return []
-
-def write_data_js(incidents, path):
-    # Sort newest first
-    incidents.sort(key=lambda x: x.get("date", ""), reverse=True)
     
-    js_content = f"""// Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
-// Automatically updated by GitHub Actions scraper bot.
-// Total incidents: {len(incidents)}
+    for f in os.listdir(output_dir):
+        if f.startswith("data_") and f.endswith(".js"):
+            path = os.path.join(output_dir, f)
+            try:
+                with open(path, 'r', encoding='utf-8') as file:
+                    content = file.read()
+                match = re.search(r'export const mockIncidents\s*=\s*(\[.*\]);', content, re.DOTALL)
+                if match:
+                    json_str = match.group(1)
+                    all_incidents.extend(json.loads(json_str))
+            except Exception as e:
+                logger.error(f"Error loading {path}: {e}")
+                
+    # Also try to load legacy data.js if it exists, to migrate it
+    legacy_path = os.path.join(output_dir, "data.js")
+    if os.path.exists(legacy_path):
+        try:
+            with open(legacy_path, 'r', encoding='utf-8') as file:
+                content = file.read()
+            match = re.search(r'export const mockIncidents\s*=\s*(\[.*\]);', content, re.DOTALL)
+            if match:
+                json_str = match.group(1)
+                all_incidents.extend(json.loads(json_str))
+        except Exception as e:
+            logger.error(f"Error loading {legacy_path}: {e}")
+            
+    return all_incidents
 
-export const countiesList = [
+def write_yearly_data(incidents, output_dir):
+    by_year = {}
+    for inc in incidents:
+        dt_str = inc.get("date")
+        if dt_str:
+            try:
+                dt = parser.parse(dt_str)
+                year = dt.year
+            except:
+                year = datetime.datetime.now(datetime.timezone.utc).year
+        else:
+            year = datetime.datetime.now(datetime.timezone.utc).year
+            
+        by_year.setdefault(year, []).append(inc)
+        
+    for year, incs in by_year.items():
+        incs.sort(key=lambda x: x.get("date", ""), reverse=True)
+        path = os.path.join(output_dir, f"data_{year}.js")
+        js_content = f"// Irish Stabbings & Crime Tracker - Year {year}\\n"
+        js_content += f"// Total incidents: {len(incs)}\\n\\n"
+        js_content += f'''export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
   "Kildare", "Kilkenny", "Laois", "Leitrim", "Limerick", "Longford", "Louth",
   "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon", "Sligo", "Tipperary",
   "Waterford", "Westmeath", "Wexford", "Wicklow"
-];
-
-export const mockIncidents = {json.dumps(incidents, indent=2)};
-"""
-    with open(path, 'w', encoding='utf-8') as f:
-        f.write(js_content)
+];\\n\\n'''
+        js_content += f"export const mockIncidents = {json.dumps(incs, indent=2)};\\n"
         
-    logger.info(f"Successfully wrote {len(incidents)} incidents to {path}")
+        with open(path, 'w', encoding='utf-8') as f:
+            f.write(js_content)
+        logger.info(f"Successfully wrote {len(incs)} incidents to {path}")
 
 def main():
+    global MIN_YEAR
     parser_args = argparse.ArgumentParser(description="EireSafe Multi-Source Scraper")
-    parser_args.add_argument("--output", default="../data.js", help="Path to output JS file")
+    parser_args.add_argument("--output-dir", default="..", help="Path to output directory")
     parser_args.add_argument("--backfill-2026", action="store_true", help="Run backfill for 2026")
+    parser_args.add_argument("--start-year", type=int, default=MIN_YEAR, help="Earliest year to keep")
     parser_args.add_argument("--days", type=int, default=3, help="Days to look back (incremental mode)")
     
     args = parser_args.parse_args()
     
+    MIN_YEAR = args.start_year
+    
     if args.backfill_2026:
-        since = datetime.datetime(2026, 1, 1, tzinfo=datetime.timezone.utc)
+        since = datetime.datetime(args.start_year, 1, 1, tzinfo=datetime.timezone.utc)
     else:
         since = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=args.days)
         
     logger.info(f"Starting scraper (Since: {since.isoformat()})")
     
-    existing_incidents = load_existing(args.output)
-    logger.info(f"Loaded {len(existing_incidents)} existing incidents from {args.output}")
+    existing_incidents = load_all_existing(args.output_dir)
+    logger.info(f"Loaded {len(existing_incidents)} existing incidents from {args.output_dir}")
     
     scrapers = [
         GoogleNewsRSS(),
@@ -488,17 +515,16 @@ def main():
     # Final filter to ensure we don't grab super old unrelated stuff unless it's in the DB
     final_incidents = []
     for inc in unique_incidents:
-        # keep if it was manually added before or if it's within the 2026+ timeframe
         dt_str = inc.get("date")
         if dt_str:
             try:
                 dt = parser.parse(dt_str)
-                if dt.year >= 2026:
+                if dt.year >= args.start_year:
                     final_incidents.append(inc)
             except:
                 final_incidents.append(inc) # keep if date is unparseable but somehow got in
                 
-    write_data_js(final_incidents, args.output)
+    write_yearly_data(final_incidents, args.output_dir)
     
     logger.info("Done.")
 

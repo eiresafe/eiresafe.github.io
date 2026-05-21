@@ -1,5 +1,3 @@
-// Irish Stabbings Tracker - Main Application Controller
-import { mockIncidents, countiesList } from './data.js';
 import { countyPaths } from './countyPaths.js';
 
 // Constants
@@ -9,10 +7,19 @@ const ITEMS_PER_PAGE = 5;
 // State Management
 let incidents = [];
 let selectedCounty = null; // null represents Whole Ireland
+let selectedYear = FIXED_NOW_DATE.getUTCFullYear();
 let currentPage = 1;
 
+let mockIncidents = [];
+export const countiesList = [
+  "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
+  "Kildare", "Kilkenny", "Laois", "Leitrim", "Limerick", "Longford", "Louth",
+  "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon", "Sligo", "Tipperary",
+  "Waterford", "Westmeath", "Wexford", "Wicklow"
+];
+
 // Load Data: Merge custom admin entries from localStorage with scraped data.js entries
-function loadInitialData() {
+async function loadInitialData() {
   const savedCustom = localStorage.getItem('eire_safe_custom_incidents');
   let customIncidents = [];
   if (savedCustom) {
@@ -23,11 +30,24 @@ function loadInitialData() {
     }
   }
   
+  try {
+    const module = await import(`./data_${selectedYear}.js`);
+    mockIncidents = module.mockIncidents || [];
+  } catch (e) {
+    console.warn(`Could not load data for ${selectedYear}:`, e);
+    mockIncidents = []; // Clear if not found
+  }
+  
   // Combine custom incidents and scraped mockIncidents, filtering out duplicate IDs
   const combined = [...customIncidents, ...mockIncidents];
   const seenIds = new Set();
   incidents = combined.filter(inc => {
     if (seenIds.has(inc.id)) return false;
+    
+    // Enforce selectedYear logic for feed and stats
+    const d = new Date(inc.date);
+    if (d.getUTCFullYear() !== selectedYear) return false;
+    
     seenIds.add(inc.id);
     return true;
   });
@@ -44,7 +64,15 @@ const activeCounties = [
 
 // Helper: Calculate Date ranges
 function getDateRange(type) {
-  const now = new Date(FIXED_NOW_DATE);
+  let baseDate = new Date(FIXED_NOW_DATE);
+  const currentYear = FIXED_NOW_DATE.getUTCFullYear();
+  
+  if (selectedYear !== currentYear) {
+    // Pretend "now" is Dec 31 of the selected year
+    baseDate = new Date(Date.UTC(selectedYear, 11, 31, 23, 59, 59));
+  }
+  
+  const now = baseDate;
   
   if (type === 'this-week') {
     // Current week (Monday to Sunday)
@@ -159,16 +187,46 @@ function updateStatCard(cardId, current, previous, isYear = false) {
 
 function renderDashboard() {
   const stats = computeStats(selectedCounty);
+  const currentYear = FIXED_NOW_DATE.getUTCFullYear();
+  
+  const weekTitle = document.getElementById('stat-week-title');
+  const monthTitle = document.getElementById('stat-month-title');
+  const weekLabel = document.getElementById('stat-week-trend-label');
+  const monthLabel = document.getElementById('stat-month-trend-label');
+  const yearTitle = document.getElementById('stat-year-title');
+  
+  if (selectedYear === currentYear) {
+    weekTitle.textContent = "This Week";
+    monthTitle.textContent = "This Month";
+    weekLabel.textContent = "vs previous 7 days";
+    monthLabel.textContent = "vs previous month";
+    yearTitle.textContent = "This Year";
+  } else {
+    weekTitle.textContent = `Last Week of ${selectedYear}`;
+    monthTitle.textContent = `Last Month of ${selectedYear}`;
+    weekLabel.textContent = "vs previous 7 days";
+    monthLabel.textContent = "vs previous month";
+    yearTitle.textContent = `Total in ${selectedYear}`;
+  }
+
   updateStatCard('week', stats.week.current, stats.week.previous);
   updateStatCard('month', stats.month.current, stats.month.previous);
   updateStatCard('year', stats.year.current, 0, true);
   
   const scopeLabel = document.getElementById('active-scope-label');
   const chartScopeLabel = document.getElementById('chart-scope-indicator');
-  const displayLabel = selectedCounty ? `${selectedCounty} County` : "Whole Ireland";
+  const dataSyncLabel = document.getElementById('data-sync-label');
   
+  const displayLabel = selectedCounty ? `${selectedCounty} County` : "Whole Ireland";
   scopeLabel.textContent = displayLabel;
   chartScopeLabel.textContent = displayLabel;
+  
+  if (selectedYear === currentYear) {
+    const monthName = FIXED_NOW_DATE.toLocaleString('default', { month: 'long', timeZone: 'UTC' });
+    dataSyncLabel.textContent = `Verified ${monthName} ${currentYear}`;
+  } else {
+    dataSyncLabel.textContent = `Verified Data for ${selectedYear}`;
+  }
   
   // Set dropdown value to sync
   const dropdown = document.getElementById('scope-county-dropdown');
@@ -224,7 +282,7 @@ function renderMap() {
     // Mouse events
     path.addEventListener('mouseenter', (e) => {
       const count = countyCounts[pathData.id] || 0;
-      tooltip.innerHTML = `<strong>${pathData.id}</strong><br>${count} stabbing${count === 1 ? '' : 's'} in 2026`;
+      tooltip.innerHTML = `<strong>${pathData.id}</strong><br>${count} stabbing${count === 1 ? '' : 's'} in ${selectedYear}`;
       tooltip.style.opacity = '1';
     });
     
@@ -287,11 +345,20 @@ function renderChart() {
   const chartHeight = 180;
   const padding = { top: 20, right: 30, bottom: 30, left: 30 };
   
-  // Calculate historical monthly data for the selected scope in 2026
-  // Months: Jan, Feb, Mar, Apr, May (current month is May)
-  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May'];
-  const monthIndices = [0, 1, 2, 3, 4]; // 0-indexed months
-  const year = 2026;
+  // Calculate historical monthly data for the selected scope
+  let months, monthIndices;
+  const currentYear = FIXED_NOW_DATE.getUTCFullYear();
+  const currentMonth = FIXED_NOW_DATE.getUTCMonth(); // 0-indexed
+  
+  if (selectedYear === currentYear) {
+    const allMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    months = allMonths.slice(0, currentMonth + 1);
+    monthIndices = Array.from({length: currentMonth + 1}, (_, i) => i);
+  } else {
+    months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    monthIndices = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+  }
+  const year = selectedYear;
   
   const monthlyCounts = monthIndices.map(mIndex => {
     return incidents.filter(inc => {
@@ -384,7 +451,7 @@ function renderChart() {
     
     // Interactivity title tooltip
     const title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
-    title.textContent = `${months[i]} 2026: ${point.count} incident${point.count === 1 ? '' : 's'}`;
+    title.textContent = `${months[i]} ${selectedYear}: ${point.count} incident${point.count === 1 ? '' : 's'}`;
     circle.appendChild(title);
     
     chartSvg.appendChild(circle);
@@ -617,8 +684,10 @@ function setupEvents() {
 // Populate County Dropdowns (both navbar and editor dropdowns)
 function populateDropdowns() {
   const scopeDropdown = document.getElementById('scope-county-dropdown');
+  const yearDropdown = document.getElementById('scope-year-dropdown');
   const feedFilterCounty = document.getElementById('filter-county');
   const incCountyForm = document.getElementById('inc-county');
+  const filterDateYearOpt = document.querySelector('#filter-date option[value="year"]');
   
   // Sort counties alphabetically
   const sortedCounties = [...countiesList].sort();
@@ -640,6 +709,28 @@ function populateDropdowns() {
     opt3.value = county;
     opt3.textContent = county;
     incCountyForm.appendChild(opt3);
+  });
+  
+  // Populate Year dropdown
+  const currentYear = FIXED_NOW_DATE.getUTCFullYear();
+  for (let y = currentYear; y >= currentYear - 30; y--) {
+    const opt = document.createElement('option');
+    opt.value = y;
+    opt.textContent = y;
+    yearDropdown.appendChild(opt);
+  }
+  yearDropdown.value = selectedYear;
+  
+  yearDropdown.addEventListener('change', async (e) => {
+    selectedYear = parseInt(e.target.value, 10);
+    if (filterDateYearOpt) {
+      filterDateYearOpt.textContent = `This Year (${selectedYear})`;
+    }
+    await loadInitialData();
+    renderDashboard();
+    renderChart();
+    renderMap();
+    renderFeed();
   });
 }
 
@@ -783,8 +874,8 @@ export const mockIncidents = ${JSON.stringify(incidents, null, 2)};
 }
 
 // Initialise App
-function init() {
-  loadInitialData();
+async function init() {
+  await loadInitialData();
   populateDropdowns();
   setupEvents();
   renderDashboard();
