@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2024
-// Total incidents: 36
+// Total incidents: 28
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -166,19 +166,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:42.939848+00:00"
   },
   {
-    "id": "INC-8E897927",
-    "date": "2024-08-23T07:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "Man arrested for attempted murder after woman stabbed in north Belfast - Belfast Telegraph",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORUZITC1UMGpTM2szU0N1blVVelJMbWZSRkVVc2NKaHl2Q0pyenJWYW5wQmpTanJqeVB6bFY4cE5SblJtaGt1cmg0blZXUUNEYWd4ZW9OU0t3Z1U1QkVKeWV6Qjhhd2ZNRzVGelo4V2gzTUJFWm9ieGVhbGtVd1lXcHlRU2dINWEzU2ZHNTlreDMtMmhCby11MllXYVZsUHNpUW1vR2NncUUwVGdvMm94SGZTV2l6eXJETW9iR1hPU21lcW9IMDJWS1NOX2hSQnRDcDNUbTlZWmwwM3Vk?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:42.919420+00:00"
-  },
-  {
     "id": "INC-C8E78131",
     "date": "2024-08-19T07:00:00+00:00",
     "county": "Cork",
@@ -190,19 +177,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:31.279763+00:00"
-  },
-  {
-    "id": "INC-56F17387",
-    "date": "2024-08-18T07:00:00+00:00",
-    "county": "Cork",
-    "location": "West",
-    "description": "Two brothers, 30s, rushed to hospital with stab wounds after long-standing family dispute in West Cork as arrests made - The Irish Sun",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdVFrUnpfazhjVmtmQmpVWVFSSnFDdDFyTjhHLTdBTXlMVmlycDY0WFJiUzdLOXh0ODUzWHdHeTVrd0NaMGV2ZDNXV1pRazZvRGRRQmFYWWhaaWdUdHh6cHhRSC1HNU5lUDQ2MHlQVl91cTE3MG9iLVBraVpwT1dOWDZOSWRSaGM1Wm1rellmZDNUNlJTREdFXzJXOUlHRHZfbmNKTVllcw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:31.286793+00:00"
   },
   {
     "id": "INC-2A39CBD1",
@@ -231,19 +205,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:39.002427+00:00"
   },
   {
-    "id": "INC-9F8D78AC",
-    "date": "2024-08-17T07:00:00+00:00",
-    "county": "Galway",
-    "location": "",
-    "description": "Irish authorities investigate potential terror links in Galway stabbing of priest - Newsbook",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMmNlVzd2QjU3REl3bEdzVWh5Q0xjMEc3Y25yd29uSkNsTHJfNnl2VUR4bm1NZ21pNEtqZ29oUjhPb3M0T0JxZ2tFTzl6Q2s5SWp6c1kxWmZ3eGlNUXB6SlVYTUVrbzRRbE9zSDlBTmhJQk9YUGtsQWlXdUZJbUcxc2ctdm13Tm12NGRJWVpFU1FPYms3T1M1WThCVzhjR3JKTTkyaHI5QXhxaXBkZ3c?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:39.038846+00:00"
-  },
-  {
     "id": "INC-A55439F7",
     "date": "2024-08-16T07:00:00+00:00",
     "county": "Galway",
@@ -255,58 +216,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:38.995464+00:00"
-  },
-  {
-    "id": "INC-34649ACC",
-    "date": "2024-08-16T07:00:00+00:00",
-    "county": "Galway",
-    "location": "",
-    "description": "The scene at Renmore Barracks Galway where an army chaplain was stabbed - Irish Independent",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOblRTTXcxdDRucWV0S01FS0NZRGxJTnJaQ3QxZHZWd1BCNEljRm80VHk2aGhBeGZtNzBrbXJ0SjdYdGthYkZibEg3bS1SYzZ2clNZbUQ1WU80dHNoam54VWktZGU3RVRGNmRiOFFvVm1aVVhWbmd3ajFmTVE0eVRwbC03WTVWSVhJcy1uaFUxUHdLb0JxMzVIYzdoMG1EREttME9iVk9Ud2dKWGJFdlBYcWdYUS1laHlRRGdfMUpCaTNWb3Rq?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:39.004022+00:00"
-  },
-  {
-    "id": "INC-2902046C",
-    "date": "2024-08-16T07:00:00+00:00",
-    "county": "Galway",
-    "location": "Galway City -",
-    "description": "Man (50s) hospitalised after stabbing in Galway City - Galway Daily",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNFdEbGpkdzhaMTYxYW9XVXlnV3J0WWdKTFgtVjNieHBfSTAtcmROZ3lWbmhnRkRxR3hmcEVhaU9DY2RaZHlnX05qYU5OT05rUEw2YVVpS0V4T01xY0RGVkg1czV0ZEVlWTZzckRlSEVMc3lPcVF2SUczUnZ1Y2ZxZkZGbVVFMkVzejd3RHphb0VVejh3N3YwN3J3?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:39.008148+00:00"
-  },
-  {
-    "id": "INC-9F503035",
-    "date": "2024-08-16T07:00:00+00:00",
-    "county": "Galway",
-    "location": "",
-    "description": "Terror motive explored as army chaplain stabbed outside Renmore barracks in Co Galway - Sky News",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSFVSX18zQUVFakYxSEhpdVBaTWhUVk5vamNfb21BVHdyNWtwR2VSY3BUSFZ5NU5ZbFF1cGp4R3hBMXZIeG90U25lbWhOYlduRDN0cS1BcTdfakhaNDRPLURXelZtS1RGRy1vb25lU1ZyVnFnckpJZERseXVtOTAzelZ2WTFibjZpazgxZ3ZSaUhPZFRvXzlVa252SWRJdkw0YmllWXVJSmxja041QU1VYg?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:39.011203+00:00"
-  },
-  {
-    "id": "INC-68E5F980",
-    "date": "2024-08-16T07:00:00+00:00",
-    "county": "Galway",
-    "location": "",
-    "description": "Terrorism link probed after popular army chaplain stabbed outside Galway barracks and boy, 16, in custody - The Sun",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSWMwM3FMMmNfUXR2T0VRMHVrME85TDNSMUgtcUEwcEc0RU1mZVZUbEJJOTZ4SjRUUFYyM2VkS1hZTVl4anIxZlZFdTlFc1RPZFJicGl2MFBXNHJWazJOeXNOYmtEMWdtN1c2UU9pc2g2NTlab21EZ1Y4UFhEQWxLLWtwQm5Lb3hqNGloMVN3T0F1Zw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:39.045141+00:00"
   },
   {
     "id": "INC-60818E53",
@@ -411,19 +320,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:48.799061+00:00"
-  },
-  {
-    "id": "INC-F674E984",
-    "date": "2024-04-01T07:00:00+00:00",
-    "county": "Longford",
-    "location": "",
-    "description": "Longford 'shocked' as Irish woman who died after New York stabbing named locally - Irish Examiner",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA4NlVHOE1zYjlPbC1mRUQya2U1ZnIwbGw1NjhLY2I1QWZtczdMbDlUMTRpdUlSQVdUSW9kWHl0NTE0WnJYM2E4ZnVlenp1eFRVNTlwYmdHNUEwQkxtNkE5WUtJYw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:48.820046+00:00"
   },
   {
     "id": "INC-C3746EDA",

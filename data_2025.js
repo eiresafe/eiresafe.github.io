@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2025
-// Total incidents: 176
+// Total incidents: 124
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -75,43 +75,17 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:25.191250+00:00"
   },
   {
-    "id": "INC-BE9C6918",
-    "date": "2025-12-27T08:00:00+00:00",
-    "county": "Down",
-    "location": "",
-    "description": "PSNI names man they wish to speak with following stabbing in Co Down - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdlR0ZjBFWk9xYWFKOTNkQXVLd2ViMW9aVjVkMEFNT1dCRFM0WmVJdEptRF81TjdLTUxCbnBlZ3doM0gtV2VqeFhxd0YwcVlzV3h4eDUtbnNKYURJMUFxSzBReGhVa2g3Y2cyMmpyUHFmRHViaS1kREc3N3UtOVU4SnZSTU9LU0I2MkEtWEhWT1FlYVpaWG5OUF9odDdtMmRiOEUxeEtrbkpXcF9LOVRpUERxa2Qta1k?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:42.883101+00:00"
-  },
-  {
-    "id": "INC-0453FD5F",
-    "date": "2025-12-25T08:00:00+00:00",
-    "county": "Down",
-    "location": "",
-    "description": "PSNI search for suspect armed with knife and hammer following Co Down stabbing attack - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONUh5V2R0cFBIMW5hbmJKakM4S0ZQZG8wNmxsaDFGdmRsdzk4MnJEQktHN3FqVGNDMlAtSGpOV096eXhUQVMxNXJlUHdSSE9IRjNSVUZzWHNCY1JqWG91cVBaaXQ3NXdobU9qcm1ZUDdsNTVXV1N1c2FfRl81SHlkUkFVemh4YUZCOEVNYjVKMmhTS194WGNuOFBTaU1TX2JjaWdXSzlGZlJPN3FGQUVVbEZNWWVYbW1xNlprbjZqQzNUNWZWWlN2X2dwME5uc3M?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.223878+00:00"
-  },
-  {
-    "id": "INC-4C8F6AE2",
+    "id": "INC-67546265",
     "date": "2025-12-25T08:00:00+00:00",
     "county": "Antrim",
     "location": "",
-    "description": "Pictured: Suspect at centre of PSNI manhunt after Christmas Eve stabbing - Belfast Telegraph",
+    "description": "Bangor stabbing incident leaves two people injured, one critically - Belfast Live",
     "source": {
       "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTkU4cjZjOGlDUUJjcWlva0FVNWkwZW43N2hpMXBPOUhGMnNSVjNMT0xIaVl4ZFFiWXUtZmdGQmhVUUJTNEVMTDdoc0dTOUVRZlI0a1JGMXdIeHVPTlpwemZFZnkxR1A4MHhRTTJad0pjcVc3NGVTc2xmdXlULUhGcnZJRURQOVFHRDdSZTQxNGIwbEpQMVRrcDhUMHVENHZjS09ZdmVKMkhhVTU5X1BiSUNmUWZvMnlhMnl3NWFjV3BEX0h4ckU5SjFmZ1ZQM2xkcHU1YnJrM0tLSlF6UFE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSWpPQXR0anFXQUl4RFRMZTZxZmR5VlMwZXJaR1Y5NjE1cDdTem53aTFRd2ctNloxRlFjNjFnUm44ZDhVVm1FMk1ZN3gybDg3VzVlTnpSUmlFY0ktR1NYVXFqcWJ5bWV6V3JTdnhsTHpZTGFLcDhJdEpsRm5xUzZsd2RZNERHZ2hhWGJLUDB4SzBjd1ZROVVOdWswZTDSAaIBQVVfeXFMTy03LVZpZTZ6YUtYcGRhSUlEYVhMejkyZENVc0lzbW43NnlsUVVBczM5OU1HZFI1TTVIZVBZOFJGRWxOMGFZNHN3M2JZTDNvblVLLXBrU2ZSeEtRNjR5c2xmRm9Ud09pQmpsdy1pV3JGdExGU2F3Y2xDSkdHaFFCTFktU01QMTNVS0lhV0hYeVFNVDhBUTQyQk5mYm5qT1cxdjlR?oc=5"
     },
     "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:42.897103+00:00"
+    "addedAt": "2026-05-21T20:19:28.740197+00:00"
   },
   {
     "id": "INC-CDB09554",
@@ -153,19 +127,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:27.273151+00:00"
   },
   {
-    "id": "INC-39FDC5A1",
-    "date": "2025-12-16T08:00:00+00:00",
-    "county": "Antrim",
-    "location": "North Belfast -",
-    "description": "Man 'armed with knife' arrested in North Belfast - Belfast Live",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZFNkUWV0NjJOazBzV2ZKSUphNkNNVVpLb0piVXREVVBrZjVHajRjT0MtTWJYcEhqcXBYZHR2UkEzWXFydzF6cFhWdE5nTlZRaDE0X0N1S3V6Ti0wLUdoZ1FocGhYTnI2Rk9lSWltSnREYzU1dnF1Nmk3TEh1M05wVVItRE93LXNUYnpiR2tCS1bSAZYBQVVfeXFMUFBYMWQ2ek9YZXgyNUNpUG9aY3RsMTNPRXdzdjFpVlo5N1JsZjNuUUNBNU1BQjd0bTM5MnFyWUJSYlJpeW00clkzSzk2MkF6cEd4SXpjd1hYYjVnVXRRTmRDUjhqV04ta1doOHVwblB3N1YzTDV5dlBzRGFHdVhLSkxGNmVVQUlTaUMwUFcxYlQyU181UVVB?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:33.212548+00:00"
-  },
-  {
     "id": "INC-5D49B9A1",
     "date": "2025-12-11T08:00:00+00:00",
     "county": "Limerick",
@@ -177,6 +138,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:40.964074+00:00"
+  },
+  {
+    "id": "INC-DADF567E",
+    "date": "2025-12-10T08:00:00+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Limerick man, aged 91, awoken in his bed by knife-wielding burglar leaning over him - Limerick Leader",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUnd3dE4xdktsTVVpRk5vNW96MlRCRER4bVEzX3pfandSUWhkOVhSOTQ1ZlNicmFwd3FYSm11REV2UmRwczlEQjlEcnFlRkZuclJhY0FaVzc5ckxvd0RGQ0NFcmliRFRURDQ2Q1F1dXZfNWRXNThZS1RObzdMQV80X3d3TS1icGcycDdwTHRVWGxvZUpCbjlSRWNlOGtuenZYclZaX0JBcVNuTG1aU1JKLUV6a2hKWUlmU19nRTN2aXJjbjZrNUFYVHV4TDJRVHZScHM4VEN0SExIZ2FaTkpN?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T20:19:26.648025+00:00"
   },
   {
     "id": "INC-362178A9",
@@ -203,19 +177,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:29.390806+00:00"
-  },
-  {
-    "id": "INC-0C2E9802",
-    "date": "2025-12-01T08:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "Man who allegedly tried to kill his partner with knife and a baseball bat denied bail application - Belfast Live",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1GZUg0U0F4UW5CbXpsMGw1YjlMRDM3WFRaNDBzbUU5Z3hXT2w4bUlVa3NaTU8taVN2N0hZaGVBMGQ5MDRiX1hvNzYtemNyVXlGUUI5N29tcnROenNpVC1uTXF0WnBQd0l4M3RXQWxPZ19BdUJjYTNuVy1XdkLSAYIBQVVfeXFMT3ZmNWdXS1NSTEszdVBXWnNoSjFwdXBva3VzOFRKM1ZPQ3g5dXRiUjFvRlVCUXVtYV9jbUdNdXpoSEp5NmNQM2JVaHlmVHVFc3U2SnhfQ0QzbGs5MlJnZG5HRnh6OGY5b1VDYXlwYmVvWXRJN2tKeE5RYXdwVTFjZ3g2Zw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:33.252244+00:00"
   },
   {
     "id": "INC-04C533EB",
@@ -257,32 +218,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:27.216600+00:00"
   },
   {
-    "id": "INC-0D8B21C5",
-    "date": "2025-11-27T08:00:00+00:00",
-    "county": "Derry",
-    "location": "",
-    "description": "Londonderry: Attempted murder arrest after officers injured in knife attack - BBC",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CQU1FM0dmRmwtR0Z3XzNRY1BnSlhwS2pGNUdWWHkzYlYyaVNZMnE1U1ZyM1REcjJEZWVpRF9nNEtRUUJJSXhWako1U09iUnl2OVlNMG9CRzBVUjhq?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.261160+00:00"
-  },
-  {
-    "id": "INC-378A8F97",
-    "date": "2025-11-27T08:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "PSNI officer stabbed in 'brutal and barbaric' knife attack - Belfast Live",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ3lpSC1hLV94cE56dXBTX21CcEFnREpleUVOWHQtNGM0aWY0TkREeFUwektTdFlGOFZvVzRvM2lfVWl2Q0swX2paWHR2Z1Q0NzdsdXl1bDdHZUwwTTU4UGREbk1tbFhYdXJYclNLX3RsMlRQSG5aemQ2Wk41YVFyTDhjenR4RzNXU3lCVnRCRHVHWnlxdkxLVlM4Vk9ad9IBowFBVV95cUxNR3pHbXVOSk01MGlCVmY5VTQzVDFPVFhVcG9jQlF6eXpPcno1Y3pKQlRpTUtTMzR5blpoZWQ5SzRlWG1JVF81cDdmSFR1SkJxTGZKQmxoR3ZtTGpMU1lNYzZRREFGUjNaZjRoc0xhOVlJeTlFWXJ6dDY5OXpndkZhTmdoQ25xYjg2YkNNREdRZTAzWEd1alRlSXowSkhUQm9oMl80?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:33.215831+00:00"
-  },
-  {
     "id": "INC-074DC111",
     "date": "2025-11-25T08:00:00+00:00",
     "county": "Cork",
@@ -322,32 +257,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:48.789489+00:00"
   },
   {
-    "id": "INC-3840E29C",
-    "date": "2025-11-23T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "'Kind, caring nature' - tributes to woman who died after Cork stabbing - RTE.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMFRva0N3bjlIaExyYlZoMUJ1bWpNRnUtQ1BHbU9JQmlVVlZFZElyV1RodzZKd2gwelJtemxFbmxJT19jQkJDckVKakhxQ0JvQVM2Q1VpNVVVcVJLVUtJT2wtOW1YRVdVUnUwM2Z4c0VsN2UtcHdtU2NjbXBMMDhpbVlR?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:37.136182+00:00"
-  },
-  {
-    "id": "INC-0EC280B2",
-    "date": "2025-11-23T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Tributes paid to Stella Gallagher who died after stabbing in Cork - The Journal",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEMGRPb3BFSnNRd3RtbHpoOFZOb1VRYTROaXZkSWh3RWNxbTNSWTMyUHNocl94VV93RDdSV2dwNmtLOUxsQXd3aW02VTM5WFFla3FWSUlLVlVZRWt6ZTVkS0lYNnR1eXk2ZzJ3ZTI0M3hFcjNQRl95bmUwMA?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:37.162595+00:00"
-  },
-  {
     "id": "INC-DE6EF6C4",
     "date": "2025-11-21T08:00:00+00:00",
     "county": "Dublin",
@@ -361,30 +270,17 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:29.404451+00:00"
   },
   {
-    "id": "INC-CAB1F756",
+    "id": "INC-DDA0D1FC",
     "date": "2025-11-21T08:00:00+00:00",
-    "county": "Cork",
+    "county": "Dublin",
     "location": "",
-    "description": "Funeral of woman killed in knife attack to take place next week in Cork - Irish Independent",
+    "description": "Mum of girl, 7, stabbed in Dublin says 'pain still there' 2 years after attack - The Irish Sun",
     "source": {
       "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaUJka0RPaUZmQUExcGVTaUVHd3ViZ3ZFQThtaW1RMHFKTndKYmlsTmg2NjBQdEs3WTlsRDZ1WmNmUVZZQmVUTEdDUTJ1RHNEMjVZU0JGUTZXcFo0WUQyZkttVi1fN1lPd0toc1UzQnQtUkoxU2FrVmRKT2J6UE9waHlsdW5JMGVKSU5rWGs3ZWNSWWc3d2RJTnhDZ0JkU3gtbEt3TVJZVjI2OXZySnRUQXhzQjktbVlDbWdHNlZTTndUUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWGE2UjhUaV9KR2ROMW9JZXl2Ry11aFJnOW9wSGFEYWJBNWF0Qk4xQTlldjk2X2RsbDJ3cTBBcFpFQmY3WjFtX2hxRnZ1R3lSTlVQa0NuRUdUZktlUXJuTkhPaHpGT2FPM1E3WWN4X0R0d2wxWUVlR0lLMGlVY1BpUVl4LUJib0pmMktMYUp4UTd6MEt6?oc=5"
     },
     "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:31.250466+00:00"
-  },
-  {
-    "id": "INC-535F6E9B",
-    "date": "2025-11-21T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "'Gentle lady' who was fatally stabbed in Cork City to be laid to rest next week - Irish Examiner",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01U2RjUHFvd001TC15QjhUY0xweHg3VXVZZm1oY1puWFR3b2pubThpNl9LZU81cUFnUzlYYjJYaUF4dU9fNnZpUHRzNEVQcFVCdXgteGpWZUVyRHYzREhCQ01CdlNpQ3NuaWNiX2dR?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:48.774219+00:00"
+    "addedAt": "2026-05-21T20:19:34.531936+00:00"
   },
   {
     "id": "INC-0E611B31",
@@ -426,19 +322,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:37.151002+00:00"
   },
   {
-    "id": "INC-D477A590",
-    "date": "2025-11-18T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Cork: Woman dead and man seriously injured after stabbing - BBC",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43VExVdWt0NWRVMkcyWk93Rm5nN0dLaE5qa3FTQzhTYkpRVUNPWGxRR1JsVEpUWUM0Ui14d2g1Q25TVmtfQnMwU2s4TnQtckZ6VVpIMkxYRGk4UQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:25.239169+00:00"
-  },
-  {
     "id": "INC-FCBFB548",
     "date": "2025-11-18T08:00:00+00:00",
     "county": "Cork",
@@ -478,19 +361,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:31.264228+00:00"
   },
   {
-    "id": "INC-6E2E71A2",
-    "date": "2025-11-18T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Victims of Cork knife attack named locally as man remains in custody - Belfast Live",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbUw1U2hmMTEtVDBDX01BOGFXU09yeGZUTE1VdXZ4a203aE1pVVZPYVB0blBiS3Q1OENYQlI0d2t0dUpNcVAtSUdMbXA2S09CdnRxa1JmVmdZLXV5MHBoSzBhcnRmRDgxbXhqbWNJNTl2OTlUNHk5cmpHbVl4eGx1Mlp2SzB2Y1B0RlNvYW9BT3BGNDTSAZgBQVVfeXFMUGpWSVlLRlREQUxYanoxVTlTZFdWV1ZDTXpGX1pWT2hfb0V4R1cyYnFzb18ycUxNUE42MjZGMGNGZkltNlhQRUZKSm1TWmdXWDJsQVBQMkNXU3U3ai15ZmRwWU5uYkJLYWZnbHVsRjFscEFOVE53NW5IdWpWcTFyc1NsbEtxWDhZOVJpQkZORS1uNl9ucnVhOVM?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:33.219222+00:00"
-  },
-  {
     "id": "INC-9462607E",
     "date": "2025-11-17T08:00:00+00:00",
     "county": "Cork",
@@ -502,97 +372,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:25.238473+00:00"
-  },
-  {
-    "id": "INC-9C79E569",
-    "date": "2025-11-17T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Garda\u00ed investigating if weapon used in fatal stabbing of Cork father may have broken during attack - Irish Independent",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQOU9MTXlsMVJhWmt0bFVMWjFkQ1FTRFRZbHd6U1NEb2lTYmE3NmFjQVJEc1g5MnNkdEhKU2M3ZTNJNWdrT05lSzJtMlg4X1NDb2w2VFdBNGxpOHozTGJUel9GaUZ3S1FuM1NLQ0xUelRCd3A2clJCaWZsV0xWeXBOSi1Vd2hwTmhqa1V1eDNLdUFOTW1FTFdzQm1ZcmM2Tm83YXNONlBWMzlPYmU3blNjUDdKdWZQc0thMFBxUDNrOHV6ZDNaeFQzYlVadkk0X1NWZGFwMWV5NEFSbVpIU0JVRjExSm5wZm8?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:37.152125+00:00"
-  },
-  {
-    "id": "INC-D83AF908",
-    "date": "2025-11-16T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Garda\u00ed open murder investigation following Cork stabbing incident - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcWc0NkxIWXdqU0lPQno5X3BKN1ZUaDAwbFZQa3ZMUGNnN3NQam9MQlVhN05NSThhemZEcHNVS1pTT2NTOHpDRlNYdGIwUUNVQ195VkdwWGJnQXJod1I4S0U0ZnRCbldvbENRR0FVR2VUUWdxT2NaaXltV3Rjb0R6SUFvS0lNRFAzeFVsYWJiUExWZ09DR2hZNElSdnB3NDBDQlExcVp2aEwyaTA?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:25.228641+00:00"
-  },
-  {
-    "id": "INC-C80C9986",
-    "date": "2025-11-16T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Murder probe launched after man dies in Cork stabbing - RTE.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84YmNFQU9xb1o0dmx5YUJncUYyeGJ2MkhISVdZM29ST3dWTlUzOGZRR3NpM3lzREdkZWhNWFg5TUNKbkJVSzRKLXVMVmlDb2RTYlQ4OFhyYlVnRGJ5TlBBTFZDN09CUjFGVVZiRDFn?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:37.110120+00:00"
-  },
-  {
-    "id": "INC-24137F74",
-    "date": "2025-11-16T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Cork City fatal stabbing victim named locally as Mark O'Connell - Irish Examiner",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1McDd0NGVOaVVhTXVfTnIwWUd1MVFUR0s5S05id0hTa2hXUE9vTWlMNmhuMlJzVUF5VGxhSHhiYXY3eDJ1T1l2TFpxcXo0OWRxSnFIRUxXWTl4eUdHV19qV0JEcXFhbnZEdkRBb1dR?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:37.146839+00:00"
-  },
-  {
-    "id": "INC-A30DE446",
-    "date": "2025-11-16T08:00:00+00:00",
-    "county": "Cork",
-    "location": "Cork city -",
-    "description": "LIVE: Man arrested by gardai following fatal stabbing incident at home in Cork city - CorkLive.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNb05FenJpaW5POVBYNFhWclJ6OFRFcENjOFdMMU5WbFNZWDdCUkZnWUUwcDRxcXg3aGhzZkpYdnNJM2lRSW4wOVAxUEo4NHNrelhRMUUxV2hKMFljWm82RnBnUEtESlZTeHRkeWt5RlN4czItNWhJYXh4MjhZWTg3OEtxeG81N3pDSVZsUWVIeHR2NFRQUVd4VzNQcGMxdm5QcHBxVW9WVVhsekFOb1JuVlpsZGZRZVVMcEJhaWpVSXlsSE51bkZVZXJWMGNLcjJ1amZhZw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:37.161128+00:00"
-  },
-  {
-    "id": "INC-7BE902D8",
-    "date": "2025-11-16T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Man, 30s, dies after being found with stab wounds in Cork as man, 50s, arrested - The Irish Sun",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbHdqYWx4cS1taHdYdldBc1RxZjRBczdqanBoVnlSNFpGdHEyUm9veXRnTHZPZzJCM3drOHNrbDNaUkd4Znc1R2E0QUNVblJOR050Rkk3dW5YMWFmMGhnd3RacjhZSkdDejczeEtTVF8yWXdMY25QczQtWWxJQVhFSWs3QUlsMW9VQWc?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:44.837895+00:00"
-  },
-  {
-    "id": "INC-7B853405",
-    "date": "2025-11-16T08:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Man (38) who died after being stabbed in chest at property in Cork named locally - Irish Independent",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQ21MYjB6b1pLMHhfTXRkeWM5UDQ0MlhkV204akFYY1daQWJVeFhVNmF6ckxHUERiTFFtTU0wN3ZPZEM5VU9nRHVpVllLU3AyblFEZFVIZFpiS19tTFpaVWNFS2JhVF9jSkNyU0NOX3BSaWpTY3lxUUk2NXpaZ3k0ZUFQeEF3ODVQVkR4ZGMxZ1ZjTWl4Y2NvOXV6anRwVHlzWDA3QVRKZlFVaGZtY2pLaVN0c3NBUGdDVXBhbDNJUHhTY2lQUE53a0pnVWdOUQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:46.790495+00:00"
   },
   {
     "id": "INC-65352485",
@@ -647,19 +426,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:27.247692+00:00"
   },
   {
-    "id": "INC-5DEF01F2",
-    "date": "2025-11-04T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Tragic first pic of man, 23, who died in Dublin attack after being knifed in heart as gardai probe motive & hunt killer - The Irish Sun",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV0lSWTRCOEN3SFB1X2JnR3k2MDhsQ3VvcVdiZkNRRDkta1huckNPa21qNnA0V05Cc2Z6NTI2Y1ZyQXotaDlaWmdrZFI1RnRoR2RKUFh3T1NBTnhBZEdVT29uc25lTlA2T3lNNmF2M0RUWm1fbWxtOTQzYzg1ZDVGNGNLU3ViaWJOb0t5elNsX00zRkJkSDJheXZINXcwRFk?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:46.821806+00:00"
-  },
-  {
     "id": "INC-E2FD2D0D",
     "date": "2025-11-03T08:00:00+00:00",
     "county": "Dublin",
@@ -684,19 +450,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:35.214649+00:00"
-  },
-  {
-    "id": "INC-0DE366A9",
-    "date": "2025-11-02T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Dublin stabbing victim named as garda\u00ed arrest man in his 20s - Irish Examiner",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jUEZwUVJnZXVFS1FfTkdXdzhjbUJUcm11R0VCeUMtMFkxQnZWaEhwandzRXRNN0xhZWUzaFdyVXdraml4aTdnNGpfWEhKdmsyMDZ0N1h2VmpGM3pBQTFyVUJRNA?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:35.189409+00:00"
   },
   {
     "id": "INC-48F7099C",
@@ -842,69 +595,17 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:29.355535+00:00"
   },
   {
-    "id": "INC-CE0D0CED",
+    "id": "INC-135C5EF0",
     "date": "2025-10-17T07:00:00+00:00",
     "county": "Dublin",
     "location": "",
-    "description": "First pic of Ukrainian teen stabbed in Dublin flat days after arriving in Ireland as suspect, 17, arrested in hospital - The Irish Sun",
+    "description": "Teen had only been in Ireland three days when he was stabbed to death - Dublin Live",
     "source": {
       "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYklpNkVvQlVFTHRHVXNMWW9VSTQ0SFBrQVR5TjlxaFVGWWVUc0VYSzRCdnlsLXpxZmJWdjlaeG1rRW9MWHNJWExuUjdFalNPcFp0WmhlQW1TallUeFU4ZFhfR2VHNkMwc2ROTk5JNEJuMlBHLWJocmxrdnhvSXVUbmJpeHlUaEsycUhWc0VNQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTGxwQ2tlaF81YjRYdTRaZ0FsT1UxdlgybHREVEZva1pqV29QZFAtNk9hZ3VteWpuVjItNlNfSnNNQlRYUll5a0dZTUdMV0txOGxqSjF6QnBvMmNpcmd4QnMyN0ZodnRvTTc5eVZVTFBjODJPZzhyT255Ukp5T2dMVTJseTl6aFXSAYwBQVVfeXFMT0w2U3ZpSF9sMG80NklTVU1mQTlROGRfdklxc19tVTViQ2FxOVRYMmppUGI0QjRLUzRGQVdkLXg3akJjWXZ1R0NwZ1pPVHV5TWtLalUzRWNiRVZaRUZ6Q1UtNE9ITW9FZnBpMDZNX2hLNUk0S1hhX2RERWZHYVhSSk9OR3JUeHN4SEo2dzI?oc=5"
     },
     "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:29.420010+00:00"
-  },
-  {
-    "id": "INC-A24FD6EF",
-    "date": "2025-10-16T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Dublin: Teenage boy killed in stabbing named as Vadym Davydenko - BBC",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByS3RQOFR5VnpqUEtpeTZqb1B2Qll0ZU1qWEVMblFkRHNaUVJLNXdRTlZZM2NXQ0FadTZJT1p3X1hBR0NCbWE2bEw5ZUZKQXJLajlWeTZmcFVzUQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:25.225920+00:00"
-  },
-  {
-    "id": "INC-F5969C2A",
-    "date": "2025-10-16T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Teen (17) stabbed to death at Tusla unit in Dublin, second teenager is chief suspect - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQVo0Umg5YWxiTWQ5VE9Rb3VfQmVBQTYwbTFYeEpnU2pHYV9TVEVUVnJVZlVBUUFKLThiZWg1N2swTnpIT29YaG1oSnZaaEYwOUNHMFJnaWVHeW9BeWtWcElXSVBDWU1VbGUxMlF5VjhjVXBWT0tIV3JhZmRKNEVvRkhDQlRqTzNfSVlBN0V2N05SRFRjT00tMWRzLXFaNHhxY1E4eUJYM3ZUYkhUaFZfaEdSWUEzMjVJQm9VbHcwMDhPZXd0VmxzN0V3?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:25.243077+00:00"
-  },
-  {
-    "id": "INC-9E45E0D9",
-    "date": "2025-10-16T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Garda\u00ed plan for release of Dublin stabbing suspect - Irish Examiner",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JTmZCVTJ2a09YVElLZmxUTTRJam5RY3VxejNLZVY4LVFhVmRVMktNal94N3JCaEFyVEFNZjJaOFBZdVBYcWZadldaUmtIMVp4Wnpwemxrd010bUZaaXhmeWFhYUxVV1pJdWNSY0hHQk8waDlseXc?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:29.376348+00:00"
-  },
-  {
-    "id": "INC-7571DE95",
-    "date": "2025-10-16T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Gardai watching Somali suspect in fatal stabbing of Ukrainian teen as he undergoes surgery - Dublin Live",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYmFoRWh0dmp0cVFqc3hoc3hSRTIxR1lFM2Z1ay0zZnozd1JCYjdNbFE5ZmkxWjBKNm55cWVCTE44MDBfMDVYX1ZBeGg4N3VwRTJSZEc1YXBDMl8yYTVHRXNPaEJfNFBxTDNCaDVhSHVpcElwTktnSHpTNEdJNkRzWkc3U3dkdjY2RUpMNTZqaV9sd9IBlwFBVV95cUxNQW1IM3FGR0dTd25tYTVOa2hXdVpDUzRWbGl0LV9zZkJzanVoNXN5bWt3Nlpqa1pFb0JlbWNCOWdXeDhPelpHM3JCOGhoWG51WEg2Q0JyQ01lUUZpNkgtaVZuZ1RrOFQyS3QxRjFvcjgyZW95MWIyMVcyY3BiNENuZU1IUEg3aHp6TjdPc3lESl9KcG42RzFv?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:35.219508+00:00"
+    "addedAt": "2026-05-21T20:19:32.617630+00:00"
   },
   {
     "id": "INC-417CDED5",
@@ -959,43 +660,30 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:29.403375+00:00"
   },
   {
-    "id": "INC-0CE43147",
+    "id": "INC-216B913B",
     "date": "2025-10-15T07:00:00+00:00",
     "county": "Dublin",
     "location": "",
-    "description": "Garda\u00ed hope witnesses can shed light on fatal stabbing at Dublin youth residential home - Irish Examiner",
+    "description": "Teenage boy dies following horror stabbing incident in north Dublin - Dublin Live",
     "source": {
       "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pamdVTE9oYmxOLVJLTDduR0ZoeHlUbHRSemF6OGhndTFpUks4VHBSYjBFa2NLMGZoclJZWVJqazJVaWY5R0NyOUN5amlkc05GZno1dThKMjd4T1FpOTZ2dWdFZElLcWVQMkZmQmE5U1lfUDkzamc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE45WExOaS1EcVlVZzJrQkp1Sk9FMmRHeVdOek1PZnlVVU1neGk0a1JEYUwzTHZjYlpoQWRrQ2NtUWFVZlNDLUpmRTZnZnpNS2VZSnRsdWM0QWg4NTZVMll4U09yVEtJN3FIekI1d1JELXJmd2c4N3RQTG9tbVg2QdIBgwFBVV95cUxQdjFpSnc5aTd0ZHlDMldMeXJqaW9oR0J4U1dCQ0hhREZ2aVpWYkQ4X2R0bWhHdEU1WnVzVU54QXVyX084bFNhZ2lOdDZoa2RIandNWkFTaTljRngxRTFuSzNqZmFmc3VjQXpHV0lRMWRwMXNQVUxjeDhBc1oyRmNWcGp6cw?oc=5"
     },
     "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:35.190256+00:00"
+    "addedAt": "2026-05-21T20:19:20.692006+00:00"
   },
   {
-    "id": "INC-0E140A13",
-    "date": "2025-10-15T07:00:00+00:00",
-    "county": "Dublin",
+    "id": "INC-80DB6705",
+    "date": "2025-10-13T07:00:00+00:00",
+    "county": "Antrim",
     "location": "",
-    "description": "Teenager dies after suspected stabbing attack at Tusla residential facility in Dublin - Irish Examiner",
+    "description": "Man charged with attempting to stab a woman to death in Belfast - The Irish News",
     "source": {
       "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9vcnpfb0E4XzRvNkhfSVdXbXl3aERwQVk4SDRfRHNLN1A4N01TNGRRUW83ZEdPZkNyWlpZbUR0Q09zeDE4MnFKQTFpR1UwempZT3Q1VGZvdFE1V3NMRXlvTmJBOA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbXllZmdrSF9hUXdwMGNEbzRkZDVwcEJKcUF6b3VKQ1AzWk9nLV9xWVBBV3UzN2hTRFJONGFTc012S2VMRGNpXzdkNlJlWnhJMktMR2dhQnIzUno5VUFPUkU3NlZ3VkdaSVRzUHJkdWpWWFNSVk80ZGdmbzBLZGxsUHBjTjBYRTc3Q2lZdTRhYzl6WTlzV1k5X1FQUEVsclNnd3l6aGlOVVJvVUgtRDAtQVl2UVhKTm1qank3WjFubEt0eFpWbzk5ekZ4RGtvS0swTW9Za0FB?oc=5"
     },
     "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:35.209248+00:00"
-  },
-  {
-    "id": "INC-6F00AC40",
-    "date": "2025-10-15T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Teenager dead and two people injured after suspected stabbing incident at Tusla unit in Dublin - The Journal",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE94TGRtY1BBUkluTjMxNkxydVkxVEo0TzJraDZkX1hCS1pjdkc0UU1XanBwMXRXUlBlNGFFekdCSk5FTzFZblRFY1pOVThIak1GUzNYWC1Zdjc4NUVDTjhKZDRVQW9HQlg3Z0w5amFTa1NXU0ZpWnRORVZSN3A?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:35.228129+00:00"
+    "addedAt": "2026-05-21T20:19:28.755016+00:00"
   },
   {
     "id": "INC-43AB0A33",
@@ -1009,19 +697,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:33.235144+00:00"
-  },
-  {
-    "id": "INC-3F4890CB",
-    "date": "2025-10-12T07:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "Two men armed with a knife rob shop in south Belfast, demanding the safe - police appeal for witnesses - Belfast News Letter",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZ0ZLRjJ4TnN3OWM2MGZpdVRHdk03YjctZFN1RnlDMk5aTEhZTHpqb0EwRm0tSHR2bUMzWUFER0pWZ3U2UFh0R2x3RTRWMm0zcVVkaEhTbDdmSHh2ZG1CNjlJckNLenpOeEpsNXFnY3B6N0FTM3ZZREkwbC1RVnhzT21Fd1NxcERpZnlXQ0h5VWZTSUFvNXBqdnBncVZvb1M4dDF2UE1hYWY4SHk3RTNKTnd4TnBHMGFvY0YxUnc5elB5bDE4X0xjQjdHbF95LXZDZkVjdGIxakh4Mmp3VW9XRQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:33.241003+00:00"
   },
   {
     "id": "INC-C0C5D7F2",
@@ -1089,32 +764,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:40.993060+00:00"
   },
   {
-    "id": "INC-CE930E20",
-    "date": "2025-10-06T07:00:00+00:00",
-    "county": "Tipperary",
-    "location": "Carrick-on-Suir",
-    "description": "Woman (24) charged with murder of man found stabbed in house in Carrick-on-Suir, Tipperary - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMlBzRmhtaFlvNncxWXIzRndueWlkQy1GMzRvSUhXT1JESlREX1JPR0YxcW5MQk1tRDQ4eVNCX2x5b2x5N1ROb1RyOHIzS2FKNF85OXdvYzZwcDcydkprd3RIOWhITXZrR3RGZ1lrb0V4ZGxxbkd1OVdJeUoyYTVfM0FTUVpvVTMwTk1QOFkyZjdoTW9ZZHhCWXpUcTFoU0VlNVlIcmM3X3NmTXFqYmNMMEVCbVZBY1N1QUI0dlIwUnVXV1ZqS01vOG5zRjRWMWtXdE9wZGMzaVZUdFU?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:46.785449+00:00"
-  },
-  {
-    "id": "INC-E2AC46A7",
-    "date": "2025-10-05T07:00:00+00:00",
-    "county": "Tipperary",
-    "location": "",
-    "description": "Woman (24) arrested after man dies in stabbing in Tipperary - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaGtZTDhUNDZRckI0cjBiX0d1dHpHM0FHQm1XQ1VyMHM1Q0h4cHRoOEQ4V1hObTRtRFozTHhZS1hud1JvSXFFanV2S0J1Y2dZYUJyRWJfbDJqN3R5anIwSmpCdlliVU52QlpnSzd0QW9tYVQ0VW9xS0EwWHY5OVFLa1MzSXR5enRaU2N0VDFHTkdmV0NvdlpjWmp3a3JoWTRDdUZuNlhEWGEtbDFFOXhwblpsRVVSNkE?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:25.235777+00:00"
-  },
-  {
     "id": "INC-BFC31048",
     "date": "2025-10-02T07:00:00+00:00",
     "county": "Antrim",
@@ -1154,19 +803,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:25.237503+00:00"
   },
   {
-    "id": "INC-C8CCC203",
-    "date": "2025-10-01T07:00:00+00:00",
-    "county": "Unknown",
-    "location": "",
-    "description": "Man (23) accused of stabbing a Garda further charged with arson attack on Conor McGregor's pub - BreakingNews.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeFlSeEtUSHphSDdhNGVEWVpWMHdNSzAtY1Q3bTJBbENnbXVKTms3aDZTZzBraXhPT256WXk2RXB2dEN5RUd5V2RYNTM0a3FqY29rTTdORXROb2tTVEEzNDRwZk45UXp1MjVGTVRhcGpzZGN2Z0VkNDNrT1k2NlhIZXo4aEpFamFYS25qc002S3ByRnYwd2F1ZGpIVHZIS1dWeC1SamNFOEdWVFpUUGxTdjJGaUZvaGlldWRFRmx0WS1aUkpOVVR4Q1Bza2lSU0lzcjYyZ05kOA?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.253960+00:00"
-  },
-  {
     "id": "INC-AC738C89",
     "date": "2025-10-01T07:00:00+00:00",
     "county": "Dublin",
@@ -1191,19 +827,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:27.222467+00:00"
-  },
-  {
-    "id": "INC-4890112E",
-    "date": "2025-09-29T07:00:00+00:00",
-    "county": "Louth",
-    "location": "",
-    "description": "Carer discovered mother, father and son killed in knife attack at their Co Louth home - Irish Independent",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNTZiZHBEREUyYk9BWldiSy1oWDlJbm1qMkl2dUhhbzltT2V0bGN6M2gtZWhnRzJkOWFxMUtadndLVFY1bnFxa1ROODhHY0hUQWpBbUwwV1ZtYkI3TEgzektOb1hqZGNQN3pycU9xLVlvak9ZMTdVdHg5Q2h5UjhWNE5mejVEN2ZpamdReDI1dEI5RXhWcmY4VWlJSVR5azJhUnRqcmdMOC1Tb3FPMVVKTGU0ZFNqZURFNnpyVkEweTRqa2pRMlg5OV9IRm5Fc0w4VU9URQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.227136+00:00"
   },
   {
     "id": "INC-8C342A9B",
@@ -1232,19 +855,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:29.370568+00:00"
   },
   {
-    "id": "INC-93F16F6E",
-    "date": "2025-09-23T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Teen stabbed up to 20 times in Dublin city pub assault 'knew his attackers' as Gardai probe what sparked violent row - The Irish Sun",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSlVncnBBV0hxMEVjNVB5WHlOTmxsVXo3MmNseTZ1ZkxWc090TUY0V1k1V2tuVnFsUzdTNk1iMzU3NWFPRG45YkEwMWFlQ2dabzRXTlVycll0aW5ENVlLbzlSTzJMTFJsVzdGSm85QkJlTS03MnVVZHkxejJKTTFXREhoelcwUG1xbG9qaEE2eTNZX2VHLVBPUHExSQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.249384+00:00"
-  },
-  {
     "id": "INC-CEC0257E",
     "date": "2025-09-22T07:00:00+00:00",
     "county": "Dublin",
@@ -1256,32 +866,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:25.234781+00:00"
-  },
-  {
-    "id": "INC-BA8B3548",
-    "date": "2025-09-22T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Teen in critical condition after knife attack in Dublin city centre - Sunday World",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV3hrUWlmdW1SdnZZTVpGcGFodnBlaXlhc3doNFVQYUVnMHBIanY1QVhJeU9YblgxMmhiZDFRaXBlSzlXNjdaOTVqTGtxR083VUpQTndLTTVlRVFDUHFjdXoyd1ZiY2ZvZTd2aGNxY0Q3MFozTzI3ckhSblRTb1hvNUxzZzREVXNJM25HVEtqWXNMX3NDaHk1b1AzSzVHNjhhWHRMQ3AzYUJsdHFua1ZVTklNam13Rl9aTW40?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:29.378164+00:00"
-  },
-  {
-    "id": "INC-7157A3A8",
-    "date": "2025-09-21T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "English tourist in hospital after being stabbed in Dublin\u2019s Temple Bar - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbWhZc1dUcHJPcE1YaEh3U1VVTHhHMmtKMVdabjkzZGVEOFNRYjA4Yk5Dckw2dVgtcWlBV3haQVBBZlI2c1hTUVZIWnRITnNMLTZOWm9CRHV6U1lkX2pJQkQ4RnRwaU9xM3VBSkIyaXhtQk9lWXlxN3Jubks5aTV0dG8wMWI0N0V6SlZCYllJcERVXzRsa1B2N2o2a3BXb1NEbXl3Mkt4bHVFTnVKTDBv?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:35.210213+00:00"
   },
   {
     "id": "INC-5ABEBE45",
@@ -1310,19 +894,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:40.998514+00:00"
   },
   {
-    "id": "INC-77547CD8",
-    "date": "2025-09-15T07:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "GAA community in shock as father of Limerick senior hurler stabbed at his home - Irish Examiner",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBKOVZlWmFFdWk2UFdXZjNZd3ZXc0trSGU3aVl0blR2NXgxMEhKdFI3TjZQY0pldTl2RWV1RUwyWlpZVjJYQ0VxMURBVFNJanhkM3h4aHNLNGtnWWRVTHJCNm9tXzFfZ1VaSkNwRFV3?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:40.980896+00:00"
-  },
-  {
     "id": "INC-2BDF9175",
     "date": "2025-09-15T07:00:00+00:00",
     "county": "Cork",
@@ -1349,45 +920,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:41.001836+00:00"
   },
   {
-    "id": "INC-C33CE32F",
-    "date": "2025-09-14T07:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "Garda\u00ed investigating after father of Limerick hurling star injured in knife attack at his home - Limerick Post",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSXlZdVZycF9mLXdjcWRhM2doZUpuNC1tdk5lR3g0NTFydnRVc044UUY3Q0hlVmhncHQ5c05ueks0S0MwTkJiTThYd0pXSkQ5a0laSjBkYWh5a2l0el90RnNPaDZLRFYxOFpfWm50ZjhDUEtWN250V3l2MWZ3S3BKZFVwQThZUzFpNS1EUXhPMk5BaW9DSkRlYloydDhJaGtpQUs1QklMWWRFZzRSOW9tZHhlN0VQazJzVFBBaG55dndSOHJUdDJpTC1WUGN6b0U?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.292173+00:00"
-  },
-  {
-    "id": "INC-BDC01E02",
-    "date": "2025-09-14T07:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "Community shocked after father of Limerick hurling star stabbed several times at his home - The Journal",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLVRPYzBrRXRlcEJuR2ZSZEd1X1BuUWpzeUowRlh0ZTRYS0p3Y3VZMTZXUnBVcW50dVdEOC00dk5nY3Viek9CeGllZEdxNzZ4UWoyWHNkSnl5a3hoNXR5bFc1SkpfZTN6QVg3aUhVRXpmb3pkM2ZvczZ1cWg2R0ExWjhwOVZrNVVBeXJOajdxMU5KUWFUZVdF?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:40.982717+00:00"
-  },
-  {
-    "id": "INC-F52D47CB",
-    "date": "2025-09-14T07:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "Horror as Limerick GAA star Diarmaid Byrnes' dad seriously injured in stabbing at home weeks after son's wedding - The Irish Sun",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQzlTc2lKVVhCcFlSN3BZbU8yNHdBUWtBdG1KTC1lV1RtSEpPMGtTMXlJbzJVQTZpOUdJbVVPUF92S0xiZWdlOC1WQmc0UVZfVDNDd2VZSEpMSG9CMXJHSDZURjlPNXBzQzVlNExoOFdWVFRybGItdk5DSktxVU1yWTB1TQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:40.995013+00:00"
-  },
-  {
     "id": "INC-2C89526F",
     "date": "2025-09-11T07:00:00+00:00",
     "county": "Antrim",
@@ -1412,19 +944,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:29.384177+00:00"
-  },
-  {
-    "id": "INC-DDAED2B7",
-    "date": "2025-09-10T07:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "Thug who stabbed child is part of far right \u2018save our children\u2019 vigilante group in east Belfast - Belfast Telegraph",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPOVNhbHQzUHBmd3k3QVBibTFSYWthYl9MYUV1a1lrRmNsb3VKNVRmMDZpbElrYm14TzByY29HeTJ2RWR2RlhCNzN6WHhlZFFjZG4xWTJzUWtpdUh3M09BTHVmZUtxYzkxOExxaU5nSm5xWE9GUHNsRGdmd1dKcUg2V0I2OHhGVnM2OHQxbjRWd0huTWlDOG5aUVBETG1pazZiY0drMUZqaV9oeEpMQml5NjF1bk5FaXl5SXpSM1Z5OUZuQlBqVnFqdE16VWRjajlBSUVESnNxeTRzbE1OVi0wVHJlcXMzUGRIbEh5RmhYN2xwTjhmUnJ1aEVyUQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:33.231923+00:00"
   },
   {
     "id": "INC-30578D62",
@@ -1518,45 +1037,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:25.242057+00:00"
   },
   {
-    "id": "INC-B17165BD",
-    "date": "2025-08-22T07:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "West Belfast: Victim of fatal stabbing named locally - BBC",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FRW96TjVBUXp0RHlPbjR2bGpHMXgtRlNjc19ueTN6WGJ2VDJUcm9HT3l0Q3dmU0Z1RFBLTldpaTZaUWdEc2JrYV9WUW9jS09kN1h2Zm5pNzZ6Zw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:42.909010+00:00"
-  },
-  {
-    "id": "INC-027C0BF2",
-    "date": "2025-08-22T07:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "Shane Lowry: Man charged with murder as Twinbrook stabbing victim named locally - Belfast Telegraph",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMGgtR2lNd1djYS04c2g5QXVlRXl4LUNQTDNaVTE3ZE1IYzFOTXFFZlRqZzd3SzhyZnVUeGluSU81VHdtbUxEeTZlSndTTHByRTdDd0l0T1ZVZ2t0UEdjUDZ0ZlN0Mk52VGgtZkRrdHRGQ2xmcTdpaWZ3aS0wV2VTTEo1QVlQelFvQmdQc3FLY256MnkzdUIyMVZ1aGN3QS1tM1pRQkJXNWkxbng4cWlrR0NTWVU2eDdzbzdyeE9rRFRWVmdsU2xUMDhoX0J5cWc0dm5wTWlPbw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:42.910029+00:00"
-  },
-  {
-    "id": "INC-99459F38",
-    "date": "2025-08-22T07:00:00+00:00",
-    "county": "Antrim",
-    "location": "",
-    "description": "West Belfast community \u2018filled with sorrow\u2019 after stabbing death - BreakingNews.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY2NPM1hnYTdkb09UX3AwYWlQYVVzQVhmNTllajRoc0ptM3pvc1lqbkdFVHl1R2s5OUVkRHduR083NTVXMlpjb2ZqV3ZrVXVmSklPWGt6MEJDTGU5enpCWFF1RXBIc01uQ2haRXplYzc3YVpILXdueFdpWTBFdVZMQXcwbl9WUWI1aG14UzB4bmNCYl84bzNBUkllRmtNS2kxbmZhTS1ZUmhUMnZFOHpCdw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:42.923267+00:00"
-  },
-  {
     "id": "INC-40709B7F",
     "date": "2025-08-19T07:00:00+00:00",
     "county": "Dublin",
@@ -1609,17 +1089,17 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:27.244712+00:00"
   },
   {
-    "id": "INC-144370ED",
-    "date": "2025-08-08T07:00:00+00:00",
-    "county": "Dublin",
+    "id": "INC-25F596D1",
+    "date": "2025-08-05T07:00:00+00:00",
+    "county": "Sligo",
     "location": "",
-    "description": "Man charged over alleged knife and hatchet attack in Dublin hostel - Irish Independent",
+    "description": "Arrest after man seriously injured in Sligo stabbing - RTE.ie",
     "source": {
       "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVG15aUk4QWVScmF1VlNHUy14NERMVHZ5Qk1OWE00MVpaM2hpUFVoNVBIRnZUMnNFNVVsOExKbXg1ZF83aFhzaXk3V2hsOG80X2ZVQXdWa1VHdDJIMlNPc19kWTNpaEc2bXp1MFU3TENOSmtydTBQM0NoWWNQQmhHSW1sSlhGZWtsckEwRi1QQ0VjOXZjODkwSFgxTVYtSFpVNFZvemJBRFJ1N0g2MjBJNVpFejFzS25qVWZOb05md3FxLXpFZUFB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BWTk3ajlaQ0RUV2x2Y1dPLVhMN3g5emhfSC1Jd3Z1YlVMWm9TWElIeVNqbExyc1FIU0dQdlpZbG8zd25jLTd6X1Y2d2drSkt0Q2UtZkZQeG51QVZzZnVzYzRmZHd1MUZvNE1qOWV4MWZTbUE?oc=5"
     },
     "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.256812+00:00"
+    "addedAt": "2026-05-21T20:19:32.613205+00:00"
   },
   {
     "id": "INC-DCD20344",
@@ -1648,19 +1128,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:27.229851+00:00"
   },
   {
-    "id": "INC-F41A4BD2",
-    "date": "2025-07-30T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "Capel Street",
-    "description": "Garda\u00ed quizzing suspect about motive in stabbing of officer at Capel Street in Dublin city centre - Irish Independent",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNHZ6YkhveGNOeWZabTgwZXM1SS1rOUdIUEpWNEZCemRBdW9wZ1E2aF96Wlp0dTRfbWtEZDk1X0pmUG9Rdk5INEtVeV96RF95ZVhDVTJLVVF5VWwxaTVSc1d4SWlla1o5dEtrSURadHNzYkxtelcyTTYzWEhBUEtxWS03VDZ1QXhTR0lZSkRJb2xrdkxFNVUwakcxLTNvbGVvZm9zV2ZsT1lQTG5PNzV6ajRJODlkQzhPaFhFTGR6dmlSeVNmWVhOUnlCcXZNdFR3U2c?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.230853+00:00"
-  },
-  {
     "id": "INC-A30051A0",
     "date": "2025-07-30T07:00:00+00:00",
     "county": "Dublin",
@@ -1685,84 +1152,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:27.255905+00:00"
-  },
-  {
-    "id": "INC-2D043D4D",
-    "date": "2025-07-30T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Top officer concerns as 'disinformation spread quickly' following garda stabbing - Dublin Live",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZkkzRWFXUVlxV0JsemxVVnVWd2Vua2lZbDdadlhjSzUwZGlRQkE3X0psLTZBWTY4SUdLUzJKaW9qbWJ0dU93R1VGMVNZczd5NVRuc1pGSml5bDQ1MjFaX01RaXlzNXkzM00wMEczUlFIbmRHeHRTN2YwbklfRzZ0YnBCMkt2c3FxSUFTSlVYeG1EQl8xRi1QcTVR0gGfAUFVX3lxTE9uTXhmVFNWRExxSnM5NGhQZEMxMEpKVjdzY3QtUTZZeFlJMkRYSlVjRXlfVlV1bkkzcGMyT2JxLTlzX3dGdjU5NFE0SE0xMzhvd1pnYkE1ZGVidXFzRGJzN196QUZBOHo0S3U3X1h3YjNxYVhXWGhhX0N2YXh2OEpMU3FoWTRxVG5hMzN2MTdPeVZVa2o3TXZLZkdzLV9GMA?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:29.423134+00:00"
-  },
-  {
-    "id": "INC-20750C4B",
-    "date": "2025-07-30T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Man arrested after probationer garda stabbed in Dublin city centre - RTE.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE92cHJLN29ZcndlM1F6SzdQd0dMQW5hdVFOMXBFRGV0SzRzX3lSV3AyUy1jTFlZUUE2NWdXdDYyZWJnWnY0TlFSbDdxSk5FTFpvOExMb2RqZWRVRkV3NnctQlV1Vjh2X2J3YVVRZ09zNTZrdzFHaDlSd3BfemU?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:35.170682+00:00"
-  },
-  {
-    "id": "INC-AB89A5AE",
-    "date": "2025-07-30T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "Dublin amid major update -",
-    "description": "Sickening video circulates of garda stabbing in Dublin amid major update - Limerick Leader",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS0lqQzRDMlZwT2U4REc1cmtMNkdOU1gzNGxDSWpoQXRVVTlCbS15UC1SUDFzbEVFQm5hRTJWaXI1d2VlQXJuOVU1bGhFazE5SHAyejJBMk1yNHQxNXhweW1QTzk5YWQ0S1E3QXRvVzJhZmlwVkpQbGZ0NjJBa0hocXhYQXVlVW01cm1ZX2I1WFBHbFhTVEZYSWo2d0drYXE0YUlFbElHZi1RQkx4bF9jY0VRazFZRUZITThEcnFZU2xhekF2eTRyejJ4OWpzQTg?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:40.992064+00:00"
-  },
-  {
-    "id": "INC-F662D2BC",
-    "date": "2025-07-29T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Garda stabbed multiple times in \u2018unprovoked\u2019 Dublin city-centre attack - The Irish Times",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeXFfX0szQ3laeDAzWDVWNUVaVlNNTVpiU0pBNWFMWTNIT21JOEpSdzJaX0o2aDFjNkIxNDlmbWR2NUtVRzhzWjdmOGxKSVpKNWdFdGNBZEZ1MkxQU0FWWl84YVBpZVBxc3k5VjVjTGs1T00waUtEM2ZpclpkVVVVTGMtLUh1V1RabnVHTlZnWk9GWnNzNlpiOTJSS0RvbGtu?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:25.241152+00:00"
-  },
-  {
-    "id": "INC-FBE16F61",
-    "date": "2025-07-29T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Garda stabbed while on patrol in Dublin city centre, man (20s) arrested - BreakingNews.ie",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOVEtcXlRQUNaaW1iVVhDTzduelhURGFXTzdjS0RoaDZDZEN4OEhnUkpLcHcwb2c4TjZPUmtKdWdpMldpVnh4Y3ktNEFFTDNNRkRJdTZobmV3QVpWT0ZiSlBicXV0dXdaVTJGSUFCVlN5Y0RxX0hvZ1Zya3NMdktTYS1vblJCMS1nNVJQeWQwWDVoMVc2OGd1UWVVUm5sQTYyd1E?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:27.234925+00:00"
-  },
-  {
-    "id": "INC-83019E8B",
-    "date": "2025-07-29T07:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Garda hospitalised after unprovoked stabbing in Dublin city centre this evening - The Journal",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jZUZZMmJKblNPVHRwbU8tOWloQ3lKQmsyVHNzbk9wRC1ua2J4aGlneGh0cnNINHVnSnFmdlo1V1Z5czRLVEtUazNhV0g2bUJRa19QR05HVkZ5enBYTzluZTE4d0F5Q2hTZnI5RDc2dUI5a3pZSGJHSWRXdE8?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:35.208306+00:00"
   },
   {
     "id": "INC-94CFC9A9",
@@ -1869,19 +1258,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:35.229153+00:00"
   },
   {
-    "id": "INC-B0448057",
-    "date": "2025-07-06T07:00:00+00:00",
-    "county": "Derry",
-    "location": "",
-    "description": "Londonderry: Man arrested following stabbing - BBC",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1kb1FjWG11X2VPRlNwS2ptbzVQZFZHbDRoNW1YS2tsYjBHOGlrMS11NlhFMEFjaHo4MVpNbGZ5d3BaTXNQamlQd3BmU0trOHc4eWFGNWZ0V2RJN3Zv?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:42.916985+00:00"
-  },
-  {
     "id": "INC-8DAE2E64",
     "date": "2025-06-30T07:00:00+00:00",
     "county": "Unknown",
@@ -1934,19 +1310,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:27.250264+00:00"
   },
   {
-    "id": "INC-E979AFCF",
-    "date": "2025-06-26T07:00:00+00:00",
-    "county": "Unknown",
-    "location": "",
-    "description": "Garda stabbed after responding to attempted pub burglary in Blanchardstown - Irish Independent",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeEE1MDBHOTE3VThvdDlPemdQY0J5YzhtdExJTkJGcmk4aHJUOWgtSlYxWVpHSkVWOTU1NmtONHBaaEw1Q0NtWG1kUEVDdFNnMmYzdUVUM2wxbFVrREVMQktNUmN3QndoSU4tV2pMczBUSks1NWhfbHpZcFJ1dldRUVVlTjNrME9DZEZUMnd0WHRGck10cXI1aTdJLV8xT2FJbE5lMlFPTE9zT0JZVjdnV1M0TDVvZHZKdWgyU0J5YTVxQjNLZV9z?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:46.831800+00:00"
-  },
-  {
     "id": "INC-70CEF8CE",
     "date": "2025-06-26T07:00:00+00:00",
     "county": "Dublin",
@@ -1973,17 +1336,17 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:44.849121+00:00"
   },
   {
-    "id": "INC-321E8083",
-    "date": "2025-06-23T07:00:00+00:00",
-    "county": "Dublin",
+    "id": "INC-CE9EBDDA",
+    "date": "2025-06-19T07:00:00+00:00",
+    "county": "Louth",
     "location": "",
-    "description": "Asylum seeker killed in Dublin died from stab wound to chest, inquest hears - BreakingNews.ie",
+    "description": "Louth woman (22) who stabbed man in the back at train station carpark avoids jail - Irish Independent",
     "source": {
       "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSkFfN3J0dWJfMzhBWWlMREdONnpLa1pZSWVXdjQ0SGV2dnhmSC1yTmtyeXZYS1FMZHhNTndPTXlSR3FLWm8xS2EzU0hnblItRDg1X2ZzaDlmd3V6ajBLNnFUWTdtTW5CMi1KMzN3d1JVaV9ta0ItR3ZUOTVnam53OHhHREJjbGhLaVFyeDZlMnNBb0t0WFhyWUhEaWI3WXBlMDR0MHZnTEl6bllxSHFrRUZhMlYxNzYyWW1mM2tYcWM?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZGtSTzRtVlBmLXlPUmZMdjZnOUFHeHdEMjJQdkVhNkVqbzNMRjNwbFdIOWZ3emlEc1VVYTlkZHBOZXE4d3hjWW11QzlzWHQtcDRNZFFRMGQzYVRKU19MWVFKSW1tckpKUjliVDVfOHRfUzZsTm5uaHp3WXJTWTZwRGxaVjFKUk9hTGsxNVJ2cTZULUFzSkZXQVVJSVlEekdqVkstZUl0cThXYjZ6SF9Fay1STWRkSmdtM1o5OWh3aEpmbm9idjhjaDVmeXA0c05qQl9QMC10YXFJbFlF?oc=5"
     },
     "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:44.846028+00:00"
+    "addedAt": "2026-05-21T20:19:34.535637+00:00"
   },
   {
     "id": "INC-BF0B098C",
@@ -2181,32 +1544,6 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:42.911327+00:00"
   },
   {
-    "id": "INC-2FBE1816",
-    "date": "2025-02-18T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Police granted extra time to question man over fatal Dublin stabbing - BBC",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVYzRGTE5DUHUyS0FqUTF6SkJCRjhWRHdOWkY0OHFkMHlVeHZZdWZfNTdhVVVqUGNaT3ZBSF9KTDVNblA5WmJvYTVNQkUwRWdrRHlfWlExUVlhaWVG?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:42.924608+00:00"
-  },
-  {
-    "id": "INC-17A53E94",
-    "date": "2025-02-17T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "Belfast over fatal",
-    "description": "Man arrested in Belfast over fatal Dublin stabbing - BBC",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94Z2t1dDB2cXJ4ajJOS0xpQUZvem1SWXV1WlpFZVZxZWVzLTY4VzhycThuY05HdUVyWlN0cERQcFdMS0dsOWNjYVlsWjhhazVzNGgyOHdETm9nUQ?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:46.839477+00:00"
-  },
-  {
     "id": "INC-DE31684B",
     "date": "2025-02-16T08:00:00+00:00",
     "county": "Dublin",
@@ -2244,19 +1581,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:31.268075+00:00"
-  },
-  {
-    "id": "INC-4BEAD5A0",
-    "date": "2025-02-09T08:00:00+00:00",
-    "county": "Dublin",
-    "location": "",
-    "description": "Man arrested after three people injured in suspected knife attack in Dublin - The Guardian",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUzJpQ24yZVZnX0dtRldfZVdmQTVwaWpYWmdSdHY1LWhsaTBrc2pmR0VSeF9yVlNYOG9fOFZuVnYwTUpFVW5KRTlOS2N4NzQyQjgtTUVkRzVjdVE3WVVWcGN0N2NIMHpJR2F3bEVjek84enlnRGhiZ2ZuelBoS0ppcUNvNEFPRjNZaEZiWElvN2JqSFRoTExVY0VPN0daaXM4d1otSFVWdXJRMlZHdW00b01uaGxjbzdTcDFCOTJn?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:29.425948+00:00"
   },
   {
     "id": "INC-B596FCC3",

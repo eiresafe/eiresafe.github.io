@@ -364,12 +364,26 @@ def deduplicate(incidents):
                 break
                 
             # Date + County + Jaccard similarity check
-            date_inc = inc.get("date", "")[:10]
-            date_ex = existing.get("date", "")[:10]
+            date_inc_str = inc.get("date", "")[:10]
+            date_ex_str = existing.get("date", "")[:10]
             
-            if date_inc and date_ex and date_inc == date_ex and inc["county"] == existing["county"]:
+            try:
+                from datetime import datetime
+                d1 = datetime.strptime(date_inc_str, "%Y-%m-%d")
+                d2 = datetime.strptime(date_ex_str, "%Y-%m-%d")
+                date_diff = abs((d1 - d2).days)
+            except:
+                date_diff = 999
+                
+            county_match = (inc["county"] == existing["county"] or 
+                            inc["county"] == "Unknown" or 
+                            existing["county"] == "Unknown")
+            
+            if date_diff <= 4 and county_match:
                 sim = jaccard_similarity(inc["description"], existing["description"])
-                if sim > 0.40:
+                # Use a lower similarity threshold because same incident can be reported differently 
+                # (e.g., initial report vs follow up)
+                if sim > 0.18:
                     is_duplicate = True
                     # If duplicate, keep the one with higher priority
                     p1 = status_priority.get(inc["status"], 0)

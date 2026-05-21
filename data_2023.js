@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2023
-// Total incidents: 23
+// Total incidents: 30
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -9,6 +9,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-88FA0EF1",
+    "date": "2023-12-21T08:00:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin school stabbings: Man charged with attempted murder - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1odE1lU0owSTVGa1g1cVlOa2RYZW93Sy1QOV8wOVNtY0c4OE8wNTExUEg2Zktic1E4aVpCN0RlenpoX1ZtWjAzNDZlXzF5R1NTVnZqdUotSzJ5Zw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T20:19:13.073429+00:00"
+  },
   {
     "id": "INC-21FEE763",
     "date": "2023-12-14T08:00:00+00:00",
@@ -21,6 +34,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:33.236436+00:00"
+  },
+  {
+    "id": "INC-F391AC9E",
+    "date": "2023-12-04T08:00:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin Riot: Mass School Stabbing Triggers Anti-Immigrant Backlash - The College Reporter",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMmFrWF9JcTF4ejNXa1FkZllRNUtRWmlVVlVVd3ZjVTZmS1ZzbnZERlZGVW96LUZ5aWg5bzNnWUxLaWl3czREMzZNUmVOTmxPSjdnNUdSejJ0X09KellhZFlJcTJNTUxoZENPMmdqUXpWNmluNzNHZ182aFpMVkJ5cFZoTl9JZmVqOHJCdldFX09BcGJZVEpjQnFtaWJlSmVQS05CLWxVVHFlRDdJUG9ZZQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T20:19:28.775041+00:00"
   },
   {
     "id": "INC-9607656F",
@@ -101,6 +127,58 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:29.435518+00:00"
   },
   {
+    "id": "INC-6426BD2A",
+    "date": "2023-11-25T08:00:00+00:00",
+    "county": "Antrim",
+    "location": "Co Down -",
+    "description": "Shock at \u2018horrific\u2019 attack as man stabbed multiple times in Co Down - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOT3hvTzNvMC1xUDJUQmJzMWxvM3U0X1RQTEE3SmZuUlQ4Z2V0enh2eVkwM0ZkajUtMkVmcUtOaXd1MkpYbnE4M2hHWmpEZWFsRWJqVE9aUVFjWkEyckFNVW9JSjVnM2c2NVFMUS1XRnNxV3FYQUxuUXB3elFtbVBsZkpaSDlLcng1MmtDTHNhTzVfTW9YQldHRktEYy10Yjl5cVNHdlV2U2hFYzlGYjRGdjlwNjFNZlp3ZS11c21USUF4NWdmZmxHYk9yMkptUGJWMGV4RlhR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T20:19:28.769021+00:00"
+  },
+  {
+    "id": "INC-D5AD6AEF",
+    "date": "2023-11-24T08:00:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin riots: What to know about the stabbing attack and clashes in Ireland - Al Jazeera",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5RTFdUMWhEYWhwdmE4M3hFNnZKeFl4TXdtb0NyUTJUUUdTbWZBOERlLWc2TTNTLTgtOVBER0xkbnlybHBsYVg3aEEwSU9YVzFDWWRkZnJxamZoUUxP0gFiQVVfeXFMTk83d29fZVVEWDltam5PMGgzSzNTSW1xdVBmc1lYbnlwUXNoWTRhOHRIcXVyNGkydEoxRXhnb0E1TWhwZnRiZGtyeUtiYy1acDZVMXZHeEdxWHhjeWk5amZfUVE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T20:19:13.068259+00:00"
+  },
+  {
+    "id": "INC-24330D1C",
+    "date": "2023-11-24T08:00:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin stabbings: Deliveroo driver stops knife attacker - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zNS1DcDE2REtlVUxsZWtGYVpITEpSeDRkVHNMQ3gyT3NTOXV1SEoteXBod3RTQ2JBU1hBRXQ0cDdRU0hySHZ1S3dBNDFjOVFpemtmSlNKb2dVQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T20:19:13.071664+00:00"
+  },
+  {
+    "id": "INC-949DFD3F",
+    "date": "2023-11-24T08:00:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Irish Police Arrest 34 in Dublin Rioting Following Stabbings Outside School - VOA - Voice of America English News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMkwzMXBDOTh3YkpTcDM2SnVCUDRKcFBVbUN6azlsUzdDb1ZjVXppYkpnRHFSVERVVjF4S1dkVmFCWkRmSU9PNmlMSlRWSmtWVUVSTzMzZUMwaUc1TEw5NkI5WEphWlhmMDhrZGRtSF9XQlREVFRzenByN2FEaVQ3Rl9aaGxkS2JFemxDUVN1eFdnY25DT1RlUjB4SGhUMV9xR09iaTdGeGZIOTl3RDFISUd5MHROUdIBuAFBVV95cUxOOWh0UmxvNmZLbV8wTUloMzMwY1hYMzhHRWZiUHlVemU3bHROMXk5aEQ3RWN5V3c2blAzNVAxT2lKSXJvVUFSaU1KRUVReFJWR2VJVmJOUmRVcWd1cEc4S2FYZGV1enJNTi1oNmVNZ2M1R0hhTnRKbHp0NFg0YUZVcXdzcHN3LWhEbzhMeTZiV0VTRnVBYWlTdUZLUGtrYU5Yc1RoMTc4OXZ2MzhUQWRxb3ZFLUVvM2Fa?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T20:19:13.082227+00:00"
+  },
+  {
     "id": "INC-6555D3A1",
     "date": "2023-11-23T08:00:00+00:00",
     "county": "Dublin",
@@ -127,17 +205,17 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:29.439826+00:00"
   },
   {
-    "id": "INC-AAE320A8",
+    "id": "INC-AD208A26",
     "date": "2023-11-23T08:00:00+00:00",
     "county": "Dublin",
     "location": "",
-    "description": "Violent protests in Dublin after woman and children injured in knife attack - The Guardian",
+    "description": "Violence erupts in Dublin after knife attack injures three children - France 24",
     "source": {
       "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcWhtR0NRNE9mWDAyaE5jU3E3b0ppUV9YaFc2MWJ6Y0hyUUZQQVpaUl9kN0hGSmplLVVpdzBtbC1sZklNemo2Nzl6Q2dLQS1KYUtJdWoyX3REem5Ba0hTZEFGWXFVUHF6ejRRX1hTZklDbFFUWVZ2ZkRic0NHYzlYZ0laSUt2VVdEa2hxbHdiM29zZ1lIVnJENFBvX0hobnVxNWVSWUUzbERQZw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdkdTMnVWSjBQc1B0VGlKMVFUV2RCSG9uZXRZYjAtYTBfVksyeUJrOUtHVTNaQUs1WHFPc2VOTTR0LWFuZ0hxZ0RDVWRNcjRyWUZETUZyLVN6SmUxaDI0MmhzMHJ0d3BfZjRkMnFZMDZuREMtQXBkWFZhR0h0SjBIY2xEWklIYlFxT2pRSE1LbkZXbnNMMl9mUEhhMlFQZmk4VS01amNQbGpkSW9zSV9WTA?oc=5"
     },
     "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:48.796895+00:00"
+    "addedAt": "2026-05-21T20:19:13.076286+00:00"
   },
   {
     "id": "INC-6655090E",
@@ -190,6 +268,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:41.013341+00:00"
+  },
+  {
+    "id": "INC-6FC5A29F",
+    "date": "2023-07-16T07:00:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Deepa Dinamani: Cork stabbing victim was left to die before alarm was raised - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQnpWbDlwd0lDNnVWMlRVT3dLOVd1eTQxcmxQVld4dDJqdzhuZWh4Vl9zeVJSR2hjeDZiSm1xaVc3ZVFDZl9hZE1oWmJsRGYxTlhKdlNaSFlCYVduOGMyRTJseGpnZGJ1anFyRmxfSThKd0c5OXhTR19iTTZjTEtWejBpaWpFc0l4VWVjR3lyendZZ1FUU1YyOEhZemxZX19ZZXJtQWZtZi03RUh1Nm13R0xB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T20:19:30.657737+00:00"
   },
   {
     "id": "INC-96607D88",

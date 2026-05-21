@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2017
-// Total incidents: 9
+// Total incidents: 10
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -47,6 +47,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:41.025318+00:00"
+  },
+  {
+    "id": "INC-423DAF28",
+    "date": "2017-05-24T07:00:00+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Man in 50s dies after stabbing incident in Limerick city centre - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSUpiaU9IUDBObXdFVDRLSTFpcGthRXRFMVhEU19xUFNfNjdCX3M0Y283dzd4eWg2el9aUUxFaXRHNDZtNVFtUlJmLU9tTG4taWtScUVHS3psQzNUOGx2MEhzdXB5NDkzNkZvNFBWZkpVaVhKZXprb1o4bHhhQWVXNV9mbGpUQjBZNlVfTFVVclVGVkw4aTZEZGJDUUNLb2ZhUFJObTJNc0ZyMDJXbW1rYlF0eXhnV3ZpVjR3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T20:19:26.675710+00:00"
   },
   {
     "id": "INC-450EF525",

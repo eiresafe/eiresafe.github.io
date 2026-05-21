@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2022
-// Total incidents: 8
+// Total incidents: 10
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -36,6 +36,19 @@ export const mockIncidents = [
     "addedAt": "2026-05-21T14:58:31.292917+00:00"
   },
   {
+    "id": "INC-2CF655F8",
+    "date": "2022-11-08T08:00:00+00:00",
+    "county": "Dublin",
+    "location": "Ballyfermot",
+    "description": "Man found dead in Ballyfermot, Dublin, after suffering an apparent stab wound - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUElxLTlBTUtNaW9FdXE1dVZSU05pWlVjWVhSZ3pLZ2J6OU1aYkJXVnFkczFjRGJ5YXlzOUFWNnlseHZRWFNLX2xKOTBDRjltaEdNNFgzelRycnhTcUZIWVNtZ00tMkhxRDJXbWtreEVYemJ4LV9yTGYzWkpnNEZHTFBHX2ZaZVpGSVVZVF9TODZaZFFkOU55RkVLVnR4Ul9PSXVWTW5YeElaWmJuaDAzd1FjbkZVUXYwbmlhUS0xcWpaendm?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T20:19:30.642040+00:00"
+  },
+  {
     "id": "INC-1103B0FD",
     "date": "2022-11-02T07:00:00+00:00",
     "county": "Cork",
@@ -60,6 +73,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:39.030964+00:00"
+  },
+  {
+    "id": "INC-5B8F2BA2",
+    "date": "2022-09-13T07:00:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Woman (20s) arrested after man found with stab wounds outside Dublin apartment - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWkFvZnBDb3FzT2tESFdGa2VsTkhBdEZEcEJ0TGlzcTVMZ0M2S0dweXJhMWlJRnVZNXB2c2F1cmQxRG1KNXozUkluNUtMVjdMOFQ0WFM4dm9iaDNaeGVfS3VsRy1TZkNDZkxnRjk4ekNSWGtocWwxU2k3RDF1aUotdlRlRFBJWXlMeUVjNE1TMFlORFE0S1pNeERHRHJ4MjJkRk9XVGMyckR1N0NTOUxueC1nZXpub2pFOHlDZW01RE9LamoyUVVZ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T20:19:30.665420+00:00"
   },
   {
     "id": "INC-8CA7BEC5",

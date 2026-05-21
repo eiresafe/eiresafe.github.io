@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2018
-// Total incidents: 11
+// Total incidents: 10
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -112,19 +112,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:41.010615+00:00"
-  },
-  {
-    "id": "INC-DAB93830",
-    "date": "2018-07-08T07:00:00+00:00",
-    "county": "Limerick",
-    "location": "",
-    "description": "Murder investigation launched over Limerick pub stabbing - Limerick Post",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU19kLVkzdXQ2LVBIdkFTU1FDaWZhUUhiMFhqdFNrM2VrS2NKb3FYVjBEdVEtcTlMeHEtR1NacE85MlJTNG1mU2xUNW4zQUpxMmVsUlVZT0RTUE1wZXNtWnd2OE5VZnNEY2JKUnNrWktUcXRNVDV1ZW9vT0hzZzVWdklnbGJEQllBMVUyYUN4UkN5anM3VmxWSUxCQnU?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:41.016254+00:00"
   },
   {
     "id": "INC-19E90B59",

@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2020
-// Total incidents: 13
+// Total incidents: 12
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -86,19 +86,6 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:31.270725+00:00"
-  },
-  {
-    "id": "INC-18216660",
-    "date": "2020-06-21T07:00:00+00:00",
-    "county": "Cork",
-    "location": "",
-    "description": "Garda\u00ed mount patrols on Cork city buses: Knife crime and violent incidents raise concerns - echo live",
-    "source": {
-      "title": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaNnpOTUMwZ3JRd2lmMkdGM09YYnN6TzRmVVNBN09hUFpPbExIeXp5TTZSMzc5LVo3MmhtM2RpdDZpUVV0R3pGYV9VTVJHR2g0TzBxdkQ3NnBtZWMycEJDQw?oc=5"
-    },
-    "status": "Media Reported",
-    "addedAt": "2026-05-21T14:58:31.277968+00:00"
   },
   {
     "id": "INC-7D4AFDAB",

@@ -1,5 +1,5 @@
 // Irish Stabbings & Crime Tracker - Year 2021
-// Total incidents: 4
+// Total incidents: 5
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -21,6 +21,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-21T14:58:44.883547+00:00"
+  },
+  {
+    "id": "INC-14D59EE4",
+    "date": "2021-11-03T07:00:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man (29) charged over east Belfast Belmont Road stabbing - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY3otTGtMZ0lCVm5IemNMYXBHT1FiUVpCVnhXUEhvTmI2ZFdiYmRRQVhTTkFNVlBsWndadk5qYXg0Q2xTd0haT1hwV0lFeThaOEdYZTNGN2FsVmZucXJQNnAycDdQQ0hSQ1h6M08ta0ZINEg3RDJNR3lQVlpJRmVvc19BUWNidzliZjZ5RmJuYjlKODVuZ1lyTVpaYmhXS3dZYzhuZm0xd2FwM1J6cFFLWGd4c3BIUzJzS2p4VXpEYkQ4ZHoySjN3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-21T20:19:28.770045+00:00"
   },
   {
     "id": "INC-02E26B6B",
