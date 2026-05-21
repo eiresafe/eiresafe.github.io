@@ -31,6 +31,17 @@ IRELAND_SIGNALS = [
     "mullingar", "psni", "northern irish"
 ]
 
+EXCLUDE_KEYWORDS = [
+    "sentenced", "jailed", "pleaded guilty", "pleads guilty", "found guilty",
+    "remanded in custody", "remanded on bail", "verdict", "convicted", "conviction", "acquitted",
+    "due in court", "appears in court", "appeared in court", "court appearance", "brought before court",
+    "hoax", "fake threat", "false alarm",
+    "tribute to", "anniversary of", "vigil for", "memorial for",
+    "released from hospital", "stable condition",
+    "previous convictions", "prior convictions",
+    "historic abuse", "historical"
+]
+
 COUNTY_MAP = {
     "dublin": "Dublin", "cork": "Cork", "limerick": "Limerick", "galway": "Galway", "waterford": "Waterford",
     "belfast": "Antrim", "derry": "Derry", "londonderry": "Derry", "donegal": "Donegal", "kildare": "Kildare",
@@ -61,6 +72,19 @@ def get(url, **kwargs):
 
 def is_relevant(text):
     text_lower = text.lower()
+    
+    # 1. Check for negative keywords
+    if any(ex_kw in text_lower for ex_kw in EXCLUDE_KEYWORDS):
+        return False
+        
+    # 2. Date-proximity check
+    # Reject if it mentions any year from 1990 to (current_year - 2).
+    # We allow (current_year - 1) to account for late-year incidents reported in early Jan.
+    current_year = datetime.datetime.now(datetime.timezone.utc).year
+    past_years = [str(y) for y in range(1990, current_year - 1)]
+    if any(re.search(r'\b' + y + r'\b', text_lower) for y in past_years):
+        return False
+        
     has_keyword = any(kw in text_lower for kw in REQUIRED_KEYWORDS)
     has_signal = any(sig in text_lower for sig in IRELAND_SIGNALS)
     return has_keyword and has_signal
