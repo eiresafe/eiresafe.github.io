@@ -256,56 +256,6 @@ class GardaPressReleaseScraper:
         logger.info(f"Garda Scraper found {len(incidents)} relevant items.")
         return incidents
 
-class RedditIrelandScraper:
-    def scrape(self, since=None):
-        incidents = []
-        subreddits = ["ireland", "Dublin", "northernireland", "cork", "galway"]
-        terms = ["stabbing", "knife", "knife attack"]
-        
-        headers = HEADERS.copy()
-        headers["User-Agent"] = "EireSafe-Bot/1.0 (public interest crime tracker)"
-        
-        for sub in subreddits:
-            for term in terms:
-                url = f"https://www.reddit.com/r/{sub}/search.json?q={urllib.parse.quote_plus(term)}&restrict_sr=1&sort=new&limit=50&t=year"
-                logger.info(f"Fetching Reddit: r/{sub} for '{term}'")
-                resp = get(url, headers=headers)
-                if not resp: continue
-                
-                try:
-                    data = resp.json()
-                    children = data.get("data", {}).get("children", [])
-                    for child in children:
-                        post = child.get("data", {})
-                        title = post.get("title", "")
-                        selftext = post.get("selftext", "")
-                        created_utc = post.get("created_utc")
-                        permalink = "https://www.reddit.com" + post.get("permalink", "")
-                        
-                        full_text = title + " " + selftext
-                        if not is_relevant(full_text):
-                            continue
-                            
-                        date_iso = None
-                        if created_utc:
-                            dt = datetime.datetime.fromtimestamp(created_utc, tz=datetime.timezone.utc)
-                            if since and dt < since:
-                                continue
-                            date_iso = dt.isoformat()
-                            
-                        county = extract_county(full_text)
-                        if county == "Unknown": county = COUNTY_MAP.get(sub.lower(), "Unknown")
-                        
-                        location = extract_location_detail(full_text)
-                        
-                        inc = build_incident(date_iso, county, location, title, f"Reddit r/{sub}", permalink, "Under Investigation")
-                        incidents.append(inc)
-                except Exception as e:
-                    logger.debug(f"Error parsing Reddit r/{sub}: {e}")
-                    
-        logger.info(f"Reddit Scraper found {len(incidents)} relevant items.")
-        return incidents
-
 class GDELTScraper:
     def scrape(self, since=None, is_backfill=False):
         # Very simplified GDELT hit. For backfill, you might want to query their actual API
@@ -493,7 +443,6 @@ def main():
     scrapers = [
         GoogleNewsRSS(),
         GardaPressReleaseScraper(),
-        RedditIrelandScraper(),
         GDELTScraper()
     ]
     
