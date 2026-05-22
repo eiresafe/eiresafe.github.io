@@ -1,8 +1,7 @@
 import { countyPaths } from './countyPaths.js';
-
-// Constants
+import { historicalData } from './historical_data.js';// Constants
 const FIXED_NOW_DATE = new Date(); // Use real current date
-const ITEMS_PER_PAGE = 5;
+let itemsPerPage = 5;
 
 // State Management
 let incidents = [];
@@ -136,21 +135,30 @@ function computeStats(countyFilter = null) {
     }).length;
   };
 
-  // Week
-  const weekRange = getDateRange('this-week');
-  const prevWeekRange = getDateRange('prev-week');
-  const thisWeekVal = getCountBetween(weekRange.start, weekRange.end);
-  const prevWeekVal = getCountBetween(prevWeekRange.start, prevWeekRange.end);
+  let thisWeekVal = 0, prevWeekVal = 0, thisMonthVal = 0, prevMonthVal = 0, thisYearVal = 0;
 
-  // Month
-  const monthRange = getDateRange('this-month');
-  const prevMonthRange = getDateRange('prev-month');
-  const thisMonthVal = getCountBetween(monthRange.start, monthRange.end);
-  const prevMonthVal = getCountBetween(prevMonthRange.start, prevMonthRange.end);
+  if (selectedYear <= 2024) {
+    // USE HISTORICAL DATA FOR YEARLY TOTAL
+    if (countyFilter) {
+      thisYearVal = historicalData.seizuresByCounty[countyFilter]?.[selectedYear] || 0;
+    } else {
+      thisYearVal = historicalData.totals[selectedYear] || 0;
+    }
+  } else {
+    // USE LIVE DATA
+    const weekRange = getDateRange('this-week');
+    const prevWeekRange = getDateRange('prev-week');
+    thisWeekVal = getCountBetween(weekRange.start, weekRange.end);
+    prevWeekVal = getCountBetween(prevWeekRange.start, prevWeekRange.end);
 
-  // Year
-  const yearRange = getDateRange('this-year');
-  const thisYearVal = getCountBetween(yearRange.start, yearRange.end);
+    const monthRange = getDateRange('this-month');
+    const prevMonthRange = getDateRange('prev-month');
+    thisMonthVal = getCountBetween(monthRange.start, monthRange.end);
+    prevMonthVal = getCountBetween(prevMonthRange.start, prevMonthRange.end);
+
+    const yearRange = getDateRange('this-year');
+    thisYearVal = getCountBetween(yearRange.start, yearRange.end);
+  }
 
   return {
     week: { current: thisWeekVal, previous: prevWeekVal },
@@ -160,14 +168,21 @@ function computeStats(countyFilter = null) {
 }
 
 // Format trend text
-function updateStatCard(cardId, current, previous, isYear = false) {
+function updateStatCard(cardId, current, previous, isYear = false, isHistorical = false) {
   const valueEl = document.getElementById(`stat-${cardId}-value`);
   const trendEl = document.getElementById(`stat-${cardId}-trend`);
+  
+  if (isHistorical && !isYear) {
+    valueEl.textContent = "N/A";
+    trendEl.textContent = "Historical Data";
+    trendEl.className = "stat-trend flat";
+    return;
+  }
   
   valueEl.textContent = current;
   
   if (isYear) {
-    trendEl.textContent = "Total";
+    trendEl.textContent = "Official Total";
     trendEl.className = "stat-trend flat";
     return;
   }
@@ -209,9 +224,10 @@ function renderDashboard() {
     yearTitle.textContent = `Total in ${selectedYear}`;
   }
 
-  updateStatCard('week', stats.week.current, stats.week.previous);
-  updateStatCard('month', stats.month.current, stats.month.previous);
-  updateStatCard('year', stats.year.current, 0, true);
+  const isHistorical = selectedYear <= 2024;
+  updateStatCard('week', stats.week.current, stats.week.previous, false, isHistorical);
+  updateStatCard('month', stats.month.current, stats.month.previous, false, isHistorical);
+  updateStatCard('year', stats.year.current, 0, true, isHistorical);
   
   const scopeLabel = document.getElementById('active-scope-label');
   const chartScopeLabel = document.getElementById('chart-scope-indicator');
@@ -222,8 +238,15 @@ function renderDashboard() {
   chartScopeLabel.textContent = displayLabel;
   
   if (selectedYear === currentYear) {
-    const monthName = FIXED_NOW_DATE.toLocaleString('default', { month: 'long', timeZone: 'UTC' });
-    dataSyncLabel.textContent = `Verified ${monthName} ${currentYear}`;
+    const dateTime = FIXED_NOW_DATE.toLocaleString('default', { 
+      month: 'short', 
+      day: 'numeric',
+      year: 'numeric',
+      hour: '2-digit', 
+      minute: '2-digit',
+      timeZone: 'UTC' 
+    });
+    dataSyncLabel.textContent = `Verified ${dateTime} UTC`;
   } else {
     dataSyncLabel.textContent = `Verified Data for ${selectedYear}`;
   }
@@ -252,16 +275,25 @@ function renderMap() {
   const activePaths = countyPaths.filter(path => activeCounties.includes(path.id));
   
   // Count incidents by county for tooltips (current year)
-  const yearStart = getDateRange('this-year').start;
   const countyCounts = {};
   activeCounties.forEach(c => { countyCounts[c] = 0; });
   
-  incidents.forEach(inc => {
-    const incDate = new Date(inc.date);
-    if (incDate >= yearStart && activeCounties.includes(inc.county)) {
-      countyCounts[inc.county] = (countyCounts[inc.county] || 0) + 1;
-    }
-  });
+  if (selectedYear <= 2024) {
+    // Map Mode 2: 10-Year Seizures Heatmap for the selected historical year
+    // The data is directly from historicalData.seizuresByCounty
+    activeCounties.forEach(c => {
+      countyCounts[c] = historicalData.seizuresByCounty[c]?.[selectedYear] || 0;
+    });
+  } else {
+    // Map Mode 1: Live Incidents
+    const yearStart = getDateRange('this-year').start;
+    incidents.forEach(inc => {
+      const incDate = new Date(inc.date);
+      if (incDate >= yearStart && activeCounties.includes(inc.county)) {
+        countyCounts[inc.county] = (countyCounts[inc.county] || 0) + 1;
+      }
+    });
+  }
 
   activePaths.forEach(pathData => {
     const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
@@ -282,7 +314,8 @@ function renderMap() {
     // Mouse events
     path.addEventListener('mouseenter', (e) => {
       const count = countyCounts[pathData.id] || 0;
-      tooltip.innerHTML = `<strong>${pathData.id}</strong><br>${count} stabbing${count === 1 ? '' : 's'} in ${selectedYear}`;
+      const metricLabel = selectedYear <= 2024 ? 'knives seized' : `stabbing${count === 1 ? '' : 's'}`;
+      tooltip.innerHTML = `<strong>${pathData.id}</strong><br>${count} ${metricLabel} in ${selectedYear}`;
       tooltip.style.opacity = '1';
     });
     
@@ -526,11 +559,11 @@ function renderFeed() {
   emptyState.style.display = 'none';
   
   // 3. Slice for pagination
-  const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
+  const totalPages = Math.ceil(filtered.length / itemsPerPage);
   if (currentPage > totalPages) currentPage = Math.max(1, totalPages);
   
-  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const pageItems = filtered.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const pageItems = filtered.slice(startIndex, startIndex + itemsPerPage);
   
   // 4. Render cards
   container.innerHTML = pageItems.map(inc => {
@@ -595,6 +628,246 @@ function updatePagination(totalPages) {
   info.textContent = `Page ${currentPage} of ${totalPages}`;
 }
 
+// Render Historical Deep Dive Charts
+function renderHistoricalCharts() {
+  const years = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024];
+  const pad = { top: 30, right: 30, bottom: 45, left: 40 };
+  
+  // Helper to draw grid and axes
+  function drawGridAndAxes(svgId, maxVal, htmlRef, scaleX, scaleY, w, h) {
+    for (let i = 0; i <= 4; i++) {
+      const yVal = Math.round((maxVal / 4) * i);
+      const yPos = scaleY(yVal);
+      htmlRef.html += `<line x1="${pad.left}" y1="${yPos}" x2="${w - pad.right}" y2="${yPos}" stroke="var(--border-color)" stroke-dasharray="4"/>`;
+      htmlRef.html += `<text x="${pad.left - 8}" y="${yPos + 4}" text-anchor="end" fill="var(--text-secondary)" font-size="12">${yVal}</text>`;
+    }
+    years.forEach((y, i) => {
+      const xPos = scaleX(i);
+      htmlRef.html += `<text x="${xPos}" y="${h - pad.bottom + 15}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">${y}</text>`;
+    });
+  }
+
+  // Helper to draw line
+  function drawLine(data, scaleX, scaleY, color, htmlRef) {
+    let dPath = `M ${scaleX(0)} ${scaleY(data[0])}`;
+    data.forEach((val, i) => {
+      const xPos = scaleX(i);
+      const yPos = scaleY(val);
+      htmlRef.html += `<circle cx="${xPos}" cy="${yPos}" r="4" fill="${color}"/>`;
+      htmlRef.html += `<text x="${xPos}" y="${yPos - 8}" text-anchor="middle" fill="var(--text-primary)" font-size="10" font-weight="600">${val}</text>`;
+      if (i > 0) dPath += ` L ${xPos} ${yPos}`;
+    });
+    htmlRef.html += `<path d="${dPath}" fill="none" stroke="${color}" stroke-width="3"/>`;
+  }
+
+  // --- TAB 1: TRENDS & POLICING ---
+  const typeSelector = document.getElementById('historical-chart-type-selector');
+  if (typeSelector) {
+    const selectedType = typeSelector.value;
+    const trendSvg = document.getElementById('historical-trend-chart');
+    if (trendSvg && trendSvg.clientWidth > 0) {
+      let trendHtml = { html: '' };
+      const tData = years.map(y => historicalData.incidentsByType[selectedType]?.[y] || 0);
+      const tMax = Math.max(...tData, 10);
+      const w = trendSvg.clientWidth, h = trendSvg.clientHeight;
+      const txScale = (idx) => pad.left + idx * ((w - pad.left - pad.right) / (years.length - 1));
+      const tyScale = (val) => h - pad.bottom - (val / tMax) * (h - pad.top - pad.bottom);
+      drawGridAndAxes('historical-trend-chart', tMax, trendHtml, txScale, tyScale, w, h);
+      drawLine(tData, txScale, tyScale, 'var(--accent-info)', trendHtml);
+      trendSvg.innerHTML = trendHtml.html;
+    }
+  }
+
+  // Searches vs Seizures
+  const searchSvg = document.getElementById('historical-searches-chart');
+  if (searchSvg && searchSvg.clientWidth > 0) {
+    let sHtml = { html: '' };
+    const w = searchSvg.clientWidth, h = searchSvg.clientHeight;
+    const szData = years.map(y => { let sum=0; Object.values(historicalData.seizuresByCounty).forEach(c => sum += c[y]); return sum; });
+    const srcData = years.map(y => historicalData.searchesNational[y]);
+    const szMax = Math.max(...szData, 10), srcMax = Math.max(...srcData, 10);
+    const scaleX = (idx) => pad.left + idx * ((w - pad.left - pad.right) / (years.length - 1));
+    const szScaleY = (val) => h - pad.bottom - (val / szMax) * (h - pad.top - pad.bottom);
+    const srcScaleY = (val) => h - pad.bottom - (val / srcMax) * (h - pad.top - pad.bottom);
+    
+    for (let i = 0; i <= 4; i++) {
+      const yVal = Math.round((srcMax / 4) * i);
+      const yPos = srcScaleY(yVal);
+      sHtml.html += `<line x1="${pad.left}" y1="${yPos}" x2="${w - pad.right}" y2="${yPos}" stroke="var(--border-color)" stroke-dasharray="4"/>`;
+      sHtml.html += `<text x="${w - pad.right + 4}" y="${yPos + 4}" text-anchor="start" fill="var(--accent-warning)" font-size="10">${Math.round(yVal/1000)}k</text>`;
+      sHtml.html += `<text x="${pad.left - 8}" y="${yPos + 4}" text-anchor="end" fill="var(--accent-info)" font-size="10">${Math.round((szMax / 4) * i)}</text>`;
+    }
+    years.forEach((y, i) => { sHtml.html += `<text x="${scaleX(i)}" y="${h - pad.bottom + 15}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">${y}</text>`; });
+    
+    drawLine(srcData, scaleX, srcScaleY, 'var(--accent-warning)', sHtml);
+    drawLine(szData, scaleX, szScaleY, 'var(--accent-info)', sHtml);
+    sHtml.html += `<text x="${w/2}" y="${h - 5}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">Blue: Seizures (Left Axis) | Yellow: Searches (Right Axis)</text>`;
+    searchSvg.innerHTML = sHtml.html;
+  }
+
+  // Proceedings
+  const procSvg = document.getElementById('historical-proceedings-chart');
+  if (procSvg && procSvg.clientWidth > 0) {
+    let pHtml = { html: '' };
+    const pData1 = years.map(y => historicalData.proceedings['Possession of Knives'][y]);
+    const pData2 = years.map(y => historicalData.proceedings['Flick-Knife'][y]);
+    const pMax = Math.max(...pData1, ...pData2, 10);
+    const w = procSvg.clientWidth, h = procSvg.clientHeight;
+    const scaleX = (idx) => pad.left + idx * ((w - pad.left - pad.right) / (years.length - 1));
+    const scaleY = (val) => h - pad.bottom - (val / pMax) * (h - pad.top - pad.bottom);
+    drawGridAndAxes('historical-proceedings-chart', pMax, pHtml, scaleX, scaleY, w, h);
+    drawLine(pData1, scaleX, scaleY, 'var(--accent-info)', pHtml);
+    drawLine(pData2, scaleX, scaleY, 'var(--accent-danger)', pHtml);
+    pHtml.html += `<text x="${w/2}" y="${h - 5}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">Blue: Knives/Articles | Red: Flick-Knives</text>`;
+    procSvg.innerHTML = pHtml.html;
+  }
+
+  // Possession Overall vs Knife
+  const possSvg = document.getElementById('historical-possession-chart');
+  if (possSvg && possSvg.clientWidth > 0) {
+    let p2Html = { html: '' };
+    const poData = years.map(y => historicalData.possessionOverall[y]);
+    const pkData = years.map(y => historicalData.incidentsByType['Possession of Offensive Weapon'][y]);
+    const p2Max = Math.max(...poData, 10);
+    const w = possSvg.clientWidth, h = possSvg.clientHeight;
+    const scaleX = (idx) => pad.left + idx * ((w - pad.left - pad.right) / (years.length - 1));
+    const scaleY = (val) => h - pad.bottom - (val / p2Max) * (h - pad.top - pad.bottom);
+    drawGridAndAxes('historical-possession-chart', p2Max, p2Html, scaleX, scaleY, w, h);
+    drawLine(poData, scaleX, scaleY, 'var(--accent-info)', p2Html);
+    drawLine(pkData, scaleX, scaleY, 'var(--accent-danger)', p2Html);
+    p2Html.html += `<text x="${w/2}" y="${h - 5}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">Blue: Overall Weapon Possession | Red: Specifically Knives</text>`;
+    possSvg.innerHTML = p2Html.html;
+  }
+
+  // --- TAB 2: LOCATIONS ---
+  const locAssaultSvg = document.getElementById('loc-assault-chart');
+  if (locAssaultSvg && locAssaultSvg.clientWidth > 0) {
+    let aHtml = { html: '' };
+    const res = years.map(y => historicalData.assaultLocations['Residential'][y]);
+    const str = years.map(y => historicalData.assaultLocations['Street / Open Space'][y]);
+    const oth = years.map(y => historicalData.assaultLocations['Other'][y]);
+    const w = locAssaultSvg.clientWidth, h = locAssaultSvg.clientHeight;
+    const aMax = Math.max(...res, ...str, ...oth, 10);
+    const scaleX = (idx) => pad.left + idx * ((w - pad.left - pad.right) / (years.length - 1));
+    const scaleY = (val) => h - pad.bottom - (val / aMax) * (h - pad.top - pad.bottom);
+    drawGridAndAxes('loc-assault-chart', aMax, aHtml, scaleX, scaleY, w, h);
+    drawLine(res, scaleX, scaleY, 'var(--accent-warning)', aHtml);
+    drawLine(str, scaleX, scaleY, 'var(--accent-info)', aHtml);
+    drawLine(oth, scaleX, scaleY, 'var(--text-secondary)', aHtml);
+    aHtml.html += `<text x="${w/2}" y="${h - 5}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">Yellow: Residential | Blue: Street | Grey: Other</text>`;
+    locAssaultSvg.innerHTML = aHtml.html;
+  }
+
+  const locMurderSvg = document.getElementById('loc-murder-chart');
+  if (locMurderSvg && locMurderSvg.clientWidth > 0) {
+    let mHtml = { html: '' };
+    const res = years.map(y => historicalData.murderLocations['Residential'][y]);
+    const non = years.map(y => historicalData.murderLocations['Non-Residential'][y]);
+    const w = locMurderSvg.clientWidth, h = locMurderSvg.clientHeight;
+    const mMax = 100;
+    const scaleX = (idx) => pad.left + idx * ((w - pad.left - pad.right) / (years.length - 1));
+    const scaleY = (val) => h - pad.bottom - (val / mMax) * (h - pad.top - pad.bottom);
+    drawGridAndAxes('loc-murder-chart', mMax, mHtml, scaleX, scaleY, w, h);
+    drawLine(res, scaleX, scaleY, 'var(--accent-warning)', mHtml);
+    drawLine(non, scaleX, scaleY, 'var(--accent-info)', mHtml);
+    mHtml.html += `<text x="${w/2}" y="${h - 5}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">Yellow: Residential (%) | Blue: Non-Residential (%)</text>`;
+    locMurderSvg.innerHTML = mHtml.html;
+  }
+
+  // --- TAB 3: DEMOGRAPHICS ---
+  const demoSel = document.getElementById('demographics-type-selector');
+  if (demoSel) {
+    const dType = demoSel.value;
+    const pieSvg = document.getElementById('demographics-pie-chart');
+    const legend = document.getElementById('demographics-legend');
+    if (pieSvg && legend && pieSvg.clientWidth > 0) {
+      const data = historicalData.demographics[dType];
+      const colors = ['var(--accent-success)', 'var(--accent-info)', 'var(--accent-warning)', 'var(--accent-danger)'];
+      let pieHtml = '';
+      let legendHtml = '';
+      let acc = 0;
+      let i = 0;
+      for (const [key, val] of Object.entries(data)) {
+        const pct = val / 100;
+        const a1 = acc * 2 * Math.PI;
+        const a2 = (acc + pct) * 2 * Math.PI;
+        // Don't draw if 0
+        if (pct > 0) {
+            // Check for 100% case
+            if (pct === 1) {
+                pieHtml += `<circle cx="125" cy="125" r="100" fill="${colors[i]}"><title>${key}: ${val}%</title></circle>`;
+            } else {
+                const x1 = 125 + 100 * Math.cos(a1), y1 = 125 + 100 * Math.sin(a1);
+                const x2 = 125 + 100 * Math.cos(a2), y2 = 125 + 100 * Math.sin(a2);
+                const largeArc = pct > 0.5 ? 1 : 0;
+                pieHtml += `<path d="M 125 125 L ${x1} ${y1} A 100 100 0 ${largeArc} 1 ${x2} ${y2} Z" fill="${colors[i]}"><title>${key}: ${val}%</title></path>`;
+            }
+        }
+        legendHtml += `<span style="color:${colors[i]}"><span style="display:inline-block; width:10px; height:10px; background:${colors[i]}; margin-right:4px;"></span>${key} (${val}%)</span>`;
+        acc += pct;
+        i++;
+      }
+      pieHtml += `<circle cx="125" cy="125" r="50" fill="var(--bg-secondary)"/>`;
+      pieSvg.innerHTML = pieHtml;
+      legend.innerHTML = legendHtml;
+    }
+  }
+
+  const hseSvg = document.getElementById('historical-hse-chart');
+  if (hseSvg && hseSvg.clientWidth > 0) {
+    let hseHtml = { html: '' };
+    const assaultData = years.map(y => historicalData.incidentsByType['Assault Causing Harm']?.[y] || 0);
+    const hseData = years.map(y => historicalData.hseAdmissions[y] || 0);
+    const hMax = Math.max(...assaultData, ...hseData, 10);
+    const w = hseSvg.clientWidth, h = hseSvg.clientHeight;
+    const hxScale = (idx) => pad.left + idx * ((w - pad.left - pad.right) / (years.length - 1));
+    const hyScale = (val) => h - pad.bottom - (val / hMax) * (h - pad.top - pad.bottom);
+    drawGridAndAxes('historical-hse-chart', hMax, hseHtml, hxScale, hyScale, w, h);
+    drawLine(assaultData, hxScale, hyScale, 'var(--accent-warning)', hseHtml);
+    drawLine(hseData, hxScale, hyScale, 'var(--accent-info)', hseHtml);
+    hseSvg.innerHTML = hseHtml.html;
+  }
+
+  // --- TAB 4: TABLES ---
+  const table1 = document.getElementById('table-app1');
+  if (table1 && table1.innerHTML === '') {
+    let tHtml = '<thead><tr><th>Offence Group</th>';
+    years.forEach(y => tHtml += `<th>${y}</th>`);
+    tHtml += '</tr></thead><tbody>';
+    for (const [offence, data] of Object.entries(historicalData.incidentsByType)) {
+      tHtml += `<tr><td>${offence}</td>`;
+      years.forEach(y => tHtml += `<td>${data[y] || 0}</td>`);
+      tHtml += `</tr>`;
+    }
+    tHtml += '</tbody>';
+    table1.innerHTML = tHtml;
+  }
+
+  const table2 = document.getElementById('table-app2');
+  if (table2 && table2.innerHTML === '') {
+    let tHtml = '<thead><tr><th>Division</th>';
+    years.forEach(y => tHtml += `<th>${y}</th>`);
+    tHtml += '</tr></thead><tbody>';
+    for (const [division, data] of Object.entries(historicalData.seizuresByCounty)) {
+      tHtml += `<tr><td>${division}</td>`;
+      years.forEach(y => tHtml += `<td>${data[y] || 0}</td>`);
+      tHtml += `</tr>`;
+    }
+    tHtml += '</tbody>';
+    table2.innerHTML = tHtml;
+  }
+
+  const table3 = document.getElementById('table-app3');
+  if (table3 && table3.innerHTML === '') {
+    let tHtml = '<thead><tr><th>Metric</th>';
+    years.forEach(y => tHtml += `<th>${y}</th>`);
+    tHtml += '</tr></thead><tbody><tr><td>National Total Searches</td>';
+    years.forEach(y => tHtml += `<td>${historicalData.searchesNational[y] || 0}</td>`);
+    tHtml += '</tr></tbody>';
+    table3.innerHTML = tHtml;
+  }
+}
+
 // Setup Event Listeners
 function setupEvents() {
   // Theme Toggle
@@ -657,6 +930,12 @@ function setupEvents() {
     currentPage = 1;
     renderFeed();
   });
+
+  document.getElementById('filter-per-page').addEventListener('change', (e) => {
+    itemsPerPage = parseInt(e.target.value, 10);
+    currentPage = 1;
+    renderFeed();
+  });
   
   // Pagination actions
   document.getElementById('pagination-prev').addEventListener('click', () => {
@@ -676,7 +955,31 @@ function setupEvents() {
   // Handle resizing for Chart responsiveness
   window.addEventListener('resize', () => {
     renderChart();
+    renderHistoricalCharts();
   });
+  
+  // Dashboard Tabs
+  const tabBtns = document.querySelectorAll('.tab-btn');
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabBtns.forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(btn.getAttribute('data-target')).classList.add('active');
+      // Re-render to fix dimensions
+      renderHistoricalCharts();
+    });
+  });
+
+  const demoSel = document.getElementById('demographics-type-selector');
+  if (demoSel) demoSel.addEventListener('change', renderHistoricalCharts);
+
+  const historicalTypeSelector = document.getElementById('historical-chart-type-selector');
+  if (historicalTypeSelector) {
+    historicalTypeSelector.addEventListener('change', () => {
+      renderHistoricalCharts();
+    });
+  }
 
   setupAdminPortal();
 }
@@ -882,6 +1185,7 @@ async function init() {
   renderMap();
   renderChart();
   renderFeed();
+  renderHistoricalCharts();
 }
 
 window.addEventListener('DOMContentLoaded', init);
