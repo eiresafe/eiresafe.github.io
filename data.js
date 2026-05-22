@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 215
+// Total incidents: 217
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-21F693EB",
+    "date": "2026-05-21T16:30:00+00:00",
+    "county": "Antrim",
+    "location": "EncroChats",
+    "description": "\u2018Significant\u2019 crime figure wanted over Belfast murder of Robbie Lawlor discussed \u2018stabbing a barrister\u2019 in EncroChats, High Court hears - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOMlVhRjJuaTFpTnlrck9nQVNmNGFtc2tJc2VjdlZUbF8zUDVDZG5YWnJvWmV1OTZweE4zVE45RHFZbWVNUUZUNm9vSzcxVHI4R29vWk9jMFJFeFhPbXJIX21idVBjQUhNeDZaZHZvZkE3UVlJN0xWdkxHWXdfakZFNVl2WG9YbGE1R01OWHVDQmxTMlFwSDlVcjdRUTl4b21ZTnNhYlBIM0UzazVSYzJJRGdrR0g2S0NqNlJ5Mko2cXU0UnJPMVVNSThvaEpFaDRhV3VhLUhFeW1IS3BWa0wzdWVtZ3ZqR0YtWnZrd01BRGY0ejd3ZkIxNjVzU2xsR2dtVmJraWlROTJrVjBDdmFKYTlDRzdXMnBNc2ln?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-22T09:20:39.911190+00:00"
+  },
+  {
+    "id": "INC-BBE8F69B",
+    "date": "2026-05-21T15:32:34+00:00",
+    "county": "Cork",
+    "location": "Cork Court",
+    "description": "Man who stabbed partner 13 times learns fate at Cork Court - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIcU1oOFFranhJR2VBaFRETUpzTWIwa2RJempGczEwVVdUOXZXTUg1ejg4cnVTaFhPT1JWQ3RmTHU4T1ZnSVlsU2kwTUtlZ25qS1ozcDhBYzhvam1BOEhjNUEwMll3a2Z4dkhxZXlKWUpJMTN5NEh5OEtfdF9qQ0XSAYQBQVVfeXFMUDJXOFNlUzZ4d1VmVS10T2l5b3BnbmhudU9XbHY1WEhOY1BRc1J5emtyRFViLUNJUkozblNKTWNWNzlNSFhDVGpPSjlkR0RIZ1FHWExpd3NSOW8tUnFVczU5VzBJSnNTZENFSHNhb0lta1dDb3drVXhnaXFSeWRVWFB2ZGNs?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-22T09:20:50.074053+00:00"
+  },
   {
     "id": "inc-2026-real-007",
     "date": "2026-05-20T12:00:00Z",
