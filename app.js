@@ -669,8 +669,8 @@ function renderHistoricalCharts() {
       const xPos = scaleX(i);
       const yPos = scaleY(val);
       nodesHtml += `
-        <g class="data-point">
-          <circle cx="${xPos}" cy="${yPos}" r="15" fill="transparent" cursor="pointer"/>
+        <g class="data-point" tabindex="0" ontouchstart="">
+          <circle cx="${xPos}" cy="${yPos}" r="20" fill="transparent" style="pointer-events: all; cursor: pointer;"/>
           <circle cx="${xPos}" cy="${yPos}" r="4" fill="${color}" class="visible-dot"/>
           <text x="${xPos}" y="${yPos + textDy}" class="data-label" text-anchor="middle" fill="${color}" font-size="11" font-weight="bold">${val}</text>
         </g>
