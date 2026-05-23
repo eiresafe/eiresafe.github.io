@@ -465,7 +465,7 @@ def write_yearly_data(incidents, output_dir):
 def main():
     global MIN_YEAR
     parser_args = argparse.ArgumentParser(description="EireSafe Multi-Source Scraper")
-    parser_args.add_argument("--output-dir", default="..", help="Path to output directory")
+    parser_args.add_argument("--output-dir", default="../data", help="Path to output directory")
     parser_args.add_argument("--backfill-2026", action="store_true", help="Run backfill for 2026")
     parser_args.add_argument("--start-year", type=int, default=MIN_YEAR, help="Earliest year to keep")
     parser_args.add_argument("--days", type=int, default=3, help="Days to look back (incremental mode)")

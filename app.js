@@ -1,5 +1,5 @@
-import { countyPaths } from './countyPaths.js';
-import { historicalData } from './historical_data.js';// Constants
+import { countyPaths } from './data/countyPaths.js';
+import { historicalData } from './data/historical_data.js';// Constants
 const FIXED_NOW_DATE = new Date(); // Use real current date
 let itemsPerPage = 5;
 
@@ -30,7 +30,7 @@ async function loadInitialData() {
   }
   
   try {
-    const module = await import(`./data_${selectedYear}.js`);
+    const module = await import(`./data/data_${selectedYear}.js`);
     mockIncidents = module.mockIncidents || [];
   } catch (e) {
     console.warn(`Could not load data for ${selectedYear}:`, e);
@@ -379,6 +379,18 @@ function renderChart() {
   const padding = { top: 20, right: 30, bottom: 30, left: 30 };
   
   // Calculate historical monthly data for the selected scope
+  if (selectedYear <= 2024) {
+    const msg = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    msg.setAttribute('x', containerWidth / 2);
+    msg.setAttribute('y', chartHeight / 2);
+    msg.setAttribute('text-anchor', 'middle');
+    msg.setAttribute('fill', 'var(--text-secondary)');
+    msg.setAttribute('font-size', '13');
+    msg.textContent = 'Monthly breakdown not available for historical data (2015-2024)';
+    chartSvg.appendChild(msg);
+    return;
+  }
+  
   let months, monthIndices;
   const currentYear = FIXED_NOW_DATE.getUTCFullYear();
   const currentMonth = FIXED_NOW_DATE.getUTCMonth(); // 0-indexed
@@ -641,20 +653,22 @@ function renderHistoricalCharts() {
       htmlRef.html += `<line x1="${pad.left}" y1="${yPos}" x2="${w - pad.right}" y2="${yPos}" stroke="var(--border-color)" stroke-dasharray="4"/>`;
       htmlRef.html += `<text x="${pad.left - 8}" y="${yPos + 4}" text-anchor="end" fill="var(--text-secondary)" font-size="12">${yVal}</text>`;
     }
+    const isMobile = w < 400;
     years.forEach((y, i) => {
       const xPos = scaleX(i);
-      htmlRef.html += `<text x="${xPos}" y="${h - pad.bottom + 15}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">${y}</text>`;
+      const yearText = isMobile ? "'" + y.toString().slice(-2) : y;
+      htmlRef.html += `<text x="${xPos}" y="${h - pad.bottom + 15}" text-anchor="middle" fill="var(--text-secondary)" font-size="${isMobile ? 10 : 12}">${yearText}</text>`;
     });
   }
 
   // Helper to draw line
-  function drawLine(data, scaleX, scaleY, color, htmlRef) {
+  function drawLine(data, scaleX, scaleY, color, htmlRef, textDy = -8) {
     let dPath = `M ${scaleX(0)} ${scaleY(data[0])}`;
     data.forEach((val, i) => {
       const xPos = scaleX(i);
       const yPos = scaleY(val);
       htmlRef.html += `<circle cx="${xPos}" cy="${yPos}" r="4" fill="${color}"/>`;
-      htmlRef.html += `<text x="${xPos}" y="${yPos - 8}" text-anchor="middle" fill="var(--text-primary)" font-size="10" font-weight="600">${val}</text>`;
+      htmlRef.html += `<text x="${xPos}" y="${yPos + textDy}" text-anchor="middle" fill="var(--text-tertiary)" font-size="9" font-weight="500">${val}</text>`;
       if (i > 0) dPath += ` L ${xPos} ${yPos}`;
     });
     htmlRef.html += `<path d="${dPath}" fill="none" stroke="${color}" stroke-width="3"/>`;
@@ -697,11 +711,14 @@ function renderHistoricalCharts() {
       sHtml.html += `<text x="${w - pad.right + 4}" y="${yPos + 4}" text-anchor="start" fill="var(--accent-warning)" font-size="10">${Math.round(yVal/1000)}k</text>`;
       sHtml.html += `<text x="${pad.left - 8}" y="${yPos + 4}" text-anchor="end" fill="var(--accent-info)" font-size="10">${Math.round((szMax / 4) * i)}</text>`;
     }
-    years.forEach((y, i) => { sHtml.html += `<text x="${scaleX(i)}" y="${h - pad.bottom + 15}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">${y}</text>`; });
+    const isMobile = w < 400;
+    years.forEach((y, i) => { 
+      const yearText = isMobile ? "'" + y.toString().slice(-2) : y;
+      sHtml.html += `<text x="${scaleX(i)}" y="${h - pad.bottom + 15}" text-anchor="middle" fill="var(--text-secondary)" font-size="${isMobile ? 10 : 12}">${yearText}</text>`; 
+    });
     
-    drawLine(srcData, scaleX, srcScaleY, 'var(--accent-warning)', sHtml);
-    drawLine(szData, scaleX, szScaleY, 'var(--accent-info)', sHtml);
-    sHtml.html += `<text x="${w/2}" y="${h - 5}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">Blue: Seizures (Left Axis) | Yellow: Searches (Right Axis)</text>`;
+    drawLine(srcData, scaleX, srcScaleY, 'var(--accent-warning)', sHtml, -8);
+    drawLine(szData, scaleX, szScaleY, 'var(--accent-info)', sHtml, 16);
     searchSvg.innerHTML = sHtml.html;
   }
 
@@ -716,9 +733,8 @@ function renderHistoricalCharts() {
     const scaleX = (idx) => pad.left + idx * ((w - pad.left - pad.right) / (years.length - 1));
     const scaleY = (val) => h - pad.bottom - (val / pMax) * (h - pad.top - pad.bottom);
     drawGridAndAxes('historical-proceedings-chart', pMax, pHtml, scaleX, scaleY, w, h);
-    drawLine(pData1, scaleX, scaleY, 'var(--accent-info)', pHtml);
-    drawLine(pData2, scaleX, scaleY, 'var(--accent-danger)', pHtml);
-    pHtml.html += `<text x="${w/2}" y="${h - 5}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">Blue: Knives/Articles | Red: Flick-Knives</text>`;
+    drawLine(pData1, scaleX, scaleY, 'var(--accent-info)', pHtml, -8);
+    drawLine(pData2, scaleX, scaleY, 'var(--accent-danger)', pHtml, 16);
     procSvg.innerHTML = pHtml.html;
   }
 
@@ -733,9 +749,8 @@ function renderHistoricalCharts() {
     const scaleX = (idx) => pad.left + idx * ((w - pad.left - pad.right) / (years.length - 1));
     const scaleY = (val) => h - pad.bottom - (val / p2Max) * (h - pad.top - pad.bottom);
     drawGridAndAxes('historical-possession-chart', p2Max, p2Html, scaleX, scaleY, w, h);
-    drawLine(poData, scaleX, scaleY, 'var(--accent-info)', p2Html);
-    drawLine(pkData, scaleX, scaleY, 'var(--accent-danger)', p2Html);
-    p2Html.html += `<text x="${w/2}" y="${h - 5}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">Blue: Overall Weapon Possession | Red: Specifically Knives</text>`;
+    drawLine(poData, scaleX, scaleY, 'var(--accent-info)', p2Html, -8);
+    drawLine(pkData, scaleX, scaleY, 'var(--accent-danger)', p2Html, 16);
     possSvg.innerHTML = p2Html.html;
   }
 
@@ -751,10 +766,9 @@ function renderHistoricalCharts() {
     const scaleX = (idx) => pad.left + idx * ((w - pad.left - pad.right) / (years.length - 1));
     const scaleY = (val) => h - pad.bottom - (val / aMax) * (h - pad.top - pad.bottom);
     drawGridAndAxes('loc-assault-chart', aMax, aHtml, scaleX, scaleY, w, h);
-    drawLine(res, scaleX, scaleY, 'var(--accent-warning)', aHtml);
-    drawLine(str, scaleX, scaleY, 'var(--accent-info)', aHtml);
-    drawLine(oth, scaleX, scaleY, 'var(--text-secondary)', aHtml);
-    aHtml.html += `<text x="${w/2}" y="${h - 5}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">Yellow: Residential | Blue: Street | Grey: Other</text>`;
+    drawLine(res, scaleX, scaleY, 'var(--accent-warning)', aHtml, -8);
+    drawLine(str, scaleX, scaleY, 'var(--accent-info)', aHtml, 16);
+    drawLine(oth, scaleX, scaleY, 'var(--text-secondary)', aHtml, 26);
     locAssaultSvg.innerHTML = aHtml.html;
   }
 
@@ -768,9 +782,8 @@ function renderHistoricalCharts() {
     const scaleX = (idx) => pad.left + idx * ((w - pad.left - pad.right) / (years.length - 1));
     const scaleY = (val) => h - pad.bottom - (val / mMax) * (h - pad.top - pad.bottom);
     drawGridAndAxes('loc-murder-chart', mMax, mHtml, scaleX, scaleY, w, h);
-    drawLine(res, scaleX, scaleY, 'var(--accent-warning)', mHtml);
-    drawLine(non, scaleX, scaleY, 'var(--accent-info)', mHtml);
-    mHtml.html += `<text x="${w/2}" y="${h - 5}" text-anchor="middle" fill="var(--text-secondary)" font-size="12">Yellow: Residential (%) | Blue: Non-Residential (%)</text>`;
+    drawLine(res, scaleX, scaleY, 'var(--accent-warning)', mHtml, -8);
+    drawLine(non, scaleX, scaleY, 'var(--accent-info)', mHtml, 16);
     locMurderSvg.innerHTML = mHtml.html;
   }
 
@@ -823,8 +836,8 @@ function renderHistoricalCharts() {
     const hxScale = (idx) => pad.left + idx * ((w - pad.left - pad.right) / (years.length - 1));
     const hyScale = (val) => h - pad.bottom - (val / hMax) * (h - pad.top - pad.bottom);
     drawGridAndAxes('historical-hse-chart', hMax, hseHtml, hxScale, hyScale, w, h);
-    drawLine(assaultData, hxScale, hyScale, 'var(--accent-warning)', hseHtml);
-    drawLine(hseData, hxScale, hyScale, 'var(--accent-info)', hseHtml);
+    drawLine(assaultData, hxScale, hyScale, 'var(--accent-warning)', hseHtml, -8);
+    drawLine(hseData, hxScale, hyScale, 'var(--accent-info)', hseHtml, 16);
     hseSvg.innerHTML = hseHtml.html;
   }
 
