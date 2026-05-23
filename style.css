@@ -1502,4 +1502,30 @@ a:hover {
   background: rgba(0,0,0,0.05);
 }
 
+/* Graph Data Point Interactivity */
+.data-point {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.data-point text.data-label {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
 
+/* For PC (hover) and Mobile (active/focus via click) */
+.data-point:hover text.data-label,
+.data-point:active text.data-label,
+.data-point:focus text.data-label,
+.data-point.active text.data-label {
+  opacity: 1;
+}
+
+.data-point .visible-dot {
+  transition: r 0.2s ease, fill 0.2s ease;
+}
+
+.data-point:hover .visible-dot,
+.data-point:active .visible-dot {
+  r: 6;
+}

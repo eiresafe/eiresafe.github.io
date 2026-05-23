@@ -662,16 +662,23 @@ function renderHistoricalCharts() {
   }
 
   // Helper to draw line
-  function drawLine(data, scaleX, scaleY, color, htmlRef, textDy = -8) {
+  function drawLine(data, scaleX, scaleY, color, htmlRef, textDy = -12) {
     let dPath = `M ${scaleX(0)} ${scaleY(data[0])}`;
+    let nodesHtml = '';
     data.forEach((val, i) => {
       const xPos = scaleX(i);
       const yPos = scaleY(val);
-      htmlRef.html += `<circle cx="${xPos}" cy="${yPos}" r="4" fill="${color}"/>`;
-      htmlRef.html += `<text x="${xPos}" y="${yPos + textDy}" text-anchor="middle" fill="var(--text-tertiary)" font-size="9" font-weight="500">${val}</text>`;
+      nodesHtml += `
+        <g class="data-point">
+          <circle cx="${xPos}" cy="${yPos}" r="15" fill="transparent" cursor="pointer"/>
+          <circle cx="${xPos}" cy="${yPos}" r="4" fill="${color}" class="visible-dot"/>
+          <text x="${xPos}" y="${yPos + textDy}" class="data-label" text-anchor="middle" fill="${color}" font-size="11" font-weight="bold">${val}</text>
+        </g>
+      `;
       if (i > 0) dPath += ` L ${xPos} ${yPos}`;
     });
     htmlRef.html += `<path d="${dPath}" fill="none" stroke="${color}" stroke-width="3"/>`;
+    htmlRef.html += nodesHtml;
   }
 
   // --- TAB 1: TRENDS & POLICING ---
