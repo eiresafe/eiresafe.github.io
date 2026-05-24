@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 217
+// Total incidents: 219
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-BE17FECB",
+    "date": "2026-05-23T08:42:10+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Woman killed in Cork stabbing named as Stella Gallagher, her husband Brian remains in hospital - MSN",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPV1RIQ2hWMFdPRWJtWlk5Y2ZyWGlraUkyQnhIaTVqelkxVzRTT0hmbFJqanEzMWpZTVAxZ2drSjlzb3Q0TkhmTDdlMTZWQXItNmx0VnhrUnBPYll2NXhjdUh1TnhqaXRSZkg3SjduWnhxZE5iSS1PY0hDaElrVms4elpWS2o2WFl1bTdpTUsxU3llSktFbS1BV2JYbXBkZHBOZDgtMUhydkhRNXAwWW9zVW1Mazk2a08yYUU5UVNTRWt3c1VtMEw2aVFVQmt5aEQ4ZzZHZElLdGdnSHpvWGlQYnJPZHFfenlNRnBZSTZQYURBYl9EZzFIYXM0b2N0d2JQMDdPSE9DdXNIcWNXaVNPVDBhaERIVjVVZ3ZXbGZMc2xKa2FTbXBPRmUzTXdnY3ZMdWp4SzNQcWJramt5TFBmMUEwLVppZjgwWVo4ZEZ4OURjRzlLaEtBdFJGTExxQURNZUJwLVVNZldkcFdsY2RVdg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-24T08:27:38.642432+00:00"
+  },
+  {
+    "id": "INC-B0DE7F7F",
+    "date": "2026-05-23T08:19:00+00:00",
+    "county": "Armagh",
+    "location": "",
+    "description": "Co Armagh woman accused of stabbing a man in the back in Lurgan has been freed on bail at Craigavon court - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPc3FqRVBoMGo3eW9BQW03Y3FYX05Ia2dRSGVhZTg2SGdxeUVuTFRpWkVQVWk4a2t5WndhMGdfQUpEaGttRS1LN1dUX2czUWxWSjczQ2M5UktMRWxfN25iSjdKNjhDVXRpaEl4amowZzJVM3dHN1JGOU5lUmY3Y2hKektfN3lDeldWbTZvWFYwSUlGd0dFLXc2eE9rT184UlJGNE11c0pscnR2UnhnamVNOXU5X3Z6MzlTaHNKVUhHTVZSMG1GdENvTTg2Zzh2anlHZjJDdGhzTnB4eXhQRENsMXBwNXlGaU5wVXdRNVhTSU8wNzNN?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-24T08:27:43.621497+00:00"
+  },
   {
     "id": "INC-21F693EB",
     "date": "2026-05-21T16:30:00+00:00",
