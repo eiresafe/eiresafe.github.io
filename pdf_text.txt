@@ -1,0 +1,474 @@
+ 
+ 
+Garda Síochána  Analysis Service  
+ 
+ 
+ 
+KNIFE RELATED CRIME  
+ 
+ 
+2015 - 2024  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Unless otherwise stated, data contained in this report is based upon 
+operational figures from PULSE and is liable to change.  Figures are based on 
+the date incidents were r eported and are correct as of 15/05/2025 .  
+
+An Garda Síochána  – Knife Related Crime  
+2 Introduction  
+‘Knife Crime ’ is a component of certain crime incidents rather than an 
+incident type in its own right.  A knife can be used as a tool as well as a 
+weapon  involving threatened or actual violence .  Knife related crime 
+trends  were identified on PULSE1 based on  the Incident MO2 Type 
+‘Weapon/Instrument Used’  with the  Sub-Type ‘Knife’ . 
+ 
+All incidents involving the use and/  or possession of a knife  were 
+examined.  Crime counting rules are applied to all reported crime incident 
+figures.   Crime counting rules are not applied to the number of knives 
+seized.  The main focus  of the report is  on crime incident types whereby 
+harm is inflicted or threatened again st a person (Assault, Homicide and 
+Robbery) rather than against property ( such as, Criminal Damage  and 
+Burglary).   Insight is also provided into the types of locations where these 
+knife related crimes occur – on the street/in public places, in residential 
+locations or in other commercial/retail etc. location types.  
+ 
+To provide additional insight when assessing trends, figures were  
+obtained from the HSE Hospital In -Patient Enquiry (HIPE) system on the 
+                                                           
+1 PULSE (Police Using Leading Systems Effectively) is the incident recording system 
+used by the Garda Síochána nationwide.  number of discharges from hospitals nationwide following an assault by 
+knife.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2 Modus Operandi or method of offending.  
+An Garda Síochána  – Knife Related Crime  
+3 Executive Summary  
+The total number of crime incidents in which a knife was used ranged 
+from approximately 1,100 to 1,400 incidents per year between 2015 and 
+2022.  In the last two years, changes in data recording practices have 
+increased those numbers and allow for improved data insights on 
+possessi on of knives as offensive weapons.   The count of knives seized 
+during 2024 (2,172) was similar to 2023 and in 2022.  Record high 
+numbers of knife seizures were recorded in 2020 in line with 
+extraordinary levels of proactive policing  during the Covid pandem ic.  The 
+number of criminal proceedings (charges/summonses issued) for knife 
+possession offences has increased from just over 1,600 in 2015 to just 
+under 2,000 in 2024.  
+ 
+The number of Assault c ausing Harm  incidents where a knife was used 
+has trended upward  since 2016 , in line with an overall increase in 
+Assault s, and was highest in 2022 at 337 such incidents .  There have been 
+slight decreases in 2023 and 20 24.  The overall proportion of Assaults 
+causing Harm which involved the use of a knife has, however, declined 
+from just over 7% in 2015 to just over 5% in 2024.   Approximately 50% of 
+all incidents of Assaults causing Harm  where a knife was used occur in 
+residential locations.   
+Whilst volumes are much lower, 2022 also marked a peak period in terms 
+of incid ents of Murder/ Manslaughter where a knife was used  (15 
+reported incidents ).  The overall proportion of Murder/ Manslaughter 
+incidents where a knife was used has averaged around 27% over the last 
+ten years.  Aligned to this, t he majority of these incidents  also occur in 
+residential locations  (>60%) . 
+ 
+Robbery from an Establishment/ Institution and from the Person where 
+a knife was used  has been trending downward  over the  ten year period 
+in line with an overall reduction in robberies.  Volumes dropped 
+substan tially in 2020 and 2021 and whilst they have increased since, they 
+remain below pre -pandemic levels.  The overall proportion of these 
+Robberies which involved the use of a knife has been quite consistent at 
+between 26% and 30% every year except 2020.  At least 40% of these 
+Robberies each year occur in retail locations and at least another 28% 
+occur on the street/ in open spaces.  
+ 
+Data provided by the HSE shows 213 inpatients discharged from hospitals 
+following an Assault by Knife during 2023.   This was the highest count 
+over a ten year period.  In 2024 , the number of in -patient discharges  
+reduced to 170, a notable  decrease  on 2023 . 
+An Garda Síochána  – Knife Related Crime  
+4 Incidents with Knife Used MO  
+The total number of crime incidents in which a knife was used was ranged 
+from approximately 1,100 to 1,400 incidents per year between 2015 and 
+2022.  In 2023 , there was an increase to almost 1,600 and then a further 
+increase to just over 2,200 incidents in 2024.  The majority of these recent 
+increases are due to changes in data recording practices which are 
+explained in detail in this section.  
+The incident type s with the highest recorded volumes of knives used in 
+each year are shown in the chart below .  Possession of an Offensive 
+Weapon is prominent in recent years; as these are primary incidents, they 
+reflect people carrying knives only, there was no other crim e discovered 
+as part of the same occurrence.  These incidents will be driven by 
+searches and proactive policing activity.  
+The notable increase in Possession of an Offensive Weapon with a knife 
+used between 2023 and 2024 is attributed to a  new data quality process 
+implemented by the Garda Information Services Centre3 (GISC) in 
+October 2023  which has  increase d the frequency of recording of the Knife 
+Used MO.   This allows us to more readily determine when a knife (as 
+                                                           
+3 GISC personnel are responsible for the creation of incident  record s on the  PULSE 
+database.  opposed to other types of non -firearm) was the offensive weapon being 
+carried.  
+Highest Volume Incident Types with Knife Used MO (2015 -2024)  
+ 
+To verify the increase was driven by the changes in data recording 
+practice, the overall levels of Possession Offensive Weapons incidents 
+
+An Garda Síochána  – Knife Related Crime  
+5 were also examined.  As can be seen in the chart below , there is no 
+related increase in the annual count of incidents of Possession of 
+Offensive Weapon (note the light blue columns remain relatively stable 
+across the period, peaking in 2020).  There was al so no related increase 
+in the annual count of knives being seized by Gardaí (see details later in 
+the report).  The increase is therefore attributable to the change in 
+recording practice and the numbers from 2024 onwards representing a 
+shift in the data se ries which limits comparability to previous years.  
+Possession of Offensive Weapon Incidents – Overall and with Knife Used (2015 -2024)  
+ 
+ Over the ten year period, it is evident that the number of Robberies, both 
+of an Establishment/Institution and from the  Person, involving the use of 
+a knife has generally declined, this reflects overall decreases in these 
+incidents.  When considering Murder – Threats to Kill or Cause Serious 
+Harm, the last five years have generally seen higher volumes involving 
+the use of knives when compared to 2015 to 2019.   In 2024, there were 
+125 incidents of Threats to Kill or Cause Serious Harm involving knives.   
+For full details of other incident types where a knife was used please refer 
+to the table in Appendix One.  
+The following sections of the report examine where knives have been 
+used in committing other criminal offences involving actual or threatened 
+violence against people, as opposed to property.  Three groupings are 
+examined; Assault causing Harm, Murder/ Mans laughter, and Robberies 
+from an Establishment/ Institution combined with Robberies from the 
+Person.  The location types of these incidents involving knives are 
+presented in broad categories; residential, on the street/ open spaces 
+and in other locations wh ich include commercial/ retail premises.  
+ 
+ 
+ 
+
+An Garda Síochána  – Knife Related Crime  
+6 Assault c ausing Harm  
+The annual count of  reported incidents of Assault c ausing Harm has been 
+overall upward trending over  the ten year period  from around 3,500 
+incidents in 2015 to just under 5,800 in 2024 (peaking at just over 6,000 
+in 2022).  T he proportion of incidents whereby a knife was used , however,  
+has been decreasing , from just over 7% of all Assault causing Harm 
+incidents in 2015 to s lightly over 5% in 2024 (also peaking in 2022 at 
+7.5%) .   
+Assault causing Harm with Knife Used by Location Group  (2015-2024 ) 
+ 
+ Despite a proportionate decrease, the actual count of Assault c ausing 
+Harm involving the use of a knife peaked in 2022 at 337 incidents .  This 
+has since reduced  to 307 incidents during 2024 in line with an overall 
+decrease in the Assault c ausing Harm incident type.  
+Over the ten year period between 43% and 58% of Assault c ausing Harm 
+incidents involving a knife  occurred in  residen tial locations.  The number 
+of such incidents  were notably increasing between 2015 and 2020.   
+Incidents occurring on the s treet/  open s pace s were higher during 2022 
+and 2023 but otherwise quite stable in volume over the ten year period 
+including 2024.  
+ 
+An analysis of Suspected Offenders for incidents of Assault causing Harm 
+involving knives, indicates that 18 -34 years is the most prominent  age 
+cohort (57%) and Male o ffenders accounted for 86% of all detected 
+incidents.  
+ 
+ 
+ 
+ 
+ 
+ 
+Suspected Offender Age u18 years 18-34 years 35-49 years 50+ years
+Assault Causing Harm 9% 57% 27% 7%
+An Garda Síochána  – Knife Related Crime  
+7 Suspected Offenders for Assault causing Harm with Knife Used (2015 -2024 ) 
+ 
+ 
+ 
+Murder / Manslaughter  
+Murder/ Manslaughter are relatively low volume incidents compared to 
+the other incidents presented in this report but are included given their 
+seriousness.  T he annual count of  reported incidents of Murder/ 
+Manslaughter has remained  quite stable  with lower volumes reported in 
+2019  to 2021 inclusive, two of these years being partially influenced by 
+the Covid pandemic and related restrictions .   
+ The proportion o f incidents whereby a knife was used  is substantially 
+higher than was seen in Assaults causing Harm.  Over the ten year period 
+the proportion of Murder/ Manslaughter in which a knife was used, 
+averaged around 27% of reported incidents.  While the number of  
+incidents of Murder/ Manslaughter with a knife u sed reported during 
+2022 (15 ) was the highest over the ten year period, this count reduced 
+during 2023 and 2024 in tandem with slightly lower overall Murder/ 
+Manslaughter incidents.  
+Murder/ Manslaughter with  Knife Used by Location Group (2015 -2024)  
+ 
+ 
+As shown in the chart above, o ver the ten year period the majority of 
+Murder/ Manslaughter incidents involving a knife  occurred in  residential  
+89%85%
+67%
+60%75%89%
+63%93%90%
+75%11%15%
+33%
+40%25%11%
+38%7%10%
+25%
+0%10%20%30%40%50%60%70%80%90%100%
+2015 2016 2017 2018 2019 2020 2021 2022 2023 2024
+Residential Non Residential
+An Garda Síochána  – Knife Related Crime  
+8 locations.  Caution is advised in relation to these figures as proportions 
+are based on low underlying counts.  
+ 
+An analysis of Suspected Offenders  for incidents of Murder/ 
+Manslaughter involving knives,  indicates that 18 -34 years is the most 
+prominent age cohort  (50%) and  Male Offenders accounted for 87% of all 
+detect ed incidents.  
+ 
+ 
+Suspected Offenders for Murder/ Manslaughter with Knife Used  (2015 -2024 ) 
+ 
+ 
+ Robbery  
+The annual count of  reported incidents of Robbery from the Person and 
+Robbery from an Establishment/ Institution (hereafter simply referred to 
+as Robbery)  has been downward  trending over  the ten year period .  
+Generally, higher levels of Robbery were evident from 2015  to 2019 with 
+levels typically over 2,000 per year ( 2015 being the highest  with just over 
+2,400 incidents ).  Robberies reduced substantially du ring 2020 and 2021 
+with restrictions related to the Covid pandemic.  Between 2020 and 2024 
+the number of Robbery incidents has ranged from just under 1,200 
+incidents in 2021 to just over 1,600 incidents in 2023.  In 2024 , there was 
+a slight reduction to ju st over 1,500 incidents reported.  
+ 
+The proportion of incidents whereby a knife was used , however,  has been 
+stable within the 26% to 30% range over the pas t ten  years (excluding 
+2020) and most recently at 28% of incidents reported during 2024.   The 
+largest proportion of Robberies involving the use of knives occur in retail 
+locations, ranging from between  42% and 54% over the ten year period.  
+Sizeable but lower proportions, ranging from 28% to 42% over the ten 
+years, occurred on the Street/ Open Spaces.  
+ 
+Suspected Offender Age u18 years 18-34 years 35-49 years 50+ years
+Murder/ Manslaughter 7% 50% 36% 7%
+
+An Garda Síochána  – Knife Related Crime  
+9 Robbery with Knife Used by Location Group (2015 -2024)  
+ 
+ 
+An analysis of Suspected Offenders for incidents of Robbery involving 
+knives, indicates that 18 -34 years is the most prominent cohort (56%) and 
+Male Offenders accounted for 94% of all detec ted incidents.   Robbery 
+involving knives also shows the highest proportion of child offenders 
+(those aged under 18 years) at 18% . 
+ 
+ Suspected Offenders for Robbery with Knife Used (2015 -2024 ) 
+ 
+ 
+Knives Seized and Searches Conducted  
+Excepting the extraordinary proactive policing activity of the pandemic, 
+the number of knives seized annually during 2023 and 2024 (2,196 and 
+2,172 respectively) remains closely in line with the number of knives 
+seized immediately pre -pandemic in 2019 (2,146).   The incr ease in the 
+number of knives seized in 2 017 and 2018 in particular,  was driven  in part 
+by the implementation of the Property and Exhibits Management System 
+(PEMS) during 2016 which introduced electronic recording and tracking 
+of items, replacing the tradit ional property book.  
+Suspected Offender Age u18 years 18-34 years 35-49 years 50+ years
+Robbery 18% 56% 24% 2%
+
+An Garda Síochána  – Knife Related Crime  
+10 Knives Seized and Searches Conducted (2015 -2024)  
+ 
+When comparing the trends in Knives Seized and Searches Conducted, it 
+can be seen that despite reductions in the number of searches since the 
+exceptional peak related to the pandemic i n 2020, the number of knives 
+seized has remained generally  stable.   For details of knives seized and 
+searc hes conducted across all Garda Regions and D ivisions, please refer 
+to the tables in Appendices Two and Three.  
+ 
+ Knives Seized and Knife Used MO  
+Between 2015 and 2022, there was a moderate positive correlation 
+between the trend in Knives Seized and the trend for the recording of the 
+Knife Used MO in PULSE.  Since 2023, h owever, the annual count of Knife 
+Used MO being recorded has increased s ubstant ially while the annual 
+count of Knives Seized has remained stable.  As referenced earlier in the 
+report, this increase in the Knife Used MO has been driven by a change in 
+data recording , particularly across the Possession of an Offensive 
+Weapon incident ty pe. 
+Knives Seized and Knife Used MO (2015 -2024)  
+ 
+
+An Garda Síochána  – Knife Related Crime  
+11 Knife Related Proceeding s 
+To examine criminal proceedings initiated specifically relating to carrying 
+a knife, all charges/summonses issued for two specific offences were 
+analysed .  The two offences are ‘Possession of Knives and Other Articles’ 
+and ‘Possession of Flick -Knife Contrary to Section 9(4) Firearms and 
+Offensive Weapons Act, 1990’.  
+Knife Related Proceedings – Charges and Summonses Issued by Offence  (2015 -2024)  
+ 
+ To date, the highest number of charges/summonses issued over the ten 
+year period related to incidents reported in 2020, the same year as the 
+highest number of knives seized.   
+ 
+Prosecutions for the offence of ‘Possession of Knives and Other Articles’ 
+peaked in volume at 2,033 during 2023 (previous high of 2,005 occurred 
+during the pandemic in 2020) but reduced slightly in during 2024 .  
+Prosecutions for the offence of ‘Possession of Flick -Knife’ are overall 
+lower in volume and have been downward trending between 2020 and 
+2024  with  2024 mark ing a ten year low of 151 pro ceeding s.  This may be 
+more reflective of changes in the types of knives being carried and seized 
+as there has been  no reduction in proceedings overall.  
+ 
+It is important to note that these figures are based on the date the 
+original incident was reported. As some investigations may still be on -
+going for more recent incidents, particularly those reported in 2024, 
+proceed ings figures will increase over time.  It is also important to note 
+that there are other types of sanction  which may have been 
+administered , such as, a referral to the youth diversion programme.  
+ 
+ 
+
+An Garda Síochána  – Knife Related Crime  
+12 HSE Data  
+Data was supplied by the HSE Healthcare Pricing Of fice (HPO) which 
+provided an annual count of Hospital In -patient Discharges following an 
+Assault by Knife for the 2015 to 2024 period.   The count of 213 recorded 
+for 2023 was the highest over a ten  year period though the annual count 
+decreased s ubstantially  (to 170) during 2024.    
+HSE Hospital In -patient Discharges following Assault by Knife  and Reported Assaults 
+causing Harm with Knife Used MO (2015 -2024)  
+Source: HSE HIPE and PULSE  Data   
+The chart above shows the total number of hospital discharges each 
+year according to HSE data along with the total number of Assault 
+causing Harm incidents reported each year where a knife was used 
+based on PULSE data.  
+ 
+HIPE data also indicated that injured parties were 87% male and 6% 
+were aged under 18 a t the time of discharge from hospital.  
+ 
+Note s in relation to HIPE Data :  In-patient and day case discharges are 
+reported only; Emergency Department and out -patient attendances are 
+not recorded on HIPE.   HIPE data is based on hospitalisations which may 
+include multiple admissions for the same patient. Therefore, it is not 
+possible to use HIPE to examine certain parameters such as the number 
+of hospital encounters per patient, or to estimate incidence or prevalence 
+of disease.   Diagnosis and Procedures are co ded using ICD -10-
+AM/ACHI/ACS (From 2024 the 12th edition is used).   ICD-10-AM is the 
+International Statistical Classification of Diseases and Related Health 
+Problems, Tenth Revision, Australian Modification.  
+ 
+ 
+ 
+
+An Garda Síochána  – Knife Related Crime  
+13 Appendix One  - Incidents with Knife Used MO  
+ 
+The table shows the number of incidents by type reported in each year which had the knife used MO recorded.   As noted in the main report, the increase in 
+the number of Possession of Offensive Weapons incidents involving the  use of knives  in 2024  is due to changes in data recording practices in GISC introduced 
+in October 2023.  
+ 
+ 
+*Less than 10 incidents.  
+  
+Incident Type 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024
+Possession of Offensive Weapon 143 109 127 193 301 283 295 301 443 1,031
+Assault Causing Harm 251 229 243 272 288 318 258 337 309 305
+Robbery of an Establishment / Institution 383 297 308 320 277 139 187 204 220 191
+Robbery from the Person 283 274 289 308 276 180 147 161 219 234
+Aggravated Burglary 95 75 73 96 88 103 72 80 89 94
+Assault Minor 91 76 93 97 84 79 55 59 68 64
+Murder - Threats to Kill or Cause Serious Harm 22 22 36 70 49 98 81 93 104 125
+Hijacking Unlawful Seizure of a vehicle/aircraft/vessel 11 * 10 20 21 29 29 11 25 34
+Criminal Damage (Not by Fire) 16 17 * 13 * * * 10 15 46
+Murder * 10 * 11 * 10 * 15 11 *
+False Imprisonment * * * * * 12 * 15 11 *
+Affray/Riot/Violent Disorder * 0 0 * * * * * 16 17
+Assault / Obstruction / Resist Arrest - Peace Officer * * * * * * * * 10 *
+Murder - Attempt * * * * * * * * * *
+Others (39 incident types) 27 13 30 27 21 18 13 14 32 56
+An Garda Síochána  – Knife Related Crime  
+14 Appendix Two - Knives Seized by Garda Region and Division  
+ 
+ 
+ 
+Region/Division 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024
+Dublin Region 620 548 680 900 963 1,005 812 914 1,024 1,054
+D.M.R. Eastern 32 35 31 66 77 76 51 55 46 47
+D.M.R. North Central 144 98 168 189 185 203 188 201 287 325
+D.M.R. Northern 96 86 113 185 170 151 126 212 187 189
+D.M.R. South Central 144 128 176 195 208 257 187 204 238 256
+D.M.R. Southern 85 100 72 96 129 134 93 83 113 84
+D.M.R. Western 119 101 120 169 194 184 167 159 153 153
+Eastern Region 286 243 302 371 354 425 335 429 402 333
+Kildare 25 32 46 64 52 73 45 57 60 57
+Laois/Offaly 29 35 49 71 47 59 71 85 51 35
+Meath/Westmeath 61 47 67 72 98 92 60 72 89 78
+Waterford/Kilkenny/Carlow 62 68 79 99 85 117 100 110 129 74
+Wexford/Wicklow 109 61 61 65 72 84 59 105 73 89
+North Western Region 197 196 271 299 450 386 291 438 368 336
+Donegal 24 17 31 28 43 46 40 42 55 49
+Galway 38 42 76 49 89 84 70 105 93 83
+Louth/Cavan/Monaghan 67 74 80 117 163 140 106 211 135 112
+Mayo/Roscommon/Longford 41 42 41 63 117 65 47 61 54 53
+Sligo/Leitrim 27 21 43 42 38 51 28 19 31 39
+Southern Region 259 226 366 365 379 444 397 387 402 449
+Clare/Tipperary 55 39 79 72 75 96 71 61 98 72
+Cork City 65 67 97 101 121 172 118 129 100 126
+Cork County 39 27 62 67 72 62 79 77 51 61
+Kerry 21 26 26 39 37 28 35 39 39 44
+Limerick 79 67 102 86 74 86 94 81 114 146
+National Total 1,362 1,213 1,619 1,935 2,146 2,260 1,835 2,168 2,196 2,172
+An Garda Síochána  – Knife Related Crime  
+15 Appendix Three - Searches Conducted by Garda Region and Division  
+ 
+ 
+Region/Division 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024
+Dublin Region 51,848 46,308 43,628 40,428 44,982 51,831 35,749 30,934 31,637 30,687
+D.M.R. Eastern 1,072 1,138 1,660 1,436 1,701 3,034 2,376 1,716 1,652 1,201
+D.M.R. North Central 18,366 6,453 7,676 11,267 10,400 9,951 7,731 8,184 7,575 9,407
+D.M.R. Northern 7,363 8,551 6,402 6,193 9,783 11,032 7,005 5,585 6,122 5,757
+D.M.R. South Central 7,069 4,585 4,172 3,683 3,522 4,751 3,751 4,093 4,459 3,646
+D.M.R. Southern 4,771 6,700 5,701 4,659 4,886 6,805 4,866 4,134 3,946 3,099
+D.M.R. Western 13,207 18,881 18,017 13,190 14,690 16,258 10,020 7,222 7,883 7,577
+Eastern Region 12,340 15,207 15,455 15,310 16,771 20,451 16,554 13,016 11,635 10,955
+Kildare 1,370 1,953 2,344 2,822 3,561 3,631 3,334 3,276 2,115 1,839
+Laois/Offaly 1,386 1,790 2,206 2,160 2,265 3,202 2,581 2,249 1,944 2,113
+Meath/Westmeath 2,254 3,443 3,493 2,736 3,254 3,737 2,895 1,893 1,930 2,107
+Waterford/Kilkenny/Carlow 3,070 3,498 3,348 3,711 3,490 5,096 4,410 3,279 3,331 2,982
+Wexford/Wicklow 4,260 4,523 4,064 3,881 4,201 4,785 3,334 2,319 2,315 1,914
+North Western Region 7,929 8,764 8,668 8,881 10,153 13,759 9,873 7,160 7,177 7,179
+Donegal 775 893 871 824 1,187 1,790 1,212 734 761 735
+Galway 2,448 2,328 2,265 1,911 1,790 2,033 1,457 1,536 2,023 1,743
+Louth/Cavan/Monaghan 2,027 2,792 3,052 3,797 4,792 6,171 4,175 3,003 2,328 1,966
+Mayo/Roscommon/Longford 1,710 1,894 1,739 1,540 1,562 2,458 2,066 1,169 1,369 1,891
+Sligo/Leitrim 969 857 741 809 822 1,307 963 718 696 844
+Southern Region 17,320 15,489 18,091 17,154 16,270 22,864 20,094 14,203 11,600 10,537
+Clare/Tipperary 4,295 3,838 4,595 3,953 3,731 5,455 5,275 3,532 2,956 2,287
+Cork City 4,717 3,818 4,793 4,823 4,528 6,616 6,208 4,005 2,608 2,645
+Cork County 2,188 2,371 3,201 2,803 3,093 4,422 3,193 2,614 2,169 2,030
+Kerry 1,705 1,664 1,814 1,780 1,501 1,903 1,321 1,133 1,024 1,020
+Limerick 4,415 3,798 3,688 3,795 3,417 4,468 4,097 2,919 2,843 2,555
+National 89,437 85,768 85,842 81,773 88,176 108,905 82,270 65,313 62,049 59,358

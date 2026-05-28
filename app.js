@@ -140,7 +140,8 @@ function computeStats(countyFilter = null) {
   if (selectedYear <= 2024) {
     // USE HISTORICAL DATA FOR YEARLY TOTAL
     if (countyFilter) {
-      thisYearVal = historicalData.seizuresByCounty[countyFilter]?.[selectedYear] || 0;
+      const key = Object.keys(historicalData.seizuresByCounty).find(k => k.includes(countyFilter));
+      thisYearVal = key ? (historicalData.seizuresByCounty[key]?.[selectedYear] || 0) : 0;
     } else {
       thisYearVal = historicalData.totals[selectedYear] || 0;
     }
@@ -282,7 +283,8 @@ function renderMap() {
     // Map Mode 2: 10-Year Seizures Heatmap for the selected historical year
     // The data is directly from historicalData.seizuresByCounty
     activeCounties.forEach(c => {
-      countyCounts[c] = historicalData.seizuresByCounty[c]?.[selectedYear] || 0;
+      const key = Object.keys(historicalData.seizuresByCounty).find(k => k.includes(c));
+      countyCounts[c] = key ? (historicalData.seizuresByCounty[key]?.[selectedYear] || 0) : 0;
     });
   } else {
     // Map Mode 1: Live Incidents
@@ -879,11 +881,15 @@ function renderHistoricalCharts() {
 
   const table3 = document.getElementById('table-app3');
   if (table3 && table3.innerHTML === '') {
-    let tHtml = '<thead><tr><th>Metric</th>';
+    let tHtml = '<thead><tr><th>Division</th>';
     years.forEach(y => tHtml += `<th>${y}</th>`);
-    tHtml += '</tr></thead><tbody><tr><td>National Total Searches</td>';
-    years.forEach(y => tHtml += `<td>${historicalData.searchesNational[y] || 0}</td>`);
-    tHtml += '</tr></tbody>';
+    tHtml += '</tr></thead><tbody>';
+    for (const [division, data] of Object.entries(historicalData.searchesByDivision)) {
+      tHtml += `<tr><td>${division}</td>`;
+      years.forEach(y => tHtml += `<td>${data[y] || 0}</td>`);
+      tHtml += `</tr>`;
+    }
+    tHtml += '</tbody>';
     table3.innerHTML = tHtml;
   }
 }
