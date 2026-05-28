@@ -32,16 +32,16 @@ jobs:
 
       - name: Run scraper (incremental)
         if: github.event.inputs.backfill_historical != 'true'
-        run: python scripts/scraper.py --output-dir . --days 3
+        run: python scripts/scraper.py --output-dir data --days 3
 
       - name: Run scraper (full historical backfill)
         if: github.event.inputs.backfill_historical == 'true'
-        run: python scripts/scraper.py --output-dir . --start-year 1996 --backfill-2026
+        run: python scripts/scraper.py --output-dir data --start-year 1996 --backfill-2026
 
       - name: Commit updated data
         run: |
           git config user.name "eiresafe-bot"
           git config user.email "bot@eiresafe.github.io"
-          git add data*.js
+          git add data/
           git diff --cached --quiet || git commit -m "chore: auto-update incident data [$(date -u +%Y-%m-%d)]"
           git push
