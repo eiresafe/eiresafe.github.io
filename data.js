@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 219
+// Total incidents: 223
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,58 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-53B8329A",
+    "date": "2026-05-28T09:11:58+00:00",
+    "county": "Antrim",
+    "location": "Carrickfergus -",
+    "description": "Man stabbed at event in Carrickfergus - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnZPRkZjcURnVXNERmRTZUlpeHUwU1pIZjZWVzdsdE82cDh5UUN5OWpIc3FmS0oyQkRrZ0NYZGlTeVdZblV5UlhFVlZtOVRkQ01VeUMzbE5MVl9VVHdVbXhxTEd5SHFiVDRRWGZiajBuRzlvOVJRbkl2ZEpwWGRpY2JNcFJ4N3lrcnRYZndER19qWDJIWWQ4d2JUdzZfOEQ4UER2Vm1hM3FXWmwtck53Mw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-28T09:59:42.365516+00:00"
+  },
+  {
+    "id": "INC-65F731C3",
+    "date": "2026-05-27T15:15:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Taxi passenger \u2018shows off\u2019 seven-inch knife before alleged attack on PSNI officer - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQVWZzRGxyeGtsT0N5dzV6UTNBeS1BQU1JR3JBWVlhcEdqSi11S2hROVNVdzJpWmhNalpNT0FGcmpPQXkzem5jZ3hqaDlzMlJBN1hCeWptZkNPNWMyWkVudDFaMnFtdDU1UG5kdHNFWW8tYzRjVXBoM2FpS0J5YjZGRWw4NkxiWVhQWklnRlM4U0ZKQ0tLXy00THdYTjlfVlFtQ1NMblMtb3M4WUdwOGlZUGx6ZUpDZVNGRmxWRzZkVHFUS3Jid0JHMHhNREZHWjNWQVlxYUw4UkVyWTUtVWtGY2dBUjdvczdu?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-28T09:59:28.990460+00:00"
+  },
+  {
+    "id": "INC-E4577FA9",
+    "date": "2026-05-27T11:54:24+00:00",
+    "county": "Westmeath",
+    "location": "",
+    "description": "Young mother who captained Irish boxing team jailed for \u2018frenzied\u2019 knife attack - Westmeath Topic",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeXRTV2VtMTBZamYyUDF1TlVTckRBTkM4LW1GaGdMajVWNzlhQTBTR2JTRHp1NzQtRUJoekhZbkNpdGx5VS1wT2N1QzNiWVlwQ1pxUEZOYzAwdEdZU3FiQTE1YzRzdUlVTVZJUFU5eXJERVNoSmZMSkx3LTBJTG1wRVJacVhrSm11MEY1eHk1N21uemxwOXRKRmhPMA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-28T09:59:28.989693+00:00"
+  },
+  {
+    "id": "INC-0A5029EF",
+    "date": "2026-05-27T11:21:28+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Knife arrest at packed Cork beach - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNanpGbXd6NVFFSjFtYTV0b0FwSS1QX1Job2FEdjUzWHRHbTIxZ0dBa29VX0F5dUExeG5udE1wT2R2ZDNpeXhjcEY0anotbkFNLTZJTTlMQmdaTTdkYUdhd29WSFNXa0JIRmFJbld6N0ZSenZFc1gwNUJiQ0wyMmVrRkhEMEbSAYoBQVVfeXFMUDdWTXNyZGpSTHJCalpaV296ZmVSRTloc0s4a3hDMDh5ZzB4dHhfVkNPWTkwV3k4dWJJbXgxSDlycjdpUUZtNUhVMVZlZ09OdlVXbVg2eFU4MkI2OEFWTFpGQUxOTEw1VExLVHNTXzJkVWY4Y3phcVhIendlUF85R1h5TjNCNjFHc21B?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-28T09:59:32.248402+00:00"
+  },
   {
     "id": "INC-BE17FECB",
     "date": "2026-05-23T08:42:10+00:00",
