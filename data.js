@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 223
+// Total incidents: 229
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,71 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-46F2EACB",
+    "date": "2026-05-29T07:55:57+00:00",
+    "county": "Galway",
+    "location": "",
+    "description": "Galway stab victim had been attacked multiple times before death - Extra.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVVldZYm05M1NPSEkzb250R0lCU0N0aE1wY0hPWGplZnVCWEZRNk56YVZnN2JLN3BBdzNjd3hDS2R4U3pycGR5aTJRM3pKczhEaUVsdEdKaDVjVzJnUThjSmxfTkFLdk9jeXFxN2VYbi1HRFJCTlJmX1lCZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-29T09:52:25.815345+00:00"
+  },
+  {
+    "id": "INC-2E2EF0BA",
+    "date": "2026-05-29T05:30:00+00:00",
+    "county": "Galway",
+    "location": "",
+    "description": "Mother of two (31) stabbed and thrown into river after being lured to her death in Galway - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeVJic2NQOE1zM0tsOExEMllEWUpZNTZLRmZpc2cyYTd4Uy12RDJBdXhKZ3U5ajJCQXNnWDFBeEltWE1wZFd5MVNLWGNyNUltOWJVYkhvX21oQXJYQkYxWEhRSDVlamxVZ2hGR2ktX2FYQUVTUEg3NE55b2hqXzNhNTFSQTJEa3dZLWgxYl9GSzZaeTdYMVZSUDZFTVk2SnFPWC1WbU9ZWF9ScEtkdS1LRTE0azdHMEZZN2pXbGoxQWxBalBLNE5EYWp1SnVpWGtFSmxvRWM3amd2bVhqeGlqMGhR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-29T09:52:34.664986+00:00"
+  },
+  {
+    "id": "INC-A580B01A",
+    "date": "2026-05-28T15:09:50+00:00",
+    "county": "Galway",
+    "location": "",
+    "description": "Galway: Woman who was IPAS resident dies with \u2018throat slashed\u2019 - Gript",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRHprVFFXNy1sZ3h6M3pHandDeEo0bDM3M3pSLUYtaVVlbDFzZ0NiVjBCdzQyS2lmRHlZcFBJS050elRQbVlXdkJaYUFlNHRiMl9hS25Id3QwYXNycGItNDFnVHhzUmZpal9LampvZjZxVkoyOGNVeEFqWWxsbW8yblNQMA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-29T09:52:25.815703+00:00"
+  },
+  {
+    "id": "INC-9D8C699D",
+    "date": "2026-05-28T12:33:00+00:00",
+    "county": "Galway",
+    "location": "Clifden",
+    "description": "Woman who died in stab attack in Clifden, Co Galway named locally - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVkNwbEk2c2MyaDBzai0xWkxjbkttZGROMlZLcFVwYm55MEh2dF9yM2ZqSzFDUWhId0tUNEJGNndFMGMzUUZfbV9CYlE4ZVlhUE5PT3pFOW9aZ21ldGdOZ094OGFjSDZaeWN6bVJxME1xRDlWZE1CcEVIb24yTVZsZW9n?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-29T09:52:13.472133+00:00"
+  },
+  {
+    "id": "INC-16902425",
+    "date": "2026-05-28T09:56:05+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Switzerland train station stabbing as man reportedly shouts 'Allahu Akbar' in knife attack - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM0NXdXFlclZ6ajVXSXUyZW14SEdoWDlpaGdCRFFPUVdfT245eEFOWHA3YWtCanBKWFJnSUJGM3pIYk9tdG8yYlRfUTRYakNuX3dTLURYX0stRDNOQUd0cGtEX051RUNDX282aE5CUHRncHhRb0JVYXJIVUg0Y0xZa0UyMEFCdlRIeGluYTVMUVZRN03SAZgBQVVfeXFMUGZuZTdDUUI1U0NqUy1meWhXVVloVXlkQm1BSUpMaDFlb04wc1NPaVlNYjdGdmJZMWktaFd2NUQxTXdjVWpjZDJndHk5MEhNUkFSTVpzcXBOa21JUjRaV0daN3A4Q0Y0NG1QV3dZUkl2X3cyOXhJd1VIZ0ZNZGE0aVJPVEw1U3g5eG5Td2N5SXA0MmZlQTJ5T0g?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-29T09:52:22.307559+00:00"
+  },
   {
     "id": "INC-53B8329A",
     "date": "2026-05-28T09:11:58+00:00",
@@ -22,6 +87,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-28T09:59:42.365516+00:00"
+  },
+  {
+    "id": "INC-08963DCA",
+    "date": "2026-05-28T08:46:14+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Carrickfergus stabbing incident sees man injured as suspect 'fled scene on motorbike' - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONzdEV2ZhN2FOOUlDT2Q3U01xWDYyMUluT21ScGZpQ3hIOUdjcnI1anhfQWZ6TF9fY1BtaElGVDZUcXZ5a0xIUUdfdExHNHA3bGRqSEJBWUwyYVdGQlc3UUFQbTNKMFRKaVB5UERmeHJWcVF1U3dLZFZjN29WZUc0V2FtWGFQNUpfSy1rZHFtNGNPT3dFOXE3M0c2VVVCaWlXNmZ30gGoAUFVX3lxTE0xUXRVY0I1VmhJSm4xb1NUbXZHdkhOM3VkZHFxaFJESmZOVzJ5bXRpcmQzNkxoRmc3R1JnckotVXdDYkxJaFV5VXI4dkhQR09LTjlUZm1oWG1Ob1NIS0hYVzhxdEN1ckJFY3Bfa2NPOG9LbFk2Y1hZQ1JhbVhlOEJwQndhX3JVVUJYczZWZmdtTHNjMTJYMTFNTkxVajI0Zlh0aUstbkcwMA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-29T09:52:29.446804+00:00"
   },
   {
     "id": "INC-65F731C3",
