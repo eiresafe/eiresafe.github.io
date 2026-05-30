@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 229
+// Total incidents: 232
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-B6B708F5",
+    "date": "2026-05-30T00:50:11+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man rushed to hospital following Crumlin stabbing incident - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNclBZZFRCazc5OXZxOUxLWEdVUThsRWQzcHlzSjROMl9mdVVBVXpxYjFPTW43amhKOWRvQVhUZGtVTFg4bENPWGtGZTUtbnRJVkJVZ3ZjUjY5eGVOejZ4MHZfSHdLNHZqS3pnSmJaMkVHWEZTdFRPNnNJallmdnB0bE1CN2k3aUIzQ19wWlNEcXRVUlHSAZgBQVVfeXFMTUJRYnJJOHBaVHVzaXNxRTNKZTYzUTJ5bkZXTnRXWUZZSzA1YUswMmNBTDM2eFVrRzZPemkwZHFHNXFDeG42a21tUHBIZ28xeEk3TFhXX0s2YVBIcXNHZXRDUm0tdHhUM2xfLWV5SlB3azZJaWgxa2lraXVMM2t5NG1XTzlJTVQyMmpLOVV6Y3hZZ3dNOGZGNlM?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-30T08:26:51.760440+00:00"
+  },
+  {
+    "id": "INC-9EAE929A",
+    "date": "2026-05-29T15:19:44+00:00",
+    "county": "Galway",
+    "location": "",
+    "description": "Stab Wounds Discovered On Woman Who Was Found Dead In Galway Yesterday - kfmradio.com",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN0dBWGJ6Tm5nZF9sVFJWakRGWk5uS0J4UG1CajBpM0hpZkI5NWtFdmE1dElVZk5YbUtQV2VHRnpULXpIdnpVcVRoUzlsR2diZC11Z3R0QS05aGhFc2F3QTBmbmdDNDZ2dlVtbDBSZDJRcFJhVUpqcDJmMXNNT1BlMDljakVUSEllbzgyU3FNamxlWW83MkpFSTF5UGdHTmVE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-30T08:26:55.218097+00:00"
+  },
   {
     "id": "INC-46F2EACB",
     "date": "2026-05-29T07:55:57+00:00",
@@ -35,6 +61,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-29T09:52:34.664986+00:00"
+  },
+  {
+    "id": "INC-97381143",
+    "date": "2026-05-28T15:31:38+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man arrested following daytime stabbing in Cork city centre - MSN",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSnlSQWw0RFQyVW5JRnp1ZEFqQnBNeEhNalVaNFl4Z29ZXzRSNEw1MjBlcFNmdHltYXlmcGFCQXJ1TzB0QmxSeEVZSFVsMEZLOXd5U1c1WXVYbU9NTGhrZWtGNk9SZWFaWV9NN3hOemVzcFZxMmRLTzVZNFA2ejhRWDF6Ukt5WV9RRDdsWkZseWxTMjdWdHF0eUZORW1DSUFRTkpIbGItd19sSlFPZUlqNmdtdmYwQ1dZaHNHTGR6UVRpNDBxbVREN0FUMjJOSjU3aFYwQk9UOWQ5ZkJmYnNB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-30T08:26:53.520904+00:00"
   },
   {
     "id": "INC-A580B01A",
