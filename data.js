@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 232
+// Total incidents: 235
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-A82CCA77",
+    "date": "2026-05-31T05:00:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Crown Court to hear case of man who allegedly used scissors to stab woman - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOb2dzVVFCejVaMFRUaWNHSUFnaE92ZDl5SklGWHFVaU10d3RNZjFZNFpScFlvbHNqbXE0eWptdWItM1k2Q0pLYkNyXzREeHJjQ1RYVWxYTklGd3czOWhDWnAzcGxrMXZ4UURNNEQ4bEY3dFRoY0JNVkpTMWpkTU1KWWgzX2JMckJ2b1FyMGNMa29sYWJjSUN5TTU1TUhxZjh1ang0NzZobDJGcG02dW40b2JUSFhFVlRGOWpTU1pYb2dlSlJMZEhENlRqeEIzc2trQzBNZXNXVTNNSlo3NGR4enhKSW1XRG1aRHFNOA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-31T08:43:46.812191+00:00"
+  },
+  {
+    "id": "INC-9BD383C7",
+    "date": "2026-05-30T12:59:23+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man arrested following Carrickfergus stabbing - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSFByM3l4ay1KbldfVFFHWDBvQ2RZX3MwQl9lbklheTg4RVdsQ0xXTWZBZklBMzFvNGtIRXljdGg3U21xbXpVUkxDMWY2QmhrTTN3OHBWX1A2Ukl2clhONkh5SXJLVl9NX3oyNDNUdFlBanBaRDYtWUEzSkNFLXlaWG02MUpGeHAweXJnWldGcTdkNXJ1SHp3TXZ1dFRSLXR1SkdoSGZTTDMyOEN4VXpPZGswS2w?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-31T08:43:31.457410+00:00"
+  },
   {
     "id": "INC-B6B708F5",
     "date": "2026-05-30T00:50:11+00:00",
@@ -22,6 +48,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-30T08:26:51.760440+00:00"
+  },
+  {
+    "id": "INC-BBF90078",
+    "date": "2026-05-29T18:17:58+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man rushed to hospital following Crumlin stabbing incident - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNclBZZFRCazc5OXZxOUxLWEdVUThsRWQzcHlzSjROMl9mdVVBVXpxYjFPTW43amhKOWRvQVhUZGtVTFg4bENPWGtGZTUtbnRJVkJVZ3ZjUjY5eGVOejZ4MHZfSHdLNHZqS3pnSmJaMkVHWEZTdFRPNnNJallmdnB0bE1CN2k3aUIzQ19wWlNEcXRVUlHSAZgBQVVfeXFMTUJRYnJJOHBaVHVzaXNxRTNKZTYzUTJ5bkZXTnRXWUZZSzA1YUswMmNBTDM2eFVrRzZPemkwZHFHNXFDeG42a21tUHBIZ28xeEk3TFhXX0s2YVBIcXNHZXRDUm0tdHhUM2xfLWV5SlB3azZJaWgxa2lraXVMM2t5NG1XTzlJTVQyMmpLOVV6Y3hZZ3dNOGZGNlM?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-05-31T08:43:39.990599+00:00"
   },
   {
     "id": "INC-9EAE929A",
