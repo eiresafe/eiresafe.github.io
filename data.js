@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 235
+// Total incidents: 240
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,58 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-8A037CE4",
+    "date": "2026-06-01T11:09:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Garda\u00ed gather CCTV from popular area in probe into fatal stabbing of man, 21, in Dublin - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vQVd5RkY5LWxPV1lFaUtsSjUyYUtpTmdUTGNETjJqN0VPMjdaTk44SjNMN3VHVjYxSlJNdjI1WDhuV3ZlRVFtVk1KRnVJblFLV1ltM3lTX2k5UnJZWEFfMUZpSQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-01T11:30:33.543691+00:00"
+  },
+  {
+    "id": "INC-0EC83BBB",
+    "date": "2026-06-01T10:54:37+00:00",
+    "county": "Dublin",
+    "location": "Dublin city centre -",
+    "description": "What we know so far as man, 21, stabbed to death in Dublin city centre - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3d2ozTUFQMHdZVFhFcmU4MGp2dUVNMFN5a1BRcloyTUhfTWdxMm80ek5oZXI1RlNYdlVTZ0wzOVN3SEZCVUVVS0RKMHdoUXpWREVlY1pJamljSnAxSkVKNjFfNmJZSjgwZ0d1Qg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-01T11:30:42.070636+00:00"
+  },
+  {
+    "id": "INC-81138845",
+    "date": "2026-06-01T09:08:41+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man, 21, dies after bank holiday stabbing in Dublin as Gardai seal scene and launch major probe amid witness appeal - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HNXdnWnBZNVhqcVNZX3I2T2VnSWN0RGdidlQ3RmFzUlM0dFBJVHJVbXNFTm94bTY4ZGkxRGdRWmZoaVlEWTBoaFA0NjNiZ2k0Y0FqS00yUWtObTNFR2cwTHVNdm4yQno4WmdyY0d4QVUtUmpCT3ZtaGd5am9kckk?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-01T11:30:42.070387+00:00"
+  },
+  {
+    "id": "INC-4122C4AC",
+    "date": "2026-06-01T09:01:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man (21) dies after Dublin stabbing as garda\u00ed cordon off large area around Grafton Street - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZmNyc0U4a1Zpcy1PdDNiY18zZWI1R2NjTUZpaGxtZE1CcUVsZFNfU0I3dUo5Wl9zcF9fLXJqeVJ3Ry1QMVYwcXNBSW11SXgzU0NLSm5zbUxQeXZDQkpZNE01X25ZbU4wZWFhZEllUGtyRWFxeHBzemhLS25tZTJYTGFuaERrX3duVmJ1RndBZlBLajBtanBDc1FNYy1lX0NETDBuVVFzdElkMGRLN0NuS1FVOUx6WlZEdnh3Y0JWTlhuUTVrOGkzWEl6bFdVdWlvWS12YmNnZHJHdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-01T11:30:33.543316+00:00"
+  },
   {
     "id": "INC-A82CCA77",
     "date": "2026-05-31T05:00:00+00:00",
@@ -35,6 +87,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-05-31T08:43:31.457410+00:00"
+  },
+  {
+    "id": "INC-6B8E1F5E",
+    "date": "2026-05-30T12:05:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Carrickfergus stabbing: Man arrested on suspicion of attempted murder is released on bail - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWVM4ZDlvcVhDR29tN3ZOZVpYRW1xRGFnTkNBaWMyYXM0ZkQyUWw4WUZTVDBWdVZmeHoxTFNGNGpqRzlOVTdXMFBOTlFRbDJhTGNqQUp2d3RwaW96X0NXN0otWmlRX1h0Z0V0ZXNQZ0VFQ1ZmXzlmbTBBd3hDSVlMMV9tXy1rT0R0LWF0UmtZNy1ta25MVXM1T0lBN1h5aFIyUUp0WC1ZYy1oQmxITTh5Z3I2dGxEQm9ldkZSbUxBbWg2SFV2MDFINndsUFRSYUtYWUVvNngxenZTVGJ5?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-01T11:30:33.551512+00:00"
   },
   {
     "id": "INC-B6B708F5",
