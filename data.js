@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 240
+// Total incidents: 249
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,123 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-973EA850",
+    "date": "2026-06-02T09:32:55+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "\"Dublin is a safe city\" - FF Cllr reacts to fatal city centre stabbing | Morning Ireland - RT\u00c9 Radio 1 - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vcExQZ3RHQnVqQUJ0YWxyR1dfMk9INmFDbnE0MjZ2V3l0VktpLVM5am04LXFGVlZybXpCOEszS09IRmN2Y21qZ0duRGs1U3dTU1psaS1yM2xwUmc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-02T10:20:54.353505+00:00"
+  },
+  {
+    "id": "INC-3C60872D",
+    "date": "2026-06-02T06:58:02+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Fianna F\u00e1il councillor says Dublin is a safe city following fatal stabbing - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc2NhelFDcnlqXzJQY2xNaDFaeDBBNVVQTkpkdnFzRUp6X0xOSTZ1VFg1VlVEbU1VVVk5S2lnWlBSbmFZcm5SWkJPbFJHdXZ5WmJmRUJHS2stT2JvMTVTSENGalpKTHpVUEJwYVZhc3pmNWxsUGhpcnFlcW1SMFpnb21ibENQVXpMd3pKVS1aa3B4TmpTSlhyWE0xb1VSSlpOel96RWNEY0trN0dPSnNmaTZJakxJdHozWDZNazJOV0Y?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-02T10:20:54.352854+00:00"
+  },
+  {
+    "id": "INC-762BBBF8",
+    "date": "2026-06-01T20:30:13+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man (21) tried to flee killer before being stabbed in Dublin city centre - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc1BBaDdjTDd2UXNKZHdvcnlNd0dkYUJUbHJRaDA2TkVkdldsem81Tk1XdU9HNV9JNzFzYkg0MUZJbVZ4U3ltR3pCY1pROXhZZWNqVWRISEp0TmJPdDZmTV9kTlZ3VDh3bmczUUh0MnR0aE13M0FQRFFqd0RfckdINElya3pocmZpaDNjXzNFRjBxV3Y0UkpIZFNIY1BiVGp2YUYyR0prdjhGSV81NHRyMTlqZHdlT284enAw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-02T10:20:54.351665+00:00"
+  },
+  {
+    "id": "INC-35AA0106",
+    "date": "2026-06-01T19:32:01+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man who died after Dublin city stabbing was hunted down as he ran for his life - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTXhSNWEyYjR3TExxQ0NvbmpMMmNvRDJFbFlVeHM3TFB0Wkt4eWZpLVY3VjZzX28xemk5TXduYm9MNFNWU2NiM3RMbkQ0ODF3T29yd1FwTGtNSWs3dFo1SDFfdmxvTWhBem91cEE5TFBnNDNxWGVtaDJOLVJKZUJYa0ZtRFZOR3A0UkRF?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-02T10:20:54.353197+00:00"
+  },
+  {
+    "id": "INC-BFA30B94",
+    "date": "2026-06-01T17:27:05+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin stabbing victim \u2018chased through the streets\u2019 before fatal assault - Extra.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Hei1EcTk4ZXFtMFdSVXFGMzNKWTllSmpkanBSY1YxRk8tRUtvVDRiQWtwSVY0VktCb3dHUzV6Yjk0bmlfQTBGOTJ3OFhUOWVnV3pHVnVnb0JtV1RER0dMbnhkN1doLTVwcmxmU2QydEVRRGhqazZSYklvcw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-02T10:21:02.946646+00:00"
+  },
+  {
+    "id": "INC-768FF93B",
+    "date": "2026-06-01T14:35:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin stab victim (21) was chased through the streets from nightclub before killing - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZWM3cjBQeExtSy1jSkhQbV91RFQycVFDN3dGQzNyZWpGNHk5a0thcmxKZEIxR0ZHdzR4VVpJV1ZKUkt6ekJFcEw4bjBDRmF4ZVFpMWZ3NVE3QkNqRWNwWXVWTmsyVHF4Q3RWSFQtbFU3RldsYlBXTlpOYmtzRVFxdWxYdDRfRTFtU3dKZUJ4eTY0aDE4SDJURTRfbWRyS3ZHMXY4MUNNUUkzUFJiZ1ZfU2RVSU8zTzEzZmdLZXdZNnNHbkQwaE51WU5PZHhVYWhkSzJN?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-02T10:20:54.352067+00:00"
+  },
+  {
+    "id": "INC-6FE9791B",
+    "date": "2026-06-01T13:32:28+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "'Very disturbing' - Reaction following man's death in Dublin stabbing - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE13VGFwSTJTN2VkZWxoRzUwNkNLRmQ4RTBRbWhjbjRqWDZ0WVhfWWplRW5JZXFXa19vd3NNREJLSUl2TGJFM3BpNQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-02T10:21:02.947535+00:00"
+  },
+  {
+    "id": "INC-B4D0D1B8",
+    "date": "2026-06-01T12:43:15+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "21-year-old nightclub promoter dies after 3am stabbing on Dublin city street - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUndZcjdEUVVnNWxZN29GdkJQdUdvdGx4UExjcUQ1UHBmbWpHUmZOak5fZm5JOFdhbDE2RzRVZjRoSU9OdXRVWTl3WE5PU1FaS0t3QTZscG4zcDYzQ2pmVTVZWkMxdDhxa2pveXNrcGYxelM2TXpxdVA4bkFmaXVkOEo0X2_SAYoBQVVfeXFMT09POUlUd21DUTZQeGdjeGRlWkxwVGl5UkhaUWxPZDVBYzRyODRGN3d6c0lCbGhhb3BOV1JBcmtHbXEyM00wWHlWd0R3dlp1MDFRY0tRYXZwdmE4UlJuWi0tUjVEVWEzU1lGNFVPeU9vcVpZM1dGZ1Zyd3Y2a3lPdWZXcDhUbjdBem1B?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-02T10:21:02.949129+00:00"
+  },
+  {
+    "id": "INC-497717F2",
+    "date": "2026-06-01T12:38:38+00:00",
+    "county": "Dublin",
+    "location": "Grafton Street",
+    "description": "Man, 21, dead following stabbing on Grafton Street \u2013 latest updates - Dublin City FM",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNGVpMy0wcmozNlkyaHd0QmJfb0FtQ2lENDJXVFZjb0g2Qkl0Z3JqOWFhaTN0cHJKNDhnbmEtQk9KZDVxTWNic3JYdXdLS2lZLWF1S3ZrZjRRaXFNeFVLNmhQbW9RWDR2aXpKU1VPeGtNbU80Mk01aExXT0Rhc21PMUs0bktHZkVyNzJBTi03cGtzZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-02T10:21:02.949416+00:00"
+  },
   {
     "id": "INC-8A037CE4",
     "date": "2026-06-01T11:09:00+00:00",
