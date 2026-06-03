@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 249
+// Total incidents: 266
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,188 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-2B3AD18F",
+    "date": "2026-06-03T08:41:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Police urge public to use online portal to share information on stabbing in Carrickfergus - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdldoSGFwUkZwTmZIdUxIcEgtVEJOSVNFbjV0V0NLNWVleXZNdVRmekVGS2ZLeURXSlpwWW5GZWY1Tjd6RnlTNWM4Y2llNnFJNkE5MWY4MW4yYXBnSDdzb3ZDbkpFQnpYNHVNdGQyY0xmeVdZUXdvX0VCRnlVUTdFWGhybHZ3THhtZVlpcXB6Ui1SV3NqV1UwTnVlU1BPb2tidVhXbElsdncybWxkTGo1TU1rSGZ1RHFmdWJNZmRMSkE1OF9FeWxvQTNDWDAxTFpwSFJPbw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:56:08.901996+00:00"
+  },
+  {
+    "id": "INC-AA92F909",
+    "date": "2026-06-03T04:30:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Violent criminal investigated over Dublin stab killing is on bail after different knife attack - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTDVoX0swdThMaUV6R1g5eUVZRVRHLU9FVUR1ZmxlcHRWRkJEVURKX0piTmJwRWhyT1otamxVOUREYUtoZzd2V1E5TDdtNFoybEp6N0M0Z1UzSVlSRjVObEZVYTgxMDdrOUFQaVFUcjdlS096Tlc5MGgxU2l4NzVRSWpxSlJ3Q3FBa3hJQk5temtodDZuLWZpQ2piam1LY0dDSzhUbFAtczFUclR4R3NLZ1VVN05vV0FuSEk4bFdPd0Q2OTIyLVhQNkpwTGw5cVJiSTVRMzZ5b29fdUxzdXRYb2liVzVTeExQQ0Uw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:55:52.745333+00:00"
+  },
+  {
+    "id": "INC-A0023227",
+    "date": "2026-06-03T01:30:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Nightclub promoter, 21, stabbed to death after brawl in Dublin\u2019s tourism district - The Guardian",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMUViY29acGFVRF9QbWVXOF9NYUlXU2kzeGVBZ2RBbVBnTmhFUjNSQUNDcjFIdGJSNDF0RFNaUEN4NnQyd3FPdjd3S1VXZXl6UFBBOURnMVdVTU5XV2FxUzNacEd3ZVJsQ1NIT0RvRFQwRVdhZTlvVWFSSU91R0J5aG8zb1pXZmVzN0tEZHZ0d2MyRlNjMWZ4d0pjenBVUUprRmxUWE1n?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:55:52.742123+00:00"
+  },
+  {
+    "id": "INC-923AE418",
+    "date": "2026-06-03T01:08:42+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Face of Ballyfermot man who died after he jumped into River Liffey following 'slash' attack - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWGhyN1d6MkNsdFR0aFNKWGdHMDFBc3hXT2t2MUZkaUtzM0IzbkRCWDRIelI5bVF0cjBtb3pyWHcwdFNKeGl4eTE5cUNTY2J4YUl6RXNvZ0IwTkNZcVZhY0FtRUc0ZXNtOHdTbnVGUndMVlYyenpHTDFwcFp5eEhrTmFvVnVMZ3Fl?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:56:01.826126+00:00"
+  },
+  {
+    "id": "INC-D8B87A69",
+    "date": "2026-06-03T01:01:21+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Family of man stabbed to death in Dublin city devastated at loss of 'good, friendly and quiet' son - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ0JGTndkRlI4U0dfVGI5VW13ZXo0cXdmckN5TVFjWklYZXFqVkZNRFNVVG9TYVlnS2RPdGpHVFRzVUM4aXRiVFIxMUVWbk8zdkxrSzE4VUhuNktRcU5TNkxRUFlZYlN5bV9tek9HQTNZZ0JhMlREYTFoMkFnNVJkaGlaT2N4bjQxNmlR0gGQAUFVX3lxTE1rU284MWZmWWxHdDNjZ3R6RTFzUm1fRWlBczNFd0I1UHVUSElWdW5tUmFLMG9icTFkeTQ1MC1sS1REQ1ExbS1zVXJlRGd2TTRqN1Rwb1dMRlFxa0ZMMk1rMDJwenBLcEZIa210RklDOUhqbzNhNElDNmNLTGtrYVFkeWNUbVo3Nkd3b3NHZEV4ag?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:56:01.826713+00:00"
+  },
+  {
+    "id": "INC-3F5E4714",
+    "date": "2026-06-02T20:29:22+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "'One of the sweetest souls' - Family of Dublin stab murder victim call for justice - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQelRtREl4al9GTURBMndwUGhpWXhpRzYzbmhNVXp1bndPZ18xM0wxbFdXNVRzMlRtcGpPak5HMjY1VEZ2cDRzN013U0poVDRPaFFzVEFNQXVMc19yeGljZDN6Z3NhaVFkanM2ek44WHpTNEk0NHo1Qk9VSUlRMFJOSUhRTTBtdjJDNUhRWdIBkgFBVV95cUxOMEwzT1A2eVQxWWc2U0RqdlRLdEpFOGRQUGVyZjdJQ3p2clJ1VHU0NS1NaW5XbkpDeVZLWm80Y1c1WngtaWpIVWRVZG8yaDZQSWFseXRvbW52Q3VnLU5YeU1Dd0pXbGJzWGZJQ3RMZHdXcjhocnFCeTBpSGQ4bTMyWENaQkx4NEcxdUxPbW5NbVcydw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:56:01.822610+00:00"
+  },
+  {
+    "id": "INC-B074D35E",
+    "date": "2026-06-02T20:11:52+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man killed in Grafton Street stabbing was \u2018always smiling\u2019 and a \u2018credit to his community\u2019 - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcWZ0QnVJYjRVZC10eU1pcTVia2piSDlaQXFxQ3dPSlVOVWJkTHlXTEhrVkVzSWhBMXBXbjZjWl9RVVJPdzRmTXFkSWltVnhvUVgtbUZ1dWtHZ2dsa2VOMzZDeFY1MU8wVjJYTmc3SzFycUZlSWpJWFo2cnVmbVQtZWZQcG02bzU0VkdPZjZUTFNEMlNON2lldjh3SFN0cGFUY3lMcG5jLWxjU19qTy1TS2Myc2tqOUp5Z0lWRjVhSzh3TXVid0xQSzN3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:56:12.384181+00:00"
+  },
+  {
+    "id": "INC-56E51481",
+    "date": "2026-06-02T16:33:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Qayyum Balogun's family want justice for 'very quiet, easy-going boy' stabbed to death in Dublin - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTHVTbkhtdmFodUJzd21id0VpZUxYLVVzOHVLcDBnelNUZEtfUlh0Qkd6VnpJY2ltS0p0ZGxnV3NmYWRoVF9oUG81aEpHTU92c3V3cmdENFdkd1VCMjN4NWdvd2V1aF9hS19pZ01QNVlCLV9nQVJ5Sm9WcFc5LTUtV0JJWFk?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:56:01.827054+00:00"
+  },
+  {
+    "id": "INC-ABDBEDE2",
+    "date": "2026-06-02T16:25:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man (21) stabbed to death in city centre remembered as \u2018innocent soul\u2019 as garda\u00ed seal-off Dublin house in murder probe - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPaHU5NWtlbEd1R0hnZlpvTG1SSm5kUFFSc1l0ZGVWMmhYRmNfVU1LeTNISzJXUmtBT3VfczM4aFh0cHBWc3N0ME9SQ3ZhSjI5MThIbmdKQ1ZjSlhpcGpWQUkzRm90NXJoc3k2Z1NiZ1JROEtfT3dzdmxlMGprZW1BOVhGR21IdHBIYmVCU2dKa0tNdlJTTWNKQ19COHdpNFF4czRBbzgwUUNhYzFfTVFQUHdmRnNPeThXeEYxVW15ekhHTF9ERm1rRE5lOG1kZDVVSTBCZ2xjVzF1cGZsN1pNYlZtQ1VIeTc1N3pSd1JJcGlOQjBOWTVZN3pEcFZHSTdGWVh3WGt3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:55:52.745618+00:00"
+  },
+  {
+    "id": "INC-BE30682A",
+    "date": "2026-06-02T16:11:41+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Grafton Street stab murder victim Qayyum Balogun pictured amid calls for justice - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTWphelQzelV5SzREdzBmVzBtNjQ3ekdoMVJ5WHBZR3BQZXA4cnMxNTRUNHZQRDd2djY5UTBaQkZXclFwaGtfeEZDVlljNXNiS2w2RjFlRnA1dVh5OTZjdktJWE1GTGFzU0dJVEtReWE5UXpTZWFCaEpZS2gybFExRm5zZ1lUNDlJa2xJUTZB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:56:01.827614+00:00"
+  },
+  {
+    "id": "INC-CEAF05AB",
+    "date": "2026-06-02T12:59:14+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Bystander sustained stab wound during attack that killed 21-year-old man in Dublin city centre - MSN",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObUdMamY1dHV4Qkg4ZGF3djlaME02SjhRNGlybXE0czktOWxlY0x1M0tnemZDS29BOWVlVkVtQ3V3M1Q2VG5RVzdHa2ZUVGx0WjZ4QWprcVZyMC1kUW00QTF1LWNscXMycmIybnZfNjlmWndMc2ZNazBMdWtnVU1ja2d6TUlVelRCVlE2WW0yLVdYSmlwNVpNd3FhVVJhOHZ4SFd6Sm5xMTdnZEw1SS1tTDRPYlhvV0VXZ2pkal83dnB4Snc5Vko1OWo4eWl6VmxtYTNRZXR4Unotb2s?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:56:01.828399+00:00"
+  },
+  {
+    "id": "INC-61ED63F4",
+    "date": "2026-06-02T12:51:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Tributes paid to Dublin stabbing victim Qayyum Balogun who grew up in Dundalk - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYk9JVEZ3Smg3VENIVkM5QWhrNHQwTE1GY3RIVWppUWo1ZS1tSWlnX09NcWFrSXQteTV3bHlXYTZzYVFiTTNZdFhYY1dpckJyOVNqWkZOUEI4R2c5R29qWTJob21uRVlHRWNNd3pKSGpHaU1EdzhVMjUyQUdjdi1yQkdyRFRFWFlBcTBSeWRVWmVsTzNZVHVMRWhIY0ZkMFA1TXczWjVSQXoyRnpDSWJQdUdTMXd3RGZMbEMyREdSc2hqS1NOdms0TkhISFBxSG8?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:56:01.825559+00:00"
+  },
+  {
+    "id": "INC-61F7813D",
+    "date": "2026-06-02T11:30:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin stabbing victim  chased through the streets  before fatal assault",
+    "source": {
+      "title": "GDELT (irishcentral.com)",
+      "url": "https://www.irishcentral.com/news/details-young-man-stabbed-death-dublin"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:59:16.766796+00:00"
+  },
+  {
+    "id": "INC-CAD632D8",
+    "date": "2026-06-02T10:17:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Dubliner who was attacked before jumping into River Liffey lost his brother in stab murder - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcXV4REVGRXJ2VGM1U2dpNmNQZTExVWliR09GU3plZmtiMXcyWm4xak5qczNITVN5T0UxY3c0SXUxWjhRRm1JSXZJUHJjRUY4bmRLWVZUUkUwTGpjT1VsZmlyWXF2a1MxdDZCT1kzVm5nZ1BuX3ZCa010RWowOEgyb2t4SWxPZG9DWld4OGliODk5Y2I4a25hdnVoWG1CdS01NkNJMnJvWWdqdXhVZEl0RE1ieGpZWm5fM2QxWFZXV1NhN1QyY21ISlQtX1dmTGVrdjF4VEFCVXF4UQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:56:01.821256+00:00"
+  },
   {
     "id": "INC-973EA850",
     "date": "2026-06-02T09:32:55+00:00",
@@ -22,6 +204,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-02T10:20:54.353505+00:00"
+  },
+  {
+    "id": "INC-59754660",
+    "date": "2026-06-02T07:48:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin 'a much safer city' despite stabbing, claims local councillor - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wU29PaTlac0tVSjcxcC01VElmeFlVTmJHLVBuazVSRDVMMlkzT25GTEZma1E2amstRTE3ejM1OUl2NWlwdHN2c2pXb0p6UWdUTU82Sk4tazF4NHI5RFc1eV8xUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:55:52.744566+00:00"
   },
   {
     "id": "INC-3C60872D",
@@ -74,6 +269,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-02T10:21:02.946646+00:00"
+  },
+  {
+    "id": "INC-883F2F08",
+    "date": "2026-06-01T14:35:26+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man (21) chased through Dublin streets and stabbed to death after row outside nightclub - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTHBZaWFkODJILTZaeS02QVZ3TWxtSmZGbjl1cjBzMS01Zzc1Ym5JODZlZjZaY1Rucks0MXdzQzEyZW9fYlJKUDNVU2Y1OTllbklTSVplQzVNdkNCRl9LSGVQSXR2b1VsZTF1ekxZaW9WM1oyUHQxRjhrS2dLdlppUkN0NjA5ckR3WlJFU1VvelZjaUFxRHplMGdRM0ZEVGJHeGwtUzd5NVlMU0hjM19Xd3J4VFgyZlMxSnhyNmVSczlHcHpaWGFiUkp4UzhMczJOYk9N?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:55:52.743357+00:00"
   },
   {
     "id": "INC-768FF93B",
@@ -178,6 +386,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-01T11:30:33.543316+00:00"
+  },
+  {
+    "id": "INC-9975ECC9",
+    "date": "2026-06-01T08:19:04+00:00",
+    "county": "Dublin",
+    "location": "Grafton Street",
+    "description": "Young man dies in fatal stabbing near Grafton Street, Dublin after large row breaks out near venue - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTko0TFh4TjBBZGEwRFJlR09ROG5ybG5QSmdxYS0zRVBwYzhETEphMFpsWWpHT3plWEJRQ3N4SE9OWHp1VWFjaGtCTW94eUkySS1qUnhhOUhZcWFpb2pzckVncUQ5UXcxYTBUeHJ6bS1kcjJTNG9rXzJIakhjclVaWm43cUJCanFXak9QRmJCdDdhbXNyREtjQmVB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-03T10:56:01.823099+00:00"
   },
   {
     "id": "INC-A82CCA77",
