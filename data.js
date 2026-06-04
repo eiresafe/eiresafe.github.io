@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 266
+// Total incidents: 277
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,110 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-3BF792E7",
+    "date": "2026-06-04T05:30:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Chief suspect in murder of Qayyum Balogun bragged online hours after Dublin city centre stabbing - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUnVmM3hzY1JIdXpkWjdUdXd6ckU4LVp6YzBrMW15dHlQWUhXQmdXSDUwYlhzek5VTGVySmp0dC1CSUJRN3VvWFJRWXd5NjJad0YzNUNlcU1PenZOcmN1VG1fUXRyVWFFSjNLZFN1clZyYXRYeXFnTWpKcElNUDRXeGNzZ1pJZTZnYWlRYmg5UGFNejlLNHp6Ry1acEV1cnFVYnFWaTd0SUozbWlGS3FUWFYyYVJ3QmtCbmxUb0xIZ0h0cmw4N2NCb2ZSZjBMNWFJRmZyV1hNNURMc3VfRU42MnJiSmt3TUc0Ull6NGln?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-04T09:54:04.734464+00:00"
+  },
+  {
+    "id": "INC-5737CAC7",
+    "date": "2026-06-03T16:15:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Two arrested in connection with fatal stabbing of Qayyum Balogun in Dublin city centre",
+    "source": {
+      "title": "GDELT (irishtimes.com)",
+      "url": "https://www.irishtimes.com/crime-law/2026/06/03/two-arrested-in-connection-with-fatal-stabbing-of-qayyum-balogun-in-dublin-city-centre/"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-04T09:57:20.690746+00:00"
+  },
+  {
+    "id": "INC-2DF4A0B0",
+    "date": "2026-06-03T16:13:25+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Major development in fatal Dublin stabbing probe as gardai make two arrests - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRWhSRXhOS1R1WFR6ek5lRkJPSlVlX3k3M1p0b0o5ZG9FSXlNcGxqMC1SclMxWEoxLS10cDc5T1gwNVhYQk5zQVQ4WGdtMjFIUXJhc3dSeFBCMTRmMjBCSExGeXN2SFJCUVF1TWp2amkyMk1KZU54T2lNVzJ1bEx0NVJGSzZEY0tWaDBNOUNOb2RoRld2NmfSAZsBQVVfeXFMT2hsS0hpV0liZkFodkVvRmVIS3FIbjJjTmRhZ2NSVEdCQzFIVFo1Z0lsWWx3c2F4VUpiTE1VVHRWb3U1LWt2VnNNcjF6b2VFdXBlVElzamlDdUFOX0MtWUo4SUhuemgyRzlKc1JZYk9qaEQ0eXIzaWpoWWxrZlQxRkg0ZFdCLTJHQWR1d1V4VzVzSHZmcDFtam10Umc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-04T09:54:04.735815+00:00"
+  },
+  {
+    "id": "INC-0B45853E",
+    "date": "2026-06-03T14:25:30+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "21-year-old Nigerian-Irish concert promoter Qayyum Balogun stabbed to death during Dublin brawl - Peoples Gazette Nigeria",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYzlQbzQ5WmRqdXEzcjFZaHVIZVFZUjVVZVVGQ1hSRVZHbUVwamlyNTgzX1JqQi1JRUhLZlY2UFJWLTR2TEZjT0pHc0c0bXgzSU1odnZnRkZxZTFiRkVNT1M3N0F6RnFKVWNIdGNDci1VYmljNy1rdFU0LW5Eb1p2SEVXTVZkbkh0WkNOYWRZdElMdFI1T1I0cHhkNUFSNmRfd0lsVW5YSjZneUd2TTlqdDg3RDNleVBHSk1V?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-04T09:54:13.263531+00:00"
+  },
+  {
+    "id": "INC-F50BB234",
+    "date": "2026-06-03T13:45:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Sister of Dublin stabbing victim Qayyum Balogun says \u2018no words can express hurt\u2019 - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdldGVXRhX05GbmQtTndIWFB4RktTTk53UzRYWTlIenh3NXpPMG95eFVHczBPTnM4dGVqQ21Yc0V5RGd4dkROSm5lQS16TjBkY2UzcFBtQzJnajNnWWl5V1BXQ25ublRWSmNCeTh4SzVEc2s4Y25wLWdqbG1ENlhnQXgyZnp6SFJONG1qSDIzM1NNYjljalFWNDBFUzRkNFNXUDI2M0hpaXdESDh4cFZpbjNYak91UG1aSFF4dkpIWlhNUUIwbHpYOF9R?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-04T09:54:13.259609+00:00"
+  },
+  {
+    "id": "INC-2F074C1B",
+    "date": "2026-06-03T13:44:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Garda\u00ed arrest two people in connection with the fatal stabbing of Qayyum Balogun - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTUxGRXQwMHlIYjNKUnhCbUE2eHA1ODhLRWZQVnRnbWsyd3JyMWJRSXBYbGpZUDROc19lR09TbjJQTklDMENhVEoxbXhRTGZmTER3eHlkT2FFeFdmZ3pqX2o1OWlJTEdYWXZvVW9kdVU4UXktWWtZNUlBX2p0Rzg1V0RxTmttaGJ4VGZLRERpaElwdjFQdER4VVdqbjFwVDViOGVXOGJ2TmdhbjJEWm5DMkhyMURmSC1GWlZZM3dqdF92cWZUdGIw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-04T09:54:04.738007+00:00"
+  },
+  {
+    "id": "INC-79E69391",
+    "date": "2026-06-03T12:27:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Major safety concerns raised after Dundalk man stabbed to death in Dublin - Louth Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa1l3WjhQZktiZzJhejQ3V1dLYWNDdmFqZi1PNXlXallWNmdzRnMtYU5YSlI0RnRTUHBuMHNVck5DWkRQZnZEazV3ZzFpWFI0UmxXdllSOHY5RzQzd0ZfMnJaQTg4dmxKcTdOMjBKRjNwQ3N4U1ZKRE9GSnZjS3dBVDM1dUd6SWJhQ1hNS0R1aTFUZnNab3o0YXljODlycnI4VGpOdWhiT2RkMFpBY21zc0ptVWp0LWRNeHZKTUQxT3pSZ0hwUWc3QjE0MGxFcGs?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-04T09:54:13.264825+00:00"
+  },
+  {
+    "id": "INC-DF5A0FDD",
+    "date": "2026-06-03T11:14:54+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Violent Ireland: Is knife crime getting out of control in the capital? Have your say - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYXN1dzdiUlQteHRjdmNkUzlzOHpRVGdFUFdsS0dyQjVORmZNdl82RWlIeUN5WmxidWNTclJWdVVJVFVnc0xVdldEazJNY0dWTUJJa2Z4VWRKbEJRT0NWMXNuSzhaQ3V1ZkppSlQ4bTloSjVCajNYd1FVcWhqUllVU1VDSU1JZjZkTlVSdm9QeWhFUFB4S3R5NjF6YWR3Z9IBngFBVV95cUxQYXN1dzdiUlQteHRjdmNkUzlzOHpRVGdFUFdsS0dyQjVORmZNdl82RWlIeUN5WmxidWNTclJWdVVJVFVnc0xVdldEazJNY0dWTUJJa2Z4VWRKbEJRT0NWMXNuSzhaQ3V1ZkppSlQ4bTloSjVCajNYd1FVcWhqUllVU1VDSU1JZjZkTlVSdm9QeWhFUFB4S3R5NjF6YWR3Zw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-04T09:54:08.176009+00:00"
+  },
   {
     "id": "INC-2B3AD18F",
     "date": "2026-06-03T08:41:00+00:00",
@@ -180,6 +284,19 @@ export const mockIncidents = [
     "addedAt": "2026-06-03T10:59:16.766796+00:00"
   },
   {
+    "id": "INC-CC1B6CB5",
+    "date": "2026-06-02T10:35:27+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Tributes paid to Dundalk resident stabbed to death in Dublin attack - LMFM",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcGkxaHp1dHUwSXVLMFUwXzI5V295eXJBRWdsQ2h4UWt5YklwcmNnRUZpQnczQnBLSG5nYkRRV1pqY0JvU2oxeEhlUTZFWk44MW5BMndVRVhhNDdhMDNmVVpuWTZzS3FfOWhfdUFQOGpvd2ZkdVhENndDX25DQ3h3a1lBSWlYTUd0RGhrck5pZ015XzNWeVJJRUYxN296eG91UFE3VkVB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-04T09:54:13.258146+00:00"
+  },
+  {
     "id": "INC-CAD632D8",
     "date": "2026-06-02T10:17:00+00:00",
     "county": "Unknown",
@@ -191,6 +308,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-03T10:56:01.821256+00:00"
+  },
+  {
+    "id": "INC-51DA31BB",
+    "date": "2026-06-02T09:40:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Black and Irish group say violence not \u2018exclusive to any community\u2019 after fatal Dublin stabbing - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNHNXQy1xdGJoNWszdHVDSGNxLXRMcUZBSTk0M05rem1vOFUyQmVrSTZCQTB2Vzk0bkExYmdLT3VyV2Ria2RkOFJ2eFk1bW1JRmIyaTlxa0J0VEFYanR2UzZfaS1pUzM0Skt1LTZUR05mREJSVE4yZUlRNFRST0F2SGxSV1VlTThZa1BSRUpLMnNNdWM2cVh1Z2lTdnNiSndQaktCbWZCNFJaTFFoM0lnOXBZUFh6TUU5ZVNGb09WR0sybm5QNDBGNGVwYWtkZExzMjlHY0ptUEFqYzV0V0E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-04T09:54:04.740787+00:00"
   },
   {
     "id": "INC-973EA850",
@@ -256,6 +386,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-02T10:20:54.353197+00:00"
+  },
+  {
+    "id": "INC-11D49D6A",
+    "date": "2026-06-01T17:47:55+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Sikh man jailed for life with a minimum of 21 years for knife murder of student - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTkdFQXdQRERVVE1nVG1yelVnQTl0TjdNYmwySFctQlpYdDU3M3hNYzFzcVl2dzd3NHpSZDBzR3V0aEMtNzF3UEN5U01LSF9tRVRMMjB3TUtnXzk4UXhKZXJUQW9SRHlPYXpwcUhyc0k4RFBkNHhlTnd5X2JmRkdUODdrS285THpRN3k0aENrdUtIbzdNdl9FMkRfOVlTYlN5dDB0VXhQS0g4YzJCeFd0SnFLY0tYY0ZBWVpCWFN2bVhHRm5uQk1qWV9rRjQtaVlzV0hvcGxB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-04T09:54:11.540486+00:00"
   },
   {
     "id": "INC-BFA30B94",
