@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 277
+// Total incidents: 286
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,110 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-00088191",
+    "date": "2026-06-05T07:31:27+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man to appear in court over stabbing of 21-year-old Qayyum Balogun - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRkZidTRRYXZxbzM5dnhOSXI2clluaWN5d1NSNXd0V2w5SjZJT2ZVV2w5NjZQampnN2NYTVNNMFJ1UmpTay1WZy1QVGtfZU5mWUlRQ3NTcUNwaVE3R2h4TmJBTE9aU0FYSjhicEsxaTVVS0hPQWNLelRfYm42UkZfeWpRSDnSAYoBQVVfeXFMTUhOZXRMamg2bDJNc2V1MXNRSl9XN0V6d2xqdzBPOUhXSE9fZU4wdG9IY1RGVkxUTDZKZ1ZtMlJ2aG5kc290VHRpeHd6bEhoRkhZRlQ2LXR2QVYzYkJGOVEtU0NSVkJPMEtHOUdYdE9ZdGtCNzF1V0t1VTFmQXV6ejZyeHY4RWRtWDJn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-05T09:44:05.251148+00:00"
+  },
+  {
+    "id": "INC-C3CA09BB",
+    "date": "2026-06-05T07:29:49+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man Charged In Connection With Fatal Stabbing In Dublin - kfmradio.com",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONkU0SE5nY0xOOVhOcVRDdlBIMk9ndE9sOThrNnh5QXdsR2RxWlFCdzBDeUdRYWM4aks5eEdEZ2c1bEJNWXp0SmhhVUktMEpDQlQyVVlDNlp2Y0JoSWdva0JyR3gxTENsVmdCNU9Uem9tLWZFRmdNX2xhZms1YTlnVHJkLXFvSE8wc1VPR1BtTzZHczNqR09hUXYwQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-05T09:44:03.442351+00:00"
+  },
+  {
+    "id": "INC-C8967533",
+    "date": "2026-06-04T19:06:10+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man (20s) charged in connection with fatal stabbing in Dublin city - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxON2g4bktTUE5lNmJSeW93RnBfX25UVmNMOFJBWmoxa2RtdU8teFhOS05tRlNONGFMREVscHlLLWF2ekl2NU5KaDJCa3lxbk1FRklpUFVNT0lHNGRHNVZ2MmMyNGJUUGRMOG5hYk9lWXdvYk1sY0FqemVYOWloeTE4bmxYX3c4ejJURnFiUW9Gekh0YUNwZWRSSFpicHFNV25uYjhDTnpSVVVDeEtKWDVzODhGSQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-05T09:43:54.839453+00:00"
+  },
+  {
+    "id": "INC-B877218F",
+    "date": "2026-06-04T18:45:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Garda\u00ed liaising with DPP to determine if charges to be brought in Qayyum Balogun stabbing",
+    "source": {
+      "title": "GDELT (irishtimes.com)",
+      "url": "https://www.irishtimes.com/crime-law/2026/06/04/gardai-liaising-with-dpp-to-determine-if-charges-to-be-brought-in-qayyum-balogun-stabbing/"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-05T09:47:23.617810+00:00"
+  },
+  {
+    "id": "INC-5A7F6FCE",
+    "date": "2026-06-04T14:48:47+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Chief suspect in stabbing murder shows knife hidden in trousers in rap video - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORXI3bVdLNmpjZ0J3RlJsclRHZS16aVFmUnAySF93cDMtY3BFTXgxSGVxbHlGV0VJN1ZENU1seUNzY29GWl9VWDZBMGcyYWxGMm9paHFhenlJdHlWclBqZ2VMcmdVWjhKWS1DWW5Zd25rQ2Nxa2hJeVZSeERSMTNwem8zS1VZTXNxa19n0gGQAUFVX3lxTE41OGRuS0FUeUNtWURqaUdJY0dqYWQ2RER2S0pRMWlGaGpJOF9XT0d1STkyWF9HMVhjRW9sdFpGX21KcXRKanlTc2ZhbU9pMGhCZS1SS054Rnc1VThmd01WRnZnMmlya1RjY2RSX1hzeDI5M05FaURTbkRaVEFNUUNYazBTZkk1VnI2eUh1VVRFaQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-05T09:44:03.450509+00:00"
+  },
+  {
+    "id": "INC-4CFF33E4",
+    "date": "2026-06-04T13:27:29+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Grafton Street murder chief suspect reveals knife hidden in trousers in rap video hours after killing - dublinlive.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNd1ZnUDZxZzAwRXh2UHJ6eXlhQW1ZZ2lhbUlOb0lWZ2p6Nk5tajZOWFlBM0RBVVRxSktsZ1JrX3FscE1nRjVUcmJVRkxfNXRab1Z1OC1aODBPaUlMZ1JuLVpjRENWWVJTaG9PRC1PZklnSXp6aWdRRGRoTmt5dHVibWV0OE4tNWpjM3NaSmJOdmbSAZYBQVVfeXFMT0J2Y2MxVlNtWE5HcmotSVhlWnAyS1puTldvbVR3dHJadXFRQzNCWTFNZm5ZODEwbGYzYjNRalVMa1hRanRSdTQ3OHRIUUFZSE1wQ0RrUUdjekpaSS1zNFNIYXpjeHBhM3FGU2xaM2lES3hTZDRQM19XcGdrbmx1MVAtZVhUempmazd0aEMwcUFjODdtRGdR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-05T09:44:03.450276+00:00"
+  },
+  {
+    "id": "INC-9B91D468",
+    "date": "2026-06-04T11:51:28+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Teenager who murdered man with knife jailed for life - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYS1vekZTaEVQVm1QQ2dvQW5jVEZtUHNtVWJLc09VX2pSQWJrZlZvSU5zeV9aLTNadEhHYm5TS1RiaWk0VGN2T3BtMVJOdjMxREllMnJLUmNOTGV3a1dqSkcybU5XREk0Vm9nbFhKQl9JMmswc3hMTk5lVkRpaUFwXzBncUZzX1NCeXZ0c20tbWtLZTFBa2lCUzRWUUdMa1ZHaUlOU3dYMXdTVVMzM0VJU1VR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-05T09:44:01.655971+00:00"
+  },
+  {
+    "id": "INC-9770A1F5",
+    "date": "2026-06-04T11:23:45+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man charged in investigation into Dublin fatal stabbing - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBtMFZVbFJuVTFyUmJZbF82bFQxRTlwZUV5b2F0V2F1R1ExSWZSM3B6Q1pBTF9CaDZqb05vRnZSczdVbnd4a0FNd1JWcEVnUHN5YXVZeTBhdTlzbHExS2hSNDJaWmtEdjJfMDFyNThTSW1mWGtSeDIyTDNuVQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-05T09:43:54.838191+00:00"
+  },
   {
     "id": "INC-3BF792E7",
     "date": "2026-06-04T05:30:00+00:00",
@@ -243,6 +347,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-03T10:56:01.827614+00:00"
+  },
+  {
+    "id": "INC-2FD13623",
+    "date": "2026-06-02T16:11:41+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Grafton Street stab murder victim Qayyum Balogun pictured amid calls for justice - dublinlive.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTWphelQzelV5SzREdzBmVzBtNjQ3ekdoMVJ5WHBZR3BQZXA4cnMxNTRUNHZQRDd2djY5UTBaQkZXclFwaGtfeEZDVlljNXNiS2w2RjFlRnA1dVh5OTZjdktJWE1GTGFzU0dJVEtReWE5UXpTZWFCaEpZS2gybFExRm5zZ1lUNDlJa2xJUTZB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-05T09:44:03.451068+00:00"
   },
   {
     "id": "INC-CEAF05AB",
