@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 286
+// Total incidents: 292
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-3C2634F6",
+    "date": "2026-06-05T19:52:26+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Teen, 17, arrested and being quizzed by gardai investigating fatal stabbing of Qayyum Balogun, 21, in Dublin city - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVm5lRERfVjJpNHpCVlJabFNvYjhDa0xILXdfOERPcDZSTVVpRy03a3BBNHZxTlVJZ0JQMXhDRU9SZ3JId19XMF9Pb25UTVRfbFFya3p5Rl9oNEp6akxEOGh1b3lRQVRsS0JKOS02QmpIMlo0U0RNazUtcS1pYWdUZXNWcm9odjFRRTJSdW5rQTQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-06T08:31:38.551213+00:00"
+  },
+  {
+    "id": "INC-E7E7F2CB",
+    "date": "2026-06-05T18:30:38+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "'Frenzied rampage' led to fatal stabbing of Qayyum Balogun in Dublin, court hears - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUljV1RWMFM1R1NubXQ1U3d1MDJiQVM3dnBNU25ZZHIwaHA5XzJQLXVVQmJ0a245Y085VE1qbXdRRk1XWGVmMDJyYzVKeVJLLUxVczczejdaSldXSnJfMFpSUjhqZTVfQTBVMDI2RF8ycHRVa3RuSnJxRzF3SEtXOW9kVl9TckNhTFVVOFUxQzFNSmlPRnhJT0R6b2wwTHVRQkp2MmFqVkFjYUwtZ0w3Nmw3QTNEMWxHLUZuRVo0VnkyY2NILWc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-06T08:31:30.018457+00:00"
+  },
+  {
+    "id": "INC-E0D31BAA",
+    "date": "2026-06-05T17:30:00+00:00",
+    "county": "Dublin",
+    "location": "Clarendon Street",
+    "description": "Student led 14-man \u2018pack\u2019 that hunted Qayyum Balogun (21) before fatal stabbing in Dublin city centre, court told - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPcy1wcS1KMUxjemo4a3VDWlBmbThqWi1uUVRHWmUwZVVrc2hBUGhXZzdSOHZ5LVFHZ3NSWkI1TElGQmN2WkcyLVBmZnpvNzRZVTlScHZNRHFSeVhHLXRUZFlucDlnVzQ0QTUyUWlpQ25SczVHS0xNeTI5bENILUxqcU15UEZPY2xGanhCU1hTN0pjMVF3dnNlVTdVQkQxdDdURGRvNzhkN0cyM3ZPMjItRzAzU1lfZ3FVWkFYZFNaYVB3eU5ZWHdGMlV1TUFSYXZyRlloTEEwb1RPM25Cc2pGQ3pwVS1SMm55NHdqNml6LUZoUXBWLUE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-06T08:31:38.543982+00:00"
+  },
   {
     "id": "INC-00088191",
     "date": "2026-06-05T07:31:27+00:00",
@@ -89,6 +128,19 @@ export const mockIncidents = [
     "addedAt": "2026-06-05T09:44:03.450276+00:00"
   },
   {
+    "id": "INC-7EBEB90C",
+    "date": "2026-06-04T13:26:16+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Grafton Street murder chief suspect reveals knife hidden in trousers in rap video hours after killing - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNd1ZnUDZxZzAwRXh2UHJ6eXlhQW1ZZ2lhbUlOb0lWZ2p6Nk5tajZOWFlBM0RBVVRxSktsZ1JrX3FscE1nRjVUcmJVRkxfNXRab1Z1OC1aODBPaUlMZ1JuLVpjRENWWVJTaG9PRC1PZklnSXp6aWdRRGRoTmt5dHVibWV0OE4tNWpjM3NaSmJOdmbSAZYBQVVfeXFMT0J2Y2MxVlNtWE5HcmotSVhlWnAyS1puTldvbVR3dHJadXFRQzNCWTFNZm5ZODEwbGYzYjNRalVMa1hRanRSdTQ3OHRIUUFZSE1wQ0RrUUdjekpaSS1zNFNIYXpjeHBhM3FGU2xaM2lES3hTZDRQM19XcGdrbmx1MVAtZVhUempmazd0aEMwcUFjODdtRGdR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-06T08:31:38.555871+00:00"
+  },
+  {
     "id": "INC-9B91D468",
     "date": "2026-06-04T11:51:28+00:00",
     "county": "Antrim",
@@ -126,6 +178,32 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-04T09:54:04.734464+00:00"
+  },
+  {
+    "id": "INC-5412BFD6",
+    "date": "2026-06-04T05:02:12+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Suspect in fatal Dublin stabbing caught on camera with knife after killing as new details emerge & thug flees country - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNLVU0amVrYjhDOUNfcEIwUnBIeWJSU0ZIeXZmYV9XWDVWTnM4Q3JYdkJMemExOGNBa1B1QU1vcS1YMm8xZ25XWkRjeXJJMkpMNXJFSHFmSzU5OXFRcU1PWHJyb0N5LUdnTzgyN1NveGtVeG9pRlJmb1pOWTRGeV9KaXZ3LURUVXh1U3BNS292MlV2OW0y?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-06T08:31:38.549961+00:00"
+  },
+  {
+    "id": "INC-8629FD64",
+    "date": "2026-06-03T17:22:59+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "'I lost my best friend', says dad of nightclub promoter, 21, stabbed to death in Dublin city as two arrested in probe - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PN2VkdGE1YUVXOXI3R1lVOHZEMGYwMkV2UFNTVm9kc1JTRWNLYjNza1IzbXN2SW44d1Fua0stYkdrWFJId2VjSDROaVlnNlJLbG8tb0RsSTRHRGJkWTNMU01PelQ5bTVOQTlKSHhGWmc5LXRqejhLQmU3TQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-06T08:31:38.553750+00:00"
   },
   {
     "id": "INC-5737CAC7",
