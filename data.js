@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 292
+// Total incidents: 295
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-91F3232E",
+    "date": "2026-06-06T13:19:35+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Police launch international manhunt for fugitive who allegedly stabbed Nigerian-Irish Qayyum Balogun to death in Dublin - Peoples Gazette Nigeria",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObGtnXzZDYVNZenpka1VyajVHMW9kdF9EQjF2bWtiUU1vbkMxMGVtVFF6bGRRUTRFV3VzQVRoTnc1LVpYT3NKMWMtcEM3dkVIZjNyVzNBN2Q2UzRiZzNja0psVU1NOVZyU1pZZHVUeElyajJ4VWhzRUlLNXJYS0tlMTIzZEZwUmJZWnJSRXRzaDI1RnU1eXgyUVQyQ1Y0ZV8tNkRrUXZPTzBJNW16TWdxdE1aMEhic0gtYlZTUTBpc1k3WTk0eGQ3dDBNemRfODdERF9vTklqQWVVdlk?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-07T08:54:19.294873+00:00"
+  },
+  {
+    "id": "INC-94D0475A",
+    "date": "2026-06-06T11:32:11+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "On-the-run chief suspect in Dublin stabbing murder is underground rapper from Cork - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTlFsR2hiRjBhX1UwOXBLSTBBUUJYVkpndTQ5TDBKSnpwWnhvNFlaMmlNVkI5OXhZTTh1RjVmV3F4MW5DVW5NaGZDM0dsUFB1WmxIMzdlV2ZNRDVOMllVWG0zQVY5OFE1bHp4V1hISnBXQWJHbFR4d3Zxc1BRQmx3akpBMlNKWWpO?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-07T08:54:19.288038+00:00"
+  },
   {
     "id": "INC-3C2634F6",
     "date": "2026-06-05T19:52:26+00:00",
@@ -74,6 +100,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-05T09:44:03.442351+00:00"
+  },
+  {
+    "id": "INC-706034DA",
+    "date": "2026-06-05T07:00:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Major development in fatal Dublin stabbing probe as gardai make two arrests - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRWhSRXhOS1R1WFR6ek5lRkJPSlVlX3k3M1p0b0o5ZG9FSXlNcGxqMC1SclMxWEoxLS10cDc5T1gwNVhYQk5zQVQ4WGdtMjFIUXJhc3dSeFBCMTRmMjBCSExGeXN2SFJCUVF1TWp2amkyMk1KZU54T2lNVzJ1bEx0NVJGSzZEY0tWaDBNOUNOb2RoRld2NmfSAZsBQVVfeXFMT2hsS0hpV0liZkFodkVvRmVIS3FIbjJjTmRhZ2NSVEdCQzFIVFo1Z0lsWWx3c2F4VUpiTE1VVHRWb3U1LWt2VnNNcjF6b2VFdXBlVElzamlDdUFOX0MtWUo4SUhuemgyRzlKc1JZYk9qaEQ0eXIzaWpoWWxrZlQxRkg0ZFdCLTJHQWR1d1V4VzVzSHZmcDFtam10Umc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-07T08:54:19.290165+00:00"
   },
   {
     "id": "INC-C8967533",
