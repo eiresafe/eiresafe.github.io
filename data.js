@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 295
+// Total incidents: 298
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-549F0E02",
+    "date": "2026-06-07T17:06:08+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man found dead in Garda custody suspected of stabbing man who died after jumping into Liffey - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZmtvTlNtTG1tT3p3NUVRUUUwcFNaUzVxSnRPSUNtMklydnBDNUZpTkxWRkg3NFV6Ym1OVFBLWnFCaUc2bnNIeC10SkZzbkd6Slp5WWRyREdRMW9RVFFlNHFXTGlyZFk1VG9OVk9YV1EwVUIyd2phNXZsZHdXQm1ZT3gxREEwUkZJMVBfdGMyQS1uYVczRkFaWk10YlFOaUtHV1dQSTVsTnM5eEgtU3cwNW1rQVVRWmhwclNaTkszYU01R1lSYkd0NHUwUEgxTEgzQUNDZTV3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-08T10:50:46.163742+00:00"
+  },
+  {
+    "id": "INC-2959DE1D",
+    "date": "2026-06-07T07:10:34+00:00",
+    "county": "Galway",
+    "location": "Clifden",
+    "description": "Woman who died in stab attack in Clifden, Co Galway named locally - MSN",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYm9seEFNWkNtMnBzQmVNOUN4ME1vM3k5ZWtaRmhaaTdxVjBJWTFGVlo1T0NPX2h2TDdyQWU4YVEta29FWnhTb1gxczZQV2pSOGc3S09yMzBzd0VocUpkQjVIb1AtWTBNT0ltYzRTcHF1YUZoX25wUEpPSm11ejhnQVZDMXNhdlBlUENSZEZKNWRmMjhsZ1ZXdk9wdVpBaEwwNkJEbUxiOHpTTjBXMU40a2pJNDg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-08T10:50:57.995041+00:00"
+  },
   {
     "id": "INC-91F3232E",
     "date": "2026-06-06T13:19:35+00:00",
@@ -35,6 +61,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-07T08:54:19.288038+00:00"
+  },
+  {
+    "id": "INC-D4FDC0E7",
+    "date": "2026-06-06T07:24:44+00:00",
+    "county": "Unknown",
+    "location": "Clarendon Street",
+    "description": "Teenager in custody over fatal stabbing on Clarendon Street - FM104",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb0FTMGtzUzE5bHIxUG9JSmwyZklQVl9IQlM4YU5sbG1CWjdUWTd0U0xQQUVDakNtT0w1WVpPamYzVUpxY2ZXZFBma1VyZjlxdnRkcVk4dF94alJOVlpLNFVuU05NWHJYTkxSS0Jlbjg0X3lrZzhuaDZNbUV4ZTF2LVphQTlMRy1GYTV2MkJERWR4dk9VaGhxY1FqbVlRQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-08T10:50:54.684820+00:00"
   },
   {
     "id": "INC-3C2634F6",
