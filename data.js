@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 525
+// Total incidents: 565
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,344 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-1EC619D7",
+    "date": "2026-06-12T05:30:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing victim\u2019s condition \u2018improving\u2019 and he may soon come out of coma - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUpiYmRZMjVJak9fdmdOUGhkVEh3TjBCSDNxbE9tWGJESHVWdVk1b1MxMG8xZmJfM2xvb0xzb0JlOEI5enliV3ViR2U4enk0TDVCSWxiVTl5VWdEVUNfRHZMWTVfUlNfZGkyekJWMHZ6cDdYLTd0Rk85VWlMSlR3bm95UnZRUTJVRXNDbkctSktRY0NJc09EVHhYb2ZVbTVCZjNrUEpIeF9yZ0dmNTk1YUVCSHdNRlRoTTU3aU9xb0dhX2hCZ01ZbHc0MmY?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.136575+00:00"
+  },
+  {
+    "id": "INC-E0E0748D",
+    "date": "2026-06-12T00:50:31+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Anti-immigrant violence breaks out in Belfast following knife attack - USA Today",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYTA3amM4eHhyaXZicnVkbHZkeGNTbnNFRFlHMlYyOEMyYW1MQTVGQTlDMlpMX1dOOWZaOXZlUjUzR1Y5WDlBVjFnWHZ1SDdRVGdoN3pJSUdNLWZXT2haX3BRUzROOU1Ec3VGbGtkRWxLb0NUSUFRMVMzRHVxblhrcnVzVlVkNFRLeFE1MU5ReWwyOHJ1bEhxMm9zNjhCVFJ2a2hTOVlTVFRBcUYzdkE0anhhY0NQMTZBWGdMQU1EZVF0RENKQ21TbVZZRTNxXzJz?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:49.017709+00:00"
+  },
+  {
+    "id": "INC-1A719D8E",
+    "date": "2026-06-12T00:50:07+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Protesters hit by water cannons after Belfast stabbing attack - 1News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOalFVOC1FSExobXVNdHVrM3FwQXdlbmYycU42V2RWejFremlnTUpIYmFqcDZKc09nV3hDVldNd05GRUVfbUswWjVtem02Q1V2QmJoa3ZqQnBpUFFES3dqVlg3LVZFV2hzd0F6RTJVUXdkTkFxOW5nTmZpR21HRzlCOTJYbUdfU2RBZ3p2aVA3czF0THJxZkVDVUkxRmNpdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:57.673351+00:00"
+  },
+  {
+    "id": "INC-648A483D",
+    "date": "2026-06-11T20:59:52+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Truth or Fake - Belfast knife attack: False images, misinformation fuel anti-immigration riots - France 24",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeUtheVphT2FoWG53Mld1dkY4VTU4QjZDUllvd2xqTE1XT0trdGpLVTR3NnR3Rm1mN3Q1NXpSTFVYLWNMVFBoczdyUERpMlNhTHpRRUpZZF9DaEc2WHJ6WHgwTV9FdzYybjh6WkVIUHF6THVmSUpiZHJveHpkbTUzQzZ3NEdWOE1HUWRxUWFnVEgwT0RKTTFNRWw0elFpUGtXNE9ua0hfaw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:43.956532+00:00"
+  },
+  {
+    "id": "INC-8ABA19B0",
+    "date": "2026-06-11T20:42:56+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Violent Belfast knife attack fuels immigration debate and street unrest - Deseret News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeDFDcjhSZmJfdUJVWHBGZ0pQU2FmTmtZX1E4bmhIOWJ6U29vRThtVW9TU3VDQ2pfVHNqMy02ZUFDOUZjNWFqNjJyTnFudFlqaWRPV0M0ekdOYk9XTVdrYno1RWFBeDE3U0xKYjJ1NGlSaDM2S1BDaGJuMkNuRnhHazFlWjVvNUdrUUUyeXl1RWlvNE9LX0ZTUHZIMHA0ZXhmY3lRRUpzYk5ISDBJWTQ0bnowcTg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:57.678630+00:00"
+  },
+  {
+    "id": "INC-956C6977",
+    "date": "2026-06-11T18:27:56+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing victim \u2018improving\u2019 and may soon wake from coma - South China Morning Post",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVGQ4cEd2NUVER0tBc0oybGR3RVZlT2ZNQy1RdzcweUVnVE9ybHdCTTNSM3J0NlBBYzVsLWQySGhXdFBxeU5NOFJFVm9FOHpFa01seHhYTGlZRGVXOGJ6WnhxZVNpQ3RpRVprR09URnpPdF9qZjhBQmdnVmNxelhMdmlpUUlrRWQ4MTNOd1ZoR0NQb1FOY05QS09ORjRoc3VXc1BwVXZmbGhzSGVCd3NyQ9IBsAFBVV95cUxNMEFoU3MzVktmSDJXX1hFVEdDVElqTEpyT0ZjbGdSazRZcGcyRTlJQUxmRldYZ3RkdWZhYlQyYlkyOXpzaWNONTdCd3YyTE51V040VG1KVkpQM1kyZEVfWm1FMzhpNjBPZE1XYVl5Wk1JLWdXYzUtTTNCeEI5SENsamRJWUxrVnltc0ZhcU1EampHUFRnbE0wZWpzVGdaMldBdGpvVjJrcS1uX0h5UUxWZg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.161210+00:00"
+  },
+  {
+    "id": "INC-554B63FF",
+    "date": "2026-06-11T17:30:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Jury shown CCTV footage of Dublin Parnell Square knife attack",
+    "source": {
+      "title": "GDELT (irishexaminer.com)",
+      "url": "https://www.irishexaminer.com/news/courtandcrime/arid-41861055.html"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:14:22.824548+00:00"
+  },
+  {
+    "id": "INC-0C0F49FF",
+    "date": "2026-06-11T16:36:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "List of Belfast addresses said to be immigrant homes circulated online amid riots in wake of stabbing - CBS News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU20tM3NWNVpJUVFOd01ybFlyYVN6TzBjQVFFRmVHZHl1a1dGazgzS3pUOTgyZ004VzFSQXFxaFJab2VlanA4eWt3cjNGQnpod2FqWENFR0ZzeUp0WVQ0ZjA4ZFlTNTJ3bTVRUXZSdWtndGlLalA2Rk90LW9WX2tTYjQwWGN6dEpJYzhHVkI2S1FJcmlZc0VqT0tsckh5R0pYSkRBamxMeDFVQU9hMHc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.157682+00:00"
+  },
+  {
+    "id": "INC-5F2F5D7E",
+    "date": "2026-06-11T16:22:52+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast knife attack: Here's what we know so far - Sky News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYVhTd1kyek5XSkVfNHJKVWlzOWExbUR1ekZ1VjBIazBDVlk1OXBSS3ZTMzRlWXVQR3YxVXRHd2JCaXA2ZHlYcVdqOXNwcFl2YVVId3ZDV3p6RThGWXNpNVRsYlpObmFVWDZVSmRidzNLMTBkcm1HZmpOM1hfLWFla1hJeVN6Q2FrdkE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:43.951799+00:00"
+  },
+  {
+    "id": "INC-D3ADFD3B",
+    "date": "2026-06-11T16:06:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Governments to work together to \u2018prevent abuse\u2019 of CTA after Belfast stabbing - Ireland Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYzdPekMxNVNpM1BoYmRObjBOampyNzJzek1wdDR0d013Mzh2TmVMR1M2M1lheWNQUWNzLWRxcjFtV1FaSG1XTUY2QTROSlRCZk1WM3lYYVFJV2xpRkI4Unhic0MxVk1neFpBVDc3ZTVnQ21QbTZ2cGZ5Zzc1R3prc3A3U1dVNjk5OFdRcEJXMkxDU0JUcWRwckRfQ0NhNktNeU1BakpXZkVIcFhsTzFBQUNjdkR1cW8?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.144006+00:00"
+  },
+  {
+    "id": "INC-BDF3868A",
+    "date": "2026-06-11T15:57:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Kilkenny senator's plea after 'heinous' knife attack in her native Belfast - Kilkenny Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbThQQ0hYcnA3and4c29IZFc3OEx2NGxWRWdiakxDWXpSNXlMVVc0X0U3TVVVdVR3UzJkTGhtMWtkX1JEc2hQcUwyLTVrSnRqUUlwVDR5d1FoTkN4QzlDSGdXZzZvdnFCQVlvU2J4M2FJSm5QcF91VXpvUVZ6QnlWUmliVVAwYWxnV3A0YXp0QnY1RjR6Y2FzVTlSOWZfVWZVSF9laFBuRERKNlVGREZyaHdwalNDVUxNUnFsUWFHZDVnUDg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:49.014938+00:00"
+  },
+  {
+    "id": "INC-DED50FFE",
+    "date": "2026-06-11T15:46:24+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Sudan embassy condemns Belfast stabbing as fears grow among migrants - Dabanga Radio TV Online",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdmo3SEZ0UTlfS2dpSlBOdVFjeVBWRVgwenVGRVBnRHFaVk9OdGtWYTNfWGI1cGswWk92d2JrQTVoUHlDOWdpbVg0V0lxcEtiVFdUWVRseWJIdm9CbzdTQnNmZnFNckRITkVSd1lETllfSUFUbUpwa3F2ZU9lelhuR0J1bTdabElGa3NyWEhwc0hhRjBkZFJzRzZfTmE3dUxSd3pWYUVaU3lzNlY5YmtaSzlFSGFOQ3hh?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:57.678282+00:00"
+  },
+  {
+    "id": "INC-0F1DBA77",
+    "date": "2026-06-11T15:44:25+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing victim\u2019s condition \u2018improving\u2019 and he may soon come out of coma - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSHFrZ0ZqbzdGWGlLbVhmMWRwT3BpdFlCVE1XanhhNDktVGp5SHloYjJWb2F4SVR1a2hyUjVNQ2owdTZ5SkQwNmoycElNZG9NTHZ4UGpzdzlXdFZoVTRJSDJXLVJhWlBPTW9ZR1JkZmQzdE5ZcERIbjN5U3dfMEJwVjlibkdmcnBZYndubmxjc3VOSVhCVm5sRThxb2dGTVdyWXBnTFJyOC16X3IzRWRiUGF0VS1tb2FxVWtHUFZkTjZLOW8t?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.141061+00:00"
+  },
+  {
+    "id": "INC-58A1997D",
+    "date": "2026-06-11T15:44:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast knife attack: Calls for action on 'wide open' Irish border - as MP says frontier is only open for British and Irish citizens - Belfast News Letter",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxONnVGb0RUZjBpODBmOTZ5Q0o5a25ES3ZOU3VZd05lTkZoWTVtT0NhNHh5U0lHWERCcFZWWHpEQko1QUR4TFhRZGNaaFRYRG1TckJNei10QVFOU25hU01nclNwTWNfNlFWREVHU1Ffc1VVc3Rwd2hvZi1CM0NwQ2JIM0JtZjlQYWY5d3hLNlBjWDlqcTBIbGZGLVJsNEhPSzJrRVBUTTUtWklveEw3VTcwTWo3NjFVeFkyaW5BbXFjMjNDcTZhbWlyZkE0cmdWbk1XMTdQR044LTBpdHQtc2ZMOUo3SUpwVFBXNXVWQlZzSVY4Rk9nYmpSc3ZjaFRyMGFJaVFkajJrTGpFdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:43.967906+00:00"
+  },
+  {
+    "id": "INC-D964649C",
+    "date": "2026-06-11T14:35:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Two charged after second night of riots following Belfast knife attack - The Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRlQyTnl5d0xDRlM4RnRvVlQzSmZHbmpSV0FGVkZLZG0tR19IR2h3V3ZRYWFRdW9Qc1pGZEFzOTFuUFoydVE2VW0xS09SRU5sbmRaRDZyVm8zS0tUQzdFcEUyV2ZWTWkydS1TWm15N1FKbERITlN6Q3dETEU2VTZEbEo1TkxvcnA1VWZ2ek1SRmt0NmR2ZG1xTg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:49.038460+00:00"
+  },
+  {
+    "id": "INC-3ECFA8C0",
+    "date": "2026-06-11T14:17:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Hurley hero would \u2018love\u2019 to visit knife attack victim Ogilvie to check on recovery - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbXhKdThQT3BPSkUyUGJPaXZveVI3RkJ5MWJza2VxVi0zbUE0UVZyR0FYV2h0UUdKTjgyeWExR2dYUjk1TVhnTXlxX1RpNGtJVGExTGxEQVdpRi0waXVSQ3Bab29kQ1pnREVNTnliS2Ntc0ptYm9qc0RiSHhaaF9fUEZlNVU3VERrMkxPLTJNdU5CWW83ai1JS2VPM0NYeTR4V0NKZ2lUSHVKSlNNM2pOcGVweFM2ZFlZYmMyd043WDgxb2p3Q1VkYUNrYTFOVHNYbVItVkJJQ3JiZkpueXUwYWVsZDZSQUR2aFE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:43.958156+00:00"
+  },
+  {
+    "id": "INC-07FF888A",
+    "date": "2026-06-11T12:31:45+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "'Drugged and set on fire': Belfast stab victim's previous gang attack hell - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS1hnVmFmczJQaVdLazBDTGJhay14elVvZWVPRm1BekxzaHBYSzdEaUtzSklCVWRRT3l0dGhCbGNlaTVvUnpIT3RNeGxza0N1YURpV2tPdW5BOFJWV0gzcDVUZWJUWEt6RnIwSi1kaWJfeUFYLWRqcU11bTIySkJrSlNpV05sX3F0Z0J6d1hzZnDSAZYBQVVfeXFMT25BclZKYVp2U3F5NXlHTEpwQUpEQXRuM1ZFVDdvMGhXYWJyUXJRd2FxSFlrMC1RZ3dreHpOaHdFRDZFYnlsNW9EZHdjNW85MjdyeVBLV3VIQkFIR0VzMG16U2ptcFAwVmJBYUV4TXpLTTNVQUdGWjhwNVVpM2RVSUN3TV9PT1RaMUkxU2xaUkJuNGZaNEFB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.158073+00:00"
+  },
+  {
+    "id": "INC-65E67EBF",
+    "date": "2026-06-11T12:19:42+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man Appears In Court Charged Over Belfast Knife Attack - Ireland's Classic Hits Radio",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONjdxTmJvNUVLVFNpR1lYcGtDMjdKWWszNmpaV1lYbUlnbFJiT3Q2aGFsaUR1M3VYRzBnZTRZV2d3ZFFoQlc3M0tfUi1yeXR2Q19oSmNBWXpxSFdYMUI2MWN6TGlRTTVBeXBmVnpLb3hnejRRTDluM3gxVGp0R1paTXhZcVJkSU12aHpUaWVUY2xjREh3bUVaSzUtSlpJb2xhMk5N?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:43.958811+00:00"
+  },
+  {
+    "id": "INC-DC4A3C44",
+    "date": "2026-06-11T12:14:43+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man carrying \u2018loaded gun and knife\u2019 arrested by Gardai - Extra.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yTWItRS1xMzJ4dndidTZzbVVzbFRqQk5FYy0yVFAxWTBVbnNTZnF0SDU4RTRCbHVGS0Q5OVo5Qnk0bEVoUGZFcHh2RUpvQWI3UEZ4d2NWYzVSc1pWWElpZ0FTU0FCTXZrWkVMZ2VXeXJ5bEJTTHc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:45.657883+00:00"
+  },
+  {
+    "id": "INC-F7BA1077",
+    "date": "2026-06-11T12:09:55+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast hero describes fighting off knifeman with son's hurling stick | ITV News - ITVX",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOFBFZzhlM1lvNXhhdGprenlNWFA4d2dxSWpKRUFrRHY5VFZVUnZPUzJzMmxsTlBjUVFiMEFRVXM4dHVfTk1MaThFRVd1bS12d2pWbTIzTnl6eDZYTl84THVXQUpST3RGODhZdEtfV3d0NllPaGItTklWdjVpRXhRR2llam5YTzlLVDhWTVdhdjB1djdJdVpzVTJYV0ZvcjMzQnAwTnR0Yw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:49.021277+00:00"
+  },
+  {
+    "id": "INC-7EB5FA61",
+    "date": "2026-06-11T12:09:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast knife attack suspect: what we know about Hadi Alodid and his route to the UK - The Guardian",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcm5PZEF1S3lXNmtXQWJaM1daZEw1alZqQW5NU01MMndMVjFSMHU3SUE4djlzR2dPZ0YtSGVpa0dvek51SGk0Ym1JMzV3OFlMOThNVzN5SzludE14cFAzc3Jxb1dvWlV2NU5hWkJNaDFrY1hlbzdEckJ5SGo2WGhsYUxBRkNWczN1Z01uZzNyeUZzd1VZNHFfVkVJQzVnTzUwREk1ZTJpY3lEUDhtTWR4S2E5QQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.138072+00:00"
+  },
+  {
+    "id": "INC-CAF81398",
+    "date": "2026-06-11T11:50:18+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Why a stabbing has plunged Northern Ireland into unrest - Gulf News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUGVVWUFtUFBOYm80d2FkMnA5bHB3TFRyTWpRMVMtZlJqc0VubHByZkQtWHNTRmllb2RleGFwSVdUbkluNlY4blpOSHljeWZZWi1CenFIUDRvZC1fWkRRSmc2SkxDNDhiQ3dPcElNNEFzWDhtVDdqbzlFY0N2VGJJeUpKeVJEMHgxQ1R5WG9xazZhbzVmWTd6VlNqTzhDZzJHNUJZ0gG2AUFVX3lxTFBnX0k1VXRFSGVKR04wWXlmcWVkNGFEVUFUNlhiV3I5UTV2dVEwSE1ENVcwWjQ1NEkweFFOem4wZTM2dU9NQjJUNjFuYXUtcHJSNXJXWkNpOGVpRkpRYmNnZzJITXF2M18yU1A4ZjFMdkpVdE90cC1yeFY0ZXNGdkYzWlBtZ3htejhid0s1Y3RiSVNQYXp6WjdSdE9ZalZ4bDFqU0ZUQ3YyVnJSSURKOFhiaFdwMXZR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:57.675800+00:00"
+  },
+  {
+    "id": "INC-FA40FCF8",
+    "date": "2026-06-11T11:34:21+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast knife attack suspect granted asylum under fast-track scheme - The Irish News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdG4wSkNsY21QOGNMRG1mRE9UejVzODRUMTdja0NGU3FENVJJZW94VDFrV2M0X1EzT29BV3hiYTlqZkRIRUlfMFdxZjdqbWszSmtHanhiaHcxT1FPNThTOFBqOEd3VGtWRFJuN2U3SGpuTzdwdTV2V211eDVLOGJtYXBIS0hLRm9oYzNXN3lLQUJBeW81RGU2ZlNoMmdsY2dUMVd0R1NWNkhDVlYxN3ZWb0NXM1NKd0VCRW1hOG1PTHRlelI2enVwYjZacDBEbEpyZlN6d1NSN3NiWU0?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:43.970293+00:00"
+  },
+  {
+    "id": "INC-1E76B803",
+    "date": "2026-06-11T11:31:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Violence in Belfast After Brutal Stabbing Attack: What to Know - The New York Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQODRiM093aVhnb3hzSV9LMTJfMVVNVVgwODNMUDU4MTdzRGJ4QmpiM2hOQlRaWkFmSGhENnJ4Z0tUZTNzdmFmMnBfQVRJeDcyNTA2TWlkdUc4SnF6Y2dMOW5OQmsycmxLdDhlMGtkelc3ZExwcW95WGVBa0h6eVh3TXFuV2dZWGRoRDE0ejhiSEs?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.142308+00:00"
+  },
+  {
+    "id": "INC-679234BE",
+    "date": "2026-06-11T11:04:43+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Family of Belfast stabbing victim \u2018disgusted\u2019 at scenes of rioting - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMTFkSHp0bDUxWVBMSDVXOUIya0lBaUV1M05PZU00bUdfU2szX2I1OFM1X0Y2NUZqbHFxRU9meVBIZzFQbGk5aWdDNkNXRTR4MktyQzVvSWJvTmFaLU15akp3cEJfbjdMVzdtRkxlSk9VZ21JVi0wMzJyQmlrU194Nl9aWnR6cTBsS2FZdGJjUFR1bkswSi1nVWVyNXFnT3dqdDZfWktRTEEyVmlSdjNjNA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.146745+00:00"
+  },
+  {
+    "id": "INC-415F5F05",
+    "date": "2026-06-11T10:41:54+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man carrying 'loaded gun and knife' arrested in Dublin after 999 call to gardai - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdDlBWHV1YlRPOTdJejNhSFVmSXNyTEZmVmExSS1aZ3I0M1FpWWJ0WXBNellhRlBwMU9fdjgwcTA4UW9iU2Z0N1JubE5FT21EWnpiRFJEbW9udEl6V29ZQWhfdjhKaWU0ZlhnQjUwZ050ZUVLUjBzM2hQRDRCUUxxa05jNllTRHh6aXEzbThB0gGOAUFVX3lxTE10OUFYdXViVE85N0l6M2FIVWZJc3JMRmZWYTFJLVpncjQzUWlZYnRZcE16WWFGUHAxT192ODBxMDhRb2JTZnQ3Um5sTkVPbURaemJEUkRtb250SXpXb1lBaF92OEppZTRmWGdCNTBnTnRlRUtSMHMzaFBENEJRTHFrTmM2WVNEeHppcTNtOEE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:45.658172+00:00"
+  },
   {
     "id": "INC-832129D4",
     "date": "2026-06-11T10:00:08+00:00",
@@ -89,6 +427,19 @@ export const mockIncidents = [
     "addedAt": "2026-06-11T10:21:07.650569+00:00"
   },
   {
+    "id": "INC-CC3E71E0",
+    "date": "2026-06-11T07:03:20+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast knife attack victim's condition improving, says DUP leader - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1tYVJfbk1FdDR6UHl3dUJsRndydjZ5c0ljZDd3TmVfUFRybWs3NGgwY0FNV1hmTnJmQXhjOWMzc3RJaWM4eHZ1ODlYUTVMTlFLb1JJZGN0bFhPdVJf?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:43.968209+00:00"
+  },
+  {
     "id": "INC-2528CB89",
     "date": "2026-06-11T06:09:23+00:00",
     "county": "Antrim",
@@ -113,6 +464,32 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-11T10:21:07.658327+00:00"
+  },
+  {
+    "id": "INC-E8CD9DE6",
+    "date": "2026-06-11T05:54:44+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast knife attack latest: Police vow 'robust' response to Northern Ireland riots - follow live - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1yc0VTNmhTUWlJcUEwa1BVZGZBQ0RPMC1fbG5UV0o2djR3QkhKTm15TUdsZWZEUFphcy1IWk9VTzd3aFJXS1pWb3U5cnpsbjJHcHdPeA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:43.945569+00:00"
+  },
+  {
+    "id": "INC-BFC758D9",
+    "date": "2026-06-11T05:48:06+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing suspect in court after night of protests - dw.com",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObnhLd2RDcWQzSUNJWUxPTTBBTFdIdktlMVQzSUZSQzJZaU9FUndNYzZLaFhNd2VTT0YtekN0SWNIdDYwYXRzSk5fVE1velZtSTlDU1NZUzJOQTE3RWdFdXZYT25aZ3o0M0tORC1idGxzLUJWZmV4UjhoLVpPNXIwT1VNa29VTGlCTFBQTFoyU2JYbkM0U0JOMEZTMmlPMDc2TlZVV3hsS0dhTFBQVWNCNDRBeTM2aE5sMDhJV0NzWGJxdzRQSFV0SkZ30gHKAUFVX3lxTE5jZVpXUEFheWxtbDQyRHgwaTB6VkhxbndyR3d4aC00cEVDMTd6YUJCWWFVeXJxdFQ4Wm80Y3p0X2ZoM2VpRmtIb3RmVG1McnpxR2xJaDVKbExHTXJpcEtfUFI3eWd3RVZyNW1aR2t0RDVyMlpOZUFHRVJyeF9oOXlNbllSUDBFM1NhMkc5ZGlJUFVZNEJLeHd5WEdBOGR1R1VaSUw1TDh2bkdnTUx1VG5URmVmV0RSQjlpSWstWUZ6MmlHMGpvaUJvd1E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.158552+00:00"
   },
   {
     "id": "INC-FC8E7396",
@@ -284,6 +661,19 @@ export const mockIncidents = [
     "addedAt": "2026-06-11T10:21:22.995744+00:00"
   },
   {
+    "id": "INC-B10FA622",
+    "date": "2026-06-11T00:04:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Amid the unrest in Belfast, let's heed the family of the stabbing victim - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE01ODg5dmx3Q3dsX1dkRW9yaGN2SnNrX1Jvd1hMeGlXTUwtZ2s2QUt5MTlvWkpxNjc4UUJ4djA0N0hGTldtb0RJWWxkYnhsLWlLaWdISkc3OU5MUVdLMnZGV0VwUG9XWGQyUWJYNTN3T0lBQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.154956+00:00"
+  },
+  {
     "id": "INC-FD9F7745",
     "date": "2026-06-10T23:15:00+00:00",
     "county": "Antrim",
@@ -349,6 +739,19 @@ export const mockIncidents = [
     "addedAt": "2026-06-11T10:21:07.662848+00:00"
   },
   {
+    "id": "INC-31B2C82E",
+    "date": "2026-06-10T21:31:04+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Stabbing suspect appears in court after riots in Northern Ireland - 1News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMDJVYUhUZGpsQkRidUxXY0wxX3g5aF95Sk9DZVF4SnR5aWFyRm5RdEpHdHQ0YXdva0tYTDRoZHA4RTFKcE8tNUh4bzhScDJYWXlFRUhtVHFYRl9HZU5WQ2p3aHNNbEs2LTZIdVgwRURWVm1nd3Q1bFpOTHpxNG5tU2RnVUdOT29iZm9raXV1end0d0UxVkZHcHp6Z013dWlWamQ4?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.154636+00:00"
+  },
+  {
     "id": "INC-F89466D6",
     "date": "2026-06-10T21:26:11+00:00",
     "county": "Unknown",
@@ -360,6 +763,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-11T10:21:07.669973+00:00"
+  },
+  {
+    "id": "INC-8B4014AC",
+    "date": "2026-06-10T20:58:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing victim's condition is 'improving', Stormont told - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON2JxTWRCYkNQN3NvaVlseVpSQnJEYjNCQTJmS2JiajcyVzE2a1JKX2VqN1c3MTQtY041dU9nQWNveEdmUmtuXzN3bFRHOWhDQVJmOVNxNkdOOTBQSzhwbVpWYjY3YWg4OV85MUIxb1FIdWc0QWt0UDVvMS1EVzFYdnp3ZERFTXc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.144312+00:00"
   },
   {
     "id": "INC-00694804",
@@ -570,6 +986,32 @@ export const mockIncidents = [
     "addedAt": "2026-06-11T10:21:07.680303+00:00"
   },
   {
+    "id": "INC-489D3B9B",
+    "date": "2026-06-10T16:55:08+00:00",
+    "county": "Antrim",
+    "location": "Custody Over",
+    "description": "Attempted Murder Accused Remanded in Custody Over Belfast Knife Attack - Ireland's Classic Hits Radio",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOWI2MjFTUHFSQWRTU3p0aGd3WlJWczJjd1UyTFBTOXhYTzN6STRwNEROMzBkUlhkTFhRWkt1Tk1UMEN4M2NBLVVBOF9DbldwazZhM19tdlhYMXFUMHplNnBBbUxBUWxuRENhQzZoSGhJa1Fxei00Vk9fOFUtR19oclpnd25oeVJicGRQQ0xaRURqNDFJaWFNdU9QR1FFOG9WSnUyY1pXTVJmZnJVMy1jYXBZdXVjbjJs?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:43.972816+00:00"
+  },
+  {
+    "id": "INC-3AFF5A78",
+    "date": "2026-06-10T16:28:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Debunked: There is no \u2018second suspect\u2019 for the Belfast knife attack - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYWxYaXlRNVF6RDV1MEV0ZUthNFNSMW12UmJjNEZaWW5nX25QMlZ2dXUxVHRZTjR3QVh0STFvdjNDOVJXYTZkWmtaY0JWTm85THZ1c2IxMG83LU1INXVBTF9uSFhqd2hEeVhZaTRtT0dqMV94RzNaWVR0ZGhhc2hKbjNfSzhWRE83T0Vrc3ZJcld1THJ6SlBZaw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:43.949639+00:00"
+  },
+  {
     "id": "INC-332E3672",
     "date": "2026-06-10T16:25:01+00:00",
     "county": "Antrim",
@@ -581,6 +1023,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-11T10:21:22.996715+00:00"
+  },
+  {
+    "id": "INC-5E9CD267",
+    "date": "2026-06-10T16:24:47+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Family of stabbing victim say 'unrest is not welcome' as Belfast businesses shut doors early - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMEFIN2hNTVJrVE9peFdkZGZ2MEZJVlJ6UmxnWHNrTmJEYnBDWE1IVTI1d3BTZUh4STU3OS1LejR3QjZjYUxLQU9KSUVqeF85YjB1dmh5Z3N5UW9zNHhrRzZjWjRfXzl1WkFyeEVsLXNwd0IyZlpZTmJnbjd4aHhvbGJ0RndfYUU?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:57.676212+00:00"
   },
   {
     "id": "INC-5451178A",
@@ -633,6 +1088,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-11T10:21:07.654973+00:00"
+  },
+  {
+    "id": "INC-B2422A4D",
+    "date": "2026-06-10T14:29:44+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing: Why did the PSNI specify Hadi Alodid's nationality? - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORXl5SUthSzY0X2o3V3NrQ3lSM1lfUDQ4NW9iU2dIRC1zZWktUmlPYkNDQjZ5T2VGYmx1ZDZKRVE5ZzRpVV9nLWxyemE0UjM1SHg1T3EySUFfMUQxSTltOGQxLWE3Q0pLYzNxSWdwX3lNdWFRTDQwYWVCcHIyRU1wTmpuOUQ0cnJfWkZPYVRxNDdlQUFEbll1bmIxaEZXejNBZ19Pal9DMG9DLUpxT0s3Q1VnU3FJcmV1?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.139709+00:00"
   },
   {
     "id": "INC-CE874493",
@@ -1181,6 +1649,19 @@ export const mockIncidents = [
     "addedAt": "2026-06-10T09:56:45.152379+00:00"
   },
   {
+    "id": "INC-A7914258",
+    "date": "2026-06-10T08:15:24+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Victim in horror Belfast knife incident named locally - Gript",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3V1k4WjdlUWtkU283SGVaLVFSWkY1aXdSQTljb0EtWnJtamlsTzNpVmdKS0lsdkhVdDFQYklDUGtnVUNEdGZXY3F2MzRuMnhmazBVUEpSR2g4V3MtVXdKQWd3azF5LUpTczRJRzZEcEF5Rzh6d3RTZGpBcw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:43.976459+00:00"
+  },
+  {
     "id": "INC-64B98161",
     "date": "2026-06-10T08:11:32+00:00",
     "county": "Unknown",
@@ -1504,6 +1985,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-10T09:57:00.662191+00:00"
+  },
+  {
+    "id": "INC-64E1CACD",
+    "date": "2026-06-10T01:04:21+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast burns after knife attack protests - The Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYmxMTkJNTU1uQWpaUUxxaDVvUGNnWUp5bEE0SUtWbzlxdk50THJ3cmY2S05uN3dfb0VQLWt4NTJ5VlVwTm9PeEVNY3JESExDMExwbDhNY2NCVkFPQ1Ryck5RMlgwVTFhS3VBSWhKNG1YN1dLRkM4ZHBsZlExUV9EMHhHRGw2aGxxTU10U0VlbkJPNWNNbDB3R1E0Rzl1aE5pQkkzVnBR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:43.946764+00:00"
   },
   {
     "id": "INC-CD3D0D7D",
@@ -2026,6 +2520,19 @@ export const mockIncidents = [
     "addedAt": "2026-06-10T09:56:45.139920+00:00"
   },
   {
+    "id": "INC-7CC22C04",
+    "date": "2026-06-09T17:04:18+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "\u2018Horrific\u2019 knife attack shocks Northern Ireland as video shows man repeatedly being stabbed - KXLY.com",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQZkgwWWt3VXVNR3h3NjhwaU9SZ3lxWG9DOTZGMkZESnNrcTU4YzQwS3JBOTBjOTdWZUxXR0VKY3hvNDFTV0JQeDF3WG5HdURfdUhSTU5oblVpNWd5RDBzRjZweHZoaG8xSWd5Z1ZUUXZXZENiLS1WZjIzVlhmNEt1aGJNN1VXZy03NnNGbkMwX3FqbHk0MnpmRDd1TlJPUm9tc0FxcEs0ZnBUM21XakExV2VfR2I4bVlhUGM5R0xOOUxIY0VTMFJLVWhqeVZNX0FGOGN6a0xPUkY2MF96ckZMdXVua3NHZ2dUdk1NMmI5NjhENlFWOHpLNHJTQi1PMFl6cFdQbldVOHpOQ0NRYnNXTHBYdUczRDZV?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:10:01.046255+00:00"
+  },
+  {
     "id": "INC-A0997445",
     "date": "2026-06-09T17:02:31+00:00",
     "county": "Antrim",
@@ -2492,6 +2999,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-10T09:56:45.136427+00:00"
+  },
+  {
+    "id": "INC-B69F92F2",
+    "date": "2026-06-09T10:42:36+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "U.K. Leaders Urge Calm After \u2018Brutal\u2019 Stabbing in Northern Ireland - The New York Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOTdYT291ekFGdzlyanMxSHh3UE1ndjd4alJPaUt1cUNab2R0UkxacHVGcHA3X2hacmxYN295cnV5Ymo5Y2k2bXVVZlkzcEVVVnE1dG11U05kdG4xdXJBMzRKZWF0VlZrSTctYTRMeHRaR3lHdmVuM0x5cHc0a2Y1VWVRRmNqcjVzOTBFLWNqNHJYLTNqZVI5Rw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-12T10:09:42.145650+00:00"
   },
   {
     "id": "INC-98081D0E",
