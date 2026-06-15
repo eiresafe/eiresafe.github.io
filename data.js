@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 599
+// Total incidents: 605
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-BF285918",
+    "date": "2026-06-15T11:07:06+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Rumours north Belfast knife attack victim lost sight in \u2018both eyes\u2019 are false, DUP MLA says - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTV8zdnFjTFRmc2hiamVnVXBTRWZQUGdyVGJjU1NPLTNyWTBOc1JWbmQyd29kV181SURLNVlfSjlkMC1aVVE3em9QaWJCbk9kTFFKNW0zcHVKenpzOXFUWTBUc3pUVnl3dk1EdEZBUGVKRFE2ZlFUU0pQSFhYRUpuaVBvQnNNUTlBSjRFM3hQRlE1QTZmNDVWNWRaVjRGTVk1QzFKTmxVV1N5LXNTRmRiSVJLRlN3M0c4bGVHTDViS1ZLM0JYV0VkVVFiLWtsbTJVdFhTdkZBY29obmtTUm1remFQdEZZQkN2dFUwaGg3bDdveUNLbWg2bDZlbmR1ZGdPczZMMzRrUXQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-15T12:10:02.241341+00:00"
+  },
+  {
+    "id": "INC-1345BF5F",
+    "date": "2026-06-15T06:29:00+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Teen hospitalised following suspected stabbing in Limerick - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBhSWtUdDZIWW00SnJnUDBxVmh2c0NFSVZqOFEtZGpOaXFrMVEtVTVGdm1ickhQMWxRNlg2dTd1YVdmZUVBclRLcDBzbURackpjeEhQLU5DVmJvZXA1VEZDby1Db2FvTHdSMHVIUmNB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-15T12:10:09.000358+00:00"
+  },
+  {
+    "id": "INC-19D7023B",
+    "date": "2026-06-14T22:06:10+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "DW News. . Following a brutal knife attack in Belfast, racist and anti-immigrant protests have escalated in the Northern Irish city. False viral images and videos heat up the conflict online. #dwfactcheck - facebook.com",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRXN6cUFWTkh6MkRYZmhiS0FpS0tvUjVIWF9SRWpJcWRhN0szdWtXZXNPRi1kc09tbXo5YzVNREFEYmp0NVVZLWtzVUE5MGpHcFQ0NzZ3eExHVmlGTkRRSVgxd3Q5Rk9WUVE4Z0M4UnBoY2hTUUZiUGl3anlGMkgwcDdGMjFYZkYwZDd2VS02eXZQYk1pejJGZWM3Yy1XaWRCb016aXN0THlvMFVmYnozaW5XcXBGNmJwZlpob3prZTJRazYxSG0zTUVGRFlKR0Ryc3dSaHlsRUJ4Qkd3SERiYWZn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-15T12:09:57.073760+00:00"
+  },
   {
     "id": "INC-A5B5192F",
     "date": "2026-06-14T07:00:00+00:00",
@@ -61,6 +100,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-14T09:31:37.276350+00:00"
+  },
+  {
+    "id": "INC-6F3A8914",
+    "date": "2026-06-13T22:16:17+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Sudan denounces media reports on Belfast stabbing suspect - Sudan Tribune",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBFVFRBT3hGTTJxWWRPY1d4ZlVjdzZwZ3pUdTJaTzN1MVY5YXBuem1mQktmd2JpR1RGZjVEV1pGN1EzWHZwUkdwUjhIakpnQ0hf?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-15T12:09:55.341925+00:00"
   },
   {
     "id": "INC-CA540837",
@@ -219,6 +271,19 @@ export const mockIncidents = [
     "addedAt": "2026-06-14T09:31:50.415078+00:00"
   },
   {
+    "id": "INC-F52CBC1C",
+    "date": "2026-06-13T08:00:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Researchers say Elon Musk  instrumental  in amplifying anti - migrant narratives after Belfast knife attack",
+    "source": {
+      "title": "GDELT (thejournal.ie)",
+      "url": "https://www.thejournal.ie/elon-musk-instrumental-in-amplifying-anti-migrant-narratives-after-belfast-knife-attack-7069969-Jun2026/"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-15T12:13:30.218873+00:00"
+  },
+  {
     "id": "INC-3461031B",
     "date": "2026-06-13T07:29:24+00:00",
     "county": "Antrim",
@@ -308,6 +373,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-13T08:56:17.492693+00:00"
+  },
+  {
+    "id": "INC-9CEB1FDE",
+    "date": "2026-06-12T14:36:33+00:00",
+    "county": "Antrim",
+    "location": "Parnell Square stabbing trial -",
+    "description": "Woman\u2019s bloodstained jacket shown in Parnell Square stabbing trial - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZWdLQXREdVFSRUJDNVU5N2xoNkdVOFl2VzgzMTBQMUhOYXgwLWFhbDJXN1VqSEV4cmlScVl1Tnp4WVFXRFhBZm9qSjNZNnpIXzl2bXdtcE9nVDhYUGJYUzZRRjVqLU1pSXFPZDFhcmhScHZnNHBiYmphYTg4OWdrVWJHZVNBNTJadk5qamtwVkFxNUJEaFJyYU1zUmxSa29Vb1ZVTG4tWXpZSF81Z0kxeE1Nb2FiT2NPSW9XQ1A2Q0MtRW9UQmFLVFU0aGstTEN4YU9pRVhjeTlyUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-15T12:09:55.339123+00:00"
   },
   {
     "id": "INC-8816A052",
