@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 605
+// Total incidents: 615
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,123 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-435FE344",
+    "date": "2026-06-16T03:19:55+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Northern Ireland police rule out terrorism after \u2018brutal\u2019 knife attack - CBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBNUJxaVBPaTFKRnFZaWxvbGdrbnpidVdHYlpvQl9RSU51UmM0dkNNR1NfcGVsUFJhZkVkSnFQOXpZOFgtaXFRNm5MYkI0bjRQcmNtX0taRDlqQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-16T11:07:55.196198+00:00"
+  },
+  {
+    "id": "INC-A79A4399",
+    "date": "2026-06-16T00:30:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Police say 35 arrests made after disorder that followed Belfast stabbing",
+    "source": {
+      "title": "GDELT (offalyindependent.ie)",
+      "url": "https://www.offalyindependent.ie/2026/06/15/police-say-35-arrests-made-after-disorder-that-followed-belfast-stabbing/"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-16T11:11:51.652519+00:00"
+  },
+  {
+    "id": "INC-428C7971",
+    "date": "2026-06-15T19:50:18+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Officers \u2018undoubtedly saved lives\u2019: Police say 35 arrests made after disorder that followed Belfast stabbing as it defends approach to tackling disorder - The Irish News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPMDNLMkl4TXU1SjRhYXBOVmxzUGIwNGs5MTR6TjdvcENTeGpLVkE5ZnpjX09PczhIM00zUHN3azczVlYzemRtbGphbGlDRzl6UHNOU1VKTks4TW85cV9FWUU2d0lKeUR5SWdkUkpVQ2hkOTdwaTJ6TUFja2xUVUtCeXEwUlZtOXNBYzNSRUlwcDBBTlJwRnJNeXVWaHJ3T05MM2w4Q3UwODZNZjBIQTFmTDBab25CYm9iNFdEZUNEWmNvaVJlYkluR0ctaHdpYVJld3VZZy1CajVMeC1DdHhSTFQxeGpEVzQ3NDlrSkE1aTk2c0FKeXpOQTJiUkRwVlRZdmVWV0hoVUQtTVRXbElQeEl4dU81UXhhQ3hsczhBTHdWMEFoT0hDRjZMRGRsX3kzV2tZb3VLQnpaTklFbW10T1EyeVBkWHpY?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-16T11:07:55.194681+00:00"
+  },
+  {
+    "id": "INC-1B1F4330",
+    "date": "2026-06-15T18:28:14+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Deliveroo driver describes hitting accused with helmet during 'ferocious' Dublin stabbing - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSjBPTkIwaWFOMXpleWVYd3ZCRGYwbFp6aldzRGJwdjFrRU9rVVVuVmszakZ1Y01qZW45bHo4RW1uY3hzclltejF2T0ZjM1pkeUJGQmNQYWtRV2t1bmU0Q1hKNDM4R3pNY3RSVzY4U0x0R3BrSjlFYklHbnJjVDVEVW5zVFd5b2pmUE1lX2FZa3ItcGE0R2Y1WEZteXdPTXFxVjQ1RENvMUc0RkdyMXpRQkVUR0pWblNMd1FHY21obG40bUNuZDNHOVJZcmZKd1NJUGdUTGdn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-16T11:07:55.192688+00:00"
+  },
+  {
+    "id": "INC-F5817ACF",
+    "date": "2026-06-15T14:24:26+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Irish border is \u2018wrong issue\u2019 to focus on after Belfast stabbing \u2013 Taoiseach - Yahoo News Malaysia",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNlpuVmN5TzNnajYwbGRJRlVIY1Q2NjdNQ1piTDE4X0VCekdlRmNnX0hHal8yM0NxLW9JWlBkYS1NZXpHeGxKRDJCMTVfdE9abHlnOUlTQklwbEd4NHQyaWZKNUU3d0Zoa0tCV2VERm1NSEFDdjNfUG0tbEowSlF1QWpfaw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-16T11:07:55.199294+00:00"
+  },
+  {
+    "id": "INC-6E8038E5",
+    "date": "2026-06-15T14:24:00+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Irish border is \u2018wrong issue\u2019 to focus on after Belfast stabbing \u2013 Taoiseach - Limerick Leader",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOHpOZzB6bzVEbVF1SGFsQU4yeFpJeEhCbVpBcS1OZU5CUlFPRTFoUnF3SnBrSmdDOXZ2Sm9LT3B0RG1ZUE1JMWRSbFUxNmFQc1hBODZQRFowbTcwZEtDdVJDZlpmOTRXUV95NVdLd0lOMERPWm1yXzBsR0RmS0ZGaTJhRVdza1dPdlpzUWZEOXplWTQ5aXdUWkxGQ2VfZFA2VjAxZ0o0b0tpUTNnRno3SE9rSDRPRl9PY0JJ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-16T11:07:55.189599+00:00"
+  },
+  {
+    "id": "INC-D4512913",
+    "date": "2026-06-15T13:47:12+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Parnell Square trial hears creche worker recount moment man stabbed her as she tried to protect children - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUS04c0c4c29jaHNvcDlnNk56ZFFuRV96YnJvbF8zaU85bjdmRE5pYkczQkgtQno5MkNPdDA4WW5OdXRESHlhSUVoejIwOTc1N19XcWVKTmIxVmlpekZpT294djM1bG5td3NYMkFicXcyUmNtNGRYQmJmMXBzem11akxkNDFxYVcxSVBuZnNR0gGTAUFVX3lxTE11Zy00ekFkUUplZ2dtZmdob0htRDRYSlpLMnhRU3FnM25kanYwMUx5Z3J3NW1rWU5HYzB2aHRiYlBxeUtYdFpVcmZQeDlZQzU2Zk9neWMyVGlWaEVLUTZoODBFWFhaVDUwekVPWmJxb3ZzUjJOR0tPaWhXa1haZ3ZhSVlsSWZSbE1lTTJRbUNnN3ZmQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-16T11:08:03.983241+00:00"
+  },
+  {
+    "id": "INC-81EBB640",
+    "date": "2026-06-15T13:40:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing victim\u2019s family under 'distress' over false blindness claims - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFUy0yZmhFMXFVSlhHamRFMVh5ZHp5aTVVejJHbS1XOXdwXzhuejZtTUxDR21PS1g0QXBMd0pYeC1qUFAwLXl0T2txYjVRU1JPMWZzakdFN1pJUzhyNnpJbjdweXRxLS1fXy16eU42RzRlbDlm?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-16T11:07:55.191672+00:00"
+  },
+  {
+    "id": "INC-FD268A56",
+    "date": "2026-06-15T13:16:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "'Hell bent on getting the children': Childcare worker describes 'ferocious' Dublin knife attack - roscommonherald.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNblBjbDFVNTlxbEVMOUp4RVd1OGFIdjhtOVZ2aUFkdnoyQTZjYU1LSFl0SlMtOXk2akdfRXlXUWNqb0lwR09vVnV5aUxwTURRVGNfV1VQRHVzNXNzcGVDdFJaQ1FjNlA5M0tkSjlGVGQ2WnhROXZhc3B4ZW1veHJDcU96MFFGWHdmZ0o4Mk43ODh6a3h1UTI5MUZDRng5Q3kzUU9JVlhLel80MDBzeURTclAySWhXRHlqZW0zVUN5RnItVFNWT1pkRFJMd1RWTkJ5MTFUcg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-16T11:07:58.811947+00:00"
+  },
   {
     "id": "INC-BF285918",
     "date": "2026-06-15T11:07:06+00:00",
@@ -22,6 +139,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-15T12:10:02.241341+00:00"
+  },
+  {
+    "id": "INC-EF59E98B",
+    "date": "2026-06-15T07:30:28+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Britain Northern Ireland Stabbing - Messenger-Inquirer",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWDVzZXNka0VXdVQwQ3JvbWE0NEROb3ZYM3Q0VDA5QW9hbUlqdk9EWERZM3pSRDFGdk9kSmIyeThKMGdqVkItQU5uUm5PdnUzR1d0anRkSzRLWDNPcWxOTTB4S1IyX05Mam9VY1ZhUHRBSENFLXZ3MGF2dVhwNmY4dVJGRGNvNERvZWV2WTZFN0xoSGFMMndnYTEwYkM3dWRZN3l2Tjc4UzFPeW5lZWhhUURmQlA2MU0xWlV0NjhDMjVRMC1HTWNCY3JvV0wxR3BUM3pGVHBEZmY?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-16T11:08:11.031656+00:00"
   },
   {
     "id": "INC-1345BF5F",
