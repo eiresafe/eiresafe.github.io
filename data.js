@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 615
+// Total incidents: 619
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,58 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-CEBBF0E8",
+    "date": "2026-06-17T10:19:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Teenage boy stabbed yesterday evening in Dublin city centre taken to hospital - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZkVJYndrZE02SWgzMkQ3TVNUNFkxQXhNb1B3T2s5bGN5dDlFcUlFbEdZUmt3NzZKRHBmdTJnUEZLTjJiNUFYQ1NtMmhmQlAwZEh4elBEZ0phUDNOUnhWTUdObzNmWmhzVDFTbko4OXppdXdlM2dndlRYSEFXU0M1VHVmVXhpRXpDU3c?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-17T10:52:34.665720+00:00"
+  },
+  {
+    "id": "INC-A0C24D31",
+    "date": "2026-06-17T05:11:33+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Garda\u00ed believe woman (81) found dead in isolated home was stabbed multiple times - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQkFVc2VMU1BGLVNRQ2o4bjV1LVJDeXBMdFF4S0ZjLUdnQzVZcjBxTzFHU3BHcXdPd3pSTzl6eVhSMlo3Rk0xZFdha2kyVV9lM3BFNkFuQ0UzaFIzcUo3RkF0YVQyb3YxQWJBemJ2S0VjYVRuMXh5SnotR2JNMXFFbzY5SW1RdUFCYjY3UVdOMlNFZHgzMThYcm5QbDcyRUFtZEdzNG5UWnNTdWFWUjNidVFVNjF4UE5GVTlkNGplbV9SdlRTZkE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-17T10:52:46.952747+00:00"
+  },
+  {
+    "id": "INC-E7E26270",
+    "date": "2026-06-16T18:57:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man attacked children in Dublin with big carving knife, court hears - Belfast News Letter",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTWFlWFNIMUJVWlpyMEVydTlwVnBYNVNOMDdmM0prZFlOOU8wREFKaDNuV0VZMFZjc0g4dWVlRUFHTEo3ZXp3QktnTUtsSnlqZFpscHVMenJybVBUYTFrUlFfQ1p0OXN5a3RQcjViTDdCSjhfV2NuVllReHFGX2JSREM1d19WMVM3SjYtQmJWQmFwQ21ieTAybWE5eUFzVi1UcmlZY29wd3Nzb3BWYUFWb0RBSXcxU0o0cTUwUjlnV1ZjeHVURlhR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-17T10:52:34.678797+00:00"
+  },
+  {
+    "id": "INC-576758EE",
+    "date": "2026-06-16T16:35:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Cork man used screwdriver to stab woman in arm, court told - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VbmE5UFFNaFJLRlBuNzZaTzM1eEZqUmY5M3hWVUMzRW1CMkRRcFZmdnNKY0stQlh2X3NJTXVMbUFQMXVNdDBBa3ZoN0p5Z05TQUM0dGxFcEtnc2FvOGV5WHlRbFRNMWJzMTVQSHgzb1dNWG04LVE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-17T10:52:36.326768+00:00"
+  },
   {
     "id": "INC-435FE344",
     "date": "2026-06-16T03:19:55+00:00",
