@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 619
+// Total incidents: 631
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,136 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-94FF5BB5",
+    "date": "2026-06-18T00:15:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing victim out of induced coma but may lose sight in right eye",
+    "source": {
+      "title": "GDELT (offalyindependent.ie)",
+      "url": "https://www.offalyindependent.ie/2026/06/17/belfast-stabbing-victim-out-of-induced-coma-but-may-lose-sight-in-right-eye/"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-18T10:22:35.745035+00:00"
+  },
+  {
+    "id": "INC-830767EA",
+    "date": "2026-06-17T22:27:50+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing victim may lose sight in right eye, family say, after losing left in attack - Sky News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcEw2Z0ctMXduRkpRRXJjTFVsbzNFZmljQTNna05UN0Z2SThQSnE3by16dDkzeGdVSGFhVjg1ZVEtWS1QLWlWX2c3RG9VZk02c1VjbmYtaW1YdDU2SUoxazVXQ21CTllBQ21RLVMzcFMtakNRb0pOczRVTGk3aVB6VmtWNWlYNEx3VG5oNUZoM04xZUlGeXl2NXgxU3hYMDZnb0JHYlZqd1NtYU9nem15Vk5xVFZLejYzQlo1SElyV1pGckpZ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-18T10:18:55.857315+00:00"
+  },
+  {
+    "id": "INC-A39E08CC",
+    "date": "2026-06-17T19:44:08+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing victim out of induced coma, family says - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zS1hHbzZqdjZXc1RZUW9pSHpxMW5tWkdmaGxaNkFpMGtCYjZtTWppVTUzeThudUpBcHdfTmVHVUtBa1RscEZKbGxlVkNBbW42SkJZZjlXdEJYWUpUZjJRdFI4d0k1YnZSSDBFTFo3WVlPbjAzUU03UDhFWXFzUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-18T10:18:39.707595+00:00"
+  },
+  {
+    "id": "INC-0B629FED",
+    "date": "2026-06-17T17:31:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast knife attack victim could lose sight - The Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdGVQVmdNWUlEMldsX0p1ZGcxSVUyWTFRSy1XWnVXUnVLZERaOFUxTldzQlh4bkV5emxiX3BmVUlRemNtWFJJenc2eHdkQi1YbEliNkFmbE54ZnEtZzhUWFo0eXkwUTlPRGlBSWVlTVcwUFZOWWhXQ0NQem5ZTk4wVVpB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-18T10:18:47.127177+00:00"
+  },
+  {
+    "id": "INC-63EBA5AC",
+    "date": "2026-06-17T17:31:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Riad Bouchaker trial: Doctor says he treated girl who had no pulse after Dublin stabbing - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Dc0dlVmZXOGFlUC1aajlYTUoyR3hidXNKOTR3Q2tEWUZuNkl2NFVfOU9sdThBc0lKR3N6em5zZG12MnIyc3hiN1d3dlRoTXNjTTB0VTNuSzdycnF4TkpOaWdWc3RERkY4ZWJ2b1FSeHY4a0RVWkE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-18T10:18:48.861452+00:00"
+  },
+  {
+    "id": "INC-303BB57C",
+    "date": "2026-06-17T17:15:29+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Girl had \u2018no pulse\u2019 and was \u2018not breathing\u2019 after Dublin stabbing, trial told - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZEU3MXd6T1IyMmRHRkR6c0VzLUVzSlg0TU9uV0k3SzFLTEdCZjdTX0p2SWFUQjAwVkFadXVKV2lFRW53am5IdGU5bmU4TVkzWV9GOTdEZmhZcDRGM1FlN3pFc0I2TThHWVBmYUZ6d0F3cTZBa3g2aHpvR1JGSXpMQ0NQeGpxVTl1TTkxaWRlVUIzYWFhaVB3UVpkWUFiLS1ZSG05dUJjd2hDSmhZZVZ6US00RHN0d21GRUdiT0xB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-18T10:18:39.710049+00:00"
+  },
+  {
+    "id": "INC-3206C247",
+    "date": "2026-06-17T16:19:14+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing victim Stephen Ogilvie out of coma as family share update - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcnZKemphblF0WWNwdlR4R3J2ZjNZaHRBTjQtcnZqYjlCcTlRZlRTbDBpZFowTDBscEFMd01tMmNDdFp6YUxkQXRZOTgzUl9OdmloWkl0VW12MXhRTXlWenNiOC1yR1N0d0dJRGtaMzVTY1BHUGJ3dkwwNnB3bEM3cHYwbVduM3k4V3RnRWk4SzNZLXZGZzJWRlJZQdIBmwFBVV95cUxQcnZKemphblF0WWNwdlR4R3J2ZjNZaHRBTjQtcnZqYjlCcTlRZlRTbDBpZFowTDBscEFMd01tMmNDdFp6YUxkQXRZOTgzUl9OdmloWkl0VW12MXhRTXlWenNiOC1yR1N0d0dJRGtaMzVTY1BHUGJ3dkwwNnB3bEM3cHYwbVduM3k4V3RnRWk4SzNZLXZGZzJWRlJZQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-18T10:18:39.712429+00:00"
+  },
+  {
+    "id": "INC-A9677582",
+    "date": "2026-06-17T16:02:13+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "North Belfast knife attack victim out of induced coma as family share update - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQXo4SU9nTllSNnJ0Q1ZISUpBMGd4a21Xblk2R0RUS3JUbVUwbGtaN3RIcnVoM1lvTmg4ZXNwVlBfNGxFZjg2SFJSaDJITzRYcHhSeElqUnNYbVVmZTRWYUdaR0RIcXZfQU9NaXkxbzF0X1oxRHd6WE9GUDhpRGxLUlRPb1V1M2o2UkFlWlM0ZlhDUmJ4NTIxTXV30gGfAUFVX3lxTE5Na0lsQ3E4WVFDdG9iZ1hqcGtDV1U0a2hCVDJjQk5IWFVhazJ3dTBMdVljSFFpU0JELUozNGxoMHlsbEoyOEx5dURRRzVZNUpYVkdheGJmNmVtamZFMXpDRnVpd214bzhFZFVnSnVqbUdfRk82MlllSlZGYzBQajQtNlRBenVBelNIZzlBSEctdEFHYXRiUVZnaTdXcGV1OA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-18T10:18:47.132770+00:00"
+  },
+  {
+    "id": "INC-3798A220",
+    "date": "2026-06-17T14:06:17+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Tourists saw Riad Bouchaker 'stabbing child' in Dublin attack, court told - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOHI1ZTg0WlQ0Q2pidTBqUDU4OF9wbV9wTDY0cjJINFhIanhheWloTVVTNjlZZGZtQ3Q5eml6anNiNElmM0JRRWFiRVdLZmE0NzUzS00zXzNLV2VDVkozb05hSGVMOXQ0b2ZWa2piR3FfWWZBQnhtaDVYVTZuc21tVmJrXzhJdkhVOXFtclhwX3JyTkVXSXI0Zw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-18T10:18:48.861026+00:00"
+  },
+  {
+    "id": "INC-11830E4A",
+    "date": "2026-06-17T13:41:33+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Teenager rushed to hospital after horror broad daylight stabbing in Dublin city centre - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUWpRSW9zdlBiTjdRSXRTMHQ3Q1JiWDlvYy1JNkJ4WHJDaEtoY1ROajZDVGoya1pWTmktMXB5b1JRd0JFazhIdXBZN1V4d2dsVXBBSE9ocGlVdFJ0ZnJZLVo3Mzhid1RZSlVqRldNcHlTQ1FXeHBoV2VQaVBOaW1HajZYVURZVkkyWVo5dlk3eGFJTHExM2JjWdIBmAFBVV95cUxPUWpRSW9zdlBiTjdRSXRTMHQ3Q1JiWDlvYy1JNkJ4WHJDaEtoY1ROajZDVGoya1pWTmktMXB5b1JRd0JFazhIdXBZN1V4d2dsVXBBSE9ocGlVdFJ0ZnJZLVo3Mzhid1RZSlVqRldNcHlTQ1FXeHBoV2VQaVBOaW1HajZYVURZVkkyWVo5dlk3eGFJTHExM2JjWQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-18T10:18:48.868848+00:00"
+  },
   {
     "id": "INC-CEBBF0E8",
     "date": "2026-06-17T10:19:00+00:00",
@@ -35,6 +165,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-17T10:52:46.952747+00:00"
+  },
+  {
+    "id": "INC-D6FF7AA2",
+    "date": "2026-06-17T04:40:28+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast Knife Attack: Suspect Charged With Attempted Murder As Anti-Immigration Protests Feared Qatar Airways (4RkEhTvVZz) - Fathom Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5eGNZYm5naEh4SU9CaEo1YklGMzZnZTVzazdUMWtiblJuQ0s5RkMtVkhtLVpHNjB6WC1DZkVRVDNGX2lmU1RtbTRGY1kxNVFPaDFNeHBsMGtSbGVNeXh2NmlwYk0yVlNHcGc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-18T10:18:47.144300+00:00"
   },
   {
     "id": "INC-E7E26270",
@@ -100,6 +243,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-16T11:07:55.194681+00:00"
+  },
+  {
+    "id": "INC-11B83550",
+    "date": "2026-06-15T18:53:02+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Three arrested over Glasgow disorder and racist assaults after Belfast knife attack - AOL.com",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeVRlT01LbUxjblU0LWVGbFBsTVZYZlBObmZ0cWtrcDRvUUliemdESUdtSUx0TWFhU0FGc2pNcUNYZWtzN01VQ1hKdVFxanlzbHhnS013Z0xTb3ZtUEFpM0lsY1lSM21SNnh5aWhjR1JOTDVkbW1qQU4ydHpaNTBxQ3JiLVFwM2IyUHVweEtn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-18T10:18:47.145619+00:00"
   },
   {
     "id": "INC-1B1F4330",
