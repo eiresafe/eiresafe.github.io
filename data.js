@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 631
+// Total incidents: 634
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-09C99352",
+    "date": "2026-06-18T19:56:00+00:00",
+    "county": "Antrim",
+    "location": "NI -",
+    "description": "MLA 'deeply concerned' as no money allocated to tackle knife crime in NI - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWFVabTFpbWFzOFhTSG5HSEVwU1pMZWdSV1VtT3g5ckdGMjA1RldqSzlnVVJjc1UxdnFfRWdiQlhHQnZ4d0N4MTl2UlJzUlRtcEdBOWJ1QXBTNHRoclJsVUtyb3Q1YzNaR3oyWTItV0xEckJpa1F6dE11RFEzMlVRYmNOaUhXakZ2RlM4NlFVdy1WNEhldDVMbGRR0gGaAUFVX3lxTE1YVVptMWltYXM4WFNIbkdIRXBTWkxlZ1JXVW1PeDlyR0YyMDVGV2pLOWdVUmNzVTF2cV9FZ2JCWEdCdnh3Q3gxOXZSUnNSVG1wR0E5YnVBcFM0dGhyUmxVS3JvdDVjM1pHejJZMi1XTERyQmlrUXp0TXVEUTMyVVFiY05pSFdqRnZGUzg2UVV3LVY0SGV0NUxsZFE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-19T10:23:41.239614+00:00"
+  },
+  {
+    "id": "INC-CC550C45",
+    "date": "2026-06-18T12:00:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man is accused of stabbing ex in arm with screwdriver, Cork court is told - echo live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15MDBLTjhjeVl1SG9Yd1k5WHd2elVFSVJscU9LN3N4eDlKekJkcnJXZ21NTGI3RXBWdExVUEZPSWtvM0c0YTA2cDZyZG4xc3VTVmxyVmk5Skd5bmdmYTFPNw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-19T10:23:44.632433+00:00"
+  },
+  {
+    "id": "INC-45706D2A",
+    "date": "2026-06-18T11:36:00+00:00",
+    "county": "Dublin",
+    "location": "Exchequer Street",
+    "description": "Woman rushed to hospital after suspected stabbing on Exchequer Street in Dublin - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWTQyUUdBRmplMThHdVViRWxvSWFOMWp1ZHpTZElNcGdWa0V3VnQzZXNZeWVuWnZmdWs0RWYtRzVENF9ZUnFsdWxJYVhNRXRzSUM2cjRjOEVQbEVKc0ZnUGQ5cVEtOW1XQ3k5aGxQdHhVamRvVUlXTE1lcFV3VGFkckZKdzRidC1DUWlPVTJBbkY5OUhUUnJaeEJZamh1M0JQVW41VGhtcUtwQ1N2Zldqb19xTmgtQWJKamRyRUM2VG5tYUZ1?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-19T10:23:42.939930+00:00"
+  },
   {
     "id": "INC-94FF5BB5",
     "date": "2026-06-18T00:15:00+00:00",
