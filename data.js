@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 634
+// Total incidents: 635
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-88B9EF2B",
+    "date": "2026-06-19T19:13:09+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "BREAKING: Belfast DEVASTATED By Violent Riots After Knife Attack Amid Immigration Fury Paul Skenes (TGsMtwcOyP) - Mshale",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9UOVdjcHhRXzBGSU9PWGtLWllSWmItY0Y5Y2JCOWN1TkF4Z0E0Skp3aEJyTlNVOF9TVXZuRlh3QlVJbXJWNzdHQTJfWjVLSnFBTXNJbUpYS2VfV0E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-21T09:47:13.659470+00:00"
+  },
   {
     "id": "INC-09C99352",
     "date": "2026-06-18T19:56:00+00:00",
