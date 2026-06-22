@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 635
+// Total incidents: 637
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-740BC41B",
+    "date": "2026-06-21T19:15:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "PSNI statement after 'men with knife' reports at Northern Ireland beach - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ieE92RUVLd21wekNUbTdCR1pwbWp0a2ZkdF80YmRkdG4ydDZvTkNDQnFfbnFVRG84aDhRQWNBb1IzdHBjRm56dldTakxkUVNFd1VEcF9iNUxwY0J3Ymh3UTMwTlY0UzJqV3JkWnp6TmhsV3dHbC1taTJubHRkVUnSAYQBQVVfeXFMTTBrNE14OFZKR0hrSTZfT2xzQUJTa1hwS2hZdm90Y2lmVTBsRmFVSksxeDBHTVNONG1sWGY3aWJwWXhvUmxHcUd6UkJKN1AtellfTzdjSEtja01QOTRuZEkwaDZJZXFJOUdVeWlMdW4xclcyOGdLa0FYQ0s4elVHVVpqbUNU?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-22T11:51:03.393926+00:00"
+  },
+  {
+    "id": "INC-1AF65E90",
+    "date": "2026-06-21T11:24:43+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man charged after attempted stabbing of police officer - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORnZWcDAtMldyMWJYbXdNU2phUkQwcjVvSi1aZzFhSmV6b3JpQ093SDB5ZjVhQjNRbDZ5ZTA4VDZHanJZWVppS3poZWxIbDFBUXYyaU1FRGFsNV8zUWo1RVJvNHRldW9YOVF2TGtqd0NPSHREa0lYeGhBUzc5WWhqcGVOQnZYcG5mQ3dRakxJZ3pURWFYWVI3dlFrQnFNM1dyc1pQZWk3WGZTQW5jSndNdlNRV1JYNXM3LV8tTjJMcHJITHVpM0lv?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-22T11:51:01.592845+00:00"
+  },
   {
     "id": "INC-88B9EF2B",
     "date": "2026-06-19T19:13:09+00:00",
