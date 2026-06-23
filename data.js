@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 637
+// Total incidents: 640
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-7FFD85F2",
+    "date": "2026-06-22T17:53:14+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Knife-wielding attacker tries to hijack woman on moped in Dunmurry before fleeing empty-handed - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOeUIwWFVNQ1F5WU5kOEdIakJMb0dmZm5vNFdvTHQ1SnMwcmhOUW9PUlVfZ0hzRmU3dzBncWpDNllxSTN2N040RHBaTUNONkFQdGdIZnpnVEdzTjdEcWRWblpSQ25iYTJzTkNFMUR4T2JEWmloZjR5X2F6dWpGeU52Mk54ajZKc1VGbUtDb19KN3YtNTY2blhaZjhtMDNOelEwSC02emhtY3VrYXdvWHpLbWowV0IzbENTeEtwT05TcTA2dDNHbjdSQzlEREdxZDFONmRqTkdYcVdLNTg1aDNGZnRoRm9hX2JSZ2tJM2pR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-23T09:36:22.092684+00:00"
+  },
+  {
+    "id": "INC-FD67D6CF",
+    "date": "2026-06-22T15:07:56+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast Stabbing: \u2018Bad Faith Actors Want To Stir Up Trouble\u2019 Al-taawoun Vs Al-ahli (6zClyMoyzU) - Fathom Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZWTZZd2N6dHVQNEV0RWdWLWtjZnVkTEpQTlhSb3dFdFVsNmxyRkxkQlNGWFBDQjBwVnFDYlhkTzJIZWUzbENBT0RxVzRDWGV0eS0xVUtCUXRFT0ZiNmREYXc2X2w?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-23T09:36:15.366707+00:00"
+  },
+  {
+    "id": "INC-22FDF83F",
+    "date": "2026-06-22T10:28:28+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Protests Erupt After Brutal Knife Attack In Northern Ireland Dybala (YRBPK9QMJ7) - Fathom Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zTm5neFVRZndjZ2E2a2xraDBqaHBKamttbHZOZHgxY3RnUjltZ0RvemMyQ2Nia0FlQXpRMFFvWWxNNmg3R0dxbmxQR1Bfa2pEMFBBVlBjZWtCbkFDX2l4LWJ3bUk?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-23T09:36:17.079953+00:00"
+  },
   {
     "id": "INC-740BC41B",
     "date": "2026-06-21T19:15:00+00:00",
