@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 640
+// Total incidents: 643
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-13027676",
+    "date": "2026-06-23T20:25:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "North Belfast knife attack victim out of intensive care, says father - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcTU4N2t6M1V5TVpQUWZFTHBEeFF2ekFlUFpkUk1SU3FoVWM0eUkwZFpQTWZWTk1HcWNxWmlnU2w2LV9uQURDU21LZzlGWXZYOVFRODNmeGxmcE1OR1dpSGdfNkhlWDZsMVhMbzNRM3FvYnhOVTZJcWp6MGZpLUktbDlocFNiMFVQZVNrLTZodzdWVnV0VHF1REM2amQzNjF6bDNfMUFWMGRFLUVNaTJibHpnODREM0lrN19RRHNBclc1SzVmbzZKLXJUdVZzMWZLUHhqa09GQjlwelRsakJ2ZG16TkdxRmNEWnI3OQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-24T09:25:46.328434+00:00"
+  },
+  {
+    "id": "INC-7D51CD02",
+    "date": "2026-06-23T18:50:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Stephen Ogilvie family issue positive health update as he continues to recover from horror knife attack - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZm1GcHJtWWRkbmY5UFF1LUktUlhMU3ZJUFNaeDZRQWIzSTdVRjJiei1LUkpwT2xBbHVlLWx4bVpmV0REWUtJQklQZFI5TlFEQ0k2Ny1KbjVhVnF6R1ZJS1BQVkkxMGp3c3BqM3FIUlVHTTZPZnZMQVFuY1k3eXBSTThPVUNhejlJNTFJdExlcHVoTm5TT3BMaVh30gGfAUFVX3lxTFBLRDBqdFc3aTZjM3BxdVpwd3Q2d2pJSzNmVnRzaG9RSEdYR0JsWGhZd2FHZXo2dTFWTHYwanZhZkpMZ2ZsUGI2aGloa1NSbU9WajNJcTZNWDZWRWNNYUFhSzdKczM1MTdndkVxT3VrUF85N1VBQjBwUldRbXRTRFlYYXl1cjBoSUliWTMxc2JoX1JNVl9abXVFTFR1WG1zTQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-24T09:25:51.468154+00:00"
+  },
+  {
+    "id": "INC-A72E3B66",
+    "date": "2026-06-23T16:23:38+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Parnell Square stabbing accused told garda\u00ed he was a \u2018sick person\u2019, jury hears - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdGxZTjhlQ2N6MnZwaWxaX2lMQkdvWl9zNVRLTDNTUTgzUUMyUzB3V3JqQnptdC1jQng1ai1XazhlN3hRVTFzMmxyYlVQRXA4VXlPX3NDOGNwTjhVZUZDalhYMXEzenc3dkpObmNJdmJEOGpyZmpEalNFWGlHRXlWUjY2T2xsbGwxYzVFTFJkeVd4VV9GWVdGc0FGbGtQX1hBZk55emgzc2RIeGc4d3cxYXIzRUx6VTI5WHVjNktsZmpEYUNodzFsYUxhMEJHZ0lJUHUyTG1uaVBPeFJaa0psNXU4dlZvSlU?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-24T09:25:44.515370+00:00"
+  },
   {
     "id": "INC-7FFD85F2",
     "date": "2026-06-22T17:53:14+00:00",
