@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 643
+// Total incidents: 648
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,71 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-968A9ADB",
+    "date": "2026-06-24T20:14:11+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man Arrested After Violent Stabbing In Belfast, Northern Ireland Police Say Al-hilal Vs Al Kholood (9ch6Af8TEq) - Fathom Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2dmw1ZUQtdV9ZNUgzT3FId084ZGRCQVViNE9MeGlUZlZGbWtVa2RvZVVwY2ZwUVllTnJQdmNwUS1oeXhNb3BSUlA3dWppdVNxbjZuWHlyMk5SNmRnVFdrczZvRUE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-25T09:19:10.377240+00:00"
+  },
+  {
+    "id": "INC-02C2F447",
+    "date": "2026-06-24T19:24:00+00:00",
+    "county": "Antrim",
+    "location": "Lisburn -",
+    "description": "Man hospitalised after being 'stabbed number of times' in Lisburn - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUEpCRDNfaDhBNHEwd2lYdU9TX3phbmFVN3ZDWUVjdHFRQjdGRWNxdDlvS0c1QXBHamNpOEZOYW0ySUFEZlhsaXJqSGhMVXVLNEtxNHhYLUNwT1JlNGFJQ29PamZWNVphVm9vS19LOEY1elg2U2RkeS15Mllscm9pVnVnNzRnYTVrSkFieVdfRWNtYnBJYXNBbk52eTVvQdIBowFBVV95cUxPNTFpTWR5Ujd1d0FGcUxJamNtTjNsMEp5cFFpRUF3R2RwV3RXMWExcHN0X3FPQ1NqQjZlZ0VnajVHMVJ0UExWMXJlX1huWE9HQlJLSmRST01vaENYNHE3UUJaUGdnb0x2TVROZE1Nelh4RkdCQ1ZtRXQtaldCYXEwS0R0ejhPYkNIX2NEbXdER1NZSWE2dTRSV2VlNnU2X3V0SURR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-25T09:19:10.379281+00:00"
+  },
+  {
+    "id": "INC-38ADA0EE",
+    "date": "2026-06-24T15:58:38+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Parnell stabbing accused denied he was in his \u2018full mind\u2019 minutes before attack - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPanlGQzh5dVJvcE44aU1Xc2VfdS1IVTJWLTc0VWxLbTkwQU1kV1FuNWlLNXNERFVFVTVHTkg0OHJmMHZwZ0ZzTzRXWElkTFRlRFRYSVJuUDZsYW5KRGdLTTZMQWxNME15eTI2QlRBY0U5ZnA2N2c1WFZNWURnS2hzSVA1WHRDVmtpbWI2c3Z0YzZvZU5fNHZwSzRpM05aRXNOeW9ZUHdXWWVIOUNudWl1YmgtR2xDbDdhY0pvOFJIMk1IcmQzeFNqc0VwZ09aeEpFY3d3LVZhaXg4ODA4S2pVeWE2SGs5T2VDckE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-25T09:18:55.202014+00:00"
+  },
+  {
+    "id": "INC-F58AB8F5",
+    "date": "2026-06-24T14:58:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Parnell stabbing accused denied he was in his \u2018full mind\u2019 minutes before attack - Cork Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSm4wRzZLbnhhNFNqWFJDeTBKbmQyeGR2cFE3YXR4aHhaV0FpUkF5cHc5UHR5dVd6TExHZUI1Vnd5dEMtcktCdWUyWWdRNDhCN2tPUzV1cGJ2bWZxWmFNcWhJdTRqUG1BNldUU0R2bUVKaXBvakF5dXdDQTJWUDZ0RF8zSFZ1bENVSjRUUjFDTl93dF9pNE9feXBUaDkxWmlFdUxKZTIydTEyRWtKT1dJZHE4eGc1MVpVdmc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-25T09:19:03.668801+00:00"
+  },
+  {
+    "id": "INC-2E6DEE4A",
+    "date": "2026-06-24T14:37:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man arrested following report of a stabbing in Lisburn has been released - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWlp5X1RYT0NiMzFtZGdWNVlfSUU2clprV0ZtX3RoX0U3LUNybHFzbkM1RzRJc0QxOURQQi1YUzhIUWdWRTdpeFFRT1FqeGlzZjNQSFRWNmxEamhCcE84RE5oNmR5dElKNDA1YmY5X0dVbklHUWpvb2hBNy1IdzRwY3p6NExXcU5nTnFwMTE1V2NsbHZPUzltNjBtc0JURlBPMU9UcmRhcURaekhUa2VPMC1PcElGaWJOamFTallEYWo5dkpyR25r?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-25T09:19:10.375270+00:00"
+  },
   {
     "id": "INC-13027676",
     "date": "2026-06-23T20:25:00+00:00",
