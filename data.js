@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 648
+// Total incidents: 650
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-E0EA4452",
+    "date": "2026-06-26T08:47:31+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man arrested after alleged stabbing in Cobh as Garda\u00ed warn against sharing video - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMEtTREstaFhkSUtwT09OOUoyMjFDbENBLWk4NVh0a1NLMTFFbEh6TXZfQzRoTGVCdUM1Y3NKQWM2NG5vMDhUNlh3dFlTZDNTdmxJZ1hZNXBBaTBpR19vQk5qbXQ3ejB0TmlGd3l3Sndsa295Ti1tM20tczdYWGlqZzlrcHNnbjEzWW1F?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-26T09:22:56.160705+00:00"
+  },
+  {
+    "id": "INC-932A4294",
+    "date": "2026-06-25T21:40:00+00:00",
+    "county": "Antrim",
+    "location": "Downpatrick -",
+    "description": "Knife attacker jailed for 18 months after stabbing man in face in Downpatrick - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUzA1ZjhIVUtvUmYzeFBBOVpiMlNZcjloY3prckpOd2c1YTUzV3FsVkF4WXRHc3JpQzNaX3VQREJoRjhLVFdKaXc4WVk0UXpmQWpEb2M5Nk1ibm5PbFE1YmE1eGVkMDhEV242cEVzWi1SVjRIYjVXdGlDRmtGTGRYdlBpaGdQbmdlR0ZOTTYxb0h2cTNxX2xCZWQ3MWxSLTU3TUtOTmt5dU1KMkNNVDg1ZGVIcWhoQ3R6NERPV1E5Qm1pX0xBMUpIS3poVGlvR0RVRGYyYWRieXZsS0dQWG96b1F0bTVUQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-26T09:22:45.424311+00:00"
+  },
   {
     "id": "INC-968A9ADB",
     "date": "2026-06-24T20:14:11+00:00",
