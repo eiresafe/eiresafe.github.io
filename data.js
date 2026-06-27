@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 650
+// Total incidents: 653
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-3ADA243F",
+    "date": "2026-06-26T14:56:01+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man (30s) arrested for questioning about kitchen stabbing that caused wound to neck in Cork - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZDBRVTkwTHFfcm4xNDZiRzB0Y1kzTVZwWWpUMjJYTFZ0cThBa3B1NnBKM2lmemdMOGFMQ3o2NW4zYkFFeXlRZ293SFFIUmtKamNEMm1aSTRDZmVubk9DUGd2aGpLU3JUSmh5S2k4TUFoTlRyTDJrTU5qSEZ3enYwMWZTUjhpclNMaXRrRVhIZXlpZWU5VFRfQ1g3dzVjNnliWjJxQklkZTFBSnM5clZRM213N2Jsal9RRHhfUDRhWElmVE1SdGR6SGNZM0NiTUsxcDZHZQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-27T08:33:58.505147+00:00"
+  },
+  {
+    "id": "INC-64E0B7CF",
+    "date": "2026-06-26T13:43:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Former priest, Kieran McPartlan, brands race riots following serious knife attack in Belfast as 'disgusting' - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbkdVRGt5N3h3TlhFZEJ3R2Y0RFNVTEw2WURjbXhpN0pXWE16U25udWloRmVFWnExcVB0eWpOa1ZXTmZWTlRXbGpsWi04YkFlZnJLX0JkQlJnb18tSGdlM3BQTGc0b01LaC1NUy02MjRKRGdUeW5TdWpKRVh0VUNGd2VJYXFESDk0dEs2em1mT2FQempxY3RuaE9henVJX0J5VDVtdFhYd3RBc3hPbklEVWlfbTZKQkhPMHlIdVZlOTVnZUkzNkR1SGc0ZGgtVFpUYkROUzVIdTRGRlNkU1FYTy1aMGEyeUhtZ2p4YjVCRGNCTjM4T0FZTmZxSF9Dcjk0?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-27T08:33:50.141567+00:00"
+  },
+  {
+    "id": "INC-E4D6A25D",
+    "date": "2026-06-26T11:07:19+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man arrested after man rushed to hospital in alleged Cork stabbing - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbmRHaFZHSmlsSVo1S3ViSV9Kb2ttWjQ3dzgzalA3S05obWhhOHpkU3NNUVM1eUU2QU5jRVB6LTRrSmdJZUQ2bHBGX0t0X2JQZGVDQnA3cDJsa1Q5NGJEOWh3SUZmT3hoQmR5cy04VkVyV0ZUOTZBYkkyU1FBdHJWX0lVak9mX3I1cm01aXhFbmVOVDNx0gGaAUFVX3lxTE9PTEM1V1o2Z0VVejBaN1hQTDBhTTdfY3Z2NFlCWjdFN3hRVzJrWm9zSG00cWRPRXRKeno0OFd1RHQtMThKNXpFcUhIQXlURE4xRmhPdGxfMWg3aG9fTFRtWWowSjB5d0NEUU5tQlhKcEFMZllIS1pyWTlGYzNMaGl1ZlhnTERUSnBGX0Y2d19NNjJCb3poS19CNXc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-27T08:33:48.398131+00:00"
+  },
   {
     "id": "INC-E0EA4452",
     "date": "2026-06-26T08:47:31+00:00",
