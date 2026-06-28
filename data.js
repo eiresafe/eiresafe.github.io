@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 653
+// Total incidents: 654
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -35,6 +35,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-06-27T08:33:50.141567+00:00"
+  },
+  {
+    "id": "INC-45E59660",
+    "date": "2026-06-26T11:19:59+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Anti-Migrant Riots In Northern Ireland Over Stabbing Incident, Indians Unsafe? |Vantage On Firstpost Below Deck Mediterranean Season 11 (ZKLg0TdB3p) - Fathom Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tNzdPMmY2ZHpDY054WFZwUFN0UW9XOGgyTmtkV3NENVpINVp2bHZBeEtmdHVWemhYMF94UHRuRjh2NFV0WnVmZzJfTmNhUlAtc2EycWNnQXprWnhBY1ExemZpMUw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-28T08:49:23.148298+00:00"
   },
   {
     "id": "INC-E4D6A25D",
