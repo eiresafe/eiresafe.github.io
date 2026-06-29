@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 654
+// Total incidents: 655
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-88348BED",
+    "date": "2026-06-29T09:56:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Stephen Ogilvie's father issues health update after horror knife attack - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWU1EcHRZZW9QYVFqZ3IwY0F5WEZjZ1ZEWWpJQWx0VjZWYk55REhIaGxrWExLN3NsVjFYSjRaSVVoNVJUMW56Rk5LelNqLVU1dE9qQXcwblUtWFdOTFk4TlZxeDFicmQ2YVlyUmxRbnVtQUhWdzNUdVA5aW9LaDhOaExHM2owalZ0U2JYVGFRLWFkcjBMS3ZPMnN30gGfAUFVX3lxTE9CQWp3V1YzTThfVDl1My1hOXYwcHU0Y0FPTU9PaG8xb1BpamtLRTBBaVVTVmVWSkNSb1dQMER2ekhyZWFxZS1mTUpMSmNkX3IxdXJWN3A1bi0wMEFhdDBGanlmM253a2tTWWZoSUllaW5KVW5rRFhmQXNfVnNzS1B1MkxWY1d0QTZGa0t4Q2FmOXZBQi1Qdmp3ZXlGZWlyZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-29T10:54:44.218997+00:00"
+  },
   {
     "id": "INC-3ADA243F",
     "date": "2026-06-26T14:56:01+00:00",
