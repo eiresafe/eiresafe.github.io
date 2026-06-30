@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 655
+// Total incidents: 658
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-538AFECA",
+    "date": "2026-06-30T00:34:43+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Stephen Ogilvie family issue positive health update as he continues to recover from horror knife attack - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZm1GcHJtWWRkbmY5UFF1LUktUlhMU3ZJUFNaeDZRQWIzSTdVRjJiei1LUkpwT2xBbHVlLWx4bVpmV0REWUtJQklQZFI5TlFEQ0k2Ny1KbjVhVnF6R1ZJS1BQVkkxMGp3c3BqM3FIUlVHTTZPZnZMQVFuY1k3eXBSTThPVUNhejlJNTFJdExlcHVoTm5TT3BMaVh30gGfAUFVX3lxTFBLRDBqdFc3aTZjM3BxdVpwd3Q2d2pJSzNmVnRzaG9RSEdYR0JsWGhZd2FHZXo2dTFWTHYwanZhZkpMZ2ZsUGI2aGloa1NSbU9WajNJcTZNWDZWRWNNYUFhSzdKczM1MTdndkVxT3VrUF85N1VBQjBwUldRbXRTRFlYYXl1cjBoSUliWTMxc2JoX1JNVl9abXVFTFR1WG1zTQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-30T09:32:04.652447+00:00"
+  },
+  {
+    "id": "INC-46213A8D",
+    "date": "2026-06-29T14:29:53+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "\u2018Absurd\u2019 to suggest Dublin stabbing accused did not intend to kill, jury told - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOVJkYjNJSk9CeWZmd29sclNwQl9HN1c0bEhGOG83Z2NRN1NBX0UzUERfMTY3OWcxNkNDT1RaWmFkMHNfbzZwOU52dTBWX2dWRjBrYXFlRWl3OVphZ1RkbjNpR0VlakM2bXRBZTJ4S0pDSDA5aVlhVU5MZzlmcnlXTUE4NmpWcVA4X2ZOR19ZZmpudDFoalM2OFhrTXlJR1l5LXJmaVdLR2o0emtoV2JOdHlwM1pnSFlyeS1HbUl4d1Y?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-30T09:31:58.070354+00:00"
+  },
+  {
+    "id": "INC-4449CCC1",
+    "date": "2026-06-29T11:20:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin man faces sentencing for knife assault on father in front of young child in Wicklow - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUUctUTZzalo2LTdnM1hUa0dlLWdHckttdENnWGVlT0hVU3IzOGRCMllsR0lYTklSTXUyemVVamJvdzlTLWdoX3VpVDVsLTFqMnhXYThmclZnRmdRWko3aGdTRE83UERJMUIySGthV05PLTltM2Y0bnRodWdRbUgxVWNJcTFRTmlUS3ZLc1d5dU4yMFJuRlliUjBGRFhkREp1UmNJS29CaVlFUmMzOTJyWHVnOFJUYWhldjlSbzVvM0d1Y3FPZ05rd0tya3pMV1dBQy1wbUFoRmNHNDJ3UGxwLU13SQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-06-30T09:31:59.671731+00:00"
+  },
   {
     "id": "INC-88348BED",
     "date": "2026-06-29T09:56:00+00:00",
