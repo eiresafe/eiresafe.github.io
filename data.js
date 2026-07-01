@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 658
+// Total incidents: 666
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,110 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-AEC8F306",
+    "date": "2026-07-01T09:20:00+00:00",
+    "county": "Limerick",
+    "location": "Limerick city -",
+    "description": "Man arrested in connection with the stabbing of a teenager in Limerick city - Limerick Leader",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVVVrUEZsQmRrLUpUQWNrMW43VWh0bnJ3OUl6c19vSkNJY004eHotYXd0UWo2dmFOVEwteTRHcXdfWmtLLXowbkh5QmYxZG92UjBWVUx1WGlrcS1lMWpGZ0ROTHZiWUluN3VGb1RpY2VOQUFQSWotNmRZR3pOMXBzX1VIMlI5a0diVTBWcUpxQXhnaFJYcEN2QU5TSHo1cnZrcTN5VG12Wkg5ajlVSjlONng4WER6YkdVb1R5VUh6TE5BT250ZTIzNmllQ2c?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-01T09:42:28.107166+00:00"
+  },
+  {
+    "id": "INC-957C6074",
+    "date": "2026-07-01T05:53:28+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man (20s) held over knife attack on woman foiled by bystanders in Cork - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcElZemhfU0RWcHFUTHpxUGNyUXhZeW5uaGhLZUxKdVU0cy0xNE5Ta1JCSlI2VkhiYVljVmlSMUpPZnJ5U0U2eldUODRTbXlvSnZzb1ZzTHljRVdON0o3Sk40Ym5VLTJzc1BQM3FTWlBRajNqOE8tY1VINXp4TmpVZnA1bFF3WUJ6cUtTMVpGaHdCYXVPRm9ZV0FnVW5HYnNYUk1zMFk0b0RTT0c1T2JiTjR4TWg0amdEZWVlM0loeHBvNHpaY19yRXA0TGQwM3F2amFtVEtQMzFXSWs?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-01T09:42:19.617938+00:00"
+  },
+  {
+    "id": "INC-77BDF17B",
+    "date": "2026-07-01T02:53:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Woman taken to hospital after suspected Cork suburb stabbing - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kOTN5SzhUVGVHN0NmU1YzWVMyLWFnZWVMaXFLZkpSQVRvME5QdDRoX2pxeHlMUFRjYTZ2MmVxOUpVVnRzQWhycnRNaTBTakpGaVNqQmFmS2pJUEVqMFZ5cGNPblZqX1RzVFZTMkZR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-01T09:42:24.685355+00:00"
+  },
+  {
+    "id": "INC-B8A4AB06",
+    "date": "2026-06-30T19:22:07+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Jury For Alleged Dublin Stabbing Incident In 2023 Begins Deliberations - kfmradio.com",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdjZzTURpMjVaYzlyRXZFdlZtSXhfazcxNFBJRjdFX2NodFFTaFFrS0hUa3g5OFpaa3RVWmhtY3BQVnBsZmV6d1FDMFVGNkJuQ2pXSnV4Z2xzM3J6MW10aE9mY0ZhaEw3NWt6cGtvQ1BFRlFSNzZGQ29qeEV2ZHpQLXVtVVpOQXgxbVcxYkxLbUJwZUhjUnVVaTdPZFdyRlBCT1R2eDllT2pkMVc4WTdR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-01T09:42:22.978921+00:00"
+  },
+  {
+    "id": "INC-4198DC0A",
+    "date": "2026-06-30T14:20:20+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Judge tells jury of alternative verdicts available in Dublin stabbing trial - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQURBNXRKazVZZjdiN0FEVVRiamI5M3JuSzNTVTJoaENfTExyN3E2R1F0bTBKano2YUZkZXRMM3JzZkczX01TMzFGM1F0VUdYOGtuenVCNHM3aHB4Z2tmRzd1TGtodmNJSTZzRkh3Vmx6eVZGUlJsUnZkQUpJSE1UcXpiQnp6RXRqaWgteWd4Qm42OFdHRzZiemg2YkFRWEtkWUJEcFo1MXVOY1ljWTRKY0FidXNSUlRPVmE5MzBOSFZTUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-01T09:42:14.477000+00:00"
+  },
+  {
+    "id": "INC-8D4F4CBE",
+    "date": "2026-06-30T14:02:16+00:00",
+    "county": "Dublin",
+    "location": "Dublin stabbing trial -",
+    "description": "Jury sent home after an hour of deliberations in Dublin stabbing trial - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTm5qbDdvVTg1YTdHX01VZk9GakJxRVRFbzNCNHl0cnRRSUlkU0hWa0hob0VfRFhBUGQyZ3VxTUtMUEVPbGRRMmR2bkpPWmNndGx6WDBSdWdSdGFGYmt1WXl3TWtzYmZ4cXVRekhLU0dLaUtQekhtaldJSFIwY2s1U0liN3QzeDdnWEtnZUQxTTFIMV9BQXVyek5IcUktaGRxVEJ1dGIydmEtUVVLcmhLWE1qUW54cmNwelVuMXNYWmtCcVpSVWRLc3JzT3BheTlCY2F3MHNHZ21hakprYUd4UQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-01T09:42:14.481026+00:00"
+  },
+  {
+    "id": "INC-4BCA3655",
+    "date": "2026-06-30T09:48:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Letter: Knife attack in north Belfast was alien - and so was the riotous reaction to it - Belfast News Letter",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSURDZTNTVHBwQlYzQnI2TEJoNlBsS0Y1S2ZGXy1Sc2lDR1pLeUgzbTR5RzMySHhXMTBWVnhRZ2hWbVJyLW5saUZSN193Y290aUxkNlhHeDUxbGwxbzltM2R5Y2xKY0hkWS0wd0tPUGszWE8xSHJaN2dqRW9VVm1XMzYydVNPVUxqOHF6dncxNDZpVmRXcjdzdzkxaExTQTNPMlh4RGJaSkEzT0RPeC05RFN3azhxcVBrdHNwU2dBc3ZITTJidlpYdWIxVnY3VEk?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-01T09:42:21.340360+00:00"
+  },
+  {
+    "id": "INC-CCD0BCE0",
+    "date": "2026-06-30T06:19:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man held following John George murder survives second stabbing - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQWl6aEMxTlNWdmx5a2pxWHhVQVZxNUZnQjRBZFZrb2hSMVBXM2kyX2dqZlNyLVFOZ3AyOUs3bHpZMERFOTZWTmxYcm1kV1Y4bWpoNVpoMnpmWWlRcGgtS2JjbExMUlpSRTNaZnpLRFBDVF83Rk5RUFp5dHI3Q1drSkJpOFByTjJYa3lMNFRxcFhjTnFPakVXQkE0QVNfOHoxSGJqX1otYWlCdnA0Q3QxN1g3RHV1RWtvMkRN?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-01T09:42:29.937225+00:00"
+  },
   {
     "id": "INC-538AFECA",
     "date": "2026-06-30T00:34:43+00:00",
