@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 666
+// Total incidents: 687
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,253 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-104622EA",
+    "date": "2026-07-02T07:41:08+00:00",
+    "county": "Cork",
+    "location": "Limerick -",
+    "description": "Man due in court over alleged stabbing incident in Limerick - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1a2stR3dXdXRfZVV1THVLdHVyVTExNUV2bVJ4VnpmUVJ1aEduZzlJekRqR3JlZkFING5LNDNzME9BUlFzMDdyclg4bVFXS1NrLTJFZjBtQ05WTnVHaUlsRnFNNDRIc0QyOEd4UjRGenBaeDFQb09sUjNVZlRBTDDSAYQBQVVfeXFMT0lZT3NDNjBQM2R6U3dPeEJ1eHlJOGd0dUc2cThVUEdCd0h2SE9MU1VWZHU5TkdLLTZvOGxKMFotVk1tbUhFLTljNG5NalhIeloyblJoT3c0ZFY0cXFJVGZ2b3FXUFZPNHR3U1ItOFBRS3ZsS3BkeVhSakliV0QydTF0NnBV?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:51.910462+00:00"
+  },
+  {
+    "id": "INC-7BF0FF29",
+    "date": "2026-07-02T07:01:39+00:00",
+    "county": "Cork",
+    "location": "Cork city -",
+    "description": "Man held over knife attack in Cork city - Cork Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORlNKUDlNWmZ6a1Y0MG1ENTdtQ1dURVg1RnBsc3dnNWtqbXZTZ3RIOEV6eWpUYW5vTUFubDVURGlQRXN2WDd6S282RGRuOGpkNWNfN0EwM3VrUmhaQWU2aDNmR0U0UWwtT1lrNUZVMzd4Rk9YUy1GQkNTTnVYTEdNRXlHVnJFS2Zvc2NF?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:46.680441+00:00"
+  },
+  {
+    "id": "INC-4D962675",
+    "date": "2026-07-02T05:30:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Parnell Square knife attack exposed far-right \u2018cancer\u2019 as demoralised garda\u00ed confronted by mob rule - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPOUg4d2JkSjgxR1p2VGJxZHZUVFpEV2NXQk5TYmZUazZFY2FXTW4xTGxrZFAxdS0zeXM5STV2dE5jWWpLNEptWW9JR3UtY0RkSThFOVZkOFloRDZRNVFXaVk1WlFxWWNQdWVQa0cwLTlXMWhhMjJuVFpmRXZ5Z0NueEwyMmd2T3JZd2VsMmN0NDB0S0NTVlN4V1dzUlk5ejhGVVRFNlp5QzZXeWNlNE9SVnlMakNoQmZITE9jVEZFVWF6Z1hZdEtFeU8wM1hENlpKNWpDbGFYamVfbEdFeVY4MjJxQWxwRkZmZUxXbmRNTQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:43.314126+00:00"
+  },
+  {
+    "id": "INC-40C58B23",
+    "date": "2026-07-01T19:32:00+00:00",
+    "county": "Dublin",
+    "location": "Parnell Square -",
+    "description": "Dublin stabbing: Mother tells of moment she feared losing daughter in Parnell Square - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUFVZeVlzNmgtYXhkNWpnbUd5ejZTNU9tclAybS1YTWNhb2VnTTRINEpVdE9KUEhLVnN0NFdRRFZlNnhCQ3M3dXRyTFFQT05lLW9KU1lWWVlUXzRUc05Md1F5THhQN2hDczJ4bklvdWlHYndFdFlxV2JWVGRybDlVbWozWDB0YVVRR21yTHd0aFlZVlJjWDFXSg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:50.114251+00:00"
+  },
+  {
+    "id": "INC-A13852CF",
+    "date": "2026-07-01T18:36:13+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "DW News: Riots erupt in Northern Ireland after stabbing suspect charged - Center for the Study of Organized Hate (CSOH)",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOem5PMzVBV18za3hwV1pzd05ycjEweVQ5QTBkbC11Q0dCU05mMU45UUJiR2lrRHoyWFR4dWhXMHhzNk4wbmFsNGNCd2ZSWnlQenVJLUkwemlacm5MYlgwd1MzLVN4RWpJRnJ5cEtpeDNHU21YV1BLbEVSazhxbHQyRjgzYTFic2NGdlFhelNUdDRSYTJOakpPekVadF9pSklkRU9NSjNXWFhhb2JaTldn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:57.095178+00:00"
+  },
+  {
+    "id": "INC-1EF6062F",
+    "date": "2026-07-01T17:46:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man suffered 'violent death' and was found with 11 stab wounds, Cork murder trial hears - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLVVrSlpHeVRRLTVhSmxDSEQtbGw0WS1PMDVVX1p0M3JxazJzUmVmQlFIY2VmcVZONlcwSjhrWWk0Ry1XTFNGQkp2eXloaHAtSFMwdTJmb0c5c2o5ci10SDZrZUh4UXlUWTRMQVRfY2VxYjZuR0l5d0FuZ2o0SVhUYV8yY2VIdjRtOURpRUlNR3A?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:51.910179+00:00"
+  },
+  {
+    "id": "INC-36D3494D",
+    "date": "2026-07-01T17:32:55+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Riad Bouchaker guilty of attempted murder in Dublin stabbing - MSN",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNOUFGTXFQUDczU29CcFRydHg4Z25lTk80VG44Sk1SYm8tZ0tmOG5uYko4bHkxdzBTZm44RC1HeWljay1OVXdtc2w3SUZMYkFGcjE5RWRhcWJCcW1qSWFaaUl4b1JURXQ5NFJzNndKN3hUM3lUUHJBNlkxRE42dEJXcm5COW11NURsNjU3MjJyYjQ3Xzl0ZFRtOEx6R1NIS3B3VWZ4Sm1hQ016M0loTVltMkZDNWlxUzBybUpxb0Q2WU1tc2N6NjFqSVJPQTZZRlVueXcxMFU0UmVMaXRNN2VUNWFwOGtjN2wwUzFYcmRFeHpXLVZf?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:50.113980+00:00"
+  },
+  {
+    "id": "INC-3AAE9216",
+    "date": "2026-07-01T17:28:31+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Sky News speaks with the mother of a young girl seriously injured in the 2023 Dublin stabbing attack - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNdFZDUDRyZmdXM0JaQUxTM0pUZnhQY1M2Q0p2Vkt4c2dpRlpQNTNjamYwOVRKckdCQzc3bnE2Y2duUXd4RTZtZ1ZLQ1RpUWtZeVBDem1qLTE5WURBX2ZTWHRYRXRnajJ6d2pENUtvMUhkVzNaaFZsQ25fUXQwZ2xfeUpXcnk0bFpIMHA0VUlrM0tsVWNOV08wckIwYTBUbEwweTRoZ1hXMFBWLVhpN0hRMl9xWkhRMTc3aW82cUVwZzlJS0R3OHJrSzJkT3RSd3NSNXZwbnF3X2dyRDJXWXAtWUs3ZU1IQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:50.113171+00:00"
+  },
+  {
+    "id": "INC-23B29F77",
+    "date": "2026-07-01T16:29:00+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Man arrested after teen stabbed in Limerick - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1QlRwU1BkOFgzVmFvay1tSTN3WGhPME1DLWE3V2ViWTBaMXlFRGdQMnhiZkpZbTVzMG1NaEJPVnFnSkFKM1NZVXdZRHB4YzlYU2w3WDE4OHYtTlI1UjFNNmozZGs3enpnd0RWdVpn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:55.362374+00:00"
+  },
+  {
+    "id": "INC-DA256E0E",
+    "date": "2026-07-01T16:14:29+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man guilty of attempting to murder children in stabbings that sparked Dublin riots - Sky News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaS1oQ0lZVk1acHd2ay1YSWU3RFduaURDOTZtTTVleWEwTE9NU1dkUTI2X2xXUFo3Y3gyMWd1TnNab0sxRjdsZVFxR3FmXzlCd0RobkwyY3gyaDNzaGJnd09xTU1HRWJpYVA1dXh3RV82bjZnMUZ3YjQ2eUtnZnYyUEVNUjNrb2lWWGRpUVVmUXl4ajFqNXItUGJaSzlCczQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:41.588285+00:00"
+  },
+  {
+    "id": "INC-FD6DD46E",
+    "date": "2026-07-01T16:00:49+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Riad Bouchaker found guilty of attempting to murder three children in Dublin knife attack - Yahoo News New Zealand",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOLVR1SVV0V05HUjZHQUtQRkR1WnZEMDFOa3lmTERxbEJGYThkZ1lUVVFoT1N2T2tTUnFKYzBKN1RfZHg2MkJlSWNRczFwMF9zdVBQYmVFcVFCaGVDTzdFY0M1YTJ3ZUFJdnRlbWU0eG5pTkVmYXVieUJiTWFrMmZrejBQeG1sUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:45.027661+00:00"
+  },
+  {
+    "id": "INC-50DD2FCF",
+    "date": "2026-07-01T15:58:25+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Stabbing in Dublin preceded disorder that saw buses and trams set alight - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOLXRDVnN2M29hdmlfNHBkV0w3SVI5Q255NnZhUVdQNWRhelNTZVlCUE1KckZjYWhJc0NyeVh0SEw4TUtaWm5KM1oxNlhub3JlMXhPcF93TUNEdVM3dDJ1ZDduU2N2a09QRXQyZHMtTmI5aUZYcGZBOXBYVzhLeGt4VERqS1U1alhONjB5cHN4dmtiYzBJTVA1NFRfUHhwVHk0dDhER0xOT0w5dWlRSUlpRC1hNHcyYVcxV0ZXeGpmbFllekRXOG42eUdTd3B1bExWUWgxLXFObHJhUW1VN25JN2hHcw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:41.589340+00:00"
+  },
+  {
+    "id": "INC-D4F4799E",
+    "date": "2026-07-01T15:19:21+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Riad Bouchaker: Dublin stabbing attack victim's mother speaks exclusively to Sky News - Sky News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRUxJdjdROExZLXlVRDZhQXd5ZjZyeGI3aXVKNVZxSHV3ZVVsWnBKSkxCVkJ0SUxJVjd3T3JoUHNtMDhCTFEzWU45dWtlb2hKMzZTZVhIRG16b2poTXNNSVFMazBKelJObHdudmFOcjBEeGhIR2V1amg2TnZkNDhkMy16NTZMZngzQ01HVlJVZ3RHX0tQTE1VaVpUclBFUVZiNWxDLTFuUU54Rm43dF81RWFFT2doUmEycWhr?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:50.113566+00:00"
+  },
+  {
+    "id": "INC-7EFD64DF",
+    "date": "2026-07-01T15:18:00+00:00",
+    "county": "Offaly",
+    "location": "",
+    "description": "A timeline of Riad Bouchaker\u2019s movements before Parnell Square stabbing - Offaly Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQa3VzUTVCcWZuNlF4aE9naEFaQ2gwUl83SlVwN1ZDNEFJRGpQSlg0WUYzTl9nOF95VEVER1NEcnExR3ZtcXBsU3hWc3lVMlhrTW9GNDI0UUd1Q3lKbmNMTl8yOWg3UWdxN1hLcGFNOEp1WXdXei1XbDFrZmFiZ0tzODNqRmJndGFsTFNscVZCUEZLckFrTEpLLWVGQldnUkROblNfTzFTaHZFLUpDWkZZZDNodE4zMTQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:50.119193+00:00"
+  },
+  {
+    "id": "INC-2D5F7A4E",
+    "date": "2026-07-01T15:12:42+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Riad Bouchaker found guilty of Parnell Square knife attack - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Ma29pQWlFV001d0g1ZUR2QTVURHZzMEJUTGczS0NDRmt5NVdXOTFjdGpFTmt5bG5YRFlMRVBsUVZpSTZkdVo1VVc4N3RiaWtSRHRhME9VZmdnYU5FOU96VzBHX21hcGtPWThuU19uM1phZGs4X2dlRTRsZEQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:46.680763+00:00"
+  },
+  {
+    "id": "INC-5C48199A",
+    "date": "2026-07-01T14:48:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man guilty of attempting to murder children in Dublin stabbing - This is the Coast",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZ0lRNU8wMnNfdGpKWEg0TjlBMk13VnBhVUFWRUhHVTRHd19RMFRiQmxsRVd6OG9CUlE4anpCMVJGWG9BMmxTcHR0SW1ZUXhzYnBXOEd4aFY2a2NxV1AtQ0dmdVpDOEVqdVlYTWVXRmlhM2tHNUtqYW9BMGxQOGNtMVpzWmpLR3RXbHlyX0trTWhnZDZkUUVpUEJoTWxGTDBIektoQzdpZW1rSFE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:50.121978+00:00"
+  },
+  {
+    "id": "INC-97ABCD8D",
+    "date": "2026-07-01T11:04:00+00:00",
+    "county": "Dublin",
+    "location": "Dublin stabbing trial -",
+    "description": "Jury continues deliberations in Dublin stabbing trial - Limerick Leader",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWUlIdWVmUVBvYi1rQnNaY0c3S0lkQXFfS0pMQld3cnZRSkFkaXQ2OTR6dk9yNkZScDRUcERPYmhkQUZXT3ZVWktaZkxlNUdDbTRBaTZsUERXa21QcmVpWUd0N0p0a255c0VwcGdHX2Zhc3VCM0g5M1lrVmhpaU9GV0h3ZEI2SHNlb01ET2V5N3lHdEM4aVV4REU3X05HMzE0M2c?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:55.366278+00:00"
+  },
+  {
+    "id": "INC-4AB73803",
+    "date": "2026-07-01T10:22:40+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man remains in custody in connection with alleged stabbing incident involving woman in Cork - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1tR0trWGg3UFlFVWpNTmczS0R1Z2tGOElqaFRwWEJ5T1V6Tm1qOXBoUndOZ2dJTjREYl9EbHZKTnl6aVV6NGgxc19mZ3lFMHNZcExXNVdsVWw3RTh3REM2VlluczNwWkJmaXpfOS1FVzZQSFJOalE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:51.909570+00:00"
+  },
+  {
+    "id": "INC-F4A75CC8",
+    "date": "2026-07-01T10:03:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Woman, 20s, hospitalised following stabbing in Cork city suburb - echo live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxMXdUamphTEpyYzJaYlpaR3VERV9IVzZ6cXpJS1VWaHI0ZWg5bFZuU2VIYXF3Q29BMWlJU19mS2tKN19vOG5UbEY2QmZSLTBPWXZyMHQ0OERVS0Z3WE5lbQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:51.908974+00:00"
+  },
   {
     "id": "INC-AEC8F306",
     "date": "2026-07-01T09:20:00+00:00",
@@ -35,6 +282,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-07-01T09:42:19.617938+00:00"
+  },
+  {
+    "id": "INC-4A7404AA",
+    "date": "2026-07-01T05:42:28+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man arrested in connection with stabbing of woman in Cork - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRDBFRjdnSk9sek8wLTNaZVJBTVFtOWlHb1BEeEJRNGszVlV2N3V4dTl3ZjVxSW16SE9ELW5RRlRVQ0NVYWxadnRzbGVrM0RRVmxUMTNqYlY4cnpBVW5JRnVWaER1MU9QN2JEeVIzSFJvSXpzbUpnaG1BcHpfZmNZaTJUNTlHV3E0enkweUZpWU5XVFhzMkhiU0xadXpBRUdhU2k2Q0pkQ2Y?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:41.591331+00:00"
   },
   {
     "id": "INC-77BDF17B",
@@ -87,6 +347,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-07-01T09:42:14.481026+00:00"
+  },
+  {
+    "id": "INC-07B28D1A",
+    "date": "2026-06-30T13:02:00+00:00",
+    "county": "Dublin",
+    "location": "Dublin stabbing trial -",
+    "description": "Jury sent out to deliberate in Dublin stabbing trial - Limerick Leader",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONFB4SldpU2paQjVTcEg1VkZ5eWQyQ0RiMVhqNjZkRTN0Vmlia28wTGdyVWtiSkIyeFRxSHVsOEVaRzhtRmFfay16QkRTQ1VmNlQtTFdSdXZOWkNQZHc2bHNIQXRrMHJEZWNUNVBiN0FoXzFpWVZLbUNvMDM3Sy1TazZfTVl5NXdDWk5xeVM1N0tqX1kyelVhZ0pDWjNMd0M2?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-02T08:53:50.120616+00:00"
   },
   {
     "id": "INC-4BCA3655",
