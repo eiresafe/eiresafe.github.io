@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 697
+// Total incidents: 702
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-380AEB65",
+    "date": "2026-07-03T21:17:42+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Protests erupt in Northern Ireland following stabbing - AP News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdW44VTRLenAxTzRMUllXcFFBVmNkdW1pYVpUV2NTaTkyZ1pZZ2lOaUFjT2tQMTRFSHlMUDh2WTNhekhFVlNrTGhyQmx6eHpPUVpQUmZ2V3hLSzZDMWhRTlY5bmI5WWxubFQ1Y0phd0FkQVJJbTZ6dVFxZlNnUUYzdjNBVEJDVjZkMERLenhoa3lIRTZ2c1Y1NG5fTGJUWmVjdjJKOC0zUGgxVUtvcVI3dQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-05T08:50:14.926226+00:00"
+  },
+  {
+    "id": "INC-64111E10",
+    "date": "2026-07-03T19:04:26+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Murder accused boarded ferry in Belfast hours after alleged stabbing in Dublin, trial hears - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdllra0p3SXE2VWM4Q19qdW1oVHRrcEVFSlU5dGdyeU03SmVKNnc2QlB6QjBqWC0zeUpmeDRxU0xjS3p0VzhPNlZnYklfYUg2RGJ6a0N2YjZ0MjM2cUZmSkhmZTJTM1VVRWJhSU1UTnBHenA2eEVSQjhOQU1tblJvLW9LQlFFWFNNTHJoQlh0dGszZ2FWeTM00gGXAUFVX3lxTE52WWtrSndJcTZVYzhDX2p1bWhUdGtwRUVKVTl0Z3J5TTdKZUo2dzZCUHpCMGpYLTN5SmZ4NHFTTGNLenRXOE82VmdiSV9hSDZEYnprQ3ZiNnQyMzZxRmZKSGZlMlMzVVVFYmFJTVROcEd6cDZ4RVJCOE5BTW1uUm8tb0tCUUVYU01McmhCWHR0azNnYVZ5MzQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-05T08:50:08.222102+00:00"
+  },
+  {
+    "id": "INC-594431A7",
+    "date": "2026-07-03T15:52:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Cork man accused of pouring boiling water over woman and stabbing her partner further remanded in custody - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yMkFFaW1qYXZ2bUdveTRPUlgzbFBoOTF5emczeF9SWUVpdlJUS2ZwZmFQZUlMSUNWZERXOUpDcldJTDdvdW51QjN4a2FRYUp1WUNMRzVxaFRMa3ZVc1V4Z3JoUXVFUnNRTDYyLWUtTnVGMDBsTFE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-05T08:50:09.855544+00:00"
+  },
   {
     "id": "INC-6CB46DE4",
     "date": "2026-07-03T07:47:28+00:00",
@@ -89,6 +128,19 @@ export const mockIncidents = [
     "addedAt": "2026-07-03T09:15:24.237088+00:00"
   },
   {
+    "id": "INC-D4AB8CCD",
+    "date": "2026-07-02T13:58:33+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Loyalist paramilitaries were present during Belfast rioting, says chief constable - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9IOGRJSFVtMGZPeTZybFIyWW8zSi1FY0dYSE9Wc1ZzalhRUjI0UnRUNGRaS3FPUjZwRHQwSFN1ZjBsN1labkdUWS1lVl9FbGNwNWt2NXB5cGdaN1Bl?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-05T08:50:01.478746+00:00"
+  },
+  {
     "id": "INC-079B0FA7",
     "date": "2026-07-02T10:40:23+00:00",
     "county": "Limerick",
@@ -126,6 +178,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-07-03T09:15:27.637532+00:00"
+  },
+  {
+    "id": "INC-38C47334",
+    "date": "2026-07-02T09:46:52+00:00",
+    "county": "Cork",
+    "location": "Cork city -",
+    "description": "Man charged after woman injured in alleged stabbing in Cork city - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeXViejlmTC1lNThBWmcxU3JfQVV2TUV1dVo5Q3BtZVJzRGQtWjF5S1BtYTNTVHMzaTVKcEJNX2Q0SFNEU1RxYUx3dEdlV1dNSmFEUnFmLUNHQVd5Mlc1aXNYMFl1SU1fSXI4RFZuS0x5X1VEbEpyTGpyZXp3VGEzQ3FsZnJOZ9IBiwFBVV95cUxQNHNnanB4eVdMM05oR3lpM1NUWXNyX3A2dldkcDhlTGIzOWpQaDAtQjR3Nm11aFNnOXZjeDRtUlFPanNmbWlwWTJQbThKTWdWVGdYankxVnowbXRyVUZYN0p5STdDNjRXNjNXX0t3TkZQblN4WU45eUMtT2MwYUx5Mmh6TUhKZ3c2SFk0?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-05T08:50:09.853343+00:00"
   },
   {
     "id": "INC-104622EA",
