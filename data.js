@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 702
+// Total incidents: 704
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-6E5C951B",
+    "date": "2026-07-06T13:19:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Woman stabbed to death in Portlaoise named locally as Adina Raluca Constantin - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUVF0eWowQW1BMGM0TEZEcWZoSUM1YlVWcGVKejd2cFQ1QklTOVVRSWhNNHBZMnVjd3p3MllHVE9TTzE3OVphdmhIc3N4NXp6eFpGS2pJbGRLZWEtaTlYOWZRTmZBOVpUcS1zNW4xb1BPeEgtU1ZqdzJGbVlMY0xCMlpQTmduMldWMEQ0ZUFKWXVFeGwtTkNVMVcyUzBLd1FLNU0yVG5n?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-07T09:37:40.092998+00:00"
+  },
+  {
+    "id": "INC-271000E5",
+    "date": "2026-07-06T09:36:28+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Hollywood stars Olivia Wilde and Ed Norton tell of Cork and 'Stab City' heritage - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdkdpQTZfcVdlQ1BEaGIwRnEtMkFRMGZfOTBMYkFkWG1GRmxIUU9XWnI2QUZQal9hMkNnekRiZTdoSVc4VDBGcGZrVjdlRUJWeXFsV3o5Qk1kTldFTHdkeGVOVk1OS1Z2YmJZSW95bkdRbFgzY0tYZnFIUlpiZ3pjeWVscDl6Z9IBiwFBVV95cUxOSTA1b2hWbXlwZkFPSUptUHNVMk4wYTZKWW5TM3lZeTVKR0JMSVlELWMwclhJTnpFSmdXbl95VDdnOUxhSGhZR2VtbXcyRE9DUWYyUTItX0xSVjVPcVFNNXFPRkxmaVVUN28tNnBzRmdsTjVNYlF4WEhTYmNmVmwwZGFrM05idnMydy1n?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-07T09:37:50.464059+00:00"
+  },
   {
     "id": "INC-380AEB65",
     "date": "2026-07-03T21:17:42+00:00",
