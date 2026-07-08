@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 704
+// Total incidents: 705
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-24921308",
+    "date": "2026-07-08T07:55:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Police do not know what country Belfast knife attack suspect is from - The Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObmNRaHFGTDY5SUpTT1F1TVc3dDROMmxLUXJ5dENuZFY0Y04xTEZlZUYtdTVhTjFJcEl6RU1FMmI1ZUNObjlUQXVjTUtQa1BsTVdaSmJlUFlWc3NYWERqMDJZNDlLUUtqcmJHdC0xTF9NN3RBVkhqbTU4Q0phNzNvVlZWQWRfTE15RDRiSWNPaUxRRm5CVzd3cmR1emJQTkFfYUE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-08T08:24:41.214256+00:00"
+  },
   {
     "id": "INC-6E5C951B",
     "date": "2026-07-06T13:19:00+00:00",
