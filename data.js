@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 705
+// Total incidents: 706
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-B2D42C9A",
+    "date": "2026-07-08T12:14:34+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Hadi Alodid: Belfast knife attack accused told to seek legal representation - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsX1pwaVRXZnVSbnFJdm9kRmtKX2Q5ak5aN0JOUWZPZEtMMXpOcnM2dFpvTWVXMXVnbFgyalRnTkN4eWFETXF0SDl0X3VkSUZwSVlRV3NPQXJXQWpT?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-09T09:35:39.145395+00:00"
+  },
   {
     "id": "INC-24921308",
     "date": "2026-07-08T07:55:00+00:00",
