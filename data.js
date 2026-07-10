@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 706
+// Total incidents: 710
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,58 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-FF2F83A4",
+    "date": "2026-07-10T09:17:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Three arrested after police assaulted following reported stabbing - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOV1RfUEl6NlkwQW5rSnVlLU1ZMkJrSy1JbGNCdnBMLS02TXUyRk12WExzTDY3VWFnRmtGNG5rSjFIdWJSdGp1b2did1V1QTJtYzBOaDAweTVOZnZtRlV6QWNMUkFqc2N2cC05eXpRaXRGWVpKaW9mczVXUmZUTTFiYTNWdzA3NTd0Yjk5R2FGWVNSNkRXVXhPU2NCbmtOSGMtYTRPanNsQ0VVX3hhNERCTmN5bWJZWjVoNnhSbk9MOHNGWDJHQ0NNcTVrUDhEeldhWHlRTkNR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-10T09:31:47.608917+00:00"
+  },
+  {
+    "id": "INC-CE3F55E5",
+    "date": "2026-07-10T08:37:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "North Belfast: Three arrests after man hospitalised with stab injuries and two police officers assaulted - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUVhDOWNlTnFMYXlfaFlXWTlhSk8yTXZ0cHY1WnNwaEVtM01jZ2YzdlNReW8yY0g5dEM1M255QURNb0EwazIzT0s4RzM2UmJoSVQ4ZXVEV21vZmJaNWdWbmNSSkpxUEZSSno5NGFBcm1fNVplRjdubUhGUk5JTzJoZEVvd21SanFpMXF4OGZXbjNaUTRIWDFwMmRBVTcwcERlbzBuNUlaOWdPMFlkaVZyck03bVRyYVZkMlJFWFprRjFscERyVlZ1clQzRmNwNGdLMmpCanFmcGsyTVphUm5ybEFfWTA4NlZoVFNwZjBQY1ZzZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-10T09:32:02.888999+00:00"
+  },
+  {
+    "id": "INC-DA280345",
+    "date": "2026-07-10T08:30:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Three arrests as man rushed to hospital following North Belfast stabbing incident - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaW9NRlVsanduR2hjbXRnbFp0QlVVMHd5V3hVVFhoR3Q1V2xJN29WY1c3MUEwNkRKbC1hU09MV1AtVExRanNNV3ItMzRHOG5xc1pPYURWQURXTFpEbW4xZGd3M050NHJmSTdSYXRoXzJUMG1LaXZ4SWUxdlJuZ1FFOFA3aFlLblM1Z3Boejd5cXJYcUhCMVRfa21R0gGfAUFVX3lxTFBBNGRNWXo1aC0xVVg4Wng3UkdyZGdfT0E4S1V2dmdpd1ItQWZaMU9hN2prWF9pNmNZaFlNaUgxYmNzMVM4MUpTZWp6WjJHeHhPZk1kdURRNUlTWXZ6dG43T0N3eDVSMUR2aGRGTEx5QlVnZ3pGNjE4MGdSdC1ZbHpOM2ZrbTFqSGVrMy1OS1E3R3o2X0dzTjh4OF9xd1Qycw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-10T09:31:47.614111+00:00"
+  },
+  {
+    "id": "INC-98932F2E",
+    "date": "2026-07-10T00:01:00+00:00",
+    "county": "Antrim",
+    "location": "UK -",
+    "description": "Knife murders drop by a quarter in two years in UK - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQXIzZU9NRW5YNi1OUlAxX0d3bjE1M25aektGMUphYUdGWmxybDEzbUdzRjRJc2hqbC1YNnNDUG5hMVdHYXQtbGNpa1dvbE5QUTktUUhYVnpoNzdlSWdkMVV3SmtlQW9EZEZMdTFDT3NjTkpwTE0wcjgzdy1PeGFuYXkyajd1OVRzM3RnNjNuUGl3THViVS05UVJTdUJrX2ZTSWdBd0FPY0M4cnRYTXQw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-10T09:31:54.392392+00:00"
+  },
   {
     "id": "INC-B2D42C9A",
     "date": "2026-07-08T12:14:34+00:00",
