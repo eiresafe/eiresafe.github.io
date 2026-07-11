@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 710
+// Total incidents: 716
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,71 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-C738032D",
+    "date": "2026-07-11T04:04:42+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man jailed over stabbing in row over spilt oil in shared Dublin accommodation - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNamIxQWlDYkdzT2xJQzFHMDBNbFZvTjN1aFBBdFYtUndjWDJPQ0tkWjQzOWt0b2d3QVVFLUt0N1BKTkpLU1lLZFZ5Nl9JdFE1ZVozS05wQTZsZ1RUS0pIV0VaV2N3SVhNSDA4WkpjVzZrN1R5bTFndFpoRFU5NERlcHVqUdIBgwFBVV95cUxNamIxQWlDYkdzT2xJQzFHMDBNbFZvTjN1aFBBdFYtUndjWDJPQ0tkWjQzOWt0b2d3QVVFLUt0N1BKTkpLU1lLZFZ5Nl9JdFE1ZVozS05wQTZsZ1RUS0pIV0VaV2N3SVhNSDA4WkpjVzZrN1R5bTFndFpoRFU5NERlcHVqUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-11T07:52:43.292085+00:00"
+  },
+  {
+    "id": "INC-74006586",
+    "date": "2026-07-10T21:14:12+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Woman accused of mopping up scene of alleged fatal stabbing told garda\u00ed she saw no blood in property - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbndQa1FycHpLWDBaRHVpcWdkQkNzc0w1UlhHQWYxU0FzbGtUMmhMdmpDUV8yS05Rc2U2N25pVVk0ZnRQd2JvWjZ4alhCdUNSUnV0bnhFdi1LY2ZzV2NPREFaTC1PYkhWWkFpQVM3NDl4RmZtVXNfM1VEdDFPWGVDWTI2LWdPcG82RGRoMmNCbEx5cUdYWDZMOE11TnJGeGM5ZmJ3TlM1SW00MXlFSjVXWUZnS3MyTjdqRllKU1lpdGhKZ0l0OW9aSDhuVy0xLXFuSVU5aEo4cjROVFBDQVJzc3NjVQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-11T07:52:34.744369+00:00"
+  },
+  {
+    "id": "INC-D7F225F3",
+    "date": "2026-07-10T13:38:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man living in Cork jailed for 'vicious and cowardly' stabbing of man in Dublin - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiZ3c0LVNIX2xjQTZhQ0p4bDNkSGhORHpTWmRnTlRXREVaVlhpRGtoX0trRTF5dmhfZEExS1lwaXBJcVhUUEJ2LU9vWl8tZUpveGwwSDlsTTlGR2FHSU8tSVctNGVEMkpEbk9nT1puNjJhNE1lOWc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-11T07:52:44.928006+00:00"
+  },
+  {
+    "id": "INC-00F30FC3",
+    "date": "2026-07-10T11:38:43+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Three people arrested after man rushed to hospital after vicious knife attack in Belfast - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNUJWQlZLNnJqR1NoaU5HdWU3MXJ0NXFfNTJIQzRCWXcxU1pPVzktTHJlX3A1cTM1YlJCMDhsQkZ5T1FTQUxha0o4cERzS2pzeUNrZERfRGVnTm9sNjdCSjVaRzRibU9ZZnhTMmFyVlYzci13VFh0SE1ibTBlRDdNcW5MVjUzMWdVSTY0b3pIRllDWUJaYkhwYl9OaG9mQmFlQkJEaEpYLTF3MUg0NDVHSWxTdVJUSXA2MmdzWkZvZGNuUFlNSG1vdW5TMmpVU08tY3VyU01odXM2T0tReVBzTkdn0gGQAUFVX3lxTE5nUUFEWGpZWnQ4eWlWampmZ3QyZHRRdzFBR1p1d19TcERxaWxSREl6bFFGbXMxdGtpdDdla0R2TlVIbmdjajFTeXVLUHVLN3dmMmljU2hPZEhCQ00yamVScnhtTlZPRTQ1WFdnVjNPWkdpaWk0Q2R3UkV5STNiWVB1TlIwUDFoV3JWWnlJTTlUVw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-11T07:52:36.505457+00:00"
+  },
+  {
+    "id": "INC-A16DC7A0",
+    "date": "2026-07-10T11:28:06+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "North Belfast: Three arrested after man stabbed in head and hands - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ZLXktNzZjSlBQU2s2MUo3eTdkQXV2MW5QS0lkQnlSZko0T1hGYnlCeHp5YVhpZzZEa2VoZEpyTlpMTUQ1MVRLV19URFFCSm5fQ2g1SkxMYTFkTnY0?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-11T07:52:53.250570+00:00"
+  },
   {
     "id": "INC-FF2F83A4",
     "date": "2026-07-10T09:17:00+00:00",
@@ -22,6 +87,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-07-10T09:31:47.608917+00:00"
+  },
+  {
+    "id": "INC-4D755E93",
+    "date": "2026-07-10T08:55:10+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "PSNI officers assaulted after responding to reported stabbing in Belfast - The Irish News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVXhwUVBubTZ4M3NYOVBJcS0xSXRfRFd5Z2ZTRjFzeDNiVkNpejJzMVRTS2lPczRFaTh0ZFpqeS0xbDZPaVhpU2hFRWFwRTk5b2IyOTQ5S2FrVnpWOXpQbF9HN1h6OVJkRlVLSTJGREZwd2V3S1oteXZqT1B6cEJYbE1fcXh1U3N4bXRRUTRONDI0eEEwYnE0cmpkS20tUVdndlRDb0tsbzZVN1pRdGk4NkxOZGJySEdrN2FKX29Rc1RETkNXelNfNi01YVlMQjZNRGVJcXVJQ2dqSXFrdmF4ZjFB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-11T07:52:34.745356+00:00"
   },
   {
     "id": "INC-CE3F55E5",
