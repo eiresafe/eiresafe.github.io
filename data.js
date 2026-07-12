@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 716
+// Total incidents: 719
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-843C6E31",
+    "date": "2026-07-11T15:12:16+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "North Belfast: Two charged after man stabbed in head and hands - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrUGJqdnZjXy1ycW9xdFo3SWhkTThZbnU4czMzNVZ4ODdzRTlON2d3UkRaSGhZdEl1dGFNVkV3WTFLTkhyX1RoQnZqZ2VUMGZwc2dkX1pQTWc1enRD?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-12T08:14:09.943277+00:00"
+  },
+  {
+    "id": "INC-66F67A46",
+    "date": "2026-07-11T13:45:27+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Two men charged after stabbing in north Belfast - The Irish News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUVBvU1R0ay1kdEhvWHpOcE9QUjJ1bTNkMFdIZ1dOV0EtWFRSSW1FZm44ek1wSmhOTmZDbllaNl9hWEJuRlhuaVBuWkhCY2s2dW5tLW1kbnAzVjR0NWxwcHlLOFN2bEFaLWZHUWR1UjNPRnkxU0hkOVluYkNJWWhJbFZqZlRBSkl6UDFQYXpuZVk0OEoydDJWSUtXRm9YSzZQb3lCbi05bWFGRkRrQmloYzV4Tk1mOUtSdW5zZFJnQU8?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-12T08:13:51.360467+00:00"
+  },
   {
     "id": "INC-C738032D",
     "date": "2026-07-11T04:04:42+00:00",
@@ -22,6 +48,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-07-11T07:52:43.292085+00:00"
+  },
+  {
+    "id": "INC-E43FF3F6",
+    "date": "2026-07-11T01:00:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Woman accused of mopping up scene of alleged fatal stabbing told garda\u00ed she saw no blood in property - Homepage",
+    "source": {
+      "title": "GDELT (westernpeople.ie)",
+      "url": "https://www.westernpeople.ie/woman-accused-of-mopping-up-scene-of-alleged-fatal-stabbing-told-garda%C3%AD-she-saw-no-blood-in-property_arid-104611.html"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-12T08:18:32.866165+00:00"
   },
   {
     "id": "INC-74006586",
