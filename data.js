@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 719
+// Total incidents: 720
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-0A43AD99",
+    "date": "2026-07-13T08:15:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teen rushed to hospital with serious injuries after stabbing in Cork - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdFhEaVpiVjd2Yks1cmVEcTltVEpqNzY0dl9SY2M2eUY1ekNKaXdrZ2tBTnAxcVRQRnhNYzY1Wk1paVhQS0hTNjI0WFAtZldWdDBHZkxxUnFPOGFVV3Z0MzBOX2hkaWVrSVJpeGViaHFnNEJ3VC1XYTdWWjJVX19PWFU2Tm1YMlJkclRyWGowbGlNN0XSAZgBQVVfeXFMT25MMkdBcUFsUjhEMkpFbFY2V1FTU0h4NTltbEdVSFd0dXNIZDFsX0Y3S0pSS05KN0lxZXZ2MVZMdURJd3ViVDFFQndfOGVtSFQtS01qcllKbjZ5TnNwUG1xb08zN1ozUHB0YlEtZjhiTEVYLWNwYXhTMnVVSVdNb3B1N3kwNXNDbXJ1X3h4Q19uMW9aSC1FZGQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-13T09:22:23.896397+00:00"
+  },
   {
     "id": "INC-843C6E31",
     "date": "2026-07-11T15:12:16+00:00",
