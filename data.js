@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 720
+// Total incidents: 722
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-21C6A237",
+    "date": "2026-07-13T13:25:25+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Sentencing delayed for man who stabbed garda and set fire to Conor McGregor's pub - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRFpxYjZyRkdKNlRHck9Ybk51RkdRaFBpUENZbkJmRjQ0SXhVQU8wVGFVS2RuQ19kc1g0d2FNUnJFamU0YVRtUE44UC1GcFFiWVhRa0xCVE95cmVIQkpndzlET3QxZ01MVVBEbGdwUFViUEIwQW9ONHVyaEFIbmZDaGJab2ZOZ3lGVVRhdDgxUdIBlAFBVV95cUxPZHNQc3JRVzBaQ0xRZ3VnV0VXbDlSN1p5eDZYT0phazlPM19lV09LZkVNNnBFS0x3U1BpdkhScnVwN1NqVjFlVXQ1MmdEdENwS2Z4OWdodnE5MVJqdWY5M19UeV83UDFiaXhFNnU5UXBoYWRLYW9COXIyZ0hCTzNaNy1UOGhDbXk1QUdmNHV0QVdUWWll?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-14T08:00:38.896556+00:00"
+  },
+  {
+    "id": "INC-453618FC",
+    "date": "2026-07-13T11:08:02+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Family \u2018utterly heartbroken\u2019 after 16-year-old boy stabbed to death - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTWZJN3E2YUhwNGhNSEdtX3pHeC1KYVRia29xYXozbWxHY2U2WWI4LUVRT3d6UjJBWUc3WkxLM1pNTWpLbzRzVGxkMk1RRTlFTjFHVmpiNkRxX1pVaUc0T1Vla0lQMnRLVmRmQlZUS2FOdHlBMzRkcG5ybkV3b0VXZXh0NFdHYUsxeGJ4UDBNQmZ0TTNoRU9kY1pSb0xzTHRseDFjcTYxUEpBdWltR0F1b0dNUjBzNXAzQmQ2UjFrMXNDUjg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-14T08:00:45.834442+00:00"
+  },
   {
     "id": "INC-0A43AD99",
     "date": "2026-07-13T08:15:00+00:00",
