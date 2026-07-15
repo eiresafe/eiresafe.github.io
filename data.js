@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 722
+// Total incidents: 723
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-D3140714",
+    "date": "2026-07-14T12:04:04+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Sentencing of self-described jihadist who stabbed garda on Dublin\u2019s Capel Street put back for assessment - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWlNSM0xVYmVQYi11azJxUlRkTzZyYVRMS2kzaVgtNUI2WXJFMU9lWGx4bDRpNmw5RUtoYUcxME5aNUtQRkZjeWdxWURlc2RZVVNiMk9mM2FHZWtpdGdkWlpmTF9iWkxzOXpXUTlYOEcwbGF4YmxscEJBTHVpTWFTOFJxdWhXN2RHMHRJS3dwUHZfR0toSDV3b2diem15UXREMUtiSWxKSlI5a0Vvd3FyVUZwZUFDSEF3X1Z3V2JsMXJpVWNLYnpIbExBd3gxaTg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-15T08:06:04.627506+00:00"
+  },
   {
     "id": "INC-21C6A237",
     "date": "2026-07-13T13:25:25+00:00",
