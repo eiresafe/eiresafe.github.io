@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 723
+// Total incidents: 729
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,84 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-0B591E5B",
+    "date": "2026-07-16T06:46:06+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Family of girl injured in Parnell Square stabbing that sparked Dublin riots welcome baby boy - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSGctSlUzQUt4Y19ldWRfS1RyOGVJdFFxcUxUUjJ1WDVCekl2azA2aW9xdXF3Rk56Tjd5ZW5nalgwdXJCcVJ4ZlEySTNwYThad2RLZ1YxZk5FNzZWUVBkbkxOTTdXSVFEU3F1REc2a2JJak9ubVREQkw0cHNMV0hwT1FRYnZVVV9aWl9FbVRyM0xneW15OS1KNy1DSnBlai1GT2xHMjU3MXEyS3pTOFhCbVFlX0h1LTc1ZlFKQ1lPcmNoQURGVlBUTXlnWXJXakI2cVd3aXBWazlBSnBMV1hnXw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-16T08:09:21.418403+00:00"
+  },
+  {
+    "id": "INC-F407554C",
+    "date": "2026-07-16T06:00:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Hero who stopped knifeman stabbing children 'lost everything before coming to Ireland' - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUjVOblFjNm9uQ3lnZ0xVdlA0d0NlcUhHWDdkRVFMMDBkbjU0WUtyQmp5NXFydlNwX0pXQjZTTGwzUGcxbDRiS3NoZ0lrVXRPMU40N3dXMDA4YXNhdURGT1F2X3NHMDRwRi1HejdKWXRnZE5uUEotYW03Ul94N0QyQTdQc3PSAYoBQVVfeXFMUGZjYTltbW12UjVsc0pPWVJhcTVrWVQya1VVZVBXbHBxNXdSS1JOeDFwOENsMW9STGh4dnZoTzZRRG1FT3A3NVhpVUN4YzVkeUQtVWIyYVdBbnFpWUFYZGVTeE9KbGZyb25SM3RnN0lUUTFTVVlmOXYwWW5kNkhjREFVajBkbmZZcUJn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-16T08:09:13.079970+00:00"
+  },
+  {
+    "id": "INC-E4A9968F",
+    "date": "2026-07-15T16:19:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Cork man accused of pouring boiling water over woman and stabbing her partner asks for case to be struck out - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4wbHhGLXNuVkZramZ5RDk3T09SQlRVVlhDU3Zta05vcTBpM21VQ2VqZ0FxdEozblNpdHFLZzNDakFaX0FLeUJtcjdReDRwS1VKV3dCWV9vR3d5WTI0Ri0zT1lWcHNqSkxNT3lfYWNTMmpHZ0N4UUE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-16T08:09:23.099422+00:00"
+  },
+  {
+    "id": "INC-C713B0B2",
+    "date": "2026-07-15T16:09:38+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Family of girl injured in Dublin mass-stabbing that sparked riots welcome baby boy - Sky News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdmtIX2FueTNsNVZiVXdQVWJUZzh5TktvSzl2d3VNUWVNTVd3aFplQklQOVEzQmlsSHd6S1R6QWpFZF9uVjlDRWNBUDFUTXpZVmtHU2MzdE1WV1VqSnE1RWFEVGprU0xhSEoxd2E0V2RCR3hVRHlWTHhnODZuMzctN1pVRDBsY3NUOHJIUDFSNWJreXRKb2VlMnJyTVB3SGlVdWJxMVo4bGlmYXZJNjFKcVZOWDM4R2FYR1E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-16T08:09:13.079421+00:00"
+  },
+  {
+    "id": "INC-439CAF96",
+    "date": "2026-07-15T15:47:35+00:00",
+    "county": "Antrim",
+    "location": "Dungannon -",
+    "description": "Dirson Pinto: Teenager granted bail after alleged knife attack in Dungannon - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeUQ3QkNUNDRWT3pqTHkzWWZnNXhDWndBWVYzd2QxVUhBa3dId3ZUU2tmX0RvMU9XdHR1a25tY181WEpOdHNKbnRUSko2SEYweWpJYVJuMlBaWkExNy12UEdiUUpTWUFXVlZrVnhXV2hfaDlNZnB6dnlBbElxcjAwaVFHbmVjbmFQNlY2ZzlmSXVLWWtQeHBUYXZlcDJJXzl6S0hOX3M0YnA2eFBCMDhucDRRX2YtVTlvQnpDUlVUV1YyV0E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-16T08:09:19.790953+00:00"
+  },
+  {
+    "id": "INC-0DC06FF3",
+    "date": "2026-07-15T09:17:10+00:00",
+    "county": "Cork",
+    "location": "Cork city -",
+    "description": "Man arrested after stabbing of young woman in Cork city - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORzMzUFlWNGxzWmhGOERCOU8xam51QnEtTHdYYTkyVy1YWTZaeXlickY0TWtTUFhJdHNpSzREazVSWG96bDV0OVRGNXRWSFJMQUxOdVdXdUVhTkFkZl8yLWRfZEE3cHgtbllRendRb1UyS25GdVRrREs0YXprdDZFc1M0bUM0Wk9T0gGOAUFVX3lxTE5wczRla2FiQy0zc2F4YmFpdWxNeTE4MVNvQ25Ec1hJbzUwT0xvU0N6OVdkdVVQM1BBNDMxV1hTdzNiaEdKeElaWXlfclVPdVBjLVMxUlF6c2NQNlBEdkJ1MHZuRkRiQzdJUmt3YndMcXpEakVxSmVZZ0NKdVpJa0RSWWE4c0Q4UkRxSzJhc3c?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-16T08:09:18.064244+00:00"
+  },
   {
     "id": "INC-D3140714",
     "date": "2026-07-14T12:04:04+00:00",
