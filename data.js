@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 729
+// Total incidents: 730
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -35,6 +35,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-07-16T08:09:13.079970+00:00"
+  },
+  {
+    "id": "INC-EAD379B0",
+    "date": "2026-07-16T05:36:06+00:00",
+    "county": "Dublin",
+    "location": "Dublin -",
+    "description": "Parnell Square hero 'lost everything' before stopping knifeman in Dublin - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX1pESzl1TDN1aHdRMnp2Tkk0VXJKT2JxY2xQN1JUeXYxS2FuQlpzdm5qNFBWRzg2MUdzN01TVHRDWmtjclptczFuazZEMEpWTGs2VHRMRmVLeFFPOW1yQlg3ZmNLMUFKOXAycHhVdUctTG1SVzN0aUFlRkp6Y1B6N2R3UlFxRnJ6ZFFiN0gyS1jSAZYBQVVfeXFMT2lmNTlQRlNxR1o3UUJjdUMxbGs4UjRVMlVJZnZ4eXBoMVpoenJCUU05bUhIUE5lZTUwRzJrM0x6bV9JdG1YcktKSGhKUlEwSnNsUHc4eVoxMUtfb3lDcGMzZzdIVVZKOXRNQmlVXzk5cHFlMGRlSEFHX3RZeFQ5cUdxUENBdEtWZ21Lcm1maENoTWUyTDlR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-17T08:07:03.826126+00:00"
   },
   {
     "id": "INC-E4A9968F",
