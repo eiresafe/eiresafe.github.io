@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 730
+// Total incidents: 731
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-17C2EDA2",
+    "date": "2026-07-18T17:26:38+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man 'acted out of instinct' when he fatally stabbed man who 'trespassed' on his Dublin home - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaVlkam1LaURsTVVhXzZVemJaNlhBLXBHcjJ5QzVGbEMxOXdOdTA3Ym5wVHFXbWVKTV9GVVFTSFpSR216SnMxaGthMDRHM01fMEJHbDFVWEM2VWJVanhaWHU3Ql9JVDZGTVgza053QUwtRVF0d0VUdW4wZkxtMnpqS3lmX0hDS1BIaGI5bm9oM3NiZUFYczh4Y0o4RHJDT2VSWFdxUDBHaHMxVFplOUlqNUloazlpaUluTWRsWHNLX3RveGQ1WVQ2SS1nZU50bFdDTmc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-19T08:13:37.529997+00:00"
+  },
   {
     "id": "INC-0B591E5B",
     "date": "2026-07-16T06:46:06+00:00",
