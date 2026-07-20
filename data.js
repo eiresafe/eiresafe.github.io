@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 731
+// Total incidents: 734
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-6A9F364B",
+    "date": "2026-07-19T15:08:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Delivery driver's face cut with a knife during Co Down attack - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY0RqVDV5NGlHTGdLWkxLRXlWektFY0NwR3lMZnRXMUZCeGgtcHZnbWRnZjVwbENVWWNiY0NwQlZDTFhoVTRGbUdSODJnSzR2WW50ZzhMNjEzRXdPRGZJeENYb04wellYWVhRSmpqOGtuSGQyNlZQancwWTd3czg1RUt3QkdMaHY0QmlVbWJVSkhVQnFYUlNv0gGcAUFVX3lxTFBraFAtalM1WHNvdzlYVU1yQ2RBeUVoaFJMcFBWbV8xRUhaaU1Ld3dFMU9zU0V5YURnNmNMLVhJN053bm1ucWp6TmdOQVNUVWtmUjNIalBlRU95VFRHZWZTajBYN3B2VFh6dG96YkpBWFpHeV9PcmVEQ3RVTTdmR2dac2VCNDl2azNKRHlnZVVyOW5KVEstZW9GWTN4ZQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-20T08:54:45.905009+00:00"
+  },
+  {
+    "id": "INC-82468F1D",
+    "date": "2026-07-19T00:45:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man  acted out of instinct  when he fatally stabbed man who  trespassed  on his Dublin home - Homepage",
+    "source": {
+      "title": "GDELT (laois-nationalist.ie)",
+      "url": "https://www.laois-nationalist.ie/man-acted-out-of-instinct-when-he-fatally-stabbed-man-who-trespassed-on-his-dublin-home_arid-105414.html"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-20T08:58:14.864167+00:00"
+  },
   {
     "id": "INC-17C2EDA2",
     "date": "2026-07-18T17:26:38+00:00",
@@ -22,6 +48,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-07-19T08:13:37.529997+00:00"
+  },
+  {
+    "id": "INC-72B71BF1",
+    "date": "2026-07-17T15:50:00+00:00",
+    "county": "Laois",
+    "location": "",
+    "description": "Woman allegedly stabbed man with peeling knife, Laois court hears - Ireland Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeEk4UDlhSjNWSjJIRGhTTkVXel9DWUU0SHhGWXloSDhjWWVZdkRiVUlGSWJzOWRNZ3pRMWY0eE43SFctNGJ5RW9tVmJ0TlBtM1EzY2VJQmFCOS1UWXNmbGJQQVVqMzRCUDBTeXh5bHRhSktGZmttV1kzS1J5ZXBHaXRVZlUtWUY2UUxQUTNUdmk0UERDOXEzWFNxVG4yaHZWek10R3ZMR2MtYXFTa0VORnJpbUNON0I2TDF2bA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-20T08:54:55.912478+00:00"
   },
   {
     "id": "INC-0B591E5B",
