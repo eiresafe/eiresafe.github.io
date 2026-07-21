@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 734
+// Total incidents: 736
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-68B6FC1D",
+    "date": "2026-07-21T07:36:19+00:00",
+    "county": "Louth",
+    "location": "",
+    "description": "Garda\u00ed use \u2018less-lethal force\u2019 to disarm knife-wielding man during Co Louth incident - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTTBJcE51QkFDUGo5Vi1WYkRfZXVwYjFjdGVyRU8xTHdUZ1czeWxoLUxoUnFRUVlwSzkzMEtNdnNQNTJWZUZMTjFSbEpHQl9GWms0VHN2UlROdnRBc0o1VkdTUS0tZ1dKdUlPZTJBN1dnd1JTNjJZN3cxa1VwRGE5Q2dkM1NETE1xWE16LXQ4TnBjeXVBWmFRQWJLalRZYUtZaU9YRTBFb29nU3g0cHZTaFRVWjFZUEEtVC1HLWdYZFdVT0tsNG5CVlJvQXpGekNEdk5R?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-21T08:24:31.460324+00:00"
+  },
+  {
+    "id": "INC-BCE2DF22",
+    "date": "2026-07-21T06:59:46+00:00",
+    "county": "Louth",
+    "location": "",
+    "description": "Chaotic scenes in Dundalk as armed gardai tackle man wielding knife - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUHo0amFkWXVTWGFxVkZrbzEyVVNDWEhFdFZfVEVMYnp0aFdPZFhuTTJIc0o5SmNWaHJTYzVlTjFrelZubTVpWGRwZlBoU3czU1hzS291cVJEZW83TmV6S3hkWkw0NXZOZTJkTFNiX1Jja09YSjYtZGRxTlNIZFQtYkoxZlgyWkRLZ3RRLWFqaDPSAZYBQVVfeXFMUFkxNkhZUFZNUWFkR1Nva1JmTENuQkMtMjRhaTlPb2N1ajlaZE5MVzVHSXRCbzU2VnFzbXQtbmFrSjI4YU1QY1pJckZRY3kxRzRkM2lkQ1NweUNvT1N3S1JoTGpxLWlIMnlMQjB4N2hPM0JtVXJmeTN3ODN3TS1TYzFrRVpuQlBzOXNTckVyZjlkaWZfYTZR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-21T08:24:31.460868+00:00"
+  },
   {
     "id": "INC-6A9F364B",
     "date": "2026-07-19T15:08:00+00:00",
