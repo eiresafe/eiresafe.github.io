@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 736
+// Total incidents: 763
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,344 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-10FD790A",
+    "date": "2026-07-22T08:07:11+00:00",
+    "county": "Galway",
+    "location": "",
+    "description": "Man charged after woman 'stabbed' at Waterford church - Galway Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeTdpb0Y1elMxOE51U2U5U29OV0cwX3NFbG5hOUs4aDVxQnl3M2FDRDFPUFktakVQeU5sTG5zcjcyUHZ2WlpPb3VXN25teGljRFdBTlMzUEdINHFsWmpIVzBqcmwteW44ZTd0bEtqOUJXRnNvbDhrRkNXdm5PbUxybWxEOFd3V2xSUVZR0gGQAUFVX3lxTE90ZWEtdXZLT2dnMFB6M01HRk5SYnFOU0d6TFVWRWNvbEVoWmduYml2Z01waDF0RG9LUGJtT19oZEdZd0pzdldJOWNsRWxSbExsSjFUZ3dndVVvRldOR1VIaG0tWFBHcWZIZWJySGtiOWJyV2QzVXVvWHA4ZUpLbFY4SnZtN09hRUJMb0dmTXNpdQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:40.479886+00:00"
+  },
+  {
+    "id": "INC-03B2861F",
+    "date": "2026-07-22T07:21:26+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Woman (50s) stabbed at Waterford church; attacker 'not known to her' - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMnBVeG4wVDB1ZmlHZzgtSUQzblJpVlYtUU9JTm40dmpSYmZoMkhLVUtCRW96YndodXc4bkZDVkpSX3VfeFF2YVBZeUhReVFVLTAyREhCV1NVUXQ5LVh4d2xTeG41RGFpZmdIWWx0SDdWT3c1cXBVc3FSRzhlcndGaTBGMEFoT3BxSzNuVVkzUDIxZVVJTDBXdWJQV0d1SWM?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:28.354519+00:00"
+  },
+  {
+    "id": "INC-F975846E",
+    "date": "2026-07-22T06:19:02+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Man charged after suspected stabbing before Mass at Waterford church - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMXNoSlp3SGdSOGlDMUF1TmxLUGVPdnYxQ2NfaHg1YWFBejVxTnhtMEVMTWl0X0Y3dFh3RXlIcmJmc1MtNUJxOE82NHZXcDF3M2puOXN1RE5mYm5jSHFVRTV5MTFkWnZFVjc1dVV0VjNJTkpkdXVOTmtDcklORldDbFpZdzN0Rm91c0pLT3VoVHVxd0VkQjlOb28zRVM1ZGlMd2xDRS1XYXFPTkY0QUI4aWJaV3gwaTd0?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:28.353423+00:00"
+  },
+  {
+    "id": "INC-D474147A",
+    "date": "2026-07-22T05:30:00+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Man suspected of stabbing woman in Waterford church spotted in area \u2018incoherently rambling\u2019 - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNd3M1T1BNTUxnMkljbFRyRHVRSDZFeWlXX1cwRkI3eUF4b21yYjg2R2Zkd3J0bW03QW5iQUdTZGprU3JwTHU5OUk4b1Q1UXhsMTFYWTlWSDdySXFCSGI5b0c4andsNG5GdFBPWUFfbDVFT2hjbGxJUExYUUlDcDlIRWlHYmdPQXZhYXk2SWZTMWplWmNRSzdObDBETUdLU0Y2bWQzSllQYkR6Rmw4SGR6V3M1WHE5MXFlT0JwZFZzR3JVaGJWQS0zTXZYNjJGVWQwSlktWEVWamtHbjh3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:28.352904+00:00"
+  },
+  {
+    "id": "INC-B8CE3047",
+    "date": "2026-07-22T02:32:13+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Man, 30s, due to appear in court over Waterford stabbing - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5PLVljZFJsckRtOXhLb1pmRmhsT0YxQmpBRnZ4YzJLOFk2dHlwdldtQkR0VkJOdndqTVYxYjNXOWFlQ2ZSSk5HTjBQTDQ2WE1acjNET3hQQzJZN0lfMnNZdnY3T2hyc2tyUXlj?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:28.354335+00:00"
+  },
+  {
+    "id": "INC-486B35E3",
+    "date": "2026-07-22T01:56:56+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man charged over 'stabbing' at Catholic church in Ireland which left woman seriously injured - GB News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWlhlYmJrYmNEbzhfeTJ4Q05sNzhJamNUSTFmOC1OeHY2ZlItWEtDallYQmk0NEVfc1RPeVFzeDRYRmc3N0xCdGkyVUZoU0NxUGRtWXZZU2ZxWE9HVFRVUmlqTkNTUWhDTmFScVBWUmp1T3I1NnFuTHZhRlNjSkhhaTVyT3daQjF2Q3cyaWx3SWwtWE8tTGMzbFFFdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:28.352627+00:00"
+  },
+  {
+    "id": "INC-C5F55791",
+    "date": "2026-07-22T00:07:58+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Tramore church 'stabbing': Man charged after woman seriously injured before Mass - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT0lIZXRyWVBmcy1Bem5KYk9xVVd0c3ByUGdNandhWlg4T2xyTTlLeDdaQnNyeVkzQVBBNXVMSEhTNmYzNkVmS3VfWDVTM0dfRDdJc1Vjb2NsbTVIS09QX1N2TkRFbjdLeElPZjhILWQ0cUJKcUl1RmNWUTdOcHRmczFNVzIwcXBiRk040gGQAUFVX3lxTE5taWpqYjdRUDFKdmpyWnJlaVh6TklULTkzNk15SXVGYzhud2pKRlNwNXBwOGRUenlzQUZzN25BdVNudDVEYm5Fa0NmdWd3blpPc1dhWXllWlFseExVdjNVc2hMdWZiSDNuVFZrVXh0R2hDQ3l3c3BtY3pwdmpwSVgzUWt6Z1ZUdEw0a0xTZHJLYQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:38.785582+00:00"
+  },
+  {
+    "id": "INC-17F090AF",
+    "date": "2026-07-22T00:00:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Garda\u00ed examine if mental health and drug abuse played part in Tramore church stabbing",
+    "source": {
+      "title": "GDELT (irishexaminer.com)",
+      "url": "https://www.irishexaminer.com/news/munster/arid-41883709.html"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:29:42.938444+00:00"
+  },
+  {
+    "id": "INC-A24DFDD9",
+    "date": "2026-07-21T23:56:03+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Man charged after 'stabbing' at Waterford church leaves woman seriously injured - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYlBPNHJFaGgxaFdVd3hRVng5XzdQbXFDVUVGYzdFeU9ROGJ3LUNvdWpKV25GUVJJNU5vVEFaVmJjZl9jREpSN0tvbGZoNDkyWWtBZVpEcGtxc3dvOU9XdUxTV3lrX3dVamlpWDhLM0ZWQWJUQ2NKVm9ObmtkQ1dVQ3JQQm9nLU9WX1J6VVg0dkt6QdIBlwFBVV95cUxQcmZjNl91eFNwbXFYdTRGWjczNzY4NWlmWEs3OXM5c0l5VnpxRy1FeTFOMGlTaXdRWmJqcFA3MGhtUnFSWGNuNUNySU80WDltVW4tSUJTeUNRbko4RjAwak95MkVJRm9sTmJYWXF3RS0tejJ1RUQxQVJDQmNrYndnMXhXTzdMd1ZOcUxfODRhbTA4VEJ2NlE4?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:28.355656+00:00"
+  },
+  {
+    "id": "INC-D2BE3F45",
+    "date": "2026-07-21T23:32:59+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man charged after 'stabbing' before Mass at Waterford church leaves woman seriously injured - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbVdwV1g2V3dkU05EaFdwdmlqVW00NG55Q0tJZHRtb1pJOVBFb1lyNUJLaEV4WVNvakd6VVlLb2xKSVpTOWlsR2JPYjU0Ry1IeG5TNVptMGlYMHdiWlZTMW10czQtNjJkVHBvUmdtOXhGMDlQUFlKRXd6YUNHdUVGTFBQSmJJX1JueldfetIBkgFBVV95cUxQQzcxd29uN0IxZkFZM2NsektJYllZMFhKTEk5d1hFWVR4WE93N2JvWlJQTEIxZWFxMVVhS2hrVTliMTJrWHd1NVpSakNEYWppOWpDUFVoQUx5c2laYXNsLXVtNmJPcUJwckRtMHRfbWgtMlRXQ21aRk5KT01xcmtzUWVvenhVSUN6RHY0bi1vZHRpQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:37.107080+00:00"
+  },
+  {
+    "id": "INC-50E6AE5F",
+    "date": "2026-07-21T20:48:49+00:00",
+    "county": "Meath",
+    "location": "",
+    "description": "Young mum 'lucky to be alive' after horrific Meath stabbing - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOY0hQWlhTWUJ6TGdDajNZckhxbDc5a1BCTlZxWGxyaWQwYkNBaUdpVk9xRVpGVnZvQjNoVFVFbV9EcmdOT3RRWDZDTmhzR054WUFoeGlDUERRb3VOd0gyMFMtaHRpN2VVaDlJc0lsRHNuNWpxOE1JY2k3d3BGZGNQUWdmcmtpU0V3Q1NCYWdn0gGTAUFVX3lxTE83cnMya2k1dFdaSkQ5Q3NXcjRIRUlFd1U2OXB2bVI3TkZOaVpRUjNnOVNfb3BJa3h6SGRMNlNpcFZWV0lWQWN2Wlc5U1p1VWZkUWZlajlBdG5Xa09Sdm9MZi1rZG1QWmRQX0djV1FxZWkyWHctcV9ULWpIODBSWDBiamtQWUh0SjBkcFFJWU43ODlPYw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:28.356476+00:00"
+  },
+  {
+    "id": "INC-AFC6E174",
+    "date": "2026-07-21T18:59:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Garda\u00ed examine if mental health and drug abuse played part in Tramore church stabbing - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KVFJLQnJKOTNHLW5TSWFVSWhIdXVaWUUtanlKZENlaEd0Tzk1WjZxdlJTcFFpZWJndklwSnRWMVFYamRxN0M0TUFNV0xrTHVDbmh6VWI5T0pSamR6Q291dHNwbXJUeWQ3WVBJbEx3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:28.354964+00:00"
+  },
+  {
+    "id": "INC-E5263D67",
+    "date": "2026-07-21T16:09:22+00:00",
+    "county": "Waterford",
+    "location": "County",
+    "description": "Woman seriously injured in suspected stabbing at church in County Waterford, Ireland - Sky News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMldSVXlOLWloU0ZrR2h2M2hNYS1hUmRGWmxhU3pZRzBiY1ZHcV81VThHZXBHTEdlUklXT0JlQnk1MVE5eUp3TFhiZ3k0WUJMNEQ5NzM0U2I2SmM0azVDSjhMUUN0VTdnZ0lZWE9oakpjNUU5R183Zk8wcnhDMExnZ1IxckJabmc1ZktIU1RfZVdpM0dqV0xaUHdoTjVwcTNTQ0RrT1JkVFd0dzdGX1l6NVRiQm9RLVRseXdZ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:28.353126+00:00"
+  },
+  {
+    "id": "INC-1C1B8D44",
+    "date": "2026-07-21T14:42:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Woman stabbed during Mass at Catholic church in Ireland - \u0421\u043f\u0456\u043b\u043a\u0430 \u043f\u0440\u0430\u0432\u043e\u0441\u043b\u0430\u0432\u043d\u0438\u0445 \u0436\u0443\u0440\u043d\u0430\u043b\u0456\u0441\u0442\u0456\u0432",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONHQyRXNyXzlPRm1IcjduTTFpZ1JfdEcwV0JFWDU2M1VwSms2X1VHLWFkbjkwdm1FT21ENTZjbjlmc0RyYVFiWlpDWVUweHJ1WF9FczY1b2txWHFKVXQwZC1KRGhDQzJJWE94YnBqRF9CWmRobWctckZ5cFJLbUNvMV9WSElSY2NjTlVPMkNQRGxtU0JiOXhnTEhfcnMxdnJU0gGmAUFVX3lxTE52TGQxOGU3OXNocHBrUWkzaS1qQXJ1VTFCUmZBMmZzaXZkQWlVbVN1anpqazItcDlYbGVEbWU4VUNWMkpmNnQ2S2FtdkMwYmthcmJxaTBJTlJ5UDk1d1NGOUdPOXVBSWt3bEluNF9VZHF4N0k0eXowS1MtM2l6M0ljN2ZhYkVBWk5WMjZNT0J6TkVIRnJMUXZvWlRYOG16UEhTRGpxZ2c?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:49.106317+00:00"
+  },
+  {
+    "id": "INC-68CE28B3",
+    "date": "2026-07-21T14:34:21+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Woman Seriously Injured in Knife Attack During Church Service in Ireland - Charisma Magazine Online",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZXFpV3o0R2lnWmN0UnhYVXgwN1BrRUFoMlI5Wmt5eHRLRnZGN1NuWnYwUzFfdWs2OERFQkNyaWhLdENtaG5XampqSGYtMkVIczEwcHp3emxZVDF6NmlaVG4xRGR5YmFWdWVrQktZWU92Z2xFaV9RcnRwWTE0UVRfZnFkd2REbDIzM05UanRSRUtYQVhfLWtLaDQ4bUpIbldiT3M4?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:30.155479+00:00"
+  },
+  {
+    "id": "INC-1BF66B11",
+    "date": "2026-07-21T13:17:46+00:00",
+    "county": "Cork",
+    "location": "Co Waterford -",
+    "description": "Woman injured in stabbing at church in Co Waterford - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94UnNaZFZ2SF9DOXJOZVZsVG9nVlNDX3lzWm1PUTVKalI0YXR4emtOdGlPblYzVXRhYTU0ZnRrbVZjTTdtM1RMdGp6RWZibUEyYllZdnA3ZXJIblZvUjZMNTV3WDdac2tjeHhKanBGUjRWTmZPaUxnTA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:38.784930+00:00"
+  },
+  {
+    "id": "INC-5EBD75C7",
+    "date": "2026-07-21T13:10:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Woman seriously injured in suspected stabbing at church Mass in Ireland - Premier Christian News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR0EzMnA0SGtBLW1YNkpoRjVKSk5OYVlzQ2h2c2xIZVd2WDBZQ0dfVDJtelNSc2ZoUVRtV1dTQmI2SzBpWU9ZcUJWWDZBVDltRUZpSDlQYmlWYUszRTI3Tno2elJqWk1CSFAyLTRRS0Q2ZkJLRno1dXRkQUJQeUh6c3kzSkQ4SVlyTEx3WjctLWtDOWNMUFZEbzltdlpVTlV1eHFzbmc0eGdleHRZNm9CcFBhbkNBSDNa?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:28.355462+00:00"
+  },
+  {
+    "id": "INC-890435E9",
+    "date": "2026-07-21T11:45:00+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Tramore stabbing LIVE updates as woman  stabbed before Mas in Waterford church",
+    "source": {
+      "title": "GDELT (irishmirror.ie)",
+      "url": "https://www.irishmirror.ie/news/irish-news/crime/woman-stabbed-alter-during-mass-37457657"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:29:26.697827+00:00"
+  },
+  {
+    "id": "INC-826DD981",
+    "date": "2026-07-21T11:20:00+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Suspect in stabbing at Waterford church \u2018was known to the victim\u2019 - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPelZScXdXZVJzS0pxZkNNNWc3aUZNUkNoMGF1d1E0ajJHNnZCeFNtMWlEeWRrVzFnVTJ5ekI2TzBtMTRKQ0p4b1EtQ2hEcTd4T0pOa21XaVdCUzAwT2NOQ0dCT3YxVEhBZEN1SEZnOThSMmgzc21JQ0xMbklFblQ5WmJ5U3JGUzUwVWNWQWNGSGhzR2xwNDQtclNjRFJFal8xZzVQTS1tTUlGWmkzRFk2dzFHYVNEN09VS1E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:28.353631+00:00"
+  },
+  {
+    "id": "INC-0E41AC7F",
+    "date": "2026-07-21T11:20:00+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Man to appear in court in connection with stabbing of woman (50s) inside Waterford church - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcGpTOUg0X1ZCaDl1RjFBNXVPMmpfSTFiNU9QaVM4cWVibzFnSy1mbjM5b0F3S0hvN3ZEMmRaOGNkZEJmd3NiTy1hLXlRaGpvQ2pESHhQLWlaQjVOZ2FvTTd3NjNCdzBBbG1OTFdhNVJWZzVlOHhjLVV0dzljWU1VOWI0aXp5V1d3UnF3Y2N0aS0ycFZtTGtoM002ajdsYlZZc2hSdFZVOFR3WDFkMndFUzhXQktEa1pEZTZLTEhDRGJfVG12S2RCOXJCMG9kQmxKalpUTzVZSXpoRkRHd1dOOEh3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:28.356850+00:00"
+  },
+  {
+    "id": "INC-BA6877F7",
+    "date": "2026-07-21T11:19:05+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Shock in Waterford: Church Service Knife Attack - Devdiscourse",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRzlCY3MyZ1VrWFVrVWt1MkIyUTZJRVRDZ0cwdW5rbHJ6TW9ZcU8xWnlQSnNtYmc0RDJhdmVZUERpOGpnM0lSS3JRMzdHOG9XT3dZcThHaEViRTN2V1pnRUFtSl8zYlZBSDd0YmQyTHNUSlhCd3VDdjFUR1hxTTdBNjB0UTNRU0lRSXpaQnNjVmduelYwbHViRmVXbUlIb0V6Yng40gGoAUFVX3lxTE9UcVdmQ1VPaDZYeVY2alRlNU1OTEtYbV9kaHZnWmtfem1WT3l6R3pJV0J0Vi04bzBYaGVaMmtDQUtMYXFKWVJxX01SVkNJb3llVUU5RzVwd0VsOTdWa2dkbVRIcDgyek9zZDlVeW9Dd1hXTnhaYk5Ya1AwaWttN0pQbEFobG9OU1dFVXpQU1AtWkhab3pCOHNMN2RXU24weEhMR0gxOG9BWg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:30.164385+00:00"
+  },
+  {
+    "id": "INC-07B5E9CA",
+    "date": "2026-07-21T11:05:00+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Woman, 50s, injured in alleged stabbing during mass at Waterford church - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5MFZYRGNYbEg0cHc0Y0F5eERsQ0lnM1I4eGlfUi1kamp4alZ2cS1pNDRKMlgweS1IdkJoUjFvMXQ4TjBQcFNGWExOdmFMVWMtbU9mak50QXNJVWdncGE0d3d5eFZrUGZLNUlMNXFB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:28.356105+00:00"
+  },
+  {
+    "id": "INC-8FB59140",
+    "date": "2026-07-21T10:47:35+00:00",
+    "county": "Galway",
+    "location": "Co Waterford -",
+    "description": "Woman seriously injured in stabbing 'at church altar' in Co Waterford - Galway Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZFJudWJvaFBIMXZOeWI1M1NzS1I3Sk12QjdPWTdQU0dQdUZjSmFsUTJSTENoTklqN09OZklrTDgzc2VwdFdNRDNmcnI0WktrWlhlbFc5c2JZOWdkeWd0ZVBUeEhzVmhnQ3I1aVU2RlBabGxCcU1JaHgtU0tBN0dscTAwMnVjdUZFdVJjbzJzcTc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:40.480077+00:00"
+  },
+  {
+    "id": "INC-76A1C0A0",
+    "date": "2026-07-21T10:42:00+00:00",
+    "county": "Antrim",
+    "location": "Tramore church -",
+    "description": "Woman seriously injured after being 'stabbed at altar' in Tramore church - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVnN0aVFEVm1BYmlRRHZnUHoxNGVpVmVMMTlnTUtrVkNvWk5zN2FKVFBYQzFLQkh0R3loNTJjcjgzVlJNUF9mbVdJb3ZZVjdsQUFfNHNsdXFwWWg2b185MWZpODNRbWd5RlJyZEpqZXd1dk5MTFpKOG9EajdEVWhIbi1hSFhPcktOcktlejNZVDBCTG44bEtmcw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:38.785827+00:00"
+  },
+  {
+    "id": "INC-B756814A",
+    "date": "2026-07-21T10:12:09+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Woman (50s) stabbed at church in Co Waterford - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSXduSDBVZVY2SHRXbEZ5NUxKbjVmWFJfc0hFVDlyZnBPRU5jdkFRV2Y5VzBFWklqM2pFU2QxYjByT1BvdWlTY2I5cTdWVERyek5yOS1MYUxQSmhhci1kdGlEa3NOWkN1WmNGMDV5S25iYXdBMG9ZX2oydFVXNERuLV9YWEdWbFhyLVI4Q3ZQOUJKSlBkUjFr?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:49.105793+00:00"
+  },
+  {
+    "id": "INC-037B913A",
+    "date": "2026-07-21T09:22:08+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man to appear in court on alleged knife incident after armed gardai tackle him - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUHo0amFkWXVTWGFxVkZrbzEyVVNDWEhFdFZfVEVMYnp0aFdPZFhuTTJIc0o5SmNWaHJTYzVlTjFrelZubTVpWGRwZlBoU3czU1hzS291cVJEZW83TmV6S3hkWkw0NXZOZTJkTFNiX1Jja09YSjYtZGRxTlNIZFQtYkoxZlgyWkRLZ3RRLWFqaDPSAZYBQVVfeXFMUFkxNkhZUFZNUWFkR1Nva1JmTENuQkMtMjRhaTlPb2N1ajlaZE5MVzVHSXRCbzU2VnFzbXQtbmFrSjI4YU1QY1pJckZRY3kxRzRkM2lkQ1NweUNvT1N3S1JoTGpxLWlIMnlMQjB4N2hPM0JtVXJmeTN3ODN3TS1TYzFrRVpuQlBzOXNTckVyZjlkaWZfYTZR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:25:30.156120+00:00"
+  },
   {
     "id": "INC-68B6FC1D",
     "date": "2026-07-21T07:36:19+00:00",
@@ -48,6 +386,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-07-20T08:54:45.905009+00:00"
+  },
+  {
+    "id": "INC-1FE1E680",
+    "date": "2026-07-19T13:15:00+00:00",
+    "county": "Kildare",
+    "location": "",
+    "description": "Kildare woman charged with alleged stabbing - News - Kildare Nationalist",
+    "source": {
+      "title": "GDELT (kildare-nationalist.ie)",
+      "url": "https://www.kildare-nationalist.ie/news/kildare-woman-charged-with-alleged-stabbing_arid-105450.html"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-22T08:29:42.938574+00:00"
   },
   {
     "id": "INC-82468F1D",
