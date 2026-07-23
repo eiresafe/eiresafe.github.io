@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 763
+// Total incidents: 768
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-6C07055B",
+    "date": "2026-07-22T13:32:57+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Garda\u00ed investigating knife attack during runners theft - Limerick Post",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQmZwb0NnNDllclBBTHpJeXo0VDQwcUt6VlhteG1JWEdfNnctTVJuV091czRObEs4T21iNk5uSDJQNzJpU3d3TFRZM1lRLThfNk1sREFxWlNDWVVNNkllZ192Vl9UZ0V2OFRjZEF2SG10RkItQXpoTmFlMDdOSHQ4S2pKcXluM25ZNGlVWDFZeVkxVldxWE1YYVhB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-23T08:26:46.167797+00:00"
+  },
+  {
+    "id": "INC-35BF0D2A",
+    "date": "2026-07-22T12:05:00+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Man appears in court charged in connection to stabbing of woman at Waterford church - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWk9pLURkczhLaHE1ci1rRUF5U3NlTG1OdXFYQk0tejVRR1JDeWlsc0hxQ09TRVpHcFlub1pFWkpEaS1DZ0l2NXBGSnllZ3QtYm0zQ2Q0QmV4Z0xidlpOX2ZGaHNldzg3b2h5c2UxTVJPUE02SFpZOTc5WGlDWWZtTnB3V3BHQnlXLUpwdDZXZHNMQmozVHkxNmY4MENyRFJXbDNwbUI3dGdEUnl5Wl9uUHhuOFVMWFFBOHQ4U2tZaExjblhsVGtzVV9CU2dyMnVvWkduYQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-23T08:26:32.974373+00:00"
+  },
+  {
+    "id": "INC-125ADA17",
+    "date": "2026-07-22T11:46:13+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Man remanded in custody over knife attack on woman in Co Waterford church - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUzd2SWN4UFV5dXZkNWUtNm5EOEhRUWFwWV9Xc3ctV0ZLVlIxRmdsQWQ4TC1pTFBndElBZUUwNWVpdUsyYm5jSkFUOGNtc0M5OHN3RklkaXc1Y19YTS1HNzlqdnRnRWZRSFQ3OEtCT2pIRGJfSU9paDUtZFVoa2F0UGszSGw0ZXNOSTI4MEVVTXhydzI3SXR4NjhGelU4NGlJYVBsVEhWOU5kbVI1TXo4U3I3WXI1TlBpcHJRSXBKdHdndklJSkc1RQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-23T08:26:34.670344+00:00"
+  },
   {
     "id": "INC-10FD790A",
     "date": "2026-07-22T08:07:11+00:00",
@@ -61,6 +100,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-07-22T08:25:28.352904+00:00"
+  },
+  {
+    "id": "INC-0B6294FF",
+    "date": "2026-07-22T03:41:32+00:00",
+    "county": "Louth",
+    "location": "",
+    "description": "Garda\u00ed (30s) arrest and disarm man with knife in Co Louth - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVjg0VGcyV1NFWEVLejdyTzMwamVpekJJNk5JUW5HdWpCY2I4aHM5ZFBrX0h3SUVmM05DcWl6Sm1NQ2JfM3RtZFlERU5rMUsySHF4T0lsc0QyRnlBUlhFOXpGWXF4RnRCT1ZHTUd0SERkZ1hVcHdYTkdUamF3a3VhdVhvOENyMHZBbGR3SEFPWTB5N2Z2bXRId2JnY1E2ZTZOcWkw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-23T08:26:34.672289+00:00"
   },
   {
     "id": "INC-B8CE3047",
@@ -204,6 +256,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-07-22T08:25:30.155479+00:00"
+  },
+  {
+    "id": "INC-68DD2555",
+    "date": "2026-07-21T14:34:00+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Widespread shock in Waterford following \u2018deeply shocking\u2019 stabbing in local church - Waterford Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVF93cVhpaDFSU0VHTV8tNi1LN2stWUR5R3lsOFRoMU1iNkQweGVVQmx2SnpBVlpLREZZQ0k5SE5CdW5IUVdJSXBNbGtJU0p3RVFOWmdUT1NleEd0VkwwZmpaNDZCSTVsYnBzajhhUExwSHI1Snh1VE51dkhHcnNlT2RyellBLVMyT1M1dnZ0Z0pWRHZXbkpwUGV0OFNUSFNBN0Z3QmpDcXB0aEl0TG1XY1dGUC1qaktOQVdselh1MFVXMUZHUFl0cTRGN1JTcDNh?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-23T08:26:52.847447+00:00"
   },
   {
     "id": "INC-1BF66B11",
