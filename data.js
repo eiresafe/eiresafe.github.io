@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 768
+// Total incidents: 770
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-16B1AC95",
+    "date": "2026-07-23T09:14:26+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast: Anti-immigrant violence erupts after knife attack - Modern Ghana",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtWmNGNlN4YjlTQmVtLXNLYTFQRThRTkc5d0NwSnBPand2N0xDOEgxWWpQalZGcnRzc2Y0N3VNMTNHTjlHVGZlVTZva2dFNEszbWpkYWN0LWx3ckN1Mk53b2pja3BLSGpm0gFcQVVfeXFMTi12SWNkSGw2cGNuTlZ4OUpZQmUxck5ydkNPX2lWTlY3QjE4bl9va2N1M0tpZ2FnZS04ckE4Nm5yN3hZczk0anN4VTBCd2tuek5NUDFFa2ZBVGE2RmU?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-24T08:24:36.975323+00:00"
+  },
+  {
+    "id": "INC-9A7CEBB8",
+    "date": "2026-07-23T08:47:41+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Attacker likely known to Waterford woman stabbed during Rosary before Mass - The Catholic Herald",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONGJYQUlibjFMOUpLOUV4TGZhYW4zQjJXZW1EbTdKN3RpVlhJZDdIczRkSjhzam8yaVNSS1Zpb1V4WW9Pd3k2S2ZScXNXdl9LdEhXUng2LWtPMkpCVnp0bm1kV0VaazNWMENObXg3MFRxNFotWTdmZUlCLWk5dmJuZHYxSk1ZdDNXQXV1MGlHWk9hOFFLODNwR1NuYw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-24T08:24:50.473590+00:00"
+  },
   {
     "id": "INC-6C07055B",
     "date": "2026-07-22T13:32:57+00:00",
