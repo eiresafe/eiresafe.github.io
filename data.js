@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 770
+// Total incidents: 773
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-A35689FC",
+    "date": "2026-07-26T17:00:00+00:00",
+    "county": "Antrim",
+    "location": "Belfast city centre -",
+    "description": "Man (32) arrested following stabbing in Belfast city centre - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR282Q0ZQbTdtRURnS3lWeTRIOXJvUm9oTzFZNWY5S1hoVVhXSXJGRWIybFNkYk9vT0hCdFl1ZDEtQVRaYTZYd013bDdzWXVsZFNkZWhoWkhHMENQR1V3VHBPaDRHUVJaVnUzNDU3U00tSUt4b1d0aUl6UWs1OS1HQWhZN1g0Qkp3Q3Q1YzFKcHU3YnV3NlFWSUsyYzJWcGlKOHEtbDZFbW9jd0F0WG15OWRPcjU?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-27T09:47:43.508374+00:00"
+  },
+  {
+    "id": "INC-6F8251EB",
+    "date": "2026-07-26T16:29:56+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Arrest after man injured in Belfast city centre stabbing - The Irish News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQalZuVk9QZ0ljZ1RENGYwckFYQmZhb2YyOEdOaXJTc0FMZGdEVkpFQzh2MnpGdDFLLUxiMkdrODhMMHhTcGZuWUdRdmpqSXRybmlhd2oxYjM0RnRGUHpvV2FGQllZRFVoZXEyLXVXSC1tbk9FeEpWMHVzakxRYWg3RDB6NDNOS1FrMHF5UVpQMmx6S0hDZkhNUHBDY2hPdzRReGRTVkJKaGZLYnBrenQyTF95R0JHVzE1bFhaaw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-27T09:47:43.504626+00:00"
+  },
+  {
+    "id": "INC-807805A1",
+    "date": "2026-07-26T14:17:04+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast: Anti-immigrant violence erupts after knife attack - Modern Ghana",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rcmJTZDdpUUw0V2RXU2pacTFCMm9WdHY3REtMYjU1UVJfMjhNRW5tN1pqT3RJTmpfRzBFRkczbVp4bUJzVGVhM0FYaWxZeVVkbF9ERFJnNUlOZFVWVXlZN21qMzB1WG4x0gFcQVVfeXFMTi12SWNkSGw2cGNuTlZ4OUpZQmUxck5ydkNPX2lWTlY3QjE4bl9va2N1M0tpZ2FnZS04ckE4Nm5yN3hZczk0anN4VTBCd2tuek5NUDFFa2ZBVGE2RmU?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-27T09:47:50.541576+00:00"
+  },
   {
     "id": "INC-16B1AC95",
     "date": "2026-07-23T09:14:26+00:00",
