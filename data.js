@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 773
+// Total incidents: 779
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,71 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-1FA83830",
+    "date": "2026-07-27T12:42:13+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Lack of engagement from IS supporter who stabbed garda \u2018disappointing\u2019 \u2013 judge - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRHpKZ05jcGl6RVhNelNGT08tbjc2dEFtLXlHNE5ncS1TRWhDVlJubVdkbzc4NklMZzBhaWpvbVdiblJzNEtqNmowWFZFQk1ndEEzRHc2NWJXeUptc2l1WGJjVTRJejFCSDVvTUJIaXVMWmZYRWtDZF9maFZiLThYQVhESVZqQWhPdTdNWnQ5dENzYkVxbWVlbkd3QTZUQWRrZUNZRTNBN1pzRko3SFdjdk5MVmZCc3VpYzctT2NTQmRleUFndXhFcndnbTU5d3NHRnBnOWRkN3R2V3lRZnBqMUpERTk4dw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-28T08:30:51.920902+00:00"
+  },
+  {
+    "id": "INC-7197E780",
+    "date": "2026-07-27T12:39:31+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Three women, including one who is pregnant, stabbed in city horror knife rampage - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdmk4eE5abk0tQ1RZWVJySWRSRDR1SmFSLUhtTjBiNXMxeVhkZjE3UXpCdGNRc29BazgyVXpGb25oUVRKLVVOTS1ZNGZyaHRQNms1TU94QVB3d1ZLSm1TV3dVREtnOTV5WHF1eE4zN0RJQlRjYmo4bm5LXzgzLUxpd0FKNTl0Q0XSAYwBQVVfeXFMT2liYktCNHN0dUc3ci11cVltN1lNaWZXM20yY1Nva2RpRWRpRWtYcDh3akxXblBCRzdFUTBac3lzMVNwTzlJanlndzh4VG1QZkdFcGF6WmxzbU9UbjJWTXE4SE4yc2xZTllIU3ZFeUZZTjd2R25mTmZKTGJwTEpNQ2FWTF9lODN1a3pKZlA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-28T08:30:45.036834+00:00"
+  },
+  {
+    "id": "INC-84C6579F",
+    "date": "2026-07-27T12:21:02+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Lack of engagement from IS supporter who stabbed garda \u2018disappointing\u2019 \u2013 judge - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSC11UmNVaERFMUdJc2locVRSTk56LXgtZ0dVa0RyVXFyV0hDZTRmWnFFR0JqWDlNclYyLXg3bURpUUxVY2x2QXdfZGJKVDh5UmFDY3BjMmJuLW9GUHUtc005dDBiVjQwOUFKUm9nemIxWHNzc29faGg3MTVKRDc1NUhGZWhGUDlKV2ZRZV9XNER6dUV6SU1qS3F1VUppYTlQTmJxNWJTWHpuSkRzMVFGRVlxYU55R2c0LXR4QV9MVVU?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-28T08:30:36.483785+00:00"
+  },
+  {
+    "id": "INC-BB47606B",
+    "date": "2026-07-27T11:37:39+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man Arrested After Stabbing In Belfast City Centre - 4ni",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQkxHMnJXV29Ic1A3SXA3aDNlcG5ILThka3hsUU5uMVppTHZ6b3lRS2N1dUtFaUJhMUY1QXhodi03ZXdIMXVqVHJwWHVMOEs3b05RTzFBSGN3dXB4WTlkRlh1YlVuOElTTTVDVkxLMWd6bVZIREk4SzJhYnJhLWpmSzZnemtqNHg2ZWJEUEt1ejlzMkhYTElXMWpYeXZGRzRTN3Iw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-28T08:30:36.488830+00:00"
+  },
+  {
+    "id": "INC-57EF41D4",
+    "date": "2026-07-27T11:00:00+00:00",
+    "county": "Meath",
+    "location": "",
+    "description": "Woman lucky to escape with her life after being allegedly stabbed 14 times in Meath village - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeEEtQWJ4WklISEp4TmJicEdZTTI0ckk2UmV3d3ktLVdfSHdWZEJsYjVvS3A3QjBKN1I1WDFIS0tHVGlZNmVRYlhGT0FZTlN1WThLaXRnMGYtRC1qcVVLbF9mY0I2WU1ackFoYWhHekVuaUk3Y1E3MDdubWZUdE8yb3B0dG9PVXZUMm4zeHFGazI1MmZ5LUoxc25HTnQ1c3R2N1FpVmJxQlgwQmgzdGF6Snd2Zy1COWVNOTRkV2tZYTRYMWNoZVVIV3dxb0Z1WnJheUFwV3BvcTdQVEprY2ltel9B?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-28T08:30:57.210332+00:00"
+  },
   {
     "id": "INC-A35689FC",
     "date": "2026-07-26T17:00:00+00:00",
@@ -48,6 +113,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-07-27T09:47:50.541576+00:00"
+  },
+  {
+    "id": "INC-9CE8F31C",
+    "date": "2026-07-25T10:33:02+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Anti-immigrant violence erupts across Belfast after knife attack - Modern Ghana",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HZ3psV3g3cXA1X0Y2dm8zMnpoZGtPVVo5a3lUT185VDdCYVRrMFA3U3lWZHRQalY5STR5VFJxLTgyUzd5TWJkSzVUeFQwUTZPVV9fZnNOaU9RQXh0VEFIbHJjVFhJNmvSAVxBVV95cUxPcTBZTEdkeHNFUi1mX3RJbjg3bmtUaDh0djhudThHcy02NTExODR1WUZac0hKSEFPem10OHQ5Z0k1QW5fdjZWczVoSjVkOU1lSnJNS20wc0t5eWNyRw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-28T08:30:43.379460+00:00"
   },
   {
     "id": "INC-16B1AC95",
