@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 779
+// Total incidents: 781
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-B9001CE5",
+    "date": "2026-07-28T16:48:07+00:00",
+    "county": "Waterford",
+    "location": "",
+    "description": "Man charged over stabbing at Waterford church declines psychiatric assessment - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNS0tBQ0lpOFVaR0JsMGUxQ05RWVd1OEFkX1I1UmlMemdEVDMzSG5HeGQ0VzVHM3FEQjB3U3BNOVlVU1EyRjMxbVR4MV9vSkU4c05abFZBTUlZX0VGTUxLR1hzblpua1VFZzdZYUlpOFhzNXhvdmZuckprcDdCMkJsbEl6NVBHRXZUUGdGSGlVSnFQOUZVdWxxbmZHV0lvVE54c0ItYllJZWFseHRXeHhzOEQxWDFaVnBLWGt6cmR1cGdxX0ZxVVdRRV93SmpaZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-29T08:37:23.884862+00:00"
+  },
+  {
+    "id": "INC-061B7F21",
+    "date": "2026-07-28T16:45:03+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Lack of engagement from IS supporter who stabbed garda \u2018disappointing\u2019 \u2013 judge - London Evening Standard",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSjV6NWIyUVgwaThFb25TOUtSSkh4Q1BxTTM5LXlQQXhvM09CSzhpRmQybDdaMkVIM0ZHQjBiUFd4bU9ZY3Z5N0FHRXRtVVJnbHY3QWNOUWlfNno5djdjWVhxa3VqQjJwX0w0R0VOSklJT1FvdXZaZ2tLcWRpS1h2MENURmh3RllWdVl6TjVLUGx4Zkc4ZHpMVHZIN0gzMWdwNUhXUS0wQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-29T08:37:32.614824+00:00"
+  },
   {
     "id": "INC-1FA83830",
     "date": "2026-07-27T12:42:13+00:00",
