@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 781
+// Total incidents: 783
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-0CF9CAD2",
+    "date": "2026-07-29T17:09:36+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Cork man arranged 'straightener' which led to father of seven being stabbed to death - breakingnews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOM3hiOXRDc3JTc0RKN3RvakZvbGtSZW5rX05mMWJYVnVxckpkUDlKNy12VDZXOU1leThkYk9YYTRiV0RYaEM3cU1Wa3lFazU5MlFUMnlsM1lEOFd2V2FzeEdDSVg4ZlFRM3RkeFRMNGRNeEk2dmVCanJ3eEZxVk1qaXRXVmlJbjlMNEZ4SUlVQ2ZvN005VFFjV1pSeGFQVXVPb0l5cV9WVWNMZEhwZ0twY0VRd1Q1aTB1ck9zMVo3MTFKUE81NUw2anZwYw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-30T08:22:46.809284+00:00"
+  },
+  {
+    "id": "INC-B6C2DED9",
+    "date": "2026-07-29T12:18:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Garda\u00ed believe man missing for over five weeks was stabbed and his body hidden by his attacker - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbVhQWkdIaHBTUlZHZjlUQS1MaU5pcHY5NjAtWnh1WDZmS3Z0b0VPWWRyZ0prbXFWcWtHX3Z2V2dic3luZFl1NzdKUWg4N1BZZ3dtUExITW5PU0sxaURPUEpsQm1QV0RWLVFTUV9zSXkwdnU5TnBxaEJsblZTS1AxbGRSaG9VV2EyWFFLSDBwSXFnZEUxY2N3U1Zvaw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-30T08:22:55.456060+00:00"
+  },
   {
     "id": "INC-B9001CE5",
     "date": "2026-07-28T16:48:07+00:00",
