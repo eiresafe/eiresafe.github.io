@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 783
+// Total incidents: 785
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-C3E799AD",
+    "date": "2026-07-31T06:00:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man accused of stabbing tells Cork court he won\u2019t be applying for bail - echo live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fU25wSDlWZHJMTHVac1lndWdMLWFuc1ZkNm9TOVZDRWtxOUtBaVNfc0RJcWdad25FeFZKTHdMMjNqa19mbXlwVnQ2dlR4TmxyMEIzbHprdmtBT05rSE9lYg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-31T08:46:39.291410+00:00"
+  },
   {
     "id": "INC-0CF9CAD2",
     "date": "2026-07-29T17:09:36+00:00",
@@ -35,6 +48,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-07-30T08:22:55.456060+00:00"
+  },
+  {
+    "id": "INC-3861AAD8",
+    "date": "2026-07-28T20:55:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "North Belfast stabbing victim raises concerns as investigation still ongoing after attack - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0R1TzBjMjkzVXhzdVo5bkJrTW5FeExycXNJZ3NEQWhyUG9ad3NWMzdoMjd3bkpoRWlYbVhwMGd5UDlZU3hlaTFSMFNmc1dHSUlBcXZGVWpyR1hObENrU29tWHFnaVNvMHJ5OFZQblpWdkZwN21jdmdxaWhKMUs2Y24yVWFldl9Nei1LTExFYURvaVNDMWdNQdIBngFBVV95cUxPRTF5Rm9mXzhlYlFlbkVJd3JKaDVkRktYLU1uS3F2V1AzdDJqS2VmLTRqc252R05IQk8tbXFSRWF2VFNKTVZ4NmpqUkVaWnpZeERRbkE4eXI2MVNhSlRTbjZwbENoMWRHZkdOZmxoQVNCbHV0LWlQcTczWUJ1MklJUVJJRXR2NmZDQXNCcnFsYXlqby11bi1EU2lXSzR6UQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-07-31T08:46:36.023327+00:00"
   },
   {
     "id": "INC-B9001CE5",
