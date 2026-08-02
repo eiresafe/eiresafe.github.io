@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 785
+// Total incidents: 788
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-2D3FE9FB",
+    "date": "2026-08-01T16:08:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Carrickfergus: Man stabbed with screwdriver and woman threatened during \u2018terrifying\u2019 raid at NI off-licence - belfasttelegraph.co.uk",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOX25zY1JvUmtZVWtQVkdYbjFFNzFBcnFaR09oWmUwN3lnTVh3TEQ0MTAwel9Eb19tSFF0ZmlHZkt3SmgwQmVIUC12U05DcXE4R1h3UUUwemZZZmd5dlZ2NGdZN2drcEhkcnQxazZWVHdxM0JKd3lIZ0ItMVBJRW5LenVBSHV6TDJla0M5VmhBWU1lYmc4LU9WcEdNb3ZYN1RvWjRPeUNYM0hsN25aLWFjMGxWVlZkMDJxaGVXQlRLaFEwNEs5dTFzRlB2cnc0Ujc1Um43akhvQ1o5RVBOVFlQZENZRDB2SmJM?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-02T08:21:23.773785+00:00"
+  },
+  {
+    "id": "INC-8A77E547",
+    "date": "2026-08-01T15:29:48+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "PSNI: Man stabbed with screwdriver in off-licence robbery in Carrickfergus - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90cEVpc25KenRfWmJNZkRfdDQtNW4wSDZ6WGE3dk01a0RLVkdOeUM2bFhXQXRCbUdsTElQejM2WXE1eW5ZVTF1cTB0YWhFWnFxUlVFQzRxcko1bjZQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-02T08:21:23.772114+00:00"
+  },
+  {
+    "id": "INC-F363C60D",
+    "date": "2026-07-31T10:50:09+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Lawyer found not guilty by reason of insanity after stabbing father 27 times - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Ca0xNY2FpV2NKRHRjZVhERkFQYmVmRXI1NFhrY1VjTmxzUDA3Tl9SQ0lhLUpYQVZBSjNoTWoxdXFfQi1zUFhqc1M0SFJQQ3c3OTg1ZHpZaUhCYmRHVnZ6S2U3d1lwMDlfZUg1b0VhLVAxbjgxdFh2S3Z30gF_QVVfeXFMTndTT2gwLWw2c0xJN08zbUp4OXZIVW1XR3lIcnVHaDdQTGdiT3RtY1BDZEJoRnNTT1pNcV9KYmhRZjRmd0FMRFpLYkZHdS0xclNxS2c4amNUNi1fcjktbENEc2hrd2NHUU5pNjZ3QUZVUldwRndzMG9ISUZ1NWZTMA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-02T08:21:13.930265+00:00"
+  },
   {
     "id": "INC-C3E799AD",
     "date": "2026-07-31T06:00:00+00:00",
