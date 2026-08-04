@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 788
+// Total incidents: 790
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-588CE1A3",
+    "date": "2026-08-02T09:45:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man stabbed with screwdriver during Co Antrim robbery and PSNI officer assaulted during foot chase",
+    "source": {
+      "title": "GDELT (thejournal.ie)",
+      "url": "https://www.thejournal.ie/man-stabbed-with-screwdriver-during-co-antrim-robbery-7119726-Aug2026/"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-04T08:36:38.147177+00:00"
+  },
   {
     "id": "INC-2D3FE9FB",
     "date": "2026-08-01T16:08:00+00:00",
@@ -22,6 +35,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-08-02T08:21:23.773785+00:00"
+  },
+  {
+    "id": "INC-9EDFB0EB",
+    "date": "2026-08-01T16:08:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Carrickfergus: Man stabbed with screwdriver and woman threatened during \u2018terrifying\u2019 raid at NI off-licence - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOX25zY1JvUmtZVWtQVkdYbjFFNzFBcnFaR09oWmUwN3lnTVh3TEQ0MTAwel9Eb19tSFF0ZmlHZkt3SmgwQmVIUC12U05DcXE4R1h3UUUwemZZZmd5dlZ2NGdZN2drcEhkcnQxazZWVHdxM0JKd3lIZ0ItMVBJRW5LenVBSHV6TDJla0M5VmhBWU1lYmc4LU9WcEdNb3ZYN1RvWjRPeUNYM0hsN25aLWFjMGxWVlZkMDJxaGVXQlRLaFEwNEs5dTFzRlB2cnc0Ujc1Um43akhvQ1o5RVBOVFlQZENZRDB2SmJM?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-04T08:33:16.052540+00:00"
   },
   {
     "id": "INC-8A77E547",
