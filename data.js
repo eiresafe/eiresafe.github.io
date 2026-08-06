@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 790
+// Total incidents: 792
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-A5F64AD1",
+    "date": "2026-08-06T06:10:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man accused of stabbing murder bid \u2018could kill behind bars\u2019 jail staff fear - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRzB5ZDQ2Q0RLZzBoQkVZamZsdjJWQWtBWnZMa0t5ZEc3bHNkSkZkTkgyWEVkOUpNLVNwLVV6amdTTVl6STJpdVQ4ZVlnNkk4Y05GQnkwV1daR0N6a0FEVmxpLWZlaldZWUhsRWstak51WjBqU28zdHdWdDIwUGhCTU5DUGs4Nm96c3BweHI3OG9aT2pjMmlxdzV3Q1hiZ3NzSWw5VEpLRlc0NjFZMEhDUnRxNWtlcGp1ZkpjM1hDV1RTRk9ZdHBpYkhWSDRod3lxN29LUGhDbkdMZGoyWVNOdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-06T08:32:31.064307+00:00"
+  },
+  {
+    "id": "INC-CB208CB9",
+    "date": "2026-08-05T10:51:57+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man accused of Belfast knife attack urged to seek legal representation - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQnMyTlg5MjJzTzFZQkFVb0Y3R19hNjlLSkNSZGNVNy0tWEx4al9mRlhDazBoaFVSS295MFBwbVBuSm1nOTMyVHl3d1JYb0g3aF9ERXhBeTZfVVBLeV9zcGxCY0xfRHpNYmVSV0Q1NElzVU5ObzNKTGd3N0ZZb1dCdUlHOHF1dnRGWXNFZ1NiVDNVSDBQcGM1N0NOVXZuVjQyblR3bWpPVk5VSmZNeFQxUzl2SUdQLUhvSnc1dF9SOTR3V0dw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-06T08:32:32.947967+00:00"
+  },
   {
     "id": "INC-588CE1A3",
     "date": "2026-08-02T09:45:00+00:00",
