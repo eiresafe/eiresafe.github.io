@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 792
+// Total incidents: 794
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-8894897F",
+    "date": "2026-08-07T06:33:36+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man rushed to hospital following stabbing incident in north Dublin - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSjI5aDEtVlNZaHQ0LW9hdDFaSm8tRlBxaW1uNDRrYlQ3OE13bHlCNXJ5U1NQVUJDWHFWdGYwNGhBdE8tWXhab3NMMUkxQWgyVzAwQ3c4TGJHNVBuUFo4NzM0RHJYcjhnbVFrZGowM1N5TDlqS0dUbkZMYm1YV05KSml5UXhFY0g0ZVFXdEFWUVZIQktG0gGaAUFVX3lxTE5qT2l6QnRzT25xZGU0NmFmQlk1MzE3amU3TWlWU1c5bzZVUzhkMkRqZ2NzSXhzbVNoSjNBbFRHaEhXeDhKYTlsMTlBeW1qM1JyX0FmcWJnWEhtbHdxalFCckxzV1pJT1czM0lPbnJ5bFc3SGwyUU5fNEtZWXRkc3gwTkJzMlVIazR3MDFWeEVqRFRBXzNzMWZIbFE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-07T07:12:02.628005+00:00"
+  },
+  {
+    "id": "INC-AD0CB541",
+    "date": "2026-08-07T06:00:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "\u2018No more apologies\u2019: Victim of paedophile teacher calls for reform after \u2018stab in the heart\u2019 reference for abuser - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQa3k2Z1NNQzNWOGN4TTVxNWwycVpXRnVfZzd6dUNNcTMwc3Jwdzd2MlBRSDBiaFdKS2ppSU83dmlSU2VrNGZRaG9UWFlCZDlWcXR6MWFXS3pIaUJ0TmpDLWp1X1pxQlpWa1NKblVBSWhadUdRVmU2amlFcWdMd0xxX0dOcUU0NE1lMGI3andZUWF4UWhvZGhONEVBX0hnRjlaaF9ZVG4tUTlldHN6UlZhTl9yblloeFdsZXBxVVJhY1B4Y0pfdEJCMEViM21KTFdXY19vLUtacFgzeTZBVkQxN054Wk5aWEFvVVVHWjZ3U0szSzBubXdNRFFtTGZEanBJOVplTm1LNkVLNURJYzR3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-07T07:11:54.336631+00:00"
+  },
   {
     "id": "INC-A5F64AD1",
     "date": "2026-08-06T06:10:00+00:00",
