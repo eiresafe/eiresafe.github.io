@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 794
+// Total incidents: 795
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-0173FF0D",
+    "date": "2026-08-07T07:20:38+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man hospitalised following stabbing incident in Dublin as gardai launch investigation - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ2pNSEIxZmlETlczSm1Sb19oYzZ6ZjZtUElKZDVrNUlvRkVhdjJTcFEzT1NfQzBzSzdFTzhTa3JlbE5TVUxoa2E0WTBaSEVMQkdBb05sLURGRVFxbm1iSXdEbVZFNk1ldEg5Zmx3Q2NVcG9oVGV3WWV6TjdzUGp3R1REelFBYkE5OGJ0NVQ0M3B1cHJCT2JxaFJGUmLSAaIBQVVfeXFMTW9kMWs1YUJpRDlpSFFNWTg3VkpHc2lvRzA5a2JNSDY3N0VwYU9VVTRpVnhXNDFaMzF0SExqYjdKRENZU2hsT3ZXVWFhVXRrT1RNX0JlUWhHN21VN3VoTHlicnozNkQ5R3B6ZGpyQUQ3V2pwYy01elUyLVh5dE5qZWswWGxKczM1cHoyUWh1R2FWZUFCZFdnN3AyVmxnSjlmQ2dR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-08T06:48:35.254378+00:00"
+  },
   {
     "id": "INC-8894897F",
     "date": "2026-08-07T06:33:36+00:00",
