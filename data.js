@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 795
+// Total incidents: 798
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-1303B131",
+    "date": "2026-08-13T00:45:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Police swarm residential street after  stabbing  in south Belfast as arrest made",
+    "source": {
+      "title": "GDELT (irishmirror.ie)",
+      "url": "https://www.irishmirror.ie/news/irish-news/police-swarm-residential-street-after-37545775"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-13T07:34:47.230855+00:00"
+  },
+  {
+    "id": "INC-5FB576D7",
+    "date": "2026-08-12T18:30:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Woman remanded after Dublin stabbing leaves man fighting for life",
+    "source": {
+      "title": "GDELT (breakingnews.ie)",
+      "url": "https://www.breakingnews.ie/ireland/woman-remanded-after-dublin-stabbing-leaves-man-fighting-for-life-1939224.html"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-13T07:34:47.230913+00:00"
+  },
+  {
+    "id": "INC-C1226114",
+    "date": "2026-08-11T22:45:00+00:00",
+    "county": "Meath",
+    "location": "",
+    "description": "Man charged in connection with an alleged stabbing incident in Navan",
+    "source": {
+      "title": "GDELT (meathchronicle.ie)",
+      "url": "https://www.meathchronicle.ie/2026/08/11/man-charged-in-connection-with-an-alleged-stabbing-incident-in-navan/"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-13T07:34:47.231577+00:00"
+  },
   {
     "id": "INC-0173FF0D",
     "date": "2026-08-07T07:20:38+00:00",
