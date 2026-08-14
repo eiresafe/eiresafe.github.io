@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 798
+// Total incidents: 807
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,58 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-BFDBAB5F",
+    "date": "2026-08-13T10:24:53+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Two men arrested on suspicion of attempted murder after Belfast stabbing - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPcVdRLVFuYnlPS29TTmJCTncya0FwQ3FSOUJ5RlZlRzJvRk1ydGM1T0xIaTZsZkcyTnd0U25XdzNwOXlDYXpQNmQxQWJyaVdBb21va3dkYmtXVzNhTlRRZGhwVV9NMjdNVkcxbTN3UXJ3UXJjMWtOTDZZSlNCdk9PbVJNOUc5NVRZY2Q4cHN3R1k1RGE4VWtlVHJJa3JFQ21DdzdURDdNQVZWWDM0V25rMmRTZnBSUERrNXgzS1BVeFo3NDlZemljYmlQSnRjM3dncWRBNEU4R1dvekhUNEw0?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-14T07:20:52.186213+00:00"
+  },
+  {
+    "id": "INC-AB2D601F",
+    "date": "2026-08-13T10:01:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Two arrests as specialist firearms team deployed after man stabbed in chest and neck - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQU2ZINWxNZ1ZqYlZPVHFjc2FXOGxpdHZrZnRyR29pRS1faERPaXA5OEhYVXVGWkdUYjRBTGpPNmVoengtVTBRMlpCQ093NXF6dFEwXzh6VUdjbFVHNjBKemJ1c0JSemtVbHd0UGpyd2V2bTk1aDhoY1Nlem5lcG1HdG51R0E4eVhCVE52OHRjMjR4QUNkM0ZieERkLTVkVVVwdXp6OFRDdUhsOTRUTTNDS3hMWkNvS0lmQmtmdWdSM3VfNkFGSW9nd09lMnRaazBydk5HN2VlaWt5cjZCMlhLWmhqNXJtUTFCdzlpNFZLNA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-14T07:20:52.184905+00:00"
+  },
+  {
+    "id": "INC-B44800EC",
+    "date": "2026-08-13T09:34:23+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Two Men Held After South Belfast Stabbing - 4ni",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS1poOVdZOHRDa3lQRFUwWnhuOGp0WTlXYjM5dU0tSkZqSnA5aS1yOXdldUNFdV9Dc3BUNmZWZjBSS2dOazd5Y0NGdU43N3RzNklTaFAxeGpqa19ZakFSUU5abFYzaFVVTm5ZU1hWb0NYMzBtdS01U3RDUllteU9zejU2cm1PNG9KVWtnZlVRNlJNZUZpaUVV?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-14T07:20:52.197561+00:00"
+  },
+  {
+    "id": "INC-DCA494AF",
+    "date": "2026-08-13T07:31:34+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Two arrests following south Belfast stabbing incident in which man suffered multiple puncture wounds to his chest and neck - The Irish News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUTlWakZYem1yZmVoY0FQdVE1MXJla012aGxWT2gzWlgtMW1vNEhkQXFyREVERmthTTZMSnBuMTcxUlR6NUNlRDRIalhja2JEMU9nU2Jxazl2cjlFOUNvczJ1V19JYnh5LW9ieVYwRTFCZ05BbUJyeFhDb1pWN0RUbVdTUGEzNFJiUk1UOGgwYWZuWTRuRkpRdzdXTVBnVDZ4d1ZEbGItSDl6WUhRNkNUNGRVUVFXa0xLNFpidXF6UGpOUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-14T07:21:11.763871+00:00"
+  },
   {
     "id": "INC-1303B131",
     "date": "2026-08-13T00:45:00+00:00",
@@ -22,6 +74,45 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-08-13T07:34:47.230855+00:00"
+  },
+  {
+    "id": "INC-3D6ECCB6",
+    "date": "2026-08-12T22:11:37+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Police swarm residential street after 'stabbing' in south Belfast as arrest made - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT1VyNkR6UzNxVHVraHdKajR0YnR6N3ZTMDlPb0FGc0hUOWRlMUVMUDRfbnpPdzhDSTc0NlRMOUZTVlVmcE1WRHIxVWtqVnlQT1VXV0dXVWR2OEFoeENkZmVGOFlhb1ozeXdma1JBUTUwSlhNWWxXc2VBZkt5ZFZmUVl1Z1JUNWljYVVoMkMzTHotTGxBZXd1cNIBmAFBVV95cUxPT1VyNkR6UzNxVHVraHdKajR0YnR6N3ZTMDlPb0FGc0hUOWRlMUVMUDRfbnpPdzhDSTc0NlRMOUZTVlVmcE1WRHIxVWtqVnlQT1VXV0dXVWR2OEFoeENkZmVGOFlhb1ozeXdma1JBUTUwSlhNWWxXc2VBZkt5ZFZmUVl1Z1JUNWljYVVoMkMzTHotTGxBZXd1cA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-14T07:20:52.185349+00:00"
+  },
+  {
+    "id": "INC-8FD01B1C",
+    "date": "2026-08-12T21:28:09+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Fitzroy Avenue: Police at scene of stabbing in south Belfast - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hSE5DLTVZRmczNnRTTm9RSUhuLV9NeGFleU9feHh1ZDJqdXNZMGk3a2Z5NkpIb3BOdlRKRXo5S0RkRHpRYTVJYVNhSUVNMHVuODNUUHNKTWJ2RGM?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-14T07:21:08.317116+00:00"
+  },
+  {
+    "id": "INC-938E5668",
+    "date": "2026-08-12T19:56:23+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Specialist firearms team deployed to reports of stabbing incident in south Belfast - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMkpqOTR4SVYyY1U3YTNRbFdGNm5nWlE2cGRmRFp6b0Voakp2RkRaNERxZ0cwZEkySXlLQ1MwTmVpbEpjM0Rsck1lN3NnSTBiRXVZVHNMN0x3ZWJrOXlNTjBJNDV3QjlWd3BveERlcEI5dElORFQ1aTRxNHFDb3dFdGpVSG5RVGkzellZZkd0MHkwTEJXUlVkRURJZURkb1hZR0ZzWVdudExaY1lWVUZaSWxSRUdJS2tUV0Nnbmp5bUZNTnhkT20yVDZxd1B1ZjZZb21ENzBuUVBZZU8ySlFOZmRKWUFvYWNWV0I1Xw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-14T07:21:08.317594+00:00"
   },
   {
     "id": "INC-5FB576D7",
@@ -37,6 +128,19 @@ export const mockIncidents = [
     "addedAt": "2026-08-13T07:34:47.230913+00:00"
   },
   {
+    "id": "INC-FF7B6742",
+    "date": "2026-08-12T17:07:27+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Bail denied for mother accused of stabbing man in chest in Dublin - gript.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMEJEU0hPSVJ2YUFkYWJncnZzVVJTcDN6NUZxNGh2WG95Tlo2TjdXMWpfRHRaN1c0cENlSHpQVUNpeU1lRjAzaWpCQ0JLdWc2SkZDY3AyeHdIWkctWUlSRjlWTGhONG80QncwS1kzdW5CaG9OLXg1SWFUalN0WUkwbUlTTXJVem5JQ2pz?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-14T07:21:01.442499+00:00"
+  },
+  {
     "id": "INC-C1226114",
     "date": "2026-08-11T22:45:00+00:00",
     "county": "Meath",
@@ -48,6 +152,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-08-13T07:34:47.231577+00:00"
+  },
+  {
+    "id": "INC-7F1B6861",
+    "date": "2026-08-11T17:06:34+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Anti-immigrant violence erupts across Belfast after knife attack - Modern Ghana",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JWU91c29uQk5WcGV0X3pvcEdyd21BVFp4eTBVYk9zSEdRbXI1ZVBFWW1sQjhEY3pXSGI3U29sZngwOGlFOURUSFZtOUVLd2hteUZpWjE3b0pOUTRUNkdSTGFXeEFNWUnSAVxBVV95cUxPcTBZTEdkeHNFUi1mX3RJbjg3bmtUaDh0djhudThHcy02NTExODR1WUZac0hKSEFPem10OHQ5Z0k1QW5fdjZWczVoSjVkOU1lSnJNS20wc0t5eWNyRw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-14T07:20:59.599494+00:00"
   },
   {
     "id": "INC-0173FF0D",
