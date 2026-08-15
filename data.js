@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 807
+// Total incidents: 813
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,84 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-B55B25A6",
+    "date": "2026-08-14T18:09:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man (40s) stabbed in Dublin city centre on Monday has died - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTmE1TXBBQVl5NFhVU2MyX05MSHlhdzBJWmxWdjM0Sl9zQzI3c25SbFdEOVlMZlFFbFpqeWJxOVBXYUNzRjd1Y0Z2N0xrTnozWXN6Qk8xRnRKWndpT0p0UzBMNmJVVFRiTkxjWVNPcG1DTllPclRYSlNWQUE3aUlFLWpFeHFOUkdMTFE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-15T06:34:09.229528+00:00"
+  },
+  {
+    "id": "INC-6DC745AA",
+    "date": "2026-08-14T15:30:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Inmate who died at Wheatfield Prison named as garda\u00ed investigate suspected stabbing - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fN25BM3BRVFVRZkowRzdoZlVoWWlYMlRaZnMyQ01IQTBDYll5RGlZSGJNMmRISHZTd3hhWTNQdDMyS3dTVms1b0J0Qjl3UVVqZFYzQnRsTzNrU2EyblpPMjRUdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-15T06:34:00.821237+00:00"
+  },
+  {
+    "id": "INC-0F316595",
+    "date": "2026-08-14T11:08:21+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Investigation launched after inmate dies in suspected stabbing at Wheatfield Prison - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcF8td012UlgxLWducTJsTTJobmN4NWZtY2lhQ1pCbnJDeS1XeHVLdGJsX3k1bGtpbW5zSlYzN180b1kwcWpHQVJVNGdSSjFyMTU2THJYTlJ4RGllRG5CVTV1dUFmMGlGRE81MUhJcXNCdEI5RElzVkRSVUMzTkU4cEdjV0RReUxINnJvUVc1ZWp5VHEzR1I00gGcAUFVX3lxTFBYbkYwdlNjb2FsN1FwQXE1ZmdFMU9YQ0FoeDJJWE5NS3J4dnJCYXFMQWg5cjNHWFZPZHpGVFFzdFJ4UkRjbnRXMWFudEZFTUZaTXVRMG1yNUFPRGJwLThGR256d1EwQW5ETll4emFQTkh1OGQ1YjN3VFo4UzRzOHI4RHpsTGd1U0lLNXFxb0NIdVlPcXBEUUp1dUdLTg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-15T06:34:00.819190+00:00"
+  },
+  {
+    "id": "INC-F34F656F",
+    "date": "2026-08-14T07:40:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Inmate who died in Dublin\u2019s Wheatfield Prison named, as garda\u00ed probe stab attack - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUnhLNFJ3ay12VEVGcjdqZ3dmZTRCVmJ2eXpCaTR2Nzh0czJNQ29HVXNnOHBYSnhkT0tYZ2NwN1NIMUZUUnpDamtTUExPajRoVzdfRFRDTzdhZE1QVndQNGl6ekJIWVFmR0U3Nkx6eGhmdFVZRGF6Q0NpOThwemtGNElyWUJzUGp6cW9yWTBkTUQxSkZxUkRQcy0tVzFJRldZSkFSUUJMbUd3bzJ6MFJfME5iSFF2T25aNWlVS1IxMnRhQ0xKNG9iaGZ3VGFScHVxVHdGT0JB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-15T06:34:00.823167+00:00"
+  },
+  {
+    "id": "INC-28C468DE",
+    "date": "2026-08-14T07:27:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Inmate (30s) stabbed to death in Dublin's Wheatfield Prison named as Brendan Gahan - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ0FucDZHOGFvTTdYMFVfTlk3bWpJSGx5ZVdYS0dWNmw3U3FFbVdwcFJUUGZpZG9fY1FVcGphdkJ4SW1OWEN3VnQ2T19UaUVNeVkyQkd2cWwtT0R0aVY1NFd5bnpmMGRVLWM2bkJDYkxnYjZXRWRRWXdHdHlDMjFzMkl0R0UyblJHcERsTWJyR05XcVdmN1E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-15T06:34:09.231274+00:00"
+  },
+  {
+    "id": "INC-5A6E021A",
+    "date": "2026-08-14T03:50:44+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Two men arrested on suspicion of attempted murder after south Belfast stabbing - Rayo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMEhTR3dGcTYxY3YxeVBuQXlQZ1l6UG4xb1ZHa2RRVld0cldkN0E3ejh2M0J3c1JoOUthV2xfcWs2bkFKaE9kajNDNmNKVGQ0bzR1ejdDa01reTJDNnFBZmwxbER1eXpSWmFwWXVTMjk1ZTNHYTNGVzhhWGRlYUtlQlFpQVYzX3RFbXJfSy16Ukg3R1JVZExLZHcyZG1TTHlmbjFCR2R3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-15T06:34:15.851927+00:00"
+  },
   {
     "id": "INC-BFDBAB5F",
     "date": "2026-08-13T10:24:53+00:00",
