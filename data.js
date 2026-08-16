@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 813
+// Total incidents: 815
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-8B0B2A6E",
+    "date": "2026-08-15T13:15:47+00:00",
+    "county": "Dublin",
+    "location": "Dublin -",
+    "description": "Man arrested after fatal Wheatfield Prison stabbing in Dublin - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaUVoV3pFMnBTb1djWldqSkRaYjdubzJEMVdXendoUjRkYmdvSXRDWmloSXVDNWlrQWs5UlVzczlPYUdyV0paei1NWHZFbFFvMmd3SWhBcnhhT0VhTzc5OW5ERl83cDc4STRHM1RKZm01TmlKMExGVl9SZ3loMHVuOHN4MUZKT0dtb2xHYzkzUTDSAZYBQVVfeXFMT05DemVMdmpBZmVZVG5BbnlQd0ZadGN4VlZrNkxRd0llU1ZoaXRwbXpZZ0JsY254eGs0elBSZUpmT1hzZHpVeWF4MFp2TVlqa2pqWk9QdlBXVlo5TEYyQjQ0VXN4X2o5UU1PSXdIVGFmS3YxbHZpNEhlSkxHMTRrYlU5VzZDZUN1eWlYSDdkV1dYN3pMb1Nn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-16T06:35:45.895686+00:00"
+  },
   {
     "id": "INC-B55B25A6",
     "date": "2026-08-14T18:09:00+00:00",
@@ -87,6 +100,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-08-15T06:34:15.851927+00:00"
+  },
+  {
+    "id": "INC-BD7E7FF9",
+    "date": "2026-08-13T21:59:09+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Anti-immigrant violence erupts across Belfast after knife attack - Modern Ghana",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uMDJ3SUt5SEhmTEZUOUowTzVLZ1JaXzJXSEFPNk5JQUVWd09EWjJKMWZhUTFTNHUydDBXWEFCRHpFMDVlWWtNTGNlNTlvSDJhQmZnWndnZWpnRjZLX1JpRTFQQ1lTVUkz0gFcQVVfeXFMT3EwWUxHZHhzRVItZl90SW44N25rVGg4dHY4bnU4R3MtNjUxMTg0dVlGWnNISkhBT3ptdDh0OWdJNUFuX3Y2VnM1aEo1ZDlNZUpyTUttMHNLeXljckc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-16T06:35:44.209085+00:00"
   },
   {
     "id": "INC-BFDBAB5F",
