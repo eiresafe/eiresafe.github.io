@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 815
+// Total incidents: 816
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-345726D7",
+    "date": "2026-08-17T15:17:35+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Gardai issue update on man arrested in connection with fatal Wheatfield Prison stabbing - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaHM3NVBWMGpHV1J2X0ROSm1uOERuQ0pqR0p1ODFJMENNcmY0RTdSRXZveXZDdzZmSUpuaFRyay02Vmc1NkJFLWVMNnpLSWxyWEtteVVUWXByYWVWRS11ZGloSkxtN0NXREtjT2lJV0w2SzJhbGNvVzRuOU4tQTB4UGlfZTcwRXF6TzFXNtIBkgFBVV95cUxPcUMwUG5BWUNDd1hRZWNnS3ZBY1FJTFNxclFnMWdRRDVsNzAtT3NYUFR4VzNGczVLbTJ5cGQyWUY1ektmeEh1OU9GeWZLeHp5VFZ0Q29QY3JMR3hYS25jUE4tb2Fqb0FDS29kaXhQaXhvZmtZWklfVEtGVjVfeUVIczlaOEtwTWJvNlFXcXlxTVM1UQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-18T06:39:11.770866+00:00"
+  },
   {
     "id": "INC-8B0B2A6E",
     "date": "2026-08-15T13:15:47+00:00",
