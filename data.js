@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 816
+// Total incidents: 817
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-7706EF24",
+    "date": "2026-08-18T11:00:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "\u2018Where all the hard work starts\u2019: North Belfast knife attack victim to leave hospital for rehab - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQWnp2TC1LMmx6T0V0cUxfaWlHTERCTTZHOUo5MXplYWhweXMzSEV6VUMtMUF1REVMdVd6a1BkZ0dUYV91WHZXSFA0N3NTZ1U2Tk52STFkSV9Ha0c1T1IzNTVzeTNEaWpxZEZDbzh2VzlKTENNeGx6UVFDYTVPNlpETVJGVkVvZC1CUjdRQjJRRVpHdTUzZHBRWlFoWUxNblA3TnVzQTM5ZEUtMDFyVmRlQkJEaTg4MGJFT2U3YXJsd0M0UlItVV9IMWY5U2UwSnVDOHdwd3BfQmRtWlkxckZqS1pHcTllQmhjWjY0STlqM2VMV3lKRi1WZWFqY1hfbm1TX3lwRlppbGV3NnBlc2c?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-19T06:39:34.254075+00:00"
+  },
   {
     "id": "INC-345726D7",
     "date": "2026-08-17T15:17:35+00:00",
