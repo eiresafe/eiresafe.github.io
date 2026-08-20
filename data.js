@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 817
+// Total incidents: 819
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-26ADB157",
+    "date": "2026-08-19T11:26:29+00:00",
+    "county": "Cavan",
+    "location": "",
+    "description": "Man found dead in his home in Cavan named locally as Gardai probe fatal stab wound - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON0ZKOGRIeVFPa01iWFRua3k0SjNMQWNyekNzZGJGWTZWR1JzUUlxNzhucFNiY1JZVWVHOFNxR3hQd0ctd2Z4S3BuVlRaZlpOTkxqbDlRM0hHbnB0OFVPd1kzZnd1WWhLMHh3MkQ2RVF3cUk2WHJkWVEtY1pHc0p5bmtmUkFCektDTmF3MzluM19EaDAyY0htX9IBngFBVV95cUxQd3IxTmw4NUtpN3ZkUFJjTFRVM2tLWHBhUnpCWlg4Yl8zTTlZa1dfemswUkY3MkMzZTFsRTRsdzZSQ3dHT1owWTVJbndwSE9RNzd6U0RrNWZQVnJHMnowYUY4WF9OU2Rwd3FBMUtsR0E5c1pVbVFIbU52ZWlaUFpMQTV3WW9Pb2JacmUyTFV4WVlHYlFsWFktTHAwZHpqdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-20T06:41:04.706695+00:00"
+  },
   {
     "id": "INC-7706EF24",
     "date": "2026-08-18T11:00:00+00:00",
@@ -35,6 +48,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-08-18T06:39:11.770866+00:00"
+  },
+  {
+    "id": "INC-71ED96DD",
+    "date": "2026-08-17T15:17:35+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Gardai issue update on man arrested in connection with fatal Wheatfield Prison stabbing - dublinlive.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaHM3NVBWMGpHV1J2X0ROSm1uOERuQ0pqR0p1ODFJMENNcmY0RTdSRXZveXZDdzZmSUpuaFRyay02Vmc1NkJFLWVMNnpLSWxyWEtteVVUWXByYWVWRS11ZGloSkxtN0NXREtjT2lJV0w2SzJhbGNvVzRuOU4tQTB4UGlfZTcwRXF6TzFXNtIBkgFBVV95cUxPcUMwUG5BWUNDd1hRZWNnS3ZBY1FJTFNxclFnMWdRRDVsNzAtT3NYUFR4VzNGczVLbTJ5cGQyWUY1ektmeEh1OU9GeWZLeHp5VFZ0Q29QY3JMR3hYS25jUE4tb2Fqb0FDS29kaXhQaXhvZmtZWklfVEtGVjVfeUVIczlaOEtwTWJvNlFXcXlxTVM1UQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-20T06:40:56.313987+00:00"
   },
   {
     "id": "INC-8B0B2A6E",
