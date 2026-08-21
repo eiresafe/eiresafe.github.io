@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 819
+// Total incidents: 823
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,58 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-018AD560",
+    "date": "2026-08-20T13:37:45+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Father died from stab wound to body in Cork, inquest told - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJSXlNS2M5M1dqSmVBeEFIODhQMXNBUU1DS3JGZVdOb21vU01MV09JYmxpTFE1bFRFLXVaYkNuWDZwMFdHekFTY2RCZEVaaEw1S3l4M3J3VERYQU4wVkE1bExXaWxzZ1JtVUo1WHJKQ1lCWjBUcWpMdjA0UQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-21T06:41:37.231431+00:00"
+  },
+  {
+    "id": "INC-70702D40",
+    "date": "2026-08-20T13:29:36+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Young dad died from stab wound after street attack outside Cork home, inquest hears - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56dFFDV0ZCeGM1dE10RXQ1RFcxZElvcllXT1JqcTA3d0N0TnNadE0ta0E3QnNUbV9rOUxGWWxucm9Cc1VWV3EtX3hrMWt1aVB3ZDhWQlFPZmlkMkx5R0cycGRHUlNHNzZJbm9BUkxiWXBnSm1ISDZwV1lXUEhfc0XSAYQBQVVfeXFMTkpHWndlNVM3ZURoelV3RGt5U1N3ZmFSUHY5X3JDTWtMNlNhaktLbXUxTk56RHUyTUxpT0ZUV3FUdE9wVEF1a01VNGJ6UTd5c1FfdldHTHAtSUxsbXhDQzBwMFpST3NqeFoxamxValJwMV96T05BWWVrWlY3TEktWnNQbWM3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-21T06:41:37.232089+00:00"
+  },
+  {
+    "id": "INC-3D22EB1C",
+    "date": "2026-08-20T13:25:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Ukrainian father died from stab wound after going to buy food for his family in Cork city centre, inquest hears - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTmZuZUZRRTBqbEIzbUhnRVdYUGFmYkZ2NWljRlhXUE1RdW5jM09LVnJkWDlib0tKMFVBZFVtYjkzdlZVbjY0bDh1RWp0NGpPU1B6Z0Z6SW9VX1JlNEhDLWV5SDlIZGx0MUg4cENYRkxmUDZIcS1kTFBnWms0ZjhpVm8zUE9IeEthdUN6VVhwRUU0YkhDZGktZVQ1NGtoZlY4bWRfMW5yTUwzdWVGaXl4T3FCeW5ZdXlNdDQyNXo0eG1VcjNqVkJic3drZlpMVkNjcm9EbHRhRzYtXzdrelRvV3paNTFVMndZdnJlMWhaTlRxMWxONWFJTg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-21T06:41:37.232399+00:00"
+  },
+  {
+    "id": "INC-462E1F47",
+    "date": "2026-08-20T08:24:00+00:00",
+    "county": "Cavan",
+    "location": "",
+    "description": "Man (69) found dead in Cavan home with stab wound is brother of arson revenge victim - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVVYwZEtGR3lvNjUzdnRQeWd6UjVtRnVtVUNsRGh2Y0gzLV9fcUhQQUFyWEg5THdCZUNRSFBFbS0wOUlQc1RXMUhGRDYtUXN2eUR0V2s3Z28zTnpGUWt2UndyNGluOWpTTFFfbm9pSmF3TUM0c0xzeXd0UUttQ1F0TG93alZYWmxuVnV6WVE5ZTh3YjhXV2ZUYy1zbkJkNk5vOS1Eb284bHV4N3F6ejZvYnplaUpjYWFHWl9XdzB6QjFjWnc2VW5ZaHczZkJiVE0?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-21T06:41:43.962775+00:00"
+  },
   {
     "id": "INC-26ADB157",
     "date": "2026-08-19T11:26:29+00:00",
