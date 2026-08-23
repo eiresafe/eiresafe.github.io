@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 823
+// Total incidents: 825
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-84B16C2D",
+    "date": "2026-08-22T15:02:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Glenville Park: Man taken to hospital following stabbing in Newtownabbey - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdEdGbHhtTmYtNnhTU21WUUlMZkdHLU0wWnRnWk1NLWprLWNJd0lVUVE3U2RCNTk4Wm83bnlWUWNlalpjWVFsNE1RRUFkV3RSd2xwTjlGNjlxZzJBU0N1QU5Zdjk4QjZaYmM4dVdnZEUwcFJwSWpRWDVDdm9adktneDhyaTNTMERSV3NLRFpmQlY3WndZZXZObFhTOHBvWjFPcWNoLWNCYVNyRkVXeXhMX2d4UVV4TFFWTk50YWxaTmJwUWU0VEE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-23T06:36:37.755720+00:00"
+  },
+  {
+    "id": "INC-26277212",
+    "date": "2026-08-22T09:54:29+00:00",
+    "county": "Antrim",
+    "location": "Newtownabbey -",
+    "description": "Man airlifted to hospital following serious stabbing incident in Newtownabbey - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNcTgwWUtraUNkdlloT0ExSVpCUGJpZkVXak9Ed1I5Tzc0UGtpVnphVEVCSFVRZUZEMjlFMFlZLTdGRW05RS1TSW1nTWdNVFc4ejlvcUdtb0tFZjh0RzBOaklkT2ZZUDZUazFEdVQ3Z0FKZEdDS1YzM0dHTmhZUHZQb1M0ZFpfTDNTZjFYOFhiZWVJRW1nWks3NWFhZVJPYVlYTWFBNFNBeHVweDBoR1FoTGZETzRqbGtZMmhQV1R6SW10VzVidUh1dTdhVE14UzFHZVhUNi1qZXRxZ1B0NXlVbXJsWnZBOE9LNDZCTi1kUmNhaEVUdWtNcF9fNktDazBmWnh3LQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-23T06:36:37.761504+00:00"
+  },
   {
     "id": "INC-018AD560",
     "date": "2026-08-20T13:37:45+00:00",
