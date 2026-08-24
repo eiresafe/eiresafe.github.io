@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 825
+// Total incidents: 827
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-E48540EC",
+    "date": "2026-08-24T06:03:57+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Chief suspect in Limerick murder of Brazilian woman, 33, found dead on rocks at castle hours after horrific stabbing - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNGotbmFCLWhHaHkxZHM0VHJLdDZjUXduR0VISFp3SVUzMXNDa0RKaHlvTjdQRHE4cWNJTkVDSUU4a3dNZ2RJQ0RCWnpTeldNRGpPRGtrY1dRSmRlbTJES3JHMkxic0pjRFRnWmpnSU5ZQ0t0enlNOFdLUkhtVi1QYnZkX2ctXzJYX3B3SUhROGdtVnc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-24T06:53:46.341405+00:00"
+  },
+  {
+    "id": "INC-A17B5838",
+    "date": "2026-08-23T12:07:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Glenville Park: Police issue update following report of stabbing in Newtownabbey - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSGlIRHVzVG1oMlRRSXRrZ2VKUWR0cnNWdkV6N2JucWd0T0hLa1c0UU40X2N1SDVKaFgwM0tOM0NqVVZKSGVwU2l3Y3laWnVOZFJuRUVjVjBEZUhPS0g5TDBiZ2RMeEYwaGJIT2Vockp2RWN6V2tNU0U0WmMwaDItejhlNXNfRThRYURBbklsZnV3eDNaY2xSU0IyaDVxazFtZFQ0eWQtaWhYU2lOWFNSOVc5elY3MFZTQXNKZTJFNURaUkgzTGVaYTZ4WkFJQ0ZZ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-24T06:53:48.018596+00:00"
+  },
   {
     "id": "INC-84B16C2D",
     "date": "2026-08-22T15:02:00+00:00",
