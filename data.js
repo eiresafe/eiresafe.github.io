@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 827
+// Total incidents: 828
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-E3A2E21F",
+    "date": "2026-08-24T17:06:13+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Husband suspected of stabbing Brazilian law graduate to death in Limerick took his own life, garda\u00ed believe - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOZl93SlM0WkxoTXVfd25hNGpSU3QtcGVZemk4cHdoVWZ6bkZHSVFaSXM4dHhPeWVmUlJBTUhNRGpkLW0yMUFnTkx1dy1Ia1NNYkVFZG80Z2NSVGlXMUZnMjhIQ2FsMF9uUHd2UUN0WVhWMjF6bmpVbXlQRGhNbEdkSWZMZVp4eXhMY2ZNMFp3N1RsUXhNWmxaNXpLTFZWRkVvY0ZuVnlqTzlLNFcwS0lOQkpsXzNVaFhnRFJGWmg0VS1iZmZSLVFFam9LVlVGU2I3Zlp6ckZTUHVNZUNhT3Q5YlZJNnRGZm4wSHdCdHZlMnVTRGFtTE5NQ1RZOA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-25T06:41:51.341963+00:00"
+  },
   {
     "id": "INC-E48540EC",
     "date": "2026-08-24T06:03:57+00:00",
