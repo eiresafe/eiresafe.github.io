@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 828
+// Total incidents: 829
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -22,6 +22,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-08-25T06:41:51.341963+00:00"
+  },
+  {
+    "id": "INC-8EE42447",
+    "date": "2026-08-24T11:15:18+00:00",
+    "county": "Galway",
+    "location": "",
+    "description": "Irish murder-suicide link probe after woman stabbed to death and man's body found - Galway Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE14OWo0eVJHWll3MmRFSjV4dHctWmpYOXFNaWJmVF9sUXNZR1JVcl8zUVpSU3FwZF9kQThPTndYV25HMTQ0M3N1VUczQzIydzc4U0NuR05LcjBsLXF3ZlBVSHB5dUFUYloyNkxyUndNRGVwT2JRSGVIamtB0gF_QVVfeXFMUFB2U3FYT2owa3pSUm5aakhrczU4YjV5T3M3WkxWSXNyZ1k4Mm8xZmpMNXdVSEhUbXFGSU90ZnZOVUlKdFBpZTJFXzE2YnVwUDJWQVN0SWo4M3JkZ3h4YlFHSndNYUdJSy10N0J5Qk5HN1ktcld1ZTlTd2JqY3AwSQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-26T06:43:50.371290+00:00"
   },
   {
     "id": "INC-E48540EC",
