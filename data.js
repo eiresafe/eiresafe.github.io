@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 829
+// Total incidents: 830
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-5FF10776",
+    "date": "2026-08-26T11:40:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast knife attack was followed by \u2018pure racist thuggery and violence\u2019, ICTU global solidarity meeting hears - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQNEFxRHFPZi1OSFgyS091T1BBMFlNNlFqUjYtNjZHc0RsSHlOLVVZSGZhdjFIRlpkREY2QmRBeUFKY0tDSEpjYk0wM1d0bTlJcXE4OGR4ZVJOaUJNTUZEYkdaVDlWb2lycFpBd3hwQ01JRm9PMHlfcUgybURFYlpTUEVDY1E5bHZBYjZQVnBabzJ5NjFmeHJlOTd5VHBSdmdweGJ4QzY2X1RnZEFMQ3d4eUVoSENpYkNva3FjVmtkamtHdER0SDNzeEdLUl92S0VWb2I1dDdIV2dVM0xzem5BZXpKaEZsUXM1RjZfYUlpemlNRXZpV1NOQXpR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-27T17:19:35.300226+00:00"
+  },
   {
     "id": "INC-E3A2E21F",
     "date": "2026-08-24T17:06:13+00:00",
