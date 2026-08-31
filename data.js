@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 830
+// Total incidents: 831
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-4C469E63",
+    "date": "2026-08-30T20:44:58+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Suspect arrested by armed garda\u00ed after woman stabbed and another injured in attack at Dublin house - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTVJuX25jMkZDRTJmVm5BbUdDajE1ZHdnZENTV3BhRWh3amJvTXUwOUJQVHNhSmRCUmxETkRHbEFaVlhUYldiU3I3cE9Xd2U2UTJqUmJHUkFobi11dDFrN2phcUNhalpnb0RuYi1rMkNxaG9yMjBra0NBQWlHcXVYZXN6RTdpQ0t2VE1BMjFPZHVwZHJ1Zy1vNnZYUjljLVpJaTI4TUNFdXlFcGtqWTUyWlN0bjFTS0RWa3VOdXFpQS16SDlnUWdURFJqX0x1dXBFbEdaTU1aSW50Z2E2Yjdaam9BQlg4eGl1NnZKVlFfSWw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-08-31T12:42:38.578478+00:00"
+  },
   {
     "id": "INC-5FF10776",
     "date": "2026-08-26T11:40:00+00:00",
