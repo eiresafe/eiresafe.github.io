@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 831
+// Total incidents: 837
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,84 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-2C1488AD",
+    "date": "2026-09-02T16:55:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man hospitalised after Ranelagh stabbing as garda\u00ed probe link to fatal assault in business park - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPX2ZDb2xTVF94bVRES0JUdHZhbTA2TWEyU3lLdDJONXNXYXBxR0JTdko3a2NpVDNUbm0zT1BxeXFmVnNiSDk1R0tDYnpBVy1CY1FhbTJLWnBGcW5pRjdQZ2VlZnZwTktuWFFDWEtLYUtGR1ZaYnhPd0pGbmw1NGJ3YU5EOTZZWU85ZjlteTNkTlAtWng5d0NFQ3hrVmE2dTRTZkhSN2tfbXpkdVBvRlFjZUJqNDd4VXl0VDFlbzJ2VXhFcEp4NDFhcVpGUXR6YXNiQnQtMUpTLUx5YnpIbWdfeTIzMWpCRlp5Z3NrLQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-03T10:40:35.627123+00:00"
+  },
+  {
+    "id": "INC-BD129CCE",
+    "date": "2026-09-02T16:54:50+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man in hospital and 4 arrested after alleged stabbing at shop in Ireland - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeXQ3dlBudUpLdjZVVmdQTUFnX3dyMGpjb0VrRHp2blloLUxoQ2szZFYteHAzeDhucjV0Mjk5ZkozQm5qbmFxSWJhUE5tS3JTdGVwY2VIN2ZVQTRmaUdkYmU4MGZMT01OZmpOM3JVdW53RXZUd2gzMFlzUmhfN0dMakd0NWp5NUF3Z0Vjb2NR0gGOAUFVX3lxTFB5dDd2UG51Skt2NlVWZ1BNQWdfd3IwamNvRWtEenZuWWgtTGhDazNkVi14cDN4OG5yNXQyOTlmSjNCbmpuYXFJYmFQTm1LclN0ZXBjZUg3ZlVBNGZpR2RiZTgwZkxPTU5mak4zclV1bndFdlR3aDMwWXNSaF83R0xqR3Q1ank1QXdnRWNvY1E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-03T10:40:35.627925+00:00"
+  },
+  {
+    "id": "INC-889B7CFB",
+    "date": "2026-09-02T15:15:01+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Four arrested and man hospitalised following alleged stabbing at Ranelagh shop - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ0Y3ZnJFajNhM3NMVEc0dGxBbk44ZTlZQUhDdkM2bXRyanQ3ek41WFpiaVU1WXdPcktUMGFaSnhqWWxVX3M0UDVIdW1EaW0zdWt4ekJPZnV2Vk04RURkY25SX2pxbGNtbTFjRWFfYWE1WXFhUG8xdjFXdW94dXNkRE12M2lZVEEwajE3VDFONlVSNkh2Z3JZ0gGcAUFVX3lxTE5fUF9hUkNYNlpxdHJJdjZxZUdGSXNOdGJYWTY5YmZ2aVlldmJMd0NBVmU5OXU5Z0xPaEQwVXBpdnlVMFE5OFMxWFBiZUp2NFJvZ2xnbHVqV1lnZ0duRG94TGYzUElTb2tYckJWZDlSNEFVTHNRUTZMZk4tamdRRm5XWk80VE93X3FVYmVMSmJxYy04X3RDbmdGOXU3cQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-03T10:40:44.429002+00:00"
+  },
+  {
+    "id": "INC-7B1C2613",
+    "date": "2026-09-02T14:59:32+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Four in court over murder of newborn baby who suffered 33 wounds in stabbing - belfasttelegraph.co.uk",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOODFPSXdhVXM3cEZFMDRHdE1kMHhST0JOejY5MGJ0d0lsX2dPM2xmX0pLNzQzQ0xScm9tZXNhSkxwRDIzMEFwQWpMeDhFSUdldkxRZjRSMTZLTWtIY3RhTUpuQlhQSTJqNmw4eEFFRTcwVWNGQTFfMHJoU3ZpLWZqeXBtU3p3Y2UtNHBoTUZ4RWNUdkc5T3dHdmQ4aWFFZGJ2VTJIM3ZRWDN1eUFaT0VMYlRFcEhjTzdnOV9tbHEyX2JmZjlsbGNHZlJmZF90TEU1N1E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-03T10:40:51.428351+00:00"
+  },
+  {
+    "id": "INC-44735F6C",
+    "date": "2026-09-02T13:15:36+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man accused of knife attack which triggered rioting across Belfast to have case fast-tracked to Crown Court - The Irish News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxORU8xNzhXS3k5ektNS180LUVESVIwdGtKa0FPaXFjYWtiOWFEbHgzeGxkaExmY3dZRldkd3F3cmlNemVuMUhfcjJnWTBKQnRGT0t0Q283a2RFTzBYcWl6WF9aVFc1TFhOMUd3Ul9IM1JMTG9ubDg5TXlLa1ZhSk1YYkxHQnF4TFY0eXplTmY3TUdtaVRRX2dPMy1ueTVJMlp4ZzF5TDBsM2E4MXVkRTRfUk9oakdTSzcwVHFwbkg0ZDg4TUhJZ3AxS1hPVlM3RUpYSjFERFJPenh2amNWZkYxZmpuMTZzX05vSHpodE9QaU1qY2ZYekZVWENtMW1vRDlGRl9GLUc3dzUzMzVzWDRJcW5LYWZHajNZ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-03T10:40:42.654068+00:00"
+  },
+  {
+    "id": "INC-1F9E98C3",
+    "date": "2026-09-01T05:07:52+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Mum's heartbreaking plea days before being stabbed 34 times in 'Ireland's worst murder' - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTHc2SDhlWUkzaVYtTTF1Wk1NMDk5ck9QVWt5cmxFN21qVHBST1lsUEtoQjU2VV91QkdORU9DSDB2ZF9LdTdhQjdvZnFWQVhQb0ZxTUx5RzA0cVJvam1IS0ZSVzE0b0syaGpoMWkxZlVMZXBocEJ2bHhkQmktX0QzdFFVcnk4ZnBQWmZFZEtuN0Z0clJpTmxj?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-03T10:40:35.629989+00:00"
+  },
   {
     "id": "INC-4C469E63",
     "date": "2026-08-30T20:44:58+00:00",
