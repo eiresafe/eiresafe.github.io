@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 837
+// Total incidents: 841
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-89415518",
+    "date": "2026-09-03T01:25:59+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Four arrested after suspected knife attack in south Dublin suburb of Ranelagh - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdUZYb2NGVTFraXNnc19PMlRIMHB0ODNzeUhrX08tZW5uWmpybkUtVUJFZGRTb3V6d2R2TGhGYTNUTS1HMDVFTTRuYlZ4cjRCTjZGRUdLb2hyZDY4dmcyUE5QT0dWZWVSY3g3dDdSWGhmbUV2NzlPTlJpV2k3M2tiekhMMnRzbElrcXdCSVJ5WTRycXVvY0dob1NDVGJ5Um9pRkU4WGJFR1cxQmF1a1BiSHBRRVlLam03Z0E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-04T10:36:21.938859+00:00"
+  },
+  {
+    "id": "INC-5AB19707",
+    "date": "2026-09-02T19:15:00+00:00",
+    "county": "Antrim",
+    "location": "Belfast ahead of auction",
+    "description": "Evening Briefing: Rare Titanic artefact goes on display in Belfast ahead of auction, Belfast man jailed for knife attack on former partner and Irish minister says there \u2018will be a border poll\u2019 on a united Ireland - The Irish News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxNX0trMkdtRlhhMzBqNXhhcUZ3cnhibDZrWDJPMXI0c1h1cU1vTkNkcEY5MVR6RGFablo3Z00zZGNpdlUzc3V6U2ZMQXVKWHU2cmo1d2ZmeWU4WjNyV2FndXRlSEVBNHhhQW5hOVk5MkpmZzBrYXVoeDVjNUIxaVRCMWctTzRTZTNhLTdzQUxNaV9WOE5GcFJyWHNEVWxXMlNFbU5zR0ZuZFJ0cktEMUw3VDkxbVBsRkZPeHkzSGpmakpLX1p0UHhiUW1WUEN4SE1qekFaY01oMno4eHluRXRpbkROVXRFTXV4NVJiLW91eE8tUUt0cmFLQzZnajVXWTZiYmFzRkQwSjJKZkowU0QxMC14UVAtUmZRRFRYUk5jby03RVJpWDI0OTJZZVlfS2s3M1dZckotM20takVmSW5VaHBmUXl6ekJ6YUQ2WVI2bDhoQkgycHlSdlB6ZXpCa09EejVodjE5Tk5IcEtGWmVKOEx4bUtHZExManJCNnB4cXRXajlZWGJEd0JMZVBwaGFwVXllYlBBMA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-04T10:36:23.766324+00:00"
+  },
   {
     "id": "INC-2C1488AD",
     "date": "2026-09-02T16:55:00+00:00",
@@ -63,6 +89,19 @@ export const mockIncidents = [
     "addedAt": "2026-09-03T10:40:51.428351+00:00"
   },
   {
+    "id": "INC-1BE7075C",
+    "date": "2026-09-02T14:59:32+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Four in court over murder of newborn baby who suffered 33 wounds in stabbing - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOODFPSXdhVXM3cEZFMDRHdE1kMHhST0JOejY5MGJ0d0lsX2dPM2xmX0pLNzQzQ0xScm9tZXNhSkxwRDIzMEFwQWpMeDhFSUdldkxRZjRSMTZLTWtIY3RhTUpuQlhQSTJqNmw4eEFFRTcwVWNGQTFfMHJoU3ZpLWZqeXBtU3p3Y2UtNHBoTUZ4RWNUdkc5T3dHdmQ4aWFFZGJ2VTJIM3ZRWDN1eUFaT0VMYlRFcEhjTzdnOV9tbHEyX2JmZjlsbGNHZlJmZF90TEU1N1E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-04T10:36:37.752377+00:00"
+  },
+  {
     "id": "INC-44735F6C",
     "date": "2026-09-02T13:15:36+00:00",
     "county": "Antrim",
@@ -74,6 +113,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-09-03T10:40:42.654068+00:00"
+  },
+  {
+    "id": "INC-97BA527A",
+    "date": "2026-09-02T04:32:41+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man (20s) charged with knife possession after Dublin city centre fight - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOERlM3FBVkxGcndwM3JkemtTemZyN1c4VkgtamFMWHgzeUh5SG9zYlFPZEZmbXBYZEZiamhEcE1ERWU4c2c3ZV9uTUxoWTV6TWFka21fWWF0NTBTX0p1dEtrMGZBdDk3WFc5SUxMdHNhV0YwOHVJOEMwT2dFcWpvTVdtQ0pxa0o4STFVaUNUZTZYTmM0ZTRJWVQwZHR6bk5nWVktUU16SW1kOVVwMTQtUFpZanU2T3dS?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-04T10:36:25.502136+00:00"
   },
   {
     "id": "INC-1F9E98C3",
