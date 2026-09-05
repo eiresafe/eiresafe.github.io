@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 841
+// Total incidents: 842
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-14BA5053",
+    "date": "2026-09-04T15:03:07+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "What do we know about the Belfast knife attack? - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaDBPQkRGU0N6SG13NVVmcjZuUkgtTXRZOHl5R1pDUGZjeUhyWjVVU3prRjBwUUw5SlphQk1OVnUzU2tXRDNKMVJ0ekI4alZ4TzJ6QWRfbF9nUUJZcHE3NU5hcXRYMjFfRExabERjUzdXWndiOUljdkktbDB6UEdIb1hXZGo0bW1UcGV3NXV5NGFteHhaR3A4eA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-05T09:57:49.480247+00:00"
+  },
   {
     "id": "INC-89415518",
     "date": "2026-09-03T01:25:59+00:00",
