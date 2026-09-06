@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 842
+// Total incidents: 846
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,58 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-139164FC",
+    "date": "2026-09-06T08:00:58+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man (40s) arrested following Dublin City centre stabbing - FM104",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSW5VY2dxc1hqWnhUS1RHelVMUk82dWRIS3hWX2JjTkZXN21vRWFrbnU4YzA4ZTV1bVUyZl82WklpTXdnN1pWM3lPSmJiMnczR1pvbVhhaENtSGo3cHNTQjBXd1JhbjFYYzlzQXd6dUNMOUY0Sy1Qa0tGUU1vRGFib0oyS0FiYXpKcEc1dWxVZUJNeDQ1Mm80?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-06T10:16:15.871284+00:00"
+  },
+  {
+    "id": "INC-B27CBEDB",
+    "date": "2026-09-05T20:07:25+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man (40s) hospitalised after suspected knife attack in Dublin city centre - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOREF1NHBENzRESWttbDhacUNrN1VKTlA1c21lZTl2cDNjdVVocVlQZi0zbHlSNWx3OTBBSEhGeEM5MW16T2VfaFUzeC1pZkVVUEVQT1lFaWFFOURTb3l1eXhtdEF2azV5Z1VULVB1NmFlTVM0NWc3bzFWLXBTeHE4ekpoY1dTUzB1SmphUV9yeHVkc2lrY18xajh4Wkd3eEZoT0JhSWpMVkhQTG9KNmNmRWlHVTV1Rk44WjNhWU1MUHVlSDhl?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-06T10:16:08.986399+00:00"
+  },
+  {
+    "id": "INC-F8019E0E",
+    "date": "2026-09-05T18:06:35+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man taken to hospital following stabbing incident on O'Connell Street - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVVIzUWpjQkhMSjN0UVg4ZlRlaTFHeVlwVGMyVFNlampYaTR1SkpqdGJLeTcxN0dMRWgwOG9JdjR2bldobC1aWGduVEFvTFFNYlRkZGRxZk9qSzBqb05QM01sdFJWTHdtR2ZDWlR1UTZib19qSUZmLXZsUV93ZldHT0NiZ2g3dW5yNGFRQ2JlQml4cDTSAZgBQVVfeXFMTnh3MnBYdkN3WXZkMjJBS2VNVGs5T0dUYW5heF9qbGExU3NXaU1NR2ZxakpGTDdiLXBQVFdVUkVKcmh1RVhIWDV1Smc5aUVnbEtKWWJFRU1lTjhRTEJjZFJYazd1cWhoSktKQVNrUlE1WTBlY2lBdEVqTHczSnRhM1NzMk0xeENsZ2xCV3hyLWw2aHBHekhoOUo?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-06T10:16:07.234413+00:00"
+  },
+  {
+    "id": "INC-B241D478",
+    "date": "2026-09-05T02:13:35+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Stabbing victim's family calls for calm amid violent anti-immigration protests in Northern Ireland - Fijivillage",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqUVRyV1VfalF0ZE84QzNmMzhjT2x0LWFPUmVWd1VkVDBmeVhJem5WRGRLalRjZzBEMGZKYjNEeXFMMDROaEl6djhLQTNVQXp4SE55QlVzNW16bDhmck9tczJEbnk?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-06T10:16:07.248935+00:00"
+  },
   {
     "id": "INC-14BA5053",
     "date": "2026-09-04T15:03:07+00:00",
