@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 846
+// Total incidents: 856
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,136 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-045378C2",
+    "date": "2026-09-07T10:50:58+00:00",
+    "county": "Antrim",
+    "location": "Belfast -",
+    "description": "Man stabbed in face during concert at Custom House Square in Belfast - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOVZNbXVBQU9Hd0lEZVdoTlhyMG10a2k4RFBrYzJBRko0UGh5Q2ZKb2xxckphM2Jfd3c1X1NPeExBTTJYS2dRZHJTX21uVDNCWktrdENOVWJYNHV6UTVGMUFJZjVLcHBSdFoybUdxQUsxUFFXaDhyd1p1Q204QkQ0OGxyMUZlZkVJTlh6a0NpN3B1UFphdzlkZ2NTbDBObTh4cjRkRnpXb3c4a3VucVdjRWVubkdNMzZSWW1tZnVHZERqRW9hTURjQ3c5dXQ4bWs3anpCSDB2MFVLdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-07T11:36:03.586586+00:00"
+  },
+  {
+    "id": "INC-62012DC9",
+    "date": "2026-09-07T09:46:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Boy (17) arrested on suspicion of attempted murder after Belfast stabbing - thejournal.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQUMtcjVCUjQxc2NxUFl1ekEzNTNITjAxZ2kyZ1JoYzRNbHliQWFSZHVUTlZMYS1UMVdZQnZ2STlpQjRZR1BndUFfYUpMdGM5cVpLVHRUVlZRLTB6cW0wVVQ0WktfVnRaVkxFdjd0aUtFZEw3MXRHUjMzTzlRQUJQeVdQRkQ5SjBZYmw3MTNmWFFnXzhycGhlNC1fd1hDUlRoU0N6bg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-07T11:35:45.152234+00:00"
+  },
+  {
+    "id": "INC-8F76B976",
+    "date": "2026-09-07T09:44:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man and woman arrested after Newry stabbing released on bail as police probe continues - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWk1BREI2QUJYOXRmVldhVjBPSDFFZGV3WFdZRkRpRjM5bmN3b1o5OU5HcHJUUFE5QUhLdVdtVkpUNTBqUlNwVFptTWw3bkgwMjNvZGR5d1VFUHhRclhTem9VRE5YU3VabXhlTVBMU3lMVTNqMFBmRmhIZFR1bDZYaEc0dWVBQlpwN1RZMXk3YXRZaHhXbDdFa0lOdEZQYWozV3hBdl9mYTRjQk9WNDVlUFozdHl3bGtsRVpscll5SDdKN29xQ3JNd1Z6c0tNa0pDVWQwUzlCbWx6MDhNOVBUODdHUkg5RGNCb0xUQ0JfNDU1Zw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-07T11:35:45.155592+00:00"
+  },
+  {
+    "id": "INC-6F016069",
+    "date": "2026-09-07T08:48:22+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Teenager remains in custody following Belfast stabbing - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1U2h4M2N5QWQtak5LbjhsajNOMFc4RjRZMDgwNlFNX1BmQzkwbHlCQmxUR2F4QjJiVHpYd2xCTERVNlpfUE44MU41M0hfeEp4WkdHajJpX2JnZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-07T11:35:45.152628+00:00"
+  },
+  {
+    "id": "INC-2E1E8830",
+    "date": "2026-09-07T07:36:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man charged with attempted murder after stabbing incident in Lurgan - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTjNNZ2w1OWJFV18yeDl3Y2lKcDJaUEdreTFmY2w1SWo3QXY2SDJVMEZmdGN1Tm1QTElkQUxkV1dZZHRmZjVZLWFpWUEyeGVQY1pTa1lkUE84RUJjNmpTQmw5bUdUbG5LZC1POUZPaTVtX1VqZGtqR3R2SnctajVfbkY2UVlQWjBxc0NKWmpNaVJkemw2QlZVMTV5VElqM21nRGxsTC1UemxNWWRVX1l1STkzWkhRbVp1WVp3NHVFbEY?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-07T11:35:45.160293+00:00"
+  },
+  {
+    "id": "INC-AD3600E3",
+    "date": "2026-09-06T17:42:00+00:00",
+    "county": "Antrim",
+    "location": "Lurgan -",
+    "description": "Attempted murder arrest after man 'stabbed in back' in Lurgan - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdXhoZnRuTGZTU3RueWtaTFIxX2kySXBTSEExSTlQR3EyNnJZamlCZEMyNlhqT29xakJxYUpKNFZlRjN5bnJaWDdmdmtvak5HOWJlTUxHbUtLTThvRGo0NVFfVDd6S05iWTJGMzFreENxc29IN3NrMlc4MDgxRi0zbDdZdVJVR3Y2TFFsZzVzZ1BrSEFzXzA2NXVR0gGfAUFVX3lxTE5lTWxQbEpIYS0tR3RINTBEVWZHTWU3VlQ2R00xRVBVTU1rd2ZYQ0Q0Z20yNUlhU2xrMjRRRnJsYVRCQ2trSUY3MEctcnUxVWRuMmFWUnZXRXBzdXlQZjBBQ1RkWmpTUUxjbFNfQkM2VmJzQXBSemZtSUJNbkF0SFRia3l1RG9Gbmlvano0RC1Ec1RfODNyeWxIZkhHOUVIQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-07T11:36:03.588466+00:00"
+  },
+  {
+    "id": "INC-4C02140C",
+    "date": "2026-09-06T17:26:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man seriously injured following stabbing incident in Lurgan - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ1Y0SmtXMkg5d2ZFbWJ6dDJzdVVoV3dNeXV5UUlmWU1ZN0ZIN1U3ZkhYTGZMeTBGaS1USjVLcGdvc0FjMUtPSlhBbW5kbThDdmJTR1FQQ2hUeG1OZTZqUU9YRjBuZHV1UEJSMUtOTGdqR1ZGY1lQS25Xb2diQUVramtIUE9ENEh6ZDVQS2VoeUtUR2xlb19YdDRyV1EtSDUwTDdhTDBYZkVwUm82enFJLTh4UDBrZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-07T11:36:00.296360+00:00"
+  },
+  {
+    "id": "INC-AF7B24E1",
+    "date": "2026-09-06T12:42:16+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Two arrested on suspicion of attempted murder after stabbing incident - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOR0dTMmZKMzFzeDAzeHlOWk1nRG9LaVhKaUJ0dDZXZURYTEFKUEM0eVEzdk52ZlE3NjVId2dCSGYtSVdLeTJ0Mm1UV1pnc1dCRnBCTl9GenpSalJfY09RdlJCNjhfYWJmMFF4TDFlOXh4Y1FQVkhkcUlkTmxCajd6YkhxNXRsaldLOHVuQWRaejY5SEozZGJGXzZfYXRpOHhHSUhrdlB0c0JKMnVNRHNldEZOQndEeW5rZDZ3ZTJ6YU1kVVVGTlRpX0cyVkRpRlRzcnRjTjI3bE1qbFk?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-07T11:35:45.157622+00:00"
+  },
+  {
+    "id": "INC-5F7D341C",
+    "date": "2026-09-06T11:42:17+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Garda\u00ed Arrest Man Following O'Connell Street Stabbing - nova.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBGc3M4T05KdVNjYmp4RGNQcWdKeWxGU3ZqXzFxSVFfZm0wSkg1QjRoaTVncWFoNmkwdHhPQTFFTXJDQnFYelVHc1ljMmNoalpEU1FuUkM0bWFJTW1yV200Ynd0MjVnb0E1OXhnTlVVOUxMWHhjclNEWjQydUNlUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-07T11:35:53.649275+00:00"
+  },
+  {
+    "id": "INC-2FE9E74D",
+    "date": "2026-09-06T11:36:26+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man stabbed in Newry as pair arrested on suspicion of attempted murder - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeHRYUWwwVlAxTzZRUFpERXl1WnZLYk01RXJSV2lzdGVHTGM1R1h5NFZPY0NSMVdNX3hxUWdCRko2T2Q0T19fTklDeXVLZlpkbVJoMEwzTlhWVkRWRTNQY3BwLUJYSFFJTWF2MEM1VllQbkpRVXRLaUJMd1hJZU52M2ZJcl9zSFNDc1dmdXByWTJ2bzM1aVJN0gGcAUFVX3lxTE5UWGROWFJaT0l1a2JLWVhmNlZJLXpub2dWZUdjMVR4NUl5YTRMVnpqT01jUlZ0dWluRF9hYlhnX2g4MXhlbDkySG42Vm40ZkpZOERybm5tTjA3OHVLaVZENTBmMmxyZHhLS3FvY3BGR3NaM0Z4T01DY0dNOEkxVF9oSDN0Mm11NS1teldXNS1zX1lrM3k0VGVnXy1uZA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-07T11:36:03.593902+00:00"
+  },
   {
     "id": "INC-139164FC",
     "date": "2026-09-06T08:00:58+00:00",
