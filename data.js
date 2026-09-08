@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 856
+// Total incidents: 867
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,84 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-D22D76DF",
+    "date": "2026-09-08T10:15:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Teenager arrested on suspicion of attempted murder after west Belfast stabbing is released on bail - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQM2IzS2JFTVJjcmlBNDV6am1Idll1czBXcTIxbGRCSEM5RlMzaTlEUFZIc0ZqUU8xQXh2aTlfdTRSakhNTmtmZldJQmQ5SmVNeDFrYUJBZ2QyaE05Ry0yQTRteDZwbjJPTWMzUkZUS2E2WTVIRDYxR1VMb3ZFWlhEQ0I3dFluVEphSnc1MEtUc04xNUNfZmNiWThON1gzSXFuaWxZTXNhZUJkR3Z3QjBNLVY3cnJSSzR6RE1nVVV0ellfMkZPQ2M1Ym84RU9uamV3ejRJak0yREtVU0IyUUZycmRmQm45OUZJOTJJOXBQU01oWGRGRHFNVTJsVDNOdE1XaHc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-08T10:35:02.072625+00:00"
+  },
+  {
+    "id": "INC-88840D2D",
+    "date": "2026-09-08T09:25:27+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Teenager released on bail following west Belfast stabbing - The Irish News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOc0c5MU95MkJ3ckRObE1SSnZLNkJIeDFReExPV1FycHJyQmpKMVgwWU0xbjcyNVJOWEJKaG80SGhzdW8wUWJsWC1NMS1TZjhDeXNhbHA4QXhDemlaWkV3QngyRkJtVnhFcFN2NXkzczJUbW9NUXN0dFZLMDVqUk5uLXg5U2FNeHljSVJIRnV2SC02ZFlHS2FoU2FULW9sY0Y2OXVfdlYtRWFoMEF1WFdfOGdvcmxHTktEbUZaU012SUJ4blZkM2lXc0dyVVp4dw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-08T10:35:02.071340+00:00"
+  },
+  {
+    "id": "INC-A7072719",
+    "date": "2026-09-08T06:05:44+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Tallaght man stabbed his sisters 136 times before throwing brother out of window - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZFVLR3pvMXppUzYwbDRWM2JsdVVSTThSQUYtcVBkR2xZLThOUjd5bVpCRmV3NnNBYVdFVDhGZGNDbkpCYTVJbHNhSUFFaFdqUkpuSUdFUTBydmZDTkJwckd6blRQVTQwOENJZlVQVGlETnBCdk1ucWlGTWliVkpkelZkQnhWSHc2eDJNZtIBkgFBVV95cUxOajlDYV9wX3g5THNCOEIwLVVNclh2SUhxZ0FQYTNBb2FLa2YwSElLQ2pJYUdGWHhmUkltVHRiZk9PUlZkN1FscVdUWUlFMGxEeGdOQldHVXBmbkRENlR3dV91UWdMQkN2OThnbERJZjhuQ0hCMHhzTk5tR2x2OC1XWjhoZUFVdWdYMmo1akltbHVUdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-08T10:35:10.836348+00:00"
+  },
+  {
+    "id": "INC-31174D5E",
+    "date": "2026-09-07T12:05:23+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man in serious condition as PSNI probe three separate stabbings | UTV | ITV News - ITVX",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ1p0YXpjeGlMYXRuRGVQQ0FoS016RWFOdml5X1pRb3RFeTBfNHd5VGducWV6aUlTSFR5VkpwLTJYc3hsYVdIWks3Smx5c3ZwVEI1aGNxLU1EMURGX3N5SmNiZnJmV3pOa1VwUFhRdFhwSmt4UEpGTWNIcE9aUlcya1hKZFF3UzNVUjZLMktmWHhVUE0?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-08T10:35:17.764478+00:00"
+  },
+  {
+    "id": "INC-998441E1",
+    "date": "2026-09-07T11:30:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man charged with attempted murder following Lurgan stabbing - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORHhXLUp3QVVNRDZXT2lnLU5iUWhWMTgwcFhlN19UenJlbkNWcFl4elpRQXVieU9GS2F4SWs1SW5UX3ZLTmZwcXZudXJCdnU5YVBmcHFESDZiTFhBejFybHlneFpkVHhSTFBRbEs3bkgxSDY5QTdCWW4zUklJTTdVUjdxUXdfNU1Pbi1qaVNya0xSX2FJWEpKdnk3bWt4MEVSVnYxeHdLdXJiV1lsTzVSX1NCS1hiakFpUDJvbGdmdmZWTGdBWURR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-08T10:35:02.079065+00:00"
+  },
+  {
+    "id": "INC-07276DB6",
+    "date": "2026-09-07T11:24:45+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Teen Arrested Following West Belfast Stabbing - 4ni",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLWE5Rl9PYmZiRjVzSnZORjVOS3dUbDV1bWtsUDI5SkVQYWV0ZDNwMXFERmF3cnBtNEsxZ2xNVFdlWmxUZHVrc3g5Umx6eXpxbTF3MWtIUlZMSUw1ZVBab1pBTlZQaVk5UnpWTmxZV0tIWVZmSktEWm1YMmlhdVljM2VESW1hQ1JfV0VkaldZUW1NVHViTlNnVGd6a1M?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-08T10:35:02.077678+00:00"
+  },
   {
     "id": "INC-045378C2",
     "date": "2026-09-07T10:50:58+00:00",
@@ -76,6 +154,45 @@ export const mockIncidents = [
     "addedAt": "2026-09-07T11:35:45.160293+00:00"
   },
   {
+    "id": "INC-70FDD1E0",
+    "date": "2026-09-06T20:25:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "What do we know about the Belfast knife attack? - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaDBPQkRGU0N6SG13NVVmcjZuUkgtTXRZOHl5R1pDUGZjeUhyWjVVU3prRjBwUUw5SlphQk1OVnUzU2tXRDNKMVJ0ekI4alZ4TzJ6QWRfbF9nUUJZcHE3NU5hcXRYMjFfRExabERjUzdXWndiOUljdkktbDB6UEdIb1hXZGo0bW1UcGV3NXV5NGFteHhaR3A4eA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-08T10:35:21.122433+00:00"
+  },
+  {
+    "id": "INC-2CA61708",
+    "date": "2026-09-06T18:34:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Northern Ireland Stabbing Sparks Protests and Political Debate - Devdiscourse",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMDZXNVBwUjJRcU5RSW1qZkxybEdMYmhfZjI4TXdZeXdiTDRQemplMWM2cTRVMFFteXZ3dWQ1aVZPYUZ0MEVodUJVMHBvUVByY0ppNW1ZUGxSYkxJcGVTSng3V2hCQUVKQzJKQ3JqTVE2UDZRdnlyNjNEbDNzdG9OQzI0d2VEeU5yS280clF4bHpZaVlIUW50ZnV3NGc1WXJmWmtlNnI1UXFSNkFEMzBwYlhrTWRyZDdU0gG-AUFVX3lxTE8ydjg0cU1Cc1NfR0hkYlJPd2RGdm5kaWgyYzByQllobnVGZDR4VXNJYmhmdFZFbzBxZFVLYlZ5OFZzVllGLVhFcmZOMk51TEJiS1dNLXFNWjQ2dHAzUDdNTmhmTFlBMnlqZWhabEJLakh4cUNlRk5CVzFGc2V5MWFZM296Qm1EMUlKVkZXaENxM3dtZi1zcEFENzFNU0hqYXAzaW9jWmtMYlcxQnp6eHF6WVY1TjRSUm5JWjdkV0E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-08T10:35:02.084393+00:00"
+  },
+  {
+    "id": "INC-0FC44690",
+    "date": "2026-09-06T18:26:19+00:00",
+    "county": "Antrim",
+    "location": "Lurgan -",
+    "description": "Man in serious condition after stabbing in Lurgan - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNzBfeFZDNkNTelF6WF9RdWF2bGtXZ1pQVWM3cDZlRzZJek9rYktmaFp5R2RkODN5UGZ0VFBtZVZEWEhZckNEYUxwazBUSlZ0cWJIQl8xeWFKQWJqS2dzaERMNzd2VGZMNmZBc2RBeHNvOVhpM2l6a2NGejJLZk1OZXNsQkJ3U2pHYllZSkpQM1NHT1Y3cTgxdWhnWVhrWWFUc1FkaUNiNjE0T1NNMGtlRzFoUVNQaXMzU19lTjM4eXE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-08T10:35:02.076540+00:00"
+  },
+  {
     "id": "INC-AD3600E3",
     "date": "2026-09-06T17:42:00+00:00",
     "county": "Antrim",
@@ -128,6 +245,19 @@ export const mockIncidents = [
     "addedAt": "2026-09-07T11:35:53.649275+00:00"
   },
   {
+    "id": "INC-EF28CAF4",
+    "date": "2026-09-06T11:37:15+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man Hospitalised Following Stabbing On O'Connell Street - Ireland's Classic Hits Radio",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbWZCMUJlM3hPLTNmaHRJN3ZmaU1EQ2hTa3E2RHFnUHBuSWFXdVlhWlhCa1lVd1F4UEJLVzBhRFpVb3o4OXNHSWhWOTU2YmVDRk1tNWlzM0txUllaR0EtQ3JpUkJ1cW9ab28weHcxdGtjRUZZcWZFOWxhSXh0VWs1T2ZHVGYwNVRvUXE5RjR5NnZkMENXUk5BQWp1b0N2V0pQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-08T10:35:02.073724+00:00"
+  },
+  {
     "id": "INC-2FE9E74D",
     "date": "2026-09-06T11:36:26+00:00",
     "county": "Antrim",
@@ -139,6 +269,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-09-07T11:36:03.593902+00:00"
+  },
+  {
+    "id": "INC-4A7F8512",
+    "date": "2026-09-06T09:45:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Starmer condemns Belfast stabbing attack as \u2018horrific\u2019 and \u2018abhorrent\u2019 - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeGlNSU9SdVBPanJuc2ZrVU5XalFYS1RUQmZUc1lmT2E0VUozSzNZcFhfMTBaRGJEc0ZhcFhsNnQ3Z2o3aGxkQkM2RzFXTzAwSk9ZalF4UHRQdGZxMW5jOHVVX2JjMDBoc1JiUDhPVWlQaGYyTmdqOFVjVDFmZHFZcTk0Z2RTWUo4NkxjTU9vTG9qaTEyaWVPaGZhQWVTRXJVXzktZVhBdmxHNUlJUWNfQ0FxZWRRZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-08T10:35:02.072379+00:00"
   },
   {
     "id": "INC-139164FC",
