@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 867
+// Total incidents: 869
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-D8CF5B0C",
+    "date": "2026-09-08T16:07:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Cocaine addict accused of stabbing his partner and daughter in Cork City - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TOFVFbXNSWDlCTkRScERkZnBFV1ZsQk9zcFA0UXp4M0ZQclFtZ2VpY2VoZjNsZFZaYVlmVHBLX0J5QjBaR3ZLdzN3TU02aTFNSG5qbTgwdGgyWTZKYUx4U0lvVmlkWWNvMkZURGJERHNvdzV5Rnc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-09T10:45:51.869144+00:00"
+  },
   {
     "id": "INC-D22D76DF",
     "date": "2026-09-08T10:15:00+00:00",
@@ -48,6 +61,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-09-08T10:35:10.836348+00:00"
+  },
+  {
+    "id": "INC-8DA7E6F9",
+    "date": "2026-09-07T15:48:52+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast: Police investigate concert knife attack after man suffers facial injury - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaNUNsS0FpU1BnXzlvTVFLT0Ytc3JZM3R4ZUlnV3N1TF83cWw4aTZzSkcyUEdwZk1lSWZjUVk2Wi1jM29na04xT3I0djRvY210WUh5d0tXeVZqQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-09T10:45:48.534149+00:00"
   },
   {
     "id": "INC-31174D5E",
