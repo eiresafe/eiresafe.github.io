@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 869
+// Total incidents: 870
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-C1DFFBAB",
+    "date": "2026-09-09T11:00:00+00:00",
+    "county": "Louth",
+    "location": "",
+    "description": "New charge against man accused of stabbing another male in Louth - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPblpVWkNrT0dCQmc0V3Nwd2dIem5sVG50c3Nka2ttcElKUVBibWdHV3VnMUd4UzNxNmNTYlpUeGp6T3YtakJiV3NyZno4RkdyZzJQMW5neU91MFFBSUJFQUFPN2dfWTduN21UOTRFaHVQZDV2a25EeUI5QUV2SU5PLXo5WEloeWNlTzdjYTVkWUVIcDNfMmhtSVljWEpLa0JkTVpPQjZ3REV3dG03a1EzeVNpOEszbGVBOGV1TVR3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-10T10:37:28.478194+00:00"
+  },
   {
     "id": "INC-D8CF5B0C",
     "date": "2026-09-08T16:07:00+00:00",
