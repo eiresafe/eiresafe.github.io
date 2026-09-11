@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 870
+// Total incidents: 872
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-68EC4104",
+    "date": "2026-09-10T18:58:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "'We were the perfect, happy, family,' says Cork man accused of stabbing wife and daughter - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYOU9DaG9vQVZFYWRaY3FzZXlUS3RLMTF4MnIwVlJtMVRaMU5CR09zeUlHajZLeUN3UTc4V0JtWWJ6U1BoY0M4dFNrLVF5UHdwbWpsUzNyWEh5UlVTemV0U0lJdzktckZnY1o4UU5xUnhJeG93Ync?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-11T10:36:59.607366+00:00"
+  },
+  {
+    "id": "INC-EEB0727A",
+    "date": "2026-09-10T12:19:31+00:00",
+    "county": "Cork",
+    "location": "Cork city -",
+    "description": "Garda\u00ed move forward in probe into stabbing of father-of-three in Cork city - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON1MzYW9VM1ZRY0xlajdVbmFjZkl1cWVWdzZOWWhXVUFBZUdjdklpWkJYSENzVDdtNXlaaS03aGpkdVFzRWNURnRmQ0RoOTB5NlBfVTdUemx1WFBJWW00ZncyMjVrV0RZUkZtUExGaDRoRlRCWm1YLWpBWG9lWVhuOVVSem56TUxNbHfSAY8BQVVfeXFMTjhEbW1pcDFZOTJTa0RxYURUMV9hZWJuUFhUVmZOV2QtYy11ckdMQm9SWG1wZ3dWN2FPU0JlOTZZVFIzTVZsQllFY19Ud3poYXNMcno2VTBfSDlrZ0l6d3ZkWWU4bkkzbTcxLUo2T3JFVFA0M3I1eFI2eFg1TXFFNlFlbXlpNGhOcms0bFM3Q2s?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-11T10:36:59.606995+00:00"
+  },
   {
     "id": "INC-C1DFFBAB",
     "date": "2026-09-09T11:00:00+00:00",
