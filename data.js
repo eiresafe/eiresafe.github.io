@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 872
+// Total incidents: 876
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,58 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-078E849C",
+    "date": "2026-09-12T05:30:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Teenager accused of murder over fatal stabbing of decorator in Dublin is sent for trial - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPem96UndrRGpUa3VYdGlTTGcwdUNKLU4tTEV5WFJyV0xDU25jZUIyUjNyd3lGMkVWQjRsVFVPOFUta3p3Tm5jOHBMdlpNRXpNa3JZRGdIQzRHNHF6aHppZ1YyOER4dElFOThNT01OMC1ZWl9lWUR0ZDY2OVR1WHR0SDR2QnZULXk1cmVxUjVPMzJhNTZQamlVaGFGTG51VERqc3RZMXZ1ZnVhVG1lY21zeUd1STdUOHBvNzYzU1ZuMHd1bVZhRkRhU1J5VmZydWZWTjVtakxxVUYzelFxeEVndjZUTQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-12T10:06:26.555214+00:00"
+  },
+  {
+    "id": "INC-482EEFE3",
+    "date": "2026-09-11T16:28:25+00:00",
+    "county": "Antrim",
+    "location": "Limavady stabbing -",
+    "description": "Blake Newland: Father and two sons deny murdering teenager in Limavady stabbing - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ2lSQkplc2dYZVdCa25CdmRCckZSRlIwdXlRc2toVndybVEweTJZS3dBNXpjRUYwb3JTM3dWbTgwUUZqaWU1dTZwcXV3eEhUdFBQc2VnTmk1c2xhTzl1RVljV2FPR09mcFVaY08wblA2UDNudTdJUnQ2dzFVVU00OUxxTnRzM0J6bnRmeFlLOTNkMzlTOTY5bnhyZFRDWnZmWnlvSTlpdFdLR3BYSWxlalVfamFoejNKZ0hyN2g0TGFyQnh5bGFj?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-12T10:06:41.620219+00:00"
+  },
+  {
+    "id": "INC-27117EFB",
+    "date": "2026-09-11T16:11:13+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man who stabbed another man on dancefloor in \u2018revenge\u2019 attack at Belfast club jailed for 27 months - The Irish News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPcVNBZjJwNUdVdjltaklJRW16Y3BBX2lZdnpvTWVNTEpUX1pHNkRyVzVUUENXUFRlQWZabXpTUjIwbXRvakZsZ2ltbGdvcHRZSG5Mai14WVI4dnV6S3hUX1dtQkVTNWNQaDl6c1ZoM3VaWXJ0RHFBdXg4Z1FtdTBZS2ptWS10VlE4OUh1Tnd0RFJGV3V5Y3R2MTJBZU9SUjlING5rOFZIQmZGNm84Q3JReFFQMlNTVlhtYS02Y3VKeF95bGtmMlNyZGVZOVk1T3F5bE9GcmcxVXRfYXF4X1YtQnJQWWZkbk1RUncwVGUtNkcwZVZ2WEllZjhjajU0Zm8yOGc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-12T10:06:26.556831+00:00"
+  },
+  {
+    "id": "INC-394C3173",
+    "date": "2026-09-11T01:05:43+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin estate targeted by knife-wielding gang as resident warns violent confrontation 'inevitable' - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMVc0Q3ZPbkk3THJOdUt3WDhJSUpocmpwU2JRWkZacWdGVkVUbXFwc21iWExacFF2aF9OMUlDYmhvNzlUSF9iSURJU1p1bzMwV2VBc1lLS1pjbGMzWlFnY2lxUU91TjRPRkU2OGRYMmU4dWhXYlhVbGFxZ3VaUkpIZk04QdIBiAFBVV95cUxPRTBSV3RvMDlOZXpqYkxvWVJwMk1BWW5kZWFHUjZLQWpXekU3SEtMSGR5elI0ekFPdTRZcWdtemgxS3RETURfWmREVTBCUzRSaklzaHZlU203cFFtZ1h3Z0d6LWhvV1ZZQVVFLTFFaWtyQnU3OExCaEo3MDBlWlN0dU4yYVVfRlAx?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-12T10:06:34.987340+00:00"
+  },
   {
     "id": "INC-68EC4104",
     "date": "2026-09-10T18:58:00+00:00",
