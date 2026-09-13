@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 876
+// Total incidents: 877
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -22,6 +22,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-09-12T10:06:26.555214+00:00"
+  },
+  {
+    "id": "INC-0F433581",
+    "date": "2026-09-12T05:00:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Warehouse operator stabbed man on dancefloor of Belfast nightclub in revenge attack - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcnZfbFlGRDhHWEdaZXd2Z09faG5QV0RTaVljUGo5bTBXZ1lqSDMzNi00Yy1SN05vRmlvRUdrV0N2RXk1cHFteUFiUVFkYnpoczRWWnQyQ0Y1VzZpazZGQlRoZ1dQa3N3MW93ZXBhNmVrckwta1pwNnFQMWlZRjJrSWltNEs4U2Y4QkpMbVNR0gGTAUFVX3lxTE80Sk5xNVgwZzhhU2FSVk5qT0FaU0dHak1MSUNNRGRUdEo2Uk9ILVpFWFpyVUlLZ1VtWHBIZ2RJb2RqSHBFdzQ0ZG1pamo5bHphWnppVXdrdG1QSjBOZy0wNWFER2EzaXQta3BpbHVvRVFOSjRHNVNSTktEZU04Zmp1UVlIOUhUVzIzb3JRYWZvem10TQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-13T11:05:40.430572+00:00"
   },
   {
     "id": "INC-482EEFE3",
