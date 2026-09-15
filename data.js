@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 877
+// Total incidents: 878
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-BD07C4DA",
+    "date": "2026-09-14T19:27:00+00:00",
+    "county": "Antrim",
+    "location": "Lurgan property -",
+    "description": "Man hospitalised after metal bar and knife attack in Lurgan property - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT25oUldZSnRPWkNocXFwY0h4YzBGT2lpTmhqQnJUYlI5cVdmeGt3MmZJd1FhcTRKYmpaODFHdjVDeDVBbGJKOVZ0RExialVVbklLOEdCdDFLVTNEdFhCcEZiQW56b29rZy0xUlQ5TEt2NUxSczF6dk83VllfeHFPSm9OQlVBdHFTUlZnblVyTnc0WWx1NVhPRNIBngFBVV95cUxQX0FFZEpuS2k2V2NHcmdqOG9nVGZlMHV2S1hJaVcyZG43WGo1dHNPR3FjWklYWGNZMXE2dk94eEhpbjR6OGNsM0Jma3Mxb2xDR05KbnFzN0c0UjRnWnNWbGdwdjVOLVM3Ymt5WUtHWDZ5ZlJVNGhMVGY5QlFfV3V6SEdpU21XcEJzZUFQSVFUM2d3bEs0dGVCM0NRcWluZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-15T11:05:25.703645+00:00"
+  },
   {
     "id": "INC-078E849C",
     "date": "2026-09-12T05:30:00+00:00",
