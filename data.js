@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 878
+// Total incidents: 879
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-3DD3342A",
+    "date": "2026-09-15T21:29:46+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man rushed to hospital following stabbing in north Dublin - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcnE2eThRR2s0WUQ5djdIbWt1dGcyeEZwM1RlMFlIUi01cE91VkJzTlNocElWVndha2FWZnRPcndaZEF0ZXNUb2VnMjdMbGVHb01xWFhMaWFkV05LSkFONGpDSHFXUFRTSXlGYlBVbGFtb21zaHpGTXBvTkR4ZUZxVHVfbGQ1QVJ2ZXRWWDBFZDRJbGd40gGaAUFVX3lxTE9fYmgyRmdYRXM0TkVBX3llZkYtRnlEOVFjU2NJSUJjbFFiR0Q1MEZQandFX1U2bUhVYTg5a3kxODZXRl9fNm9wN1FMRzNxWWdqdXhOTUp5azRSQzhYcGxFWTVJNjhLRDR4b0p5Z3hnYm00WWlYNUtiX3BaenhURXBad2tyMy1wMUhHQTFjV2l4OVYzdXJVbEZuMXc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-16T10:51:14.753824+00:00"
+  },
   {
     "id": "INC-BD07C4DA",
     "date": "2026-09-14T19:27:00+00:00",
