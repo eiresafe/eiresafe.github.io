@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 879
+// Total incidents: 880
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-0E121139",
+    "date": "2026-09-18T06:00:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Cork man charged with shop robbery allegedly told woman he would stab her in the neck - echo live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyYl9KQWt6T29fYnpiQzBZdVFYTjVKdnRNV3dXeU9QTU9XTzJWbk5tdUU0SmtrREp3a0VzTTRkNVpEdF9uX24xOTZkRnZhSXlMTzVKbHpTd2ZWN2VGb0tOeA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-18T10:35:03.257556+00:00"
+  },
   {
     "id": "INC-3DD3342A",
     "date": "2026-09-15T21:29:46+00:00",
