@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 880
+// Total incidents: 881
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-88330E7C",
+    "date": "2026-09-21T16:20:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man jailed for Stanley knife attack on two others after row with neighbour - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdFgtQjFPYjMxZlpuTkdUM185MHdhOEk1Z2hDS1hERXRjZnE3b2VTOThRZklfOW9feG9IYlRVNXpoSFpHb212WlR5Z1lmbWVsaGhfaVczY0ZNcm9lYXlKd2Flb1U2dGdBYWRBcmt0c1dGZjMyWWRLeXZCUFFtTFB5TnlDOGJ1aW1aUzRDNU5VNU1ZT1cxWTdwMy0wS0pDeGJDR0pUeTZuQWkyeDdTX1VLNjNtQi1fYzZuMU14ZDFZX1FHS3B2ZnNOWlh2Y04tY012cW9UaQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-22T10:58:53.375006+00:00"
+  },
   {
     "id": "INC-0E121139",
     "date": "2026-09-18T06:00:00+00:00",
