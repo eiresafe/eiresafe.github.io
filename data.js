@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 881
+// Total incidents: 883
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-0B749161",
+    "date": "2026-09-23T10:12:10+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Hadi Alodid to stand trial for attempted murder after north Belfast knife attack which sparked riots - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSUxNSTVrRUhrS2M4WW1UUlNHTWl3ZWNzMzlINGo2Zm9hYzFPamd2WXpNdmNBZDlaQzFXemIyZkZGZzE0Qkl3bDViWExFczlpR1BLcVI1emhrdzJQaVV3dVpQXzMxdEJXRndCeUZIcEpIUWxvS0FFYWN0RWhEd3pFNnA3Qks1Mlk0eWpMNHhDQmV4bE9ObGVUZF9LRTNLeTJhTE5rTmMzMVFGNFM0bmVHekV5cUtJaVVDOEtYc0hJUDFIR3VDUkdVdUxna1l3TmQ3U19iRVVpWU1RN2ZQNktCVHhjOTFTcmVxOEpJQW9RSWJUd3N1Wkt3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-23T10:46:48.649167+00:00"
+  },
+  {
+    "id": "INC-67779A5C",
+    "date": "2026-09-23T09:55:16+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man accused of knife attack which sparked rioting has case sent to crown court - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVWZLeUptV2ZYcUJhMEdJSzFrZGZmZmtGUm5RdE1BYkdLRFo4bE44ZmNpMWFJcHNWTGNQbU54UHJYYVZTOGxBVnFMSkRMVDhIMWFDdVctMkJsXzFaVHQtOXYxM2gxV0c0QkV6dXc2RXFpdXVFRDZjY2piWDlPMi1udDBCUVloQXM2V1ZfcUtvSi1QeTYyei1OdmQwaUZoZXpGajdoRlpCWmVLTzZNY0dxZDBXWnJPTmlPVG9FSnBwZ1RRdHl2Q2hDZ2pnU3U4N3h3MFNlZXRVZUhHZmFrSkIteTgzQlhOSFk?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-23T10:46:48.648415+00:00"
+  },
   {
     "id": "INC-88330E7C",
     "date": "2026-09-21T16:20:00+00:00",
