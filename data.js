@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 883
+// Total incidents: 885
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -22,6 +22,32 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-09-23T10:46:48.649167+00:00"
+  },
+  {
+    "id": "INC-9F77D0C0",
+    "date": "2026-09-23T10:11:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man accused of knife attack which sparked rioting has case sent to crown court - belfastlive.co.uk",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ2MxYVQ0TlNUZHZ4cXNpcDIwdFhXc2tFWGNsVUlocFB1d0MwZzExbmcySjh4QW1jZjFHOXVMTXBUZWU2cnhVd0FKWDBqNFE5QmYydkhJVnFCQzk5OEdsd1phLU1CX3E5WHc2c01jdURBcXFLek9MLW5XWWZteWpuNzVhOTAxbVNvN2UyS1gxUkFMb2_SAZgBQVVfeXFMTXU4My1jd2ZRQm12anpnUlg4aHlEODk2Wm9IZ0J6S0JPM3hLU0JIWmFPaWZCSnBFOEtSNFcwMk9Lck5uWjhCLUlkTW54X0xaNjB1ZTR4U1Z2TVZObWVJbERtTXpXMTVuV3ZYaDZrX0hjdWNNRlBIQTB1R2NCdlJ6SHNtcEMwRUZYNVdQWGEzVFdnbDFURWxHc1k?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-24T11:07:16.753886+00:00"
+  },
+  {
+    "id": "INC-0D9499C4",
+    "date": "2026-09-23T09:57:39+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Asylum seeker accused of knife attack that triggered rioting across Belfast to stand trial for attempted murder, judge orders - The Irish News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxON2pkaGtBd1hfdmpHcjVEWXBnLWhVX3piYlhPVjJOdFdtWGtpYnVjclU1ZlJLZk42MG54WjZyckh2MWZfVnhBZXhJZTlBS1NPOXNPZlJGS3B0WmZ2NXZvVHRfZHQ5RkpEREg1Y1F5ODNnN2YtT2x3UGRuMkNLRmdtUEhMUVhMWVY5eXFzMk4xZVVCdkFVV2NkcmNVOTRJWXlWR2ZsM21YMlZvenhzeHhqNERmcHNSXzZmWlYxSC1SYTB4bndwVlZaaWxUT2E3a3NiY05aUEtMcFFzd2xBbEpicVUweGN4T1ktd3Y4T0E1X1UzbEN6LXZuM2U2X21sS01YZnMzNEZ4aFhEd2hFWXc4d0w4ZG9Tcmg3VEhDQzFKbWs5eVVQQmRB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-24T11:07:11.756198+00:00"
   },
   {
     "id": "INC-67779A5C",
