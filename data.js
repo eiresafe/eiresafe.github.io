@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 885
+// Total incidents: 890
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,71 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-2F594066",
+    "date": "2026-09-24T19:49:00+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "'I\u2019ve stabbed you three times bro, you might want to go to hospital,\u2019 Limerick man allegedly told victim - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSm5tdUhCS3FYNURsbjV2bDZXUmx2Mkh4bnhsSF9HTmtzOEpibkpvT2FsV0ViN3JWcHByYm1WTFo2SlpubkRnWmxYR19Dc09uYndoNTdzcm0zd1o4UmlTX1dKd2UxWndkSFZvd3pMQzd0dXlab3ZxbXdtTWZPNl9JUmJjRF8?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-25T11:09:54.907345+00:00"
+  },
+  {
+    "id": "INC-FF8BA59D",
+    "date": "2026-09-24T19:36:57+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Priest dead and four others injured during stabbing at historic monastery - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVHY1dWs4YVJPSFE2LXJaVUlwQ1ZxbFVSSVNNQ2JXSGF5TW14QVdDMk5rTzlTV25PRE9RSjZ2LVVnTjk1LTdPeDFDOUQ1dlp3SzNGS3RzT1U2Y3d1V3Q2MEktZ2RDS3dldzhKT1c3cDl6MGM1YnphSTl6YnNvb0JpYlRsMEpWZDhsT3fSAY8BQVVfeXFMT1B5Y1FGU3I2MFlMNllPZGhZX0hxVVZjZ2gwN1Q2aVRBelItUHh0dEZ4Z2pqbFFBbndmc2pfWl83am1qakQwT0daSEZUVzg1QjhZbjhORWFTaWNZQkRCWDNXUGZFUkM1VVYwM2hRQy1fcnVFcl94RUxQLWJhY2NOd09uSnVFUk5tMXJHWDBLWWs?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-25T11:09:49.755054+00:00"
+  },
+  {
+    "id": "INC-63BB33CE",
+    "date": "2026-09-24T18:58:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man fined for threatening to stab garda in the throat at Cork's main bus station - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YSEtRUzdScVAwMXNkSnRJU2VRdkozbmdzWWx5YVp5eFlQc19wYkVBQmxMY1AtaHNUZ3VNWUcxSUloRG9rR1o1OVBzeHJsNGNvYXh1MUlVc2cxZGZFbkdFQ2dxZml4LVRJY0IySFZVVERMQWl3UGc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-25T11:09:51.489128+00:00"
+  },
+  {
+    "id": "INC-1C5523F5",
+    "date": "2026-09-24T17:00:00+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Limerick man charged with assault said 'I have stabbed you three times bro', court hears - limerickleader.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMFRmUGxpeDM4dGZadTdXVVhnUlJDQUhVZWxRNWFUZExsSXd4WG5veGlXNi1MZGJ2NTd6MmZrWmtqb3NrS1ZLZ2hXZXZDRDg5cUlMYmxjdHE5SEJXeEwycDAweE10ejBhUXJNeEZnSGc1RERGS3NTQmh6Vy1wZUNPWWd0Rk5pa29hX0dNSWpVOFpIYkFuS0VLd1BrRWF0Zzk4YS1FUnpDZUl0eEZpNDRDbTV5b3g2MWo5VXFieFFER2EwUUFXcjN2YUVGTVNyY19sZnU1T3JidGQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-25T11:09:54.907515+00:00"
+  },
+  {
+    "id": "INC-D3E13D11",
+    "date": "2026-09-24T12:47:52+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man faces Cork court over 'savage' knife attack on daughter and partner - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV3R0TU5HaWxRc0tYUGQ0STJITGhVWDJiOUQ2bHpIQ0hNUUJkcXZNMlZPdVpmWG80OWdOeVp3VXRZdzBYMDJTOUZpTjBYNTdnWEF2amZQbmxBeml4akRqMldWdXctMXFpNk1kblAxRjF0UTU0Q3cySHVYNEFBNlFTWElna2diVkXSAYwBQVVfeXFMTkwzMGFIMF9Vc01tVnlHNGNXQnI4MV9mTF9SakxYbktXd1YySHpWbTdRQzdaM0hwMTV0ajBjaWhZLTJCcFYwWmoxd0VFNWk1M3pFTDE0T0h5MkFLSjRnM3dlajVWaGhLdWcyelM4S1FaenFRMXRzYWdXU1gyQTZWWGJpNkJyeHpyU0VFSy0?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-25T11:09:46.246403+00:00"
+  },
   {
     "id": "INC-0B749161",
     "date": "2026-09-23T10:12:10+00:00",
