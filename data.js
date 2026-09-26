@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 890
+// Total incidents: 892
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -37,6 +37,19 @@ export const mockIncidents = [
     "addedAt": "2026-09-25T11:09:49.755054+00:00"
   },
   {
+    "id": "INC-7D421E7E",
+    "date": "2026-09-24T19:36:57+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Priest dead and four others injured during stabbing at historic monastery - dublinlive.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVHY1dWs4YVJPSFE2LXJaVUlwQ1ZxbFVSSVNNQ2JXSGF5TW14QVdDMk5rTzlTV25PRE9RSjZ2LVVnTjk1LTdPeDFDOUQ1dlp3SzNGS3RzT1U2Y3d1V3Q2MEktZ2RDS3dldzhKT1c3cDl6MGM1YnphSTl6YnNvb0JpYlRsMEpWZDhsT3fSAY8BQVVfeXFMT1B5Y1FGU3I2MFlMNllPZGhZX0hxVVZjZ2gwN1Q2aVRBelItUHh0dEZ4Z2pqbFFBbndmc2pfWl83am1qakQwT0daSEZUVzg1QjhZbjhORWFTaWNZQkRCWDNXUGZFUkM1VVYwM2hRQy1fcnVFcl94RUxQLWJhY2NOd09uSnVFUk5tMXJHWDBLWWs?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-26T10:49:30.840728+00:00"
+  },
+  {
     "id": "INC-63BB33CE",
     "date": "2026-09-24T18:58:00+00:00",
     "county": "Cork",
@@ -61,6 +74,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-09-25T11:09:54.907515+00:00"
+  },
+  {
+    "id": "INC-49BA5F45",
+    "date": "2026-09-24T16:37:06+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Limerick Man Appears In Court Charged With Stabbing At House In Ennis On Tuesday - Clare FM",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUDlEck94RFJtaGo5RTlrdXlsNzJmQ0hsZ1g0eS1JZTI2R0tMS1kweGpQY19PX3Z3ZlVaT0Y2dG1JcUdOWTNjalJPdlJlOEJHbVFndWlSSVZTTF9pMmp3SnBsTElnOFNVT1l0OEpJRG9jZ2ktcTc1LTVkR0h0WEI4LWFlSzZUcHpKTkY3OUJPRTZwS01FdmtwcklJek9DR203SmZkTFRpM0hKSk0?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-26T10:49:36.087189+00:00"
   },
   {
     "id": "INC-D3E13D11",
