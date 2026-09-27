@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 892
+// Total incidents: 893
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -87,6 +87,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-09-26T10:49:36.087189+00:00"
+  },
+  {
+    "id": "INC-F8169BA5",
+    "date": "2026-09-24T16:19:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Drunk man threatened garda that he would stab him in the throat during incident at Cork bus station - echo live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pN2dCenQ2RnFEdTZLM3BGOUlSM0dlVjVvUk9zMDNISUtxZEVpcjY0RzlqUVF4NHU2RjJ1U3JNX2lfQ2h5TWRCUWZ2M3RIdG11UDVSdml0RnM1Y1FueUF3Ng?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-27T11:24:53.198878+00:00"
   },
   {
     "id": "INC-D3E13D11",
