@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 893
+// Total incidents: 894
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-6B79E117",
+    "date": "2026-09-28T17:07:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man \u2018armed with knife during attack on Belfast home\u2019 refused bail - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYlRkMkN5RVFFbGxMTkdCdlFkdGotTU8zenlzcjJSanBNcGFhenh0S0NzSVVjVktEd1RCMnhHM3ZnX1F6dzJsVTFzQ1ZhOWQ5WTNqcno2X0Z4Q1JvNFRMaTRlV0NxZ05fLXRsNklkVDdTOUg4TEMxVlpVVC1ZdFc1ZTgtaHBBLXlDUW43Skd5T2FaRDRFR0NRUGRTU2dvMnFXQm5NcVVpbkc3a3RrSFl0VXdlSVVBRGNQdDBCd1lYZ25yaEsyX1E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-09-29T12:08:30.428041+00:00"
+  },
   {
     "id": "INC-2F594066",
     "date": "2026-09-24T19:49:00+00:00",
