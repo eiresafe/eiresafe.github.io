@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 894
+// Total incidents: 895
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-57C1CE20",
+    "date": "2026-10-01T05:53:52+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Stabbing victim's family calls for calm amid violent anti-immigration protests in Northern Ireland - Fijivillage",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5seDRFSlRra1doTkhObnBoeXo2VG5xdExBTXd0azh3UzE0ajhSYzJVMXFkbC1MenpZWHVxbFBwZTdkWmxGNGNFOGFfOGxicEk1SWg0QkhGOFM3ODI4bzZvaDhtOXdKM0NKTThB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-03T11:06:40.759830+00:00"
+  },
   {
     "id": "INC-6B79E117",
     "date": "2026-09-28T17:07:00+00:00",
