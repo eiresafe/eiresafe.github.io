@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 895
+// Total incidents: 896
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-CD34B19B",
+    "date": "2026-10-01T16:13:37+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Young man (24) held Algerian in headlock during stabbing on Dublin bridge, court told - Main Topics - kildare-nationalist.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbmxNdExaQzVWVVN1WU1KTGRzZXVwbl9ET3I3a24xYkNNckMyd0FmcG1GX19tdWg2WWlZVUxmSm0tZnkwdEk2X2tobUxUTGFXNXIwRGVlVml1STZsRU0yZGNYMVdweWg1c1FEMUxWNmlYTmNrUElXZHJnU2FFZzZsWDMtTDFoRVZzMjMxTURiWFplalFWRXhNbElCbzR6WXhaWG5hVmpPOTl5cVAzU190ZHJSOW4tVEVGN1R2M1FBNlIzN2g5TGlWZWJXZU5LQ2lzZHJCbWlFVnlYeGFRTGc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-04T11:47:37.649493+00:00"
+  },
   {
     "id": "INC-57C1CE20",
     "date": "2026-10-01T05:53:52+00:00",
