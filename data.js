@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 896
+// Total incidents: 897
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-47032AF4",
+    "date": "2026-10-04T11:50:06+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing victim\u2019s family say unrest \u2018not welcome\u2019 - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMWFRZ1BDQms2RWdTNklteHB5RUxfSGctRUtYdzF1b01seU55aExKUUd0SjZud3JWTTI1WVJhUnFnLUNFVzJZYkVQdUphN3FuOEN0SGNVWGVYOFk0QUhMSHNFSzZyY3lPaWhqMXBPUHFxUzNpZFVORDBEcFFMSDNLYmVidTdPRUgzWWdTa0dQWlFsTXZxcmhkZWZ6YXRPUmZvdGQ4NlRR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-05T13:37:02.998191+00:00"
+  },
   {
     "id": "INC-CD34B19B",
     "date": "2026-10-01T16:13:37+00:00",
