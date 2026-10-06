@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 897
+// Total incidents: 899
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-6CEFF55E",
+    "date": "2026-10-05T19:08:36+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing victim\u2019s family say unrest \u2018not welcome\u2019 - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMWFRZ1BDQms2RWdTNklteHB5RUxfSGctRUtYdzF1b01seU55aExKUUd0SjZud3JWTTI1WVJhUnFnLUNFVzJZYkVQdUphN3FuOEN0SGNVWGVYOFk0QUhMSHNFSzZyY3lPaWhqMXBPUHFxUzNpZFVORDBEcFFMSDNLYmVidTdPRUgzWWdTa0dQWlFsTXZxcmhkZWZ6YXRPUmZvdGQ4NlRR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-06T12:45:34.063351+00:00"
+  },
+  {
+    "id": "INC-726E8512",
+    "date": "2026-10-05T13:04:00+00:00",
+    "county": "Antrim",
+    "location": "Republic over weekend -",
+    "description": "Paedophile who stabbed horse has bail varied to allow him to travel to equine fair in Republic over weekend - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOQVBFQ1hUa1lrWnBHalU4dnc5WnpCalRNbmhYNFYtY2UtLWUwZURlM0dfTzAxQmdFMVpTWTBCZWhaQWRzWkJobnhlbEtJeUVfaGZxWHVOUmJ0RksxZVNULXE5SE9XMEZIc01aejJTT2Q2TGs2dW4wVmlaTXVCLUFCVkNWYTNRVDZNUXl5VjQ1bUE4UVFPek1Kb0x6Y1Qwa29QY196Z1U2MmlYVjJTYmJCdVZxc1pKVno2NmxSalBxNEt4OTFLU1JTUkdQRWMtX1ctVVFBNXFZUEJFanJEMjRZYy1hVkt1VDRGRTk4enhDTGZFY0Y3Y0V2X3Zob1I3UE9J?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-06T12:45:49.352213+00:00"
+  },
   {
     "id": "INC-47032AF4",
     "date": "2026-10-04T11:50:06+00:00",
