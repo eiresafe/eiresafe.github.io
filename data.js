@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 899
+// Total incidents: 905
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,84 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-CCAE2C54",
+    "date": "2026-10-07T08:53:21+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Major update in Hollyhill stabbing death as man to appear in court - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeWEyRGlqdFFYRldhVmRBZXd4LVlmOGZ1RnU3a1gyTFJsZGN4YWRobDBhLXRNVk4xeTM5aW9jMjJtQ3JrR3dnWWVGaVFwRDVQOFd0QWdISE9vdjVucWowYllBbDYtUUFyYl8weFE3MkVmcElTNGZCb2VEZ1NtYnNRMURCaDhKTm80ZFV2T3RTODBYNVHSAZMBQVVfeXFMT3lhMkRpanRRWEZXYVZkQWV3eC1ZZjhmdUZ1N2tYMkxSbGRjeGFkaGwwYS10TVZOMXkzOWlvYzIybUNya0d3Z1llRmlRcEQ1UDhXdEFnSEhPb3Y1bnFqMGJZQWw2LVFBcmJfMHhRNzJFZnBJUzRmQm9lRGdTbWJzUTFEQmg4Sk5vNGRVdk90UzgwWDVR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-07T12:39:42.510344+00:00"
+  },
+  {
+    "id": "INC-554384CA",
+    "date": "2026-10-07T08:29:45+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man charged in relation to 2025 fatal stabbing in Cork - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdnNOLThORVlMVDFMQ0U1clp2WGRJY0NpQ0h4SWM4UzRLSVFrVlZwbkUwVlF2TGJCVnROSjdlUl9LRFlkcm1mdW1qYTU2NWI3bEw4b2x1bzZpQ0w3eHVZbTJPcXlYZkxqNm9YaWpYM1FqcjNLYktTT1pHNXVGWDdwZjJnZFQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-07T12:39:42.509994+00:00"
+  },
+  {
+    "id": "INC-07094882",
+    "date": "2026-10-06T18:15:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "\u2018No place for attacks like this\u2019: Community \u2018shocked\u2019 as man arrested after stabbing - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPQU5PYjZwV0NoRHFqZEo1TG9NQ3Q0UGxCWF8wTGJ6ZUlDZTdqa0FzVUFaQXNDcG5mbThyY29LV2tCTG1tNlk1Rm5wNkJKeUNfMzB5TGFUaEsybmdkU1JmblJ0bHZSOVdHTzhaU19EcVhTV0cyZjMtRUlCeFEyNG11cHdPcldSRTNTaVBpcTRxZDZ0TDRocEpXWFg1MW5EN2c0emRYWUIzY0xtQUQzVlhCc2huM2N4VGt1d3pvMFJMckZtdW1oVEdreUQxMUNSSXRhcER5TUhJTkZudFF0Mml6T0NCemdTQVg1SGM3Z3UxNHBVMzhGckZZ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-07T12:39:32.548753+00:00"
+  },
+  {
+    "id": "INC-3A5CE6D4",
+    "date": "2026-10-06T16:58:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man (31) arrested on suspicion of attempted murder following Coleraine stabbing - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbHFFR2NsUlhpQzZsek9hazg1TWczTzJFNjY1SVBQa1o2LVFMWURNSC0yRmZBWldvNTB5TE1oZUVfbVBRT3FaM2JXSEdqeElCeTFlS2dYdGthd2JUR0NuVTZaYkNPNW9ONTBOWEFFZVpmTzh5OWdSa1Jkd2lZcEpqUEZMREl3YU1IaDI3RktQX0hlaExScjVUQklvZmgzX3A5bVZNclRiclIwVV9lVVJkLU5aang4eUR2UWV4dEFFYVJ3T2ZZVW92ZUxQaUxVa2c?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-07T12:39:32.543813+00:00"
+  },
+  {
+    "id": "INC-6EDFDEBD",
+    "date": "2026-10-06T14:39:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "MLA Sugden encourages public to allow PSNI to carry out investigations into alleged stabbing in Coleraine - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPUERxenRBYXA1NTI1YzRGQks4T2dOSnFPVkZQSGNFLVBIdHRMcG9lTDRpQUFLdDM0R0RURXBPdDVHWUcwb2UyeUt0QTVTQnNQVzdJZHhSQUVYX0xCQW1XUTlzNi1RUjd2RG91N3owUG05a1l4MXFtNDV0c3NlTzFMWWNxWXdTMlhBODRXaEt6SDNmUGlJQmt1dGRxVWtRejlxNVg2SjZkU1VmaTZCcXREVlZ3MWtqbTNRdExvU3BWVFJGUnNRZU53ZUVXejRNN3RSZkNuTUxrdWJibi1CcFhBbERMNjJIV09lVnpyMVp2NjNKNy1KM0piaXpMMXVGTmdxWmJKMg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-07T12:39:47.504948+00:00"
+  },
+  {
+    "id": "INC-5AB09856",
+    "date": "2026-10-06T14:21:00+00:00",
+    "county": "Derry",
+    "location": "",
+    "description": "East Londonderry DUP MLA expresses 'deep concern and worry' following reports of alleged stabbing in Coleraine - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZzloT1ZmNXRpVksxTmg1dU9tVV9tYnFHdXd6VU14WE53RzZFQTRYTzc2akFyRjVVYWJEa0dEM1NDQjdRd193MDVCMkx6eTBETHNuRW5aVlZUR3VMZ2dINjFSLWJYd0lpejlJbkRjbDZkM3hMNnowOFZqekNoc2Zya2lFcFVCUzRQekdlM3JZUC1zUzM5cEZiSkR1dmVMYlI3b1RCWHJHcnBwcnNJR2tsMzY4WENNYmFtdWxOR3dTWk13T2ZQM2dLLUM4VGJtSkg5c0QxZmtDUzFaem5nYWVpX0h2bnpWREJBU0wwR3I5RVhaZGM4enRyMXVKeDc0YlBSN1Nmelk4VWo?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-07T12:39:47.505576+00:00"
+  },
   {
     "id": "INC-6CEFF55E",
     "date": "2026-10-05T19:08:36+00:00",
