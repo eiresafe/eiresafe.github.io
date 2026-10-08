@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 905
+// Total incidents: 912
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,84 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-9B22B058",
+    "date": "2026-10-08T11:35:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man (31) charged with attempted murder following Coleraine stabbing appears at court - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNUt0Y3h1ODZHY0Jtd0I4NklmZTBuU2JuSHF5VkZMVjRMcWFaRGM2VXZXYmQyZmVHMW9FWW1MTmJHNndtTFNCbFgwZWtSOWVuNXY4X2U2dk1BWEdsbUhQcjNmTU8tN3R1OW5lQWg2SVFDRU52ZnJtMEkwZEFxeWRzRGN6ZzB0eXJQT1B5ZVdJTm9FMl9PYzhrUlFNemhwTkhqWTFKMUNsN1lIY0h0TXJlT2ZQTUg4V1JHcnJXNHZKN3ZUSGhUSy1yQjZDQTR2SWx4YTJSdA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-08T12:49:29.538648+00:00"
+  },
+  {
+    "id": "INC-E64976CB",
+    "date": "2026-10-08T10:01:49+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man charged in relation to 2025 fatal stabbing in Cork - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GUmpRSXBzbkxPUWlpVGFNV29GV2J4N1FhelFIVDdQcXRHb2ZzazhMNGxXZEF6TU5Kc3hncDJKVGFnenZmeDM1YWhrTHhyZGlWeUtfQ3phTTM4MHQwMGhvcGNnRjE0d0xlbFRGc3pNMzBYdVVGM2xR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-08T12:49:24.383343+00:00"
+  },
+  {
+    "id": "INC-32C18409",
+    "date": "2026-10-08T05:08:07+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man charged with murder of father of three in stabbing incident in Cork - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYnc4ajlpdGFvNVBfWWVqa3pRWHUxektrNHd1RTdlMVZ6SnhkRjN6SmNmLVpaQ0E4bTk5b1ZoUHRMNWZDMXZ2alB4MF9kbkFmQmc0Y0Mwczg5SkpSLWc2RHZKbG4yQ2VLMHY3U0RZcU8ydWNRYUNXZ0ozVDdPbi15aEZ1TnlyWldHX3dJWUNESGlkODhOc01ZLW94LURpWF80VTJ6dFZBUHNMNWdydENDckNUQUxqRHdEYUhfRkp3Q0trVUxBUkE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-08T12:49:24.383692+00:00"
+  },
+  {
+    "id": "INC-0A37E0A6",
+    "date": "2026-10-07T15:33:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man charged with attempted murder after Coleraine town centre 'stabbing incident' - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVWxSWXVFN0lGVDBnYnUta2tjcDN2ME5RaUVUZnh1RjhzYm5IU0JEYk9Dbks1NWllYlBvZmdUYkJKVkNERDh5SW5OeEw5YU55dGpGdl8zN0I5YTBUbEkwcUxOSUVqODZZc0lTUTBDQmlMdGRhWkdRUHAyMmU3NkowQXk0ZkNIMlAwWm0yM2ZfZE80UEgtQkkyQnBfZ9IBoAFBVV95cUxPT1hWTEZfcmw4Vndra2ViVUEzbUE0NjhadHhKSHdGV3ZXSmRfd3Vsd0JhbXlVQmhlbVRTMk1EbmlNTVRDVkFUNzNOUV9jTWE2cDVjRXpiOXlzWjRiWFlOTVoyLW54MDBtX2Ewc2lLc0NPSmVXRmlPZV9nZTlEVU9fQU9Cd2g0Qi1QSGx6MkpFSEswYzh1XzVtV3h3TGtLWXlS?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-08T12:49:29.549105+00:00"
+  },
+  {
+    "id": "INC-F32F9323",
+    "date": "2026-10-07T14:58:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Coleraine stabbing: Man (31) to appear in court for offences including attempted murder - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdVd0UktaaEdBcldRbGdpUzA3dHdkRTJFZlNXSHVXZXRNMm1oQjZPcnBKNGFjUEN0MUZVUVBpcjlyeWt1cDAzaG0xb2lMa2d0R2ZJV2Q0SUpNOW52NHFlOUc4c0lYQ3VHU0YyckJlXzZUSmxhaVdPWUY1MDdYZjdvS2c1ZEhRRGx3OGJBYWFCYW1ab1dicjlnUEk5MnZPWXZoMjJldnV0OE02czhfUngxb3N4UGNxRXNNZmlULWY5LXF0RTV3QmJnM1NLbWl5S2ozMldBd1hCQ0U?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-08T12:49:29.551116+00:00"
+  },
+  {
+    "id": "INC-3C024FD4",
+    "date": "2026-10-07T14:02:11+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Woman accused of mopping up scene of alleged fatal stabbing told garda\u00ed she saw no blood in property - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbndQa1FycHpLWDBaRHVpcWdkQkNzc0w1UlhHQWYxU0FzbGtUMmhMdmpDUV8yS05Rc2U2N25pVVk0ZnRQd2JvWjZ4alhCdUNSUnV0bnhFdi1LY2ZzV2NPREFaTC1PYkhWWkFpQVM3NDl4RmZtVXNfM1VEdDFPWGVDWTI2LWdPcG82RGRoMmNCbEx5cUdYWDZMOE11TnJGeGM5ZmJ3TlM1SW00MXlFSjVXWUZnS3MyTjdqRllKU1lpdGhKZ0l0OW9aSDhuVy0xLXFuSVU5aEo4cjROVFBDQVJzc3NjVQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-08T12:49:13.914374+00:00"
+  },
   {
     "id": "INC-CCAE2C54",
     "date": "2026-10-07T08:53:21+00:00",
@@ -61,6 +139,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-10-07T12:39:32.543813+00:00"
+  },
+  {
+    "id": "INC-8172D613",
+    "date": "2026-10-06T14:42:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast stabbing victim\u2019s family say unrest \u2018not welcome\u2019 - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMWFRZ1BDQms2RWdTNklteHB5RUxfSGctRUtYdzF1b01seU55aExKUUd0SjZud3JWTTI1WVJhUnFnLUNFVzJZYkVQdUphN3FuOEN0SGNVWGVYOFk0QUhMSHNFSzZyY3lPaWhqMXBPUHFxUzNpZFVORDBEcFFMSDNLYmVidTdPRUgzWWdTa0dQWlFsTXZxcmhkZWZ6YXRPUmZvdGQ4NlRR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-08T12:49:13.915343+00:00"
   },
   {
     "id": "INC-6EDFDEBD",
