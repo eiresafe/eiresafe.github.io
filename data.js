@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 912
+// Total incidents: 914
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-8D7DF3C1",
+    "date": "2026-10-08T17:06:00+00:00",
+    "county": "Antrim",
+    "location": "Coleraine -",
+    "description": "Man charged with attempted murder after stabbing in Coleraine - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdTVHcjRaMjBSWTNkRnZBQ3pZSV9QQ3NlbUNDdTlNZmFNMkZ6WE9wb3NyNjVoa1UyYlZSNFFzM0RzUUVWUGVPZWtqMUJVUVotcnR1czBYWldGTkRaY1NUY21iSjI1MWt0b2lxUmZOSWk3T1Y2VjByVElSbHkzV0lCdVB1WlpzRU5VdU9uQ3BGM0h5NkxyR3FydjJGR1ZEMWxQWENHU1FaZjdHcHNvZnJra3lfUk1EaXZkVWdnQ1ZsRzZzLUk?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-09T12:34:48.147920+00:00"
+  },
   {
     "id": "INC-9B22B058",
     "date": "2026-10-08T11:35:00+00:00",
@@ -126,6 +139,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-10-07T12:39:32.548753+00:00"
+  },
+  {
+    "id": "INC-D26F5EE0",
+    "date": "2026-10-06T17:11:00+00:00",
+    "county": "Antrim",
+    "location": "Coleraine town centre -",
+    "description": "Attempted murder arrest as man taken to hospital following stabbing in Coleraine town centre - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaGszUjI3TU9MaTRSOV9Yak1kNm1MejRGRDlfWFQ4MmNKY21GQ2pvMlJSaVJnVFlFeGM5WGZQTzJsM3VRUUgwWm9jWGRmM3FvT3VPMjR4YkVIVzE0SHdKSVZzWWF1a2JmbGM1QVRBUmE0a0RlUmh4ZzY3Q3AwRTZvZENqcE8wRmlOdTJKVV9PY2x2X2tJclk5UDRn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-09T12:35:03.676954+00:00"
   },
   {
     "id": "INC-3A5CE6D4",
