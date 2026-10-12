@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 914
+// Total incidents: 916
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-84516880",
+    "date": "2026-10-12T13:25:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "IS supporter who stabbed garda to be sentenced next month - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUEZVNXVGZ19BWFUtVjlfV3g5RUZLRFpFaldmSTVwXzVDeHh5TkhVbE1tUkFXTXVTcXJWS2xrbU42WVhkQm5pUVZOQ29aanQzZ1dwT0p2Vk9QQnRub1Z0UWgwemk3RkstYVFISUtERWN2bVluRVV2TkJTbXc4YWh3X1RBakpUX1Q5cmF1cGtRUWlIeDlxenRxVFhUWi1vX3hHX0RKMGFUNXExeHpZSFJQYU5DbUIzYTJOTEdn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-12T14:26:19.525338+00:00"
+  },
+  {
+    "id": "INC-F0A50F3C",
+    "date": "2026-10-12T12:31:10+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man who stabbed garda and set fire to Conor McGregor's pub to be sentenced next month - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA2V3FCTExQd0ZYOHpBekFIbFdvWDZTQkN5OEZocFRBY3JvZUtOTXJSWlFmRDJzSjZNWDA2TFVrWjVmR09UNmw0T0Q3SXd1WC1saXVkZXhIcWxaOEY4WWlMV3QwWmVtOVVfdVFPYmhQR2FLQkXSAXhBVV95cUxPeW93bkpud1VkMm04WVVYM2YyS3pGTktMLW5HNkg2Y1F0TDYwRW9Md21EMjRWYXpyZDI0X25sWWV4VlN0Vi1maENhdTFHSW5IaGhJYXNLZnRWWW95dTliOUdCdWZ4UTIwaWZqX25WOGJ3eWN3bmJ0LWE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-12T14:26:28.535947+00:00"
+  },
   {
     "id": "INC-8D7DF3C1",
     "date": "2026-10-08T17:06:00+00:00",
