@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 916
+// Total incidents: 918
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-302E920E",
+    "date": "2026-10-12T17:44:03+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "\u2018In a way she died\u2019 \u2013 Court hears from Parnell Square stabbing victims\u2019 parents - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONjFmZTR1QS1JREY3NlF6YzZ5UFk0RWVoZ0JXeENlQWtOSzlZYy0za01iNWcwbFlKeW1xNnREWFVVQ19EeEpFM2h0NkU5VEtMX2NjRERpUlhQOFRDbmxqaS1XNzhHY0FIRTNxNzNKeUJTN01aVUtJbUFXUHk3NVRsNTRQY1RTbUtRd0FPcEQzX0hCc3NLQmY3RkJrZXZNZUk4aFJUdUwydHRSazBNSTFCOW5PTEFyUDBrc3VoeFFlbFlacF9URTcyVkN3WjBlN1BmVjRtbDhaUWxlZm5zV0Rmd0ZYQ2t2QQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-13T13:34:52.585916+00:00"
+  },
+  {
+    "id": "INC-6C310136",
+    "date": "2026-10-12T16:44:00+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "\u2018In a way she died\u2019 \u2013 Court hears from Parnell Square stabbing victims\u2019 parents - Limerick Leader",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSXRjczZ1czN1YnJCaVFKbF9WdnhCd2k0azhfVlNjZzZ1NnFrSjJxMThLX3RRSV80d1JWaW5QaTgwZkNlc0FfOThhbUNqVVpKejdFVGVPZEVLQzZHS29EWnVtdlhhOHBDZ3RvVG80YmFKMlBjeEdBWDh3aW5FT3VyUlpvcDZwLWxiby05RFE2dzJZR0RqaHFEalpJX2ZaVXFuUklOcExDU0g4NXVtUE9TZFo0SVVVV2VnWFVqNHRn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-13T13:35:06.422480+00:00"
+  },
   {
     "id": "INC-84516880",
     "date": "2026-10-12T13:25:00+00:00",
