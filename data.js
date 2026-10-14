@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 918
+// Total incidents: 920
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-C4C6072D",
+    "date": "2026-10-13T16:25:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin mothers address Algerian-born \u2018coward\u2019 who stabbed their children - The Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNUJqRzVlZVByQkd3LTJCelljdUdhN1FfY1VlaHdBZFpST3ZkQkxZbFhJWGRYd3JMdklzbVZkMFZpamtnbDhOZ2k2VDVMTHE2d2d0cnhINm5URmdSd3J2b0QtdXl4QkFXakU3OUszRE0yMzVKRlJrcEdHdXpwUm12c01ZV2IzUGR2czFYLXQ3QmozZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-14T11:11:45.237224+00:00"
+  },
   {
     "id": "INC-302E920E",
     "date": "2026-10-12T17:44:03+00:00",
@@ -61,6 +74,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-10-12T14:26:28.535947+00:00"
+  },
+  {
+    "id": "INC-3BC0EBA9",
+    "date": "2026-10-12T10:30:10+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Sentencing of man who stabbed garda put back to November - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MQXhBLWtUelVoc0RXLVBuU3BnbTRJZU5IT0hyLVNaN19zdkpqVGtzQlBFM1p4RUZnbXFVNW5tTXNfX2hjOUxSeXRvbFpMZVFEOWxIMVlFeEUxUzFhRFVrN1lOOHNFeElnR056OURkWm0?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-14T11:11:45.235933+00:00"
   },
   {
     "id": "INC-8D7DF3C1",
