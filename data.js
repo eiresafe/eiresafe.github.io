@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 920
+// Total incidents: 922
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-8A0A6CF7",
+    "date": "2026-10-14T16:14:55+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Woman accused of stabbing partner faces additional charge - Courts News Ireland",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVmxMejNUbVBFemxwUjdSVVAzRlIzUDZ4ZU9NM1RUbzNjSFozSWRVRW80eTAxNkdRcTA3NjFlaTNYR3R6XzVVeTN5YkNVUlNuYl8wS1FRSjBRcndRT3dOWHQ5N255ZXVNZkxKOWtncGc3MlptZWN1M1BFRVdtZ056MTJWb0NCOHczWklROFU3MGg2S01XNGdNNDBJM2RwUHM?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-15T10:51:59.699098+00:00"
+  },
+  {
+    "id": "INC-027233F2",
+    "date": "2026-10-14T09:02:26+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin football coach jailed over 'shocking and grim' stabbing of close friend - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB2cUR1d1hWdVVwVXJaV2UtLTl2Q1lucEhwdHZDMy1UMEpoaTRXT25MdUU0R0R5NG52NXFWeTd5eE8yeWhJblZ1WThrTHVjS1REU3BhN0ZiU3N1WmI1TEl3Q3NFVWY2SkZ2ekw0bWZtSEw2b3JRSHJMZ2lQakdSUdIBgwFBVV95cUxOelFhbGRfdUVSeENJSk5ZaXI3eXJTc21kaVBhbTdhTTNpYmxqbm41dUtMUkJFc0xyQzFGSWNTYmhGb3RSazVXeFhJZ0h4NGJCam4yVzJCUExTTFN1eV9nV09heDNQYTFMdjNnX1FTTDBHd08xLWRFSDNzTFRRZ2dBZTREZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-15T10:52:08.621503+00:00"
+  },
   {
     "id": "INC-C4C6072D",
     "date": "2026-10-13T16:25:00+00:00",
