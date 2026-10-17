@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 922
+// Total incidents: 925
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-2B50AE82",
+    "date": "2026-10-16T19:39:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Student who grew up in Cork killed housemate after being threatened with kitchen knife, UK court told - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xb3RvdzBCLUlpZDg2WEtaSG1jaWI4aUI2a3lvMGtFOFpIQ3B1YjhfdmUzanotUUVxdUxOZjNrXzUtaFU0aFBZZ0lvQTI2dFhoVlhZT3RzQUJ3ZVhwdkhVSU1pOVo?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-17T10:08:51.434655+00:00"
+  },
+  {
+    "id": "INC-BCA7F823",
+    "date": "2026-10-16T13:27:21+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man jailed for 10 years over fatal stabbing of Cork mother - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOT2xvZTVLOFBBQ3ZVR2U1dHloSzY0VlJwOHc1N1EyRE9VT1FCTkU5M25tNHBlQ1cyeHVmcGFpdllGcFV1Q0FHWm9oS1d3dDJzUWFHUlhqZ0ctbmozMnUxV1dod3BBYktnY3huVGR1cFNoeV80ekRMQUREX3o3eHl6RkJoMklfVjNxN3o2dDJ4UDlQMk9wNWpGbWEwRk1rREhKWC1vUFVESnQwWjRmbTROeHB6bw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-17T10:08:41.240977+00:00"
+  },
+  {
+    "id": "INC-156FAD5D",
+    "date": "2026-10-16T11:59:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Prosecutors seek retrial of woman who stabbed partner and had murder conviction quashed - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQUThKck5RcUhINk1DMFpueEJBNjRrNEE4Q2R1dGVNVl9ZNGR2bWVFVURHOUxCOVEyUjdqODdnMlZrX0sybURxU1JDcTlUazhvUmNTa3gweF9nZlhBM2JIS3o3VUtUQnd5WEcwSjB6aVBQeC1oYVNtdGxUdVphbC02THBtVGtHVnExalVHZ3V5bWN3d0Q5OVlsTmdidzI4SlRNdFhTTXkzYi1tcm5nYVdXZHoxT2R5UEF5NU9wY2dCaWNQenpQXzdUbHQ5enQwY3FuXzZyZTZJYkFGdFg3Q0xhU1RKMXBlU05uX0l5SFJOT201dnc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-17T10:08:41.243832+00:00"
+  },
   {
     "id": "INC-8A0A6CF7",
     "date": "2026-10-14T16:14:55+00:00",
