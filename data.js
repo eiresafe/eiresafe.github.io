@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 925
+// Total incidents: 926
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-B549A1C8",
+    "date": "2026-10-17T18:06:01+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Teenage boy seriously injured in alleged Bluebell Dublin stabbing - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR0tLYnAxOTdOUjJMalNYTVRGWHNyekUxV0tSeTFpUmxJd0M0RnBsSWEtUW1VUVRFd2ZfZlFKMXpVX0dVUks5VE5jMF81R0JIN2Y1SjY3a2YzekJlNDNTWi0ySXEzQUtGVXBUU1p0dDNpMlVjczFLSDhUb1dYdlEwWmwtdmZXU3FKck1ObDk3aU1qREl0emw1UdIBmAFBVV95cUxPR0tLYnAxOTdOUjJMalNYTVRGWHNyekUxV0tSeTFpUmxJd0M0RnBsSWEtUW1VUVRFd2ZfZlFKMXpVX0dVUks5VE5jMF81R0JIN2Y1SjY3a2YzekJlNDNTWi0ySXEzQUtGVXBUU1p0dDNpMlVjczFLSDhUb1dYdlEwWmwtdmZXU3FKck1ObDk3aU1qREl0emw1UQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-18T10:24:11.473044+00:00"
+  },
   {
     "id": "INC-2B50AE82",
     "date": "2026-10-16T19:39:00+00:00",
