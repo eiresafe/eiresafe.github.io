@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 926
+// Total incidents: 932
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,84 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-CB7D6C83",
+    "date": "2026-10-19T10:28:00+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "UPDATE: Councillor makes appeal over Limerick man stabbed to death - Limerick Leader",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTXdaRUNCeVJITkRyOTBYbVpFVWdQeEVBOGo5OVpSb0NkQzNwZXRrTnRPNDl2VEdpTzBWY2gzRFJVcFhXS1NwZXgtLTB1Zy1obUVJN2V1eDQwX3lHanBSWExsaFozVGlNb2t5bEdFVEtrZndJV0NVU2l3cXhVQTVTTjFJWkhHR1Vza3NtV1N3bjhQanhxVDZzRTlWalBOTWFtR19nNmVCUlZaYU5WREdhalMzeWJSUWJCZHVUaXFR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-19T12:08:53.365730+00:00"
+  },
+  {
+    "id": "INC-857672F2",
+    "date": "2026-10-19T09:04:10+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Face of man stabbed to death as he argued with a woman on a quiet Dublin street - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcWhFTnJPdXJyTGFqRG91T1NwQ0lVVmV1TnpkYkRoU1pxT3U5XzJjTHdsZk5JakdzM1pXMUxjX09HUFVIZUpTTXdUYm85NXlUZDJWam52eGY3NkIycVMzNEdENmlxZU5nT0JEN0p5Vk9CZlM2QVRFbTZDd01ncy1iNk1rai16czBF0gGOAUFVX3lxTE9mSF9HUlU1MkgyWV9oc19RVkVUM0Y0OXRmcXdJWWE5ZzRNSHBpWHB2dkZBVk5SQzRvTkRhTnh2bGNKRjA5Wk8zcGZlS3lNamNYOHotM3B2VnJMNjk2M25CUGxSUThVNVREYzV6SzdXdEZqbGlFb01HeVczOU5OOVp3SE1VODAtQVBjX1R4akE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-19T12:08:48.305335+00:00"
+  },
+  {
+    "id": "INC-168896E1",
+    "date": "2026-10-19T08:54:00+00:00",
+    "county": "Dublin",
+    "location": "Blackhorse Place",
+    "description": "Limerick man killed in north Dublin stabbing named locally - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR2JjalMwWm1RWHZJY0kxQ200OHFta0cwTEFBYVlFcEFtTEZDZGx0REVoSEszVGJNU3FsZTY5LTNRMGRJXzdCdU5aQ0lHNm1hUjV0YjhWa21SSVFqMnZ0TTdDemlwaFh2OURnMmw1LWFZVjhNTmtrakpHYW9IYnRiamRlQ2Y3bnZLbUM3bV85SQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-19T12:08:53.364234+00:00"
+  },
+  {
+    "id": "INC-A7A1ACD6",
+    "date": "2026-10-18T21:08:29+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Face of man stabbed to death as he argued with a woman on a quiet Dublin street - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOGl6eVhBZTFaNlIwVzRIRFVtdTdLeW13djRURUZjRXVMSDgzSno0Z0xJQjIzM1EzQmNYMEdQZGl0MktVeXg1TUVVdWN4QlRGenQ4czNmb2hkYmlBb3plTUdaYmpiS2tEcjgzRVNjd2szZHNmUHZrLU1TeE10QmItTVBuZ3pDV1FP0gGOAUFVX3lxTE5OQW1qcVY3NW5iMTRxOEU0anE2SGhPSl85LTM1NklZeEQwZmsxTnJQSV85NlVvekxuLUM2R2ZIeHdvbTlES0trU280VEl4SnR6SWJXNXhjZFlxS0pxQWZUUG4zYm9aaHdrOERrTlRjX1JZSTNReWhnbzNXeVRPem90TVFVaTJHQXZkVm9vVUE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-19T12:08:58.293731+00:00"
+  },
+  {
+    "id": "INC-FCD3EBC4",
+    "date": "2026-10-18T17:18:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Limerick man killed in Dublin stabbing is named locally - Limerick Leader",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQWFYSUFzbW11aFZFM3JlQWhKM0VWSjZaSnZfVG5PVGhmYXppb24tWW1NdGsyZmVZcGNzYUNCUVh5OHpMNFN0SHJJMVIzZXlVS0d3aFBqQTFhRUFBTXZRcjE3dzJGNWRCWmlSRldMZnJVX0tWbUxzYWd1SkJGZVRIaDh5WXY1M25CUTNULWxwQUh6WW56dkF1eUJNd29WTVU4VDk1TmhxZTdqaFd5MnN3Vg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-19T12:08:58.294045+00:00"
+  },
+  {
+    "id": "INC-72205838",
+    "date": "2026-10-18T11:45:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Manhunt underway after Limerick man killed in Dublin stabbing - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxclF4LWhwVURFM0x5VFZGMVRGaGw5cVJ4aGtFZXlNZldmdHFmRGJ2NzVPRExjZW51SUpJNTJCUFNsbFMwX0RTaVJNSnczQ21IUF83MEtLNTYtWXVNUmJ1cGJqRDlrQm1CbDlYcEFlVS1GVlBfb1E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-19T12:08:58.293444+00:00"
+  },
   {
     "id": "INC-B549A1C8",
     "date": "2026-10-17T18:06:01+00:00",
