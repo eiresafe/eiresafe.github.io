@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 932
+// Total incidents: 937
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-684D08CC",
+    "date": "2026-10-19T16:51:47+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "'We cannot continue to condemn knife crime without action' following Blackhorse Avenue death - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMGE5LW5GYzJnZ2tUaVhPZGxFYW8ybFJUTzQ5V1k0akZ3MEZIZzUyNlZ1eEE4a0xWc2pvTkFISk54WXU1TVRFTXVUR1hoYmlxbTV5XzRubWtxX1FadmRkZ00wUFRQYW9oUzFDU2ZUb3ZiTnc1NDU0WEJoR2FDYTNWc3JXazYwcXlMZVJaRExBVjFNUdIBkgFBVV95cUxOMGE5LW5GYzJnZ2tUaVhPZGxFYW8ybFJUTzQ5V1k0akZ3MEZIZzUyNlZ1eEE4a0xWc2pvTkFISk54WXU1TVRFTXVUR1hoYmlxbTV5XzRubWtxX1FadmRkZ00wUFRQYW9oUzFDU2ZUb3ZiTnc1NDU0WEJoR2FDYTNWc3JXazYwcXlMZVJaRExBVjFNUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-20T10:56:01.780039+00:00"
+  },
+  {
+    "id": "INC-D42691A8",
+    "date": "2026-10-19T14:59:22+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "'I could feel the life just falling away' - Neighbour who tried to help Blackhorse Avenue stab victim - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OaTdUT2hqM09Pc0VWZnQ3UURuc2xvenMxYjdJT1lmXzQ5d0xtUEtIeURFUldkcUFIQnNMVW5mRVQydFFsQ2d0WGpGOGFyLVJZVzdfX1k1WFNucDdaMzBlREhGT0NuYnZ4bl84VkFLTjdwbEFLMG1kQjFMRnF4emfSAYQBQVVfeXFMUHpyMngtcktXODgyOVVtb3FneHFTNVV5TG1MSXlvN3FsTnFLdVBwNTZCMGpZYVZkZTNudEtRQWNjems0a25OWWFNbDZySE5fYnQ3RTJpdXVNMlJNaHQ2WTlVVFNSV3Z1NjFMMzBaVkJxN0VkWlV0Tzk1dDliejJwQk5TbFlJ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-20T10:56:06.857788+00:00"
+  },
+  {
+    "id": "INC-2827A1C1",
+    "date": "2026-10-19T12:56:13+00:00",
+    "county": "Dublin",
+    "location": "Dublin named locally -",
+    "description": "Limerick man stabbed to death in Dublin named locally - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBLczhVYURtOVRKU3JFWXc2OVlWdTRKMVBuRWFGSThhWHNESjRNeWF2UFZvdzdnTUFLeGpmT3JCZFF2bFNKMlJGY2FBT3BERm1qZ0VweU1zQlVVTVdwbFl3Z2t3N1QzeUdSNmt4X1dodF9pbXJMM2JTNGNn0gF_QVVfeXFMTkwyNTNTeEVFc2RocW9vcl9MNHhCaHl5OEFrUThRNWx2XzBuX0x5WHVDdXFRN2lSUnVZQ3V6dXZRcjl0Wk9vZTl1eE5sZjBwOU1BT0ZyQlZucGlTb0tEcXBmZ3hDZzZvejBCcTdtQTV5SmVnY0JRUjVab2FvOEEwdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-20T10:56:01.780630+00:00"
+  },
   {
     "id": "INC-CB7D6C83",
     "date": "2026-10-19T10:28:00+00:00",
@@ -50,6 +89,19 @@ export const mockIncidents = [
     "addedAt": "2026-10-19T12:08:53.364234+00:00"
   },
   {
+    "id": "INC-5CD39904",
+    "date": "2026-10-18T22:54:42+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "First pic of Limerick man, 38, stabbed to death in Dublin amid hunt for killer - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQm1MU1duVUpkVlF4SzhWU3doekktT0xrMlE4REpZS3VMd1dWRTNXUUpKY1hkY3NkUWVEclI0bEp4NWRIcFQyMVk3MXhGNEpkLTBwNjZZdWpoWGdYYUlkc2M3anB4LUlFSjdSSjVxaVpIU1VZMHF1NDN4X2UteU5VVzVRd1lfanBxTFduV3dmNVVMNmlMSVhRbTBfLW50dw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-20T10:56:11.844987+00:00"
+  },
+  {
     "id": "INC-A7A1ACD6",
     "date": "2026-10-18T21:08:29+00:00",
     "county": "Dublin",
@@ -74,6 +126,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-10-19T12:08:58.294045+00:00"
+  },
+  {
+    "id": "INC-D1DD7E4C",
+    "date": "2026-10-18T14:17:22+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man found on footpath dies after early morning stabbing in Dublin 7 - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORy1NVm5BRkYxMS1IVXBwUEw2MjhsWlFkbzc3WnN6d2EyTmxQRldsUWF2Nm5Cd0VNN1JzSkE1bVdtemVadHNzZm9VUkRFcWhDalRXQ3ByeWtDR2RlMzlQNFVIbUM2QXprNGtienoyeW4weHY0TnNLQ2NDUFYyaE4xV0pXZWZTOWc1NjlxcA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-20T10:56:01.780345+00:00"
   },
   {
     "id": "INC-72205838",
