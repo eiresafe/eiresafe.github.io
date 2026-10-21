@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 937
+// Total incidents: 938
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-BF7B54B2",
+    "date": "2026-10-20T08:22:54+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Knife crime cannot become part of Dublin life, politicians say following fatal stabbing - Dublin People",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLV9fV3c3RFJxbjJ6VERwRXdVOWQ1TUNZYkNmMG9STy1yX2p4LTJNcG52eEM2OEdnUko1WlJISThTT3JhZ0FiclBiYVZPTmwwLUpUM0RvMkNaYURJVlJ4eWFwRDZUWVlBWFVyekNPWWpjdmo0Q3Z2dTc5Y3ZJZ0JXSm4taDZOcnpMWmfSAYoBQVVfeXFMUC1fX1d3N0RScW4yelREcEV3VTlkNU1DWWJDZjBvUk8tcl9qeC0yTXBudnhDNjhHZ1JKNVpSSEk4U09yYWdBYnJQYmFWT05sMC1KVDNEbzJDWmFESVZSeHlhcEQ2VFlZQVhVcnpDT1lqY3ZqNEN2dnU3OWN2SWdCV0puLWg2TnJ6TFpn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-21T11:10:52.445268+00:00"
+  },
   {
     "id": "INC-684D08CC",
     "date": "2026-10-19T16:51:47+00:00",
