@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 938
+// Total incidents: 942
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,58 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-966E04A2",
+    "date": "2026-10-21T16:11:19+00:00",
+    "county": "Dublin",
+    "location": "Dublin stabbing -",
+    "description": "Tributes flow for man 'always up for a laugh' who was killed in Dublin stabbing - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83RjduMnJVSVRfUWg3T1VVQmxoQ2VHcFp3QVd5T1lmd3p6RmZDRE5pY2lIUE9mRkpTQUcta0NpWk9oWm8yVW1PZjdkaUhMcy1BWnFjYTBTMTlKanZtX3A2dzV3cWRLRTZDUHBHR1plV1ptZUNRQmfSAXtBVV95cUxPXzJwRS05Qmk1TUlzbFltM2VtSWQ1TzVNX1dlUEpZV2R5VlRhaHBQWEYtUmxxSnJLZlZldGpXYnYxejFXcEN0VDBuZHhkY2hLd1hGSzBKc0puRmxYckdEbFhGYXk0MHBCbVE3Q0pSSWNDLVJtMm9mZnY4aXM?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-22T11:09:59.079362+00:00"
+  },
+  {
+    "id": "INC-371C5FF5",
+    "date": "2026-10-21T15:10:33+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "'Always up for a laugh': Tributes pour in for Limerick man tragically stabbed to death in Dublin - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdV9sSDQ1SmxzUzJ2bVdFVFpYTjFMVzA0aVNveExRZFlvdTgyS0FSRmthMTUwOHhzZEJKMXZucTAtVzBfY0ZEdGpla1V5YkQtOFJuME15WXVqVGRtbWdoSm5vWDJBMkgyYk8weGxGd2FvTUh5bW1TZGJRU0FaVWxxMmVqdXVPYXZLX2J3V3NyVULSAZYBQVVfeXFMTllYWlRJLUt0QVR0MXdTaTU3ZjhoTkFLYnc1a24xaEpndHFoWkVFZHVaek9aOXNjSzlmNGlUR3RCRXg4bGhDcmZiZnRHd0NsTmVCQTVvdkFkb2E2Q2pFcGs1b1hwWDZZeEI2d25jUzI2YzdTVXAwc2gyLWJtZ1RpTnA1ZEtaOUhISFNvVVhBMTM4RW4xNk53?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-22T11:09:59.081552+00:00"
+  },
+  {
+    "id": "INC-B7039943",
+    "date": "2026-10-21T12:56:43+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Cork student who killed housemate learns fate for frenzied knife attack murder - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTTNwNV9WZS1BNWxpVlZhVC1IRjZxU0U1WXo2ME5Rbnk3UmZYUHo5dGxMeldwbUphQ2hLVjBuaWVaMWF4bUxSVkRncV9GcFI4WTY0TkVTY3diZF9PT0NuVzEwMjhacEk1ZlNSckxBS2ZxUGdELVRobTZTcTdHOEhLZTJ4eHpDRzNh?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-22T11:09:55.679639+00:00"
+  },
+  {
+    "id": "INC-45492AAA",
+    "date": "2026-10-21T12:45:54+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Family \u2018heartbroken\u2019 after Limerick man, 38, stabbed to death on Dublin street amid threat to kill accusation probe - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5NSEl6SmpVSDZ0T21INDI2RVFSb0Q0VlZfWkpXUjVKTWE5N3poUERRRUhsejNwanhxX1VlLU82UWs3aFp5aWc1WWYtcUZmMWFOMXpycnlXRzNiLTJjaGFpdnlkSjVIaDNzdGJMSlhObGY0ZHdPNnFINEo1NnQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-22T11:10:04.142330+00:00"
+  },
   {
     "id": "INC-BF7B54B2",
     "date": "2026-10-20T08:22:54+00:00",
