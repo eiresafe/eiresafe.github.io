@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 942
+// Total incidents: 949
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,71 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-8B453B36",
+    "date": "2026-10-23T10:00:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "  Ill miss u Jamie  - Funeral details announced for grandfather , 38 , killed in Dublin stabbing",
+    "source": {
+      "title": "GDELT (irishmirror.ie)",
+      "url": "https://www.irishmirror.ie/news/irish-news/crime/ill-miss-u-jamie-funeral-37802452"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-23T11:05:19.547539+00:00"
+  },
+  {
+    "id": "INC-58F73B22",
+    "date": "2026-10-23T08:01:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Doagh: Trio arrested on suspicion of attempted murder after man taken to hospital with stab wounds - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRWpia1B2bjZwM2R5UThfLWVvZTdaNWlCZ05yZ1ZXMmxoSldtSExUd25nWW1OUEwtMGdoQkdpcW9mai1BSlRFckE4RDg3X2NHY2EybnZOOWM5b3dwbElTRTg1T093UlUzWHBsTjNxMHhlMndlT2Z1MFVCUEo3c3ZFb1RaQTNZMFRWbm50LU1GNzhZSzVKek5ZNDhoRjBNdlFWY05YUjhSMnJZNzZTamR5WHRINVFzQjJqMzVCSzFEakd4YldTRGVyRkVYWkp0dC1kYkpJQ3N0OGY4R0xnMTYwWHlSTjF2cXBs?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-23T11:01:03.299645+00:00"
+  },
+  {
+    "id": "INC-9BF641AD",
+    "date": "2026-10-23T06:13:00+00:00",
+    "county": "Antrim",
+    "location": "Doagh -",
+    "description": "Three arrested on suspicion of attempted murder after stabbing incident in Doagh - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM3JQV0M0ellVcWpCZi1xdTEtOWxUX3kySVpFa2Uybi10SGdzYVFDV1ZFZERHeEVHOXM0ZUUyMWN4eWV4SnIwVXlIRl9CNHdwVHc5clR4Z3JYb2VwMHYteEF4VmJoZlRISjB2dTJDaTVaM2xRNlZFcHdiU3hDZkswVURhWjNXdDVuM0IxVy16R3ZFYTRzdml3bV9wWXVUT1XSAaQBQVVfeXFMTkpaTDZReVNxYUw2X1pENEtPUGt2S2k0Q29FX05hUjk0dk9EWWJoRW43VkdjS3hGRzU4azVCS01kcGFJSE9VQlk5Z1Vyd3hiQ3p3aHZBbkdlcjFKSm9JajZ2WlppX0ZZdFhtdEEzV3FxcFlGMEJTenQzaUU2MlhIQUIwMHh5a2hzdkVQOHJNWkpEZmxjRWU5ejY4bVNtU0p6dlkyUVI?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-23T11:01:03.300028+00:00"
+  },
+  {
+    "id": "INC-6CDD0755",
+    "date": "2026-10-23T04:01:20+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Three arrested after man stabbed north of Belfast - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbzJBdWRGMl9kRmFaRW5Sc01RQ1l2RVhGR255RWg3b1p3a1FZTFU5S0o3TTVkc3Z4WHhObVBtaWFVekRYSmhZM1VUT3ZxM1BGNlRnRS1JWFRJbGgyQkJTRUd2WDcycmQwUGJHdml3NmdoaFlxcTh5aThJVTJwMFl3T2hYN2tTYVJVTUt1SExubG5EUThHTU0xcnBvVzJnU3NHOGlF?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-23T11:01:06.799709+00:00"
+  },
+  {
+    "id": "INC-BA4B53CF",
+    "date": "2026-10-22T14:45:00+00:00",
+    "county": "Donegal",
+    "location": "",
+    "description": "Two men stabbed in Omagh - Highland Radio - Latest Donegal News and Sport",
+    "source": {
+      "title": "GDELT (highlandradio.com)",
+      "url": "https://highlandradio.com/2026/10/22/two-men-stabbed-in-omagh/"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-23T11:05:19.547607+00:00"
+  },
   {
     "id": "INC-966E04A2",
     "date": "2026-10-21T16:11:19+00:00",
@@ -22,6 +87,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-10-22T11:09:59.079362+00:00"
+  },
+  {
+    "id": "INC-6E247369",
+    "date": "2026-10-21T15:25:44+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Triple-murder accused 'stabbed special needs brother at least 70 times', court hears - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQlBpWHZFcHNCVnBuMmYwUjdRVVQ5b1dieVlvMlJxRDhPb2xITzNCU3BVNlJKMTdIX3Fma1V0NTZzbGRfQmRvYXZ3QlJLb2tIMnEwekFZYmkzNHJmTTM3NVlQLTU2V2VWaUh6empxLWhLYU5DeUV2ZzEzak9FclFWYnotMNIBiAFBVV95cUxORXBnVldCaDRQOGFFLVBERVI1dmVicnQ4WjNnRkpqNC1PNWtHOTBTSlJNSVVJb2RXWEVybEEyd3FPa0lPUHJXazRWclJ5ejFPZHFNSHNfNUtvZ3FzbXQ1aTduejNIajgxMlpJdWV3cHpOblkwNmRpWndMODl5TmFkU1Y4Y1h1aFpP?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-23T11:00:56.301261+00:00"
   },
   {
     "id": "INC-371C5FF5",
@@ -61,6 +139,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-10-22T11:10:04.142330+00:00"
+  },
+  {
+    "id": "INC-727C5AB1",
+    "date": "2026-10-21T09:49:13+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Heartbroken family pay tribute to \u2018character\u2019 Jamie Bailey killed in Dublin knife attack - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNREpkdnFLb0Y1eDhad1pOYkpOZEhxR3JNdXBEdks1b01femtaTkRVUDNDTk5xSkp6d0NTcHhnTGNIUkFqLXp4Z2lVM3FMMWNQdHFfTTRBblNiM2EzSklxZUFZRXFucl9YZlFYeExyYzlfWmNENmZDTjYwTWgxcHdwNU9OLWdtVHVncDJsU0pmVnhnNDB6QjRvZWRLYjFHZHlwQ1NxdV9HRlotTFF4Vnl3ZjdDOXg1MnM5OGVaVU1WM2Jqb0EyUGxwX1lzT2lXV2hHLThpVGVR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-23T11:00:51.116833+00:00"
   },
   {
     "id": "INC-BF7B54B2",
