@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 949
+// Total incidents: 954
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,71 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-011C114C",
+    "date": "2026-10-23T19:54:55+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast knife attack accused denies attempted murder as trial date set | ITV News - ITVX",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQmZjeUJScElrblFHdDlkaTZVUkk2RGNBTXp5UXJLd0NtRUhyejJ6MjBiVVVIOHBpTVM1SkxtUzFkTlU1ZnRhaThodUZZdlNCUTVwcXpTR3NNZktUUm5LTGFUTDFNaU10OXFyUlFpbWxJU0Q3QU5YejBsMkJWSGdVRWZCR1QzYUFaVzBKVVZ3bFhib3Azd1JMaWkzM0xpYTVVNncxSnFRaERSUllDYXhJ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-24T10:17:34.518745+00:00"
+  },
+  {
+    "id": "INC-1B123ECC",
+    "date": "2026-10-23T11:55:59+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man accused of north Belfast stabbing attack pleads not guilty - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVkNOTnRvQ2dtSlFnTUVMMWpJTXhLb3A0SmlGbmJrRzRTX3FJZUZYUGg3UkRKeE82bXZ2SG9KOWdkSmc2a1VvWDVTRnpHLWhrQ0RUY1paeEJhZFF4TXhCT3UzZ2M1OEFOVGRpVVBwdDFvZk9xZm14UDdodHFMTXpBczdNdU5PNFJlbHI4UGRXUU9VcHFLM2wxa0xUcnZfby15bk9MVG1BRDU0dklLa2Jmc0NwM3NhZDdOY3NhOWp3YjRYUkhJVEI5WkpXOXFTSHpnOUE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-24T10:17:27.741163+00:00"
+  },
+  {
+    "id": "INC-CFAFDFEA",
+    "date": "2026-10-23T11:38:52+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Hadi Alodid to go on trial next year for Belfast stabbing of Steven Ogilvie - The Irish News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWUp0Q0RuR2c1dEhYWlBlVlFhMTg5VFUxZTZVQ2Q3UEZmcE0tdjFMWDFaTHU3c3poQXIwankyaGl0Rjc0SUxQdFFaMU96aHV0NnV0XzIwdENPZ01mNGVHbEt3V19xazUtSHNfVWdNeElkR3B6WXVUWURQWThhX0gtLUdmOGtkOHpmRXZ0SkZqb3pIeUpiOUw4d0NiYmc0dEdjU0x1R1djX01PWXFWSU0zZWQxVndTTzZfTDBHUEI1R0U3bnZud2RtQnplRV94MzNqd2VMRXB4SDJzdl9UTDUtcEJETnlidw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-24T10:17:43.008003+00:00"
+  },
+  {
+    "id": "INC-DB5B764D",
+    "date": "2026-10-23T11:10:59+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Hadi Alodid: Man charged over Belfast knife attack pleads not guilty - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42cW1nc25kZWhVZmdrVlBRZTNxcVFtMGhleEJRaFptaHVSV2o2Q25nNDZGcm1HdzNqeWJLal9wTUYzakJjbTF2bUFhSjByVjJSZlJJRndsWVA1bmljTHc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-24T10:17:29.516127+00:00"
+  },
+  {
+    "id": "INC-531C6C48",
+    "date": "2026-10-23T10:04:17+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Tributes to Limerick granddad, 38, killed in stabbing - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yTmhuQU85NlE2RTZ1b05aWllLYWJhdFExZzR3WjhncExtTjhNUXhJODg4QzZXaU9FN2lCTElrUlF4U3RVcERWbC1fYW5Remh6NXFRT1hzZUlhVElWSDQ5dE9RZi1TVEE5NnJNa0laQXJ0M3JLRTB4dERZUTgzUdIBgwFBVV95cUxQV1F0dG5UV2lWMHFGYVk3ZENvRGNFdWt0NzJlV0RXaVNLY1F4Qk1IUEp2WkJnNUw4clYwNEFpMFU3NTgyaDN4N0cyeF81c0p2ZFVVcWdFeVZ1b1RvTWJ2bFF6cVVmOV9SaFNUNE5WcENZOVdFbW1JN1FieV9OMVB6Rmc3WQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-24T10:17:37.865673+00:00"
+  },
   {
     "id": "INC-8B453B36",
     "date": "2026-10-23T10:00:00+00:00",
