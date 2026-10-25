@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 954
+// Total incidents: 955
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -22,6 +22,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-10-24T10:17:34.518745+00:00"
+  },
+  {
+    "id": "INC-977AB8E2",
+    "date": "2026-10-23T14:59:41+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man, 31, accused of Belfast knife attack that sparked rioting pleads not guilty to all charges as trial date confirmed - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51ZkhBTUZzUVhTSThGdHphYnEzZEd2T3ZRanZBVzJuVk9ydlNzRFF4YjloeWxhMTNvcjFWZFI5cVVPZjdXMW9TbktMQklPbjJRcUJVa2lJYkJpRUtWM3VlV0pxaE5XZFgzSHZHZElRTi1wZmw2RW1ZZ0pQZ29xUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-25T10:44:06.373787+00:00"
   },
   {
     "id": "INC-1B123ECC",
