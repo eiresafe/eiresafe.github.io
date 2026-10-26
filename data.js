@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 955
+// Total incidents: 958
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-CF95AF44",
+    "date": "2026-10-26T12:05:58+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man arrested after manhunt as woman stabbed to death in Dublin - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONkZOeXJQT0JTSlp2T0VVaTdyem1valUxQ2ZvblplVjhBWngxakU5dFFMU1pPT2dEQVp0OXJ0bENzak1GNkdsTFJNZHpjNC1aTlRZeWk1NFFtaDdsVEg0Ukt5M1JXTnNMa0RpNExFZkpVamxpektwc2Z2N0ZiRmRPOGpBR1o1bVZKVWt2em1Wd2JrSWMtTVdnUHRZNzhhcnljQjBjRzl6QnhHNzl6X25TUmJvY3V6cDJvQy1tUnBtZFA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-26T12:15:56.299020+00:00"
+  },
+  {
+    "id": "INC-F0ADD65A",
+    "date": "2026-10-25T14:41:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Three men charged with attempted murder following stabbing incident in Doagh - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdUZKNE5RQktFQXNCNl9Pb3dFcFZ4TVdETkRYMGxGOEpsTkJIT3pmOGIyZXBGYmVOMnFKeTlRc1RDYzh5LVVRcXhJYi1ZTC1Ud1RHdjYweWFDWXNMVWVPaE9XdmR1ZDA0VjJ4SEUyWTkza09GcGhYbWFtZnlTR2JMcUZsczlEYlFMZUtUZzRSQXJIODQxWDZvbWQxajk1MzZKVUktSDF4M3pGV1l4NF9qZUNJNnh5OGJwTHlnZXZ2S1JvZHFUU19EWklVSDM?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-26T12:16:03.282330+00:00"
+  },
+  {
+    "id": "INC-E045F046",
+    "date": "2026-10-25T10:09:00+00:00",
+    "county": "Antrim",
+    "location": "Doagh -",
+    "description": "Three men charged with attempted murder after stabbing in Doagh - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaFFQTTNieGZXN3pubXdlNUxUNFVKRWE2YWF0Y29lTmIwYXVrRDNma0JDVGFmYXVSM1FnLTQxdXdUWFcyeDZNWGZwc2U4VE95UmxpaW1iLWFQb0M2OElrS0l0UEJxRUZ2LUY1aVJqS2RNY04ydVkwbEthcG0xdXBaRUF2NjFlOXJ4SlJxdHlhQlRkR1dPYmd0c3FMWdIBoAFBVV95cUxOMVJKN2tiVi02OFBVemU3a01pbGxKblpqM1N3RHdrZ0dSQ2g2UGVWbzJzMnpGay1NNGQ1UXJHdjJURVpYVlNrQ1RxczV1My1iVEszUGtDd3NQT21id0xFT2xkNTdLVG42SkswNm52TUJ4V3JGMlF0R1FZZFE5VndSb0hHMEZWVC1jd2dxc0FtT1JHLWdTR0JGcU9xb0llSjV0?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-26T12:15:47.673855+00:00"
+  },
   {
     "id": "INC-011C114C",
     "date": "2026-10-23T19:54:55+00:00",
