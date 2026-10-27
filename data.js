@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 958
+// Total incidents: 966
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,110 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-3AF074F5",
+    "date": "2026-10-27T08:11:49+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man arrested after manhunt as woman stabbed to death in Dublin - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWDZlcVFaWW9FQnV2TzNNSWl2dGtrZGNXdEo1eFdpTEZnNEZxTUJMR1BaU1dQMW1Eem5Jak9NTHg3UEFBV0lfZ0dfMmNWeURYeW5qdG9tcm9nMmk4QVlrZnlJUzVLaE1Mbl9QSzl2V25zWXhSSE50UTVDRGQ2RVBxdDRNM1lWazBoSUVOMkxKa2xkOUdKVlRfcVNWbVZzX2NwZHZBQUFlMWdubG1KNHZNWjQ0Zw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-27T11:36:22.346484+00:00"
+  },
+  {
+    "id": "INC-95E6F237",
+    "date": "2026-10-27T05:30:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man arrested at busy shopping centre after fleeing scene of suspected stabbing in Dublin - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbzY0N2ZGQ3NuOGhyMGtNY1lod29tWm9tcFJlQmI4d09FR1pQbHBxaDBfLXRQOXBiS19LcF9xeGFFSzBneVI0OGp5cERnOXZ0YnBhYkNieF80RUtLOTFUd1hQekR0T25fM0xZOXk3WmUxNzlnVFU1aHo5d2lTRUF3Wk9WQkVKdWVUOHR6SnNZeDk2ZlpDbjIyc0JXOExjaVlOS2ZaVWlVMjcySVNicjFMOUowVUZPMFR3TExOczduSWRmaWhLemhfQ0xIWm9faVhqODQxSHpQNm1TUFpBYUFTc0tjUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-27T11:36:22.333386+00:00"
+  },
+  {
+    "id": "INC-FDB2418D",
+    "date": "2026-10-26T20:34:40+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Woman, 48, stabbed in Dublin pictured & bloody photo hours before death revealed - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUnVUNnFocU9oRXEyeUpNLVhiVDV1QjZvbFJjWHpWbl9uSmxYOGxydmtIN2RyRWxvY21QTWlSb1IxS0Jhc3RoWkdCT1BDYURyWDZMOFRtTl85MURLX1pRRS1JLUFIbWFfV2tzeWtlelo3cDdqeFhJZFNjYk04VFp1bFlpV3NUSWlnTnNEa2c2NFl1QQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-27T11:36:14.039113+00:00"
+  },
+  {
+    "id": "INC-7FCBBC53",
+    "date": "2026-10-26T18:30:13+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Young woman (22) denied bail over \u2018unprovoked\u2019 stabbing in Dublin city centre - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYkpYLUZKblJyUXZ0NGlGcUttaTZIQkJuMk12eU8tWFAxMGgtc3NUeDA3QlFzQUxOcVZieE82aEFuMW9LOFlIQkEwMEVCcE9xckFXVVdlLXVHY2pmRHBPVWg1UF9aVkFKcVVlWlNKd2NBcFExekpuTW5iWUdlc2huUUZEU1k0ZVFPQzVEVGZYRlRPS29PNnAxa3dnSHRGM3FGRnZFZWZkWFhmZkw0dUhJWkxxekZFbFpJSzNPODNfZFRfUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-27T11:36:22.346202+00:00"
+  },
+  {
+    "id": "INC-3631A612",
+    "date": "2026-10-26T17:27:16+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Stabbing horror as woman found dead in Dublin named locally: 'Everyone's stunned, it's a normal estate' - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdjdQaVpoWmlEM2gtaDlPX0VLXy1yUDNWb21VUTREUGhoVF9XRXNmWk5aVkJDWHppazZ3Zmc5WUpHYUVYX1ZFMHdXY1hTbDFmWURMU2tpY2ZhWmtyY25VVjlXZVBjUjJ1M2RKRHRpX1JrZU9OblJnc0wxTm90LXFkR0g2ZGVkcU4yR3hfcXg0TkotLXJO0gGaAUFVX3lxTE5nZ1pJSHZ1VWJkdVE2TG5sVkEzTUVGQWtSSzdGLUlob0VGXzV3ZmpXOUJFdXNOQktYVDhrTUtzd1lrU1k4bTFrZDctYXNtMzJacHdrWnhvZlI1ZWtNTkYybE1aVzdwRERZREpTTklYZHFqakNJT0FUMV92aGZ0ZkJhM1Vtd0FmYVdYMmh4LXFYZzNkcUxGcjU0V3c?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-27T11:36:14.030016+00:00"
+  },
+  {
+    "id": "INC-45BE6F07",
+    "date": "2026-10-26T15:32:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man stabbed outside Doagh home in retaliation for pub slapping incident, court told - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaENWNlZpc3Y2SWR4RzJhd1dZU2hjelZHc3N3bm1CREtmSncwXzk5ajBoMGxmZWRpNUtqUy1fOWdVQWlZZlF4djNXWXc1dkw5NlZNLXQtdXM4dXJXNTNWbjZ1ZzlBQ2xkRzJUb0o3bFlQcTNKUW5mTzFYMjRWM0JfRUctdzhhWGpUbDludTY1SDdZWl8zbFpkbmF3RDhRRk1TMnc0aEdCR1FZanpCUkJvaUFvV3A2dDVfM0Z6OGIxRTdjWkZvd2FnZUs0N2ZyQ0xtSE53Sw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-27T11:36:31.995209+00:00"
+  },
+  {
+    "id": "INC-1A300FFF",
+    "date": "2026-10-26T15:07:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "\u2018Man stabbed eight times outside his home in retaliation for NI pub incident\u2019, court told - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRUVTYjdCcFpQOVFNbmtORGtEc01Gc0l6TDBZaE5hM09qQ2QyYnY4X1BZY3I0T1BsMUFvQkUtTjhvN0twYmtZRndTOW8wYWluRE15d3hSWXNSbXozUU94UHp4dzBIYzBCRmRxOHNWRTdWMmlqZTBxYURjSXBiaEFETkFaUVFZZVFoSVdHRnFaY1VzNzltT29WWm1aM2prTmljaTFXZjgyVzVRQTV5aDZJeWw4RTNUSlJ0WlB6Rm5ZZDBDQzd1TXFzODhqWWdNaEdhN0ZobmRqUmt2ZTRjUWRSXzZydXg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-27T11:36:31.999787+00:00"
+  },
+  {
+    "id": "INC-B7A8A6EE",
+    "date": "2026-10-26T13:33:19+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Updates as gardai rush to scene where woman found stabbed to death in Finglas - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORkluSjRyVi1QaDZaQWZGYllEZUdEVllQQXFQT3FWRGVrYXFPTVhzTUtzTVZ5RTZBVU5xb19uMS03Yy1uTktNTFNJclAtdWRWeHZqRWJQMnpLRG5RZVFvZnEyZWtNdFZlZEEtZXpTUEFmanY5UW1BOExFTnZiVDlaMEVKUVhiaTRsWnJNWTFNbHVOTTAt?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-27T11:36:22.334544+00:00"
+  },
   {
     "id": "INC-CF95AF44",
     "date": "2026-10-26T12:05:58+00:00",
