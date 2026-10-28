@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 966
+// Total incidents: 972
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,71 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-C37BCC5D",
+    "date": "2026-10-28T11:41:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Derry attempted murder probe after man stabbed multiple times - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRkVPNXd1QWhLdF9XZS1Gb2U1dkdyUldJRjMwWWkzTE00bncydGpvaG14YzB0V1UyWE9hZ205clJzVzk2dzZ5aThfQVhtdUhlR2l5ZUpZR0Q4dXdzUE9xaXhyZzdVaS1mTjViaHRuV1o1T0VPNDVlWUtXLTZQRmNXZ3VwV2dvZTRmVF9lRmZNakR2TExSQnZrV0lGTdIBoAFBVV95cUxOcExlWWpnQ012SU9TZ3lHV290RTI4dUx4MzVaR2owVWhHSHNKWENvU3FZaVluazBpcXl3VW5DSXZ4X3hkT3hvVjdvc3c4STBzb1lqaHJDUmd1WkItWEE5SVRNTS1CQURxT0VSWTlocnhybnFmZG5ucW1Ea0J6RU5XOXliQjJPdFRzQUd2bUxaZk5sOWxGb0dOa3BPLWdxQjBL?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-28T12:07:24.374018+00:00"
+  },
+  {
+    "id": "INC-4C6FAB40",
+    "date": "2026-10-27T15:59:21+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "NI personal trainer accused of revenge bid to stab man to death - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWGxBOXpkcDl4bTlQbjh5X0VLT2tRNS1VNGllZUpjQUNuS1k5d2tZbFFuUjFWNWFBSmNyT2J3ZkI2UndRdWZwWUY5SzlKbEYxcERIdHdHUDQ2N2tyTURNSzJYTjl2NVluUXFYaWtRRWl3bVBLaWdOR2NReDc3ZHUxYTItZVl2b0RnX2hZcmpERHhQdlVQMFlrb0Nmb3jSAaIBQVVfeXFMT2g3YzEybXBDVDd2c1MyNkxuN1NncmxDbDVMbHNEa01wV18wVW00b3BzVUIySDVqWWtXdmtJQ2NkejM0Mjc2dmRkYlVGd1U1UVJNM3dsRUZjTkZtRUQwNC1CWlBKNWR6N2dKX3pqNkFOYU44UkpHT2xCOHJtQUFuNTQ2OVhyRDhWbjFEZUlJVEpZdExjUlhDcWFoRkRRVnEzVHF3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-28T12:07:05.569033+00:00"
+  },
+  {
+    "id": "INC-0C8BCC65",
+    "date": "2026-10-27T15:58:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Larne personal trainer was allegedly involved in pre-meditated revenge bid to stab man outside his Doagh home, court told - NorthernIrelandWorld",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPcGZIbTdfc2haMnE4SEJHX2d6eUdOVm9aSFBXb0sxb2lBZVd1RnVtUnBEcnptaWg0SVhIM0dKbms2bGhlT21qd3N1d0VsWmdibHRiRTliS3Z1YWV6VmdSY0YzUzFvbFpaOXB3VGZmQjFIc2RXbXc4SGZIZV9nZWF6cmt0QjA2cENxMlllT0xoM1U1YWdvbWlIY3pmSlBHY0EwV0d1TWo5YklrSmhRR3E0S21SSFdaUnVtajhWUFRaUEhJN0h6SUw1cnN1VnE0SjY3OUpuM2xZdUVtZ1p3MUQyQTFwRVp0VkRTTTExUk9EN3ZleWNfZm5SY3VfbHNxb2ltbFhEWGI5Yw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-28T12:07:21.020934+00:00"
+  },
+  {
+    "id": "INC-D71A257F",
+    "date": "2026-10-27T15:27:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Bail refused for personal trainer after alleged knife attack on brothers - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaGRxXzJWYzYxVS1JbDE0YXpReHNXMDlJZ3pmUVpXQ055LUJGMWN0czdRa1hGd2pGQUNTbjVGT3FFamo2OUZTdmV0Q1BSNzJIeHZITWMxRXQ5MExINUxSU25WWUtSYnE4U2VkYkVUX19TNWVmTFhwWkU4UFRxTmZRRE9FWDk1WjlYZmo5NlQwd1NnTm51MkVKSjI5T1pJeEZ1THdFMEVqSUh6N3Nmbl9KaXB3amdSN0tHT2lmbW5oTnpfd2hJOUtnaEJwREZBUUxkUVE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-28T12:07:12.780508+00:00"
+  },
+  {
+    "id": "INC-493CDCC0",
+    "date": "2026-10-27T13:11:36+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Murder victim shared images of brutal injuries hours before fatal stabbing - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pSWF6ZXI5Qk1zUXpBYV8tQmNmLUMwbjV1UDhGWFUwWW96anJBckZQTDVyblBQYlM4WElGQlcyUWJVSVdYUDhoU1BYQzJUVXl4VE1GTGpPWnZhbHFONGk0X09LVzlnYk82aW94akhDZHRfcG5vR1l1aHVkY9IBgAFBVV95cUxNbXMwYUEwcU9ISzVJVnJxbnNaSG1oS3VuYlBhRTFyTndIQV9RdU0yOUdEUEhJVkVJTm9LUHNvRmhOZTZFbVhfZTBrQk1YalM3b2ppYTQ1ZzNhWWt1c0NvTW82WnFtSi1wcGtjOTlYdU9vRmt3WUl5TndiajltdG5WTw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-28T12:07:14.437219+00:00"
+  },
   {
     "id": "INC-3AF074F5",
     "date": "2026-10-27T08:11:49+00:00",
@@ -74,6 +139,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-10-27T11:36:14.030016+00:00"
+  },
+  {
+    "id": "INC-A507270F",
+    "date": "2026-10-26T15:43:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man stabbed eight times over pub slap row, court hears - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY2FiS05Bb292QXhZOXo3ekNuZGNWdUNfQVE4NXdoUTdXSmtGU2FyZ2hVLTYzSHl6bzJmQTBhLXBNWVY1SS1KWDFWblRIUWlsTDd0SjZDMEZ4SFFBMm4yRkVHdHBxSFBsekwydnA5aGVDR1RMalBRN294UHhEZGRuakdfbGRTRllyNWVMMDY2UzlXbkXSAZgBQVVfeXFMUHFxV3JzajZNRHZkc09mbHh0TUtqMUNXQkNLRW9MNktNLXJMblF6QVAtaExNaGRubFI2NndsM3ozYldWZEU4TUhicmRNelh1ald0dUp5eTZBc0Z5Vm5zMkNOb25SSTZ2SDVJY0N2c1BhWGpiZEpnQi1UQ19iYUYwMzh5VjZZMXpLZ2hfZ2l6TVhXMjFlNmFJTVI?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-28T12:07:24.385315+00:00"
   },
   {
     "id": "INC-45BE6F07",
