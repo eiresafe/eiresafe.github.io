@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 972
+// Total incidents: 973
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-845E2836",
+    "date": "2026-10-28T15:47:52+00:00",
+    "county": "Derry",
+    "location": "",
+    "description": "Man, 30s, stabbed \u2018multiple times\u2019 in \u2018vicious\u2019 attempted murder in Co Derry - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMHEzekxEanNqVDM3TGdnM1FlV0RWazJVMzdHT1FJUWNnVWlhaVRRUVFENkF2c2psOTd5cUdsYlU3VDFRS3ZGWXc2ZXFkMGlaQjBzMm5wc3IyUWpnQVlDZUZIbDRTN1JVUUphRU0xWTNGODBINkJNYzdfU0c3Q0pFaFZJYXB4S05ZSVZKZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-29T12:18:22.297608+00:00"
+  },
   {
     "id": "INC-C37BCC5D",
     "date": "2026-10-28T11:41:00+00:00",
