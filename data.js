@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 973
+// Total incidents: 974
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -87,6 +87,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-10-28T12:07:14.437219+00:00"
+  },
+  {
+    "id": "INC-F3AD5CFA",
+    "date": "2026-10-27T12:40:13+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin murder victim published pictures of bruised face hours before stabbing - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0FpNklvQzNNTDBSM3JyTVhVMFZrMWVHSWNpanZWWjZ2aEdfSmI5VWVISHliWW80STRyLUlnRU1MY21SU3czMXBVOG9iZUFnY0gtcWdNRkxpUlktVkdUeDJJZDFjOUNCakMzZXpnc3dYaUl6S1dpTTdtM3dHNXZFXzhSckRVTFY2bHlpQ29ZTWIzRi16Y0HSAZsBQVVfeXFMTl9tbVVVbkRGbXNxNW52eXJCRnRMa2d5OVNhZTQzN3Y0NmdWLU9VTElENmRMTzNYQWJmOFE2YkJTVmVrcDlLbXgxbXo0cHpUZWluTVZ3NlRPWExQNzVKMGFzYkVqZmVEN1NTXzU1V0I0bUFqbTF0Uk5NeGdHLTk0clhzeGRWWk0wdEZES2wzQXFxMS1RbW9fb2oyZ0k?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-30T12:08:38.415443+00:00"
   },
   {
     "id": "INC-3AF074F5",
