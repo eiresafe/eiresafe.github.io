@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 974
+// Total incidents: 984
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,136 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-9691AFDC",
+    "date": "2026-10-31T09:43:00+00:00",
+    "county": "Kerry",
+    "location": "",
+    "description": "One man dead and another injured in suspected stabbing at Tralee IPAS centre - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMb1U5V1hVdlNQalpvRWk0Zjh4Y3J5OE84dXExQ05BekZhZG5ycF9IVDJTT1R0ZGpSb1E3U2lieDBFVjIzdHhmTVFka1pmMUVIelM4c3F1anFodFJmdHJkZHYtTUUxa3dGUmJhV3pR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-31T11:41:21.463202+00:00"
+  },
+  {
+    "id": "INC-937E573D",
+    "date": "2026-10-31T01:30:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Patient arrested over stabbing of Dublin doctor was convicted of killing his father - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ3IxNWZDR0p6YUwxdUZaeEU3eHg2b00xZnZSb1pOUG5ySnJvam83aThmeW5teW5kNEJKbWNfRVh3SkZhMjR5QzNCRE0xQTB5V1docnFSa2RrYzZhamFlWVZKdnZLdzVwSV8yWV90U0c0cy14U0lBNFd3c3g1Y2hGclA5aWIxOFN2cmtiZ09IemQ1eXE3R3RoeDRJNmlvQ3VfSWw1UHVhWWk0dVU1VkhWbUJWMnFaNTNlS0M1SzJzd0tVT1hheFp6Q29jMFlxZnQ0?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-31T11:41:21.477706+00:00"
+  },
+  {
+    "id": "INC-9A25FF82",
+    "date": "2026-10-30T14:56:54+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Doctor fighting for his life after Dublin city centre stabbing - Galway Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUktWOTRYV3h6YmRsOWZaRVN1RTRZNVhtVVJmaHRVWlk0Y0lxc181YTg0V1ZISFpGdlpLTm5peEM2Y2dNZHNtZFdMOXE5XzJSU2lodVphOTh5REYyeGhJYXZ2NjdBbkMtblFKQnp2Q3VnYXZUN19rS2JfUC1BbXViWkFKWkR3OEJ4NnBOSXh30gGTAUFVX3lxTE1EUFk0WEVmdWZRNFRGQ1FvNDhzOU52MVR1el9CSXk1ckZBazIyVjZ0dUhBRU5WekF2c0ZXOFVLbTI2ZGM0TTBMZFlfak5KOENNZ3haM18tc2dDSm1laEV1LS05VXNRTW1zcXlUanB2WnR5MWVRNWtWZFRnZDE0eks2eXJkQjloNWZpMHNsQmdLVXpQNA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-31T11:41:21.478012+00:00"
+  },
+  {
+    "id": "INC-1AF9A990",
+    "date": "2026-10-30T14:52:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Doctor stabbed in horror knife attack at Dublin city centre clinic as police swarm area - The Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVE5WZUFGSktNRlBaTWMwRkpDVzVQZ01uWGxfSHNSVGxVTHJQRlI3SW5lNUFZRXk5MVZhWFVQcS0yVnJtenNEYVA2YUowNE9MZlpuSjg0SWRXTHFuYVpNSVFlbjFqVVNwTE9QT1g1T29LNkR3OFlxMEx1N0EtWnB3YjJFeW5yQjFDQ2pYa9IBkgFBVV95cUxPeUFpd1Z5VktpR3k4aTY4U1NMMmIwMm95ZlBlMFlreWhBX1VZN2U5UmtabmJWa1l2MU9YVlZSMEhacGZKTFdpTFR2eVFLZDJ5YTYxQ0xabjNKV21hZEFQaEl6QkFQWDA3RmNsalFCa1BfNF8xSzE0c2RocW1DZ0xFcHI0eWV1WElZV2FISC0tY2xzQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-31T11:41:24.780445+00:00"
+  },
+  {
+    "id": "INC-901B3567",
+    "date": "2026-10-30T14:39:54+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Doctor left with serious injuries following violent stabbing at HSE clinic in Dublin - Extra.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ydHdxbGl2MFVTcnlBNzFjbEJTUFVsMEx1VlQ1Y01LOGZWRkZHTHctT3dOWVVYa3UxZ2tjNGJyZDJiNE1iaklmYldaeDY5RVRMcFNfcEMyUV9Ccmp6aVNxMW1xNG1JS0FJZm51RWFTa3F5eDZqdmFfakZrUkM?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-31T11:41:29.591145+00:00"
+  },
+  {
+    "id": "INC-18A9B418",
+    "date": "2026-10-30T14:29:33+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Doctor fighting for life following Dublin stabbing - everything we know so far - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLWRxTjJYN0Q5UkVPYXJ2RzUyand6VU50ODBjOWJjbG5nTWZzMGxjOVVybHFlZVlSZkl4VU1GZzZ0TGtVbTFnWW1aU1poODZYdUhtbEZwZ1N1aURmazQ0S2JhcENHamUwX2ttTmV4c1BqdVBySEw2aGJUYjU1R29wMmhkQnJRdXkzRGJQakZqVjN6MVk?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-31T11:41:29.592572+00:00"
+  },
+  {
+    "id": "INC-1299B8C1",
+    "date": "2026-10-30T13:44:41+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Doctor seriously injured in shocking stabbing incident in Dublin city centre - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQenJyUWc1WmlNWTFJSDhrVzVzcXA2XzRuOWc3ZXNKc3llZFFXZGw5SEtVd3pfZ21oNVRVTDExcWx1SkFfODJvaHBySVNvUkdfajNOaVpHRnF4LWs3cW1xWElTQ05CWjI3eGM5VjVkclhZV0NNRkJtdkNGZ3d1V2MzcWZGUzNhaEJfakZMSlR1QzZZV0laaV9wa0UzUTJ0Q2FHcXfSAacBQVVfeXFMUFNwZlpId2Jhb1MyRmtNcU9ja0pwNkhpVHdGb0VwNlcxNWJIcHBMTFNxRFNOZE5xcDY5WmI3alRJMkN2dDdpSGN4VXpWT3NYUGF4bTJwaFFreGs3cmdDWG9DRTBOM2J5NzlSQi1QYXRjaDRnVjkxcTRIUVhPY1RQUG5tdEwxQWdqb1NVSThNYTRMVVhteG5IVmtGc01SS1Q2UW5MM0l5R28?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-31T11:41:21.464262+00:00"
+  },
+  {
+    "id": "INC-3E4657DD",
+    "date": "2026-10-30T13:44:17+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Doctor, 50s, suffers serious injuries in 'violent' stabbing attack at HSE clinic in Dublin city as gardai launch probe - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbzFDS1ROVHdjTzd5WmdyWmY0U1Q2OHBzQXY1cHI0bFFzbldZMHlMYkpNQWlJSDJtVjdMRkdGUERTZVJtSFpJTERqbUU4Y2lGcXZqdlVDZXRvVU5KcUcyUEl5NUZQcVM4NWdBcEtkNmlrZ0dISXpFUUM4aW5XSVRTR0VCNlE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-31T11:41:21.477389+00:00"
+  },
+  {
+    "id": "INC-7FCB7F2B",
+    "date": "2026-10-30T13:40:49+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Doctor in hospital after being stabbed by patient at Dublin medical centre - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM01ISkQ0WENkQThSSjZOczM2S1dPdHpfZWhEbTFJcmtCYUlBcEdnei1HYlN5dUo4QmlHSjlGMURtNUp6Uks2c3JLczcwaFRvUzEyUFhmRXlBWEJMemdBM1NhVU9senhJdFQ3Zk1wUUI1WHhGU2pESUJwZy0wSG13R05QVlJTY1ZaMF9HTUZkR05NcHlreUZ2T0VSRk03OWZ6bmF6RHNZOXlxQ3hpWHdjZGVldlNWN0s1b1VQQW9sTkxXaW8?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-31T11:41:21.463600+00:00"
+  },
+  {
+    "id": "INC-B5B0297A",
+    "date": "2026-10-30T13:23:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man arrested as doctor stabbed by patient at Dublin mental health facility - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9XY29rMmJkai1VWWZ4OVJENHlpcGN3eWxfSVFXTUx0aXN2Y1lBeFhSMzd2N1poNDlMWVdZZkFCMDRoTDdxTWpMTTRHUF84WmpfTElDQ3BWalBsaVRQX0ZnRTZWbw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-10-31T11:41:21.464708+00:00"
+  },
   {
     "id": "INC-845E2836",
     "date": "2026-10-28T15:47:52+00:00",
