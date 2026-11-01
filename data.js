@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 984
+// Total incidents: 991
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,97 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-24791348",
+    "date": "2026-11-01T05:02:03+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Garda\u00ed probing possible link between Kerry stabbing and row over loud snoring - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRXVjU3MtQ3dnUnRvREgyTzFGdm1iVzdRbm0yaGNEMFFJZFQ4bTdxNmVmRjlpamV6YzV3eDVaWG55X2RMTHUzel9Cbkt6eGNNb0M5NXVndHh3ei0xMHpjaUZGd0piWmYwdUtSTDRXYldVdUwyZDJKYlRiSmpTdElvbDBubnczVUh3QzRwSlBnR3FiTmgxLVg3QWN30gGfAUFVX3lxTE80djNBeDRHb3Q3Mzl5SFhBY19aeWx1aTJzX19NV0U1aVlZUFVYWVJjMnQzTHh3T3hLTlpVLTFSMHBNaWZ1RGRVUTdFbmVrcnlqVlYtaHdEaXNoczEwQTlMUHVtNGRacmJtNXBXLXgwaVhiVERURGRLdVBVS2dnRzl3cUJNS1V2cTBlWEhCNUd3amhhQXhZMk9NRzZCN3RBcw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-01T12:40:49.283111+00:00"
+  },
+  {
+    "id": "INC-298C00AE",
+    "date": "2026-10-31T22:25:37+00:00",
+    "county": "Kerry",
+    "location": "",
+    "description": "'Dark mood' in Tralee after fatal stabbing at IPAS centre - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNSzNhNFBBVThJTG9aN1ZFTnJ1MU1DZXNWMXhuaUZiNGZlVjdlT2h0ZXBIcFNZLWhaQkJ1WkxuM0QyYklKY3BuSFpELXdrZ0tMX0Y0N3FQcF9FbGhKVW83U1hjWGZYcms?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-01T12:40:49.281732+00:00"
+  },
+  {
+    "id": "INC-9F545FEC",
+    "date": "2026-10-31T15:41:44+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Tralee Mayor warns of fear and rumour spreading after stabbing at IPAS centre - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaGxQaDBhRm41eWs4TEhPd21LY05qTE9fOGlCemw1Q241dUVvblFUT1ZOX21kX0VjOEZ0bG1rd2hNTllBU05RX2prNmMtcmNrdFVaaHNkaG5pXzlJVGpYNWxWR3JZRnNxVDlGRnJqaXZiekN4Z2lsZnQtYktLNEd1UENGNkszZkVOTkHSAYoBQVVfeXFMT2hsUGgwYUZuNXlrOExIT3dtS2NOakxPXzhpQnpsNUNuNXVFb25RVE9WTl9tZF9FYzhGdGxta3doTU5ZQVNOUV9qazZjLXJja3RVWmhzZGhuaV85SVRqWDVsVkdyWUZzcVQ5RkZyaml2YnpDeGdpbGZ0LWJLSzRHdVBDRjZLM2ZFTk5B?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-01T12:40:59.610036+00:00"
+  },
+  {
+    "id": "INC-F1A06718",
+    "date": "2026-10-31T14:17:57+00:00",
+    "county": "Kerry",
+    "location": "",
+    "description": "Tralee mayor warns against 'unnecessary hate' after man dies in horrific stabbing attack at IPAS centre - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTnBEN0xJeVpqUGZHcDFCa2lEck13a2dSTzFQVmZDdEFibFRUN0tjd2otblI2WXB2T0Y3MHA0Z2pzdVF1LURxdTJyLTNfdlJzbDVtZG90Z1ctakZ5LTZYa1pKcHJOcHZMYk1fTk51NlA1NEpyU01VZGpHN1BWbHFnUkx5bnJMNnRxVHdacXZ30gGTAUFVX3lxTE55bTBsTng3aXJOVk9NeVo5WGU3b1ZoT2RSWjk5ZnpaU04wSGxXbkxMM0s3eUoycVdFU1RwYkhWUC0zSTJZT2o4c05BVExOZ3MtYUpoanVBZzV0UjZfX2l3ZDlvc3JtaGE0X05fMklpTDl1X0Z1LVdyQ09sM3A1M0FlbDg4ZUxzOEVkNXFZLWFTWFVEQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-01T12:40:49.285376+00:00"
+  },
+  {
+    "id": "INC-90581787",
+    "date": "2026-10-31T12:47:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man charged with attempted murder of doctor in stabbing at Dublin HSE clinic - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50MWJTOFZKenV2SHYzcTZwNU00UnNpaDlpY05UcmhhRk1HRWhTVjJmV2g2eFZjbWZsOHdMNWVnbWRlQXdQUzFRLVJGcXZaTnROcERIZ0ZDNkc4MDFrQnJfcGFCVjBHWWt0Y3B2WnNoWXowYll1VFE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-01T12:40:49.284739+00:00"
+  },
+  {
+    "id": "INC-D442677D",
+    "date": "2026-10-31T10:41:15+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man charged after doctor stabbed at Dublin homeless medical unit - BreakingNews.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQczlabm5Zd2xudVNma0ZPRGZGbjB1NzFEX3RKZmF1UDJmZGVpaF9uU1MyUll3UUZLQjRmSlVQZFhOM1Z0LXRoWmNwOTVqQU9BNnRUOHdfSXktY2dtRWZST1dlQWprSy05VndkSnphdkQ1NDdfQXlsQkdHVklPRUNLT3psQXZvV0wwV3haOWNBQlppOHdiRGZ6ajZFSnpPakRjTFJoczlLS3BSZXhJWmg4?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-01T12:40:49.283350+00:00"
+  },
+  {
+    "id": "INC-CD9C55DF",
+    "date": "2026-10-31T10:17:01+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man charged in connection with stabbing at Dublin city centre homeless facility - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOV3VPQVRSY1VHektVZ3FYbG43YWVsLWdjdWQ4bFZ4a3FycGdOcGdMRzR3ZzhXX2pYTEVtQTdXVFN3aVRZT2pxYWxUbVUtRmt4bTAtdzRTbGpld0F6ZFROVjd1SzBVbWVtSHI3WTIxWEFQRXZRRGRPU0laemlNQWVrellha0R1UDlWSEIzZDB1bll0bGVQdHdxZi1YQ2V1LTZRcGU2dW01V044VWRfVnBYakVuMFB5bDdsaWJaQ0o3YlJsYmhsb2w2R25ETl9uaU5S?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-01T12:40:49.284295+00:00"
+  },
   {
     "id": "INC-9691AFDC",
     "date": "2026-10-31T09:43:00+00:00",
