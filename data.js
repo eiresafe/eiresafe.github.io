@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 991
+// Total incidents: 994
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-5BFCA137",
+    "date": "2026-11-02T13:57:24+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "'Jihadi' who stabbed garda jailed for 6 and a half years - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBRcEJoMlM5MlJ5eENJSE1IeVdpS1ZLempIckEyWDhGNUZNZ3FxRl9rU1JVUnlmdWw0LWd3b1B2aDA4WDg3bGg3VEJheTV4WmpfbjNpQXZtTEJaOUpCSmZxSTRnNjZZV2NBQWFFYXFxTUF5cTFKeXhROA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-02T14:46:26.123896+00:00"
+  },
+  {
+    "id": "INC-07030B74",
+    "date": "2026-11-01T17:03:53+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Cork man pleads guilty to producing knife during attempted shop robbery - echo live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TZUM4SEpQd0xrYmc5X3poVVZwOEltb0lNMi1odXVWTzZJTVBDczdUazMwTWZGQWQxMV9aOVpBN2NFTHhrelhxdDZVYzlLR1pvMDNXYzVkbVFWc0loREZFOA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-02T14:46:22.773159+00:00"
+  },
   {
     "id": "INC-24791348",
     "date": "2026-11-01T05:02:03+00:00",
@@ -35,6 +61,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-11-01T12:40:49.281732+00:00"
+  },
+  {
+    "id": "INC-0A5FD8FE",
+    "date": "2026-10-31T16:00:49+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "State Pathologist and Garda Technical Bureau due to attend scene of fatal stabbing in Ballymullen - Radio Kerry",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcXBzWWt2YjhIbXVPMUcxdWg5MFVKWm1mQmtBLUI2VXZuQ2VVYy15blFOaHlwRTJKT1BzeWZ4SXJTUmNlcS1iTUtLSnQzTzVQc3hkVHRZa0RsLUxYX29aUHJUWmJXVW5vMVMwM0oyNnVNM09wclJrZmdFN1dEbDNOeTVGQU93dG5YQnY2dzBqTVZHZ1VLWEdqak9Obm9TZFViVzhfeG5fcEg1R0xLbjZkSEpCdjY4dDMxcm1rLXRLbFU?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-02T14:46:17.732337+00:00"
   },
   {
     "id": "INC-9F545FEC",
