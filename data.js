@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 994
+// Total incidents: 1005
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,149 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-264DB323",
+    "date": "2026-11-03T12:20:34+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "PEACE APPEAL Ogilvie Family Urges Calm After Belfast Knife Attack Sparks Riots - UKNIP",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaVVOdWN3RkluMTljSWNaekNud2NYdHZCZXVwM21XVjQ4RDEwY0dwei1manpjOUpDMkpNU0liM3JEUVYyNkZOb01rUGtHVW4xUkpHU1hQcHFpRWFOZjB6XzBORS02TnFWMFg5NXR2UUI1RjJ0dXRKT1NIRUk2eUZWSkgxWE00a25iWDU4RzV2SGw5ZHJQYTZaWWFmNVRRLVVfLXc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-03T13:38:19.894889+00:00"
+  },
+  {
+    "id": "INC-26B742C1",
+    "date": "2026-11-03T07:35:17+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teenager hospitalised after Cork city stabbing - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ENWYzMWdYTnBpMVlLNGp2QnRPeVJCRE9NVF81WHJMcXhObEgzNWZCVnBiMGJrT3dpS2ZMZmZtVFNiNDZsN21OX1FyYUFKWmhiWkU3TEdWMF9TM0ZkeVRoUWJuQjNpQTJQSEVhUHlXaHByYlE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-03T13:38:23.261486+00:00"
+  },
+  {
+    "id": "INC-62995A5F",
+    "date": "2026-11-03T07:22:06+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teen stabbed near Cork City Bus station in broad daylight - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOc2JqbkxQbWdIaW9oZFJNYm1va0ZSaEllS0hWZjV6eGozSjk5Y2UwbDBEMzlwZlg5UjRnNVZnY3FPckxwdHZFRGFsWGtHZ3VyTTVqSUQyOGh0RkpSU2xNV3dJaEljTDUteGdkWGpleGVLeElNWEppd2hIZDV5a1ZiSdIBhgFBVV95cUxOU2VMZ2ZIUUJMZHpsM0JPNW1uMms4NGd6Sm1KNElTdWVDRHhFMzVmTlYzN0drSlhtcWd3UC1ETXN2N25LQjRLdkZUZzFMRzhHbVpXeC1zRTJ6MXVSbVJocGkzN2l0UVRpRGE2cmhpVkx0MGNieTdVOFVnbFN2UnNDZk9yaTNZQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-03T13:38:23.262137+00:00"
+  },
+  {
+    "id": "INC-9AA2411D",
+    "date": "2026-11-02T19:41:51+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teen suffers serious injuries in suspected stabbing in Cork as Gardai launch manhunt for attacker - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPV1h4UjVwQjIySjBpbGpyU1JoWXZJdlJJcUVhdzhiUTJEWWpjWmFUMUxOelVnOEJjOEV1Y09tWVlIank1Nzg3MU96RUUtQjRuYjFGR1dSRWt4QUFNRXR2VExfZXJMSDdDaGZJdFh6R1BvQjEzbUF4RlhRR3I3VkFjWUZSTnN1S3Z0MmxyZ19XYmhYZ1B5TkHSAZsBQVVfeXFMUEp6VnlNT3FuTmNLT292ZDdpOEFPY3drNUROaERVVFIwMS04ZS16N1JFNmdOc3lFbkxJVVJOQVk0bWxHd2pncnZ3TmF6c3QwaVJTemd2LWVoc21Vejhwb2xRaV94LVpuRnhhb0dGZ1dFM2pVcTVvZ0F6dnR2bllPX29ndHJPZnNIanBHblVWcWNKZHEzNEVLSzl0TzQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-03T13:38:23.262754+00:00"
+  },
+  {
+    "id": "INC-1284FED8",
+    "date": "2026-11-02T18:09:42+00:00",
+    "county": "Cork",
+    "location": "Parnell Place",
+    "description": "Man stabbed near Parnell Place bus station in Cork City - echo live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PWnJsQ2xPWVBmbjJwV0pTVlFLdDg3SUZoSk5CdmxBTDBDdGNSTmRpZ2xaQnBubnNkeG1zWGpudVNKN1NQclVYQ0lacUxpbkVHVV82ZF9Da0ZnajF6SkFhSQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-03T13:38:23.262422+00:00"
+  },
+  {
+    "id": "INC-5037E699",
+    "date": "2026-11-02T17:50:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teenager hospitalised after stabbing near Cork bus station - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5dUlNR3BrWTZsS2dYT28ydTUxeGNEQkRKNGU5a1I1dWx1WnFNYjFMVkZLdkxkaV9MNy1YcEpWbWowMV9aQmtmVHFEUW02OWhRUS1tS1FzUS1RZ00ycVRqcklTQk5vQi1Wc3RWbDln?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-03T13:38:23.261834+00:00"
+  },
+  {
+    "id": "INC-A3A50613",
+    "date": "2026-11-02T17:30:29+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "HERO INTERVENTION West Belfast Dad Uses Hurley Stick to Stop Knife Attack on Man - UKNIP",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUmltU3dab0Z4b21YbG5pOWN2R19kYVNWT3VPSkFyVEZWS19zM0sxLWpxTU5ET0ZkMVZ1SlItZGFrWndMTTFkY0tLZWkzRFpTancyek5pU1g4Wk1vQktscVpQUlJfN1JhZ1VHLTBYeDAySTVaaUVUR29NbHVBdHpWWFAxdENiZmJObmdyRGZuaTNMNEtqYzNQemRnd1BSQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-03T13:38:19.895211+00:00"
+  },
+  {
+    "id": "INC-ACE54868",
+    "date": "2026-11-02T17:16:45+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man jailed for knife attack on garda\u00ed and setting Conor McGregor\u2019s pub on fire - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNGFsbXFCY2F6WGZpVEVNdG1ud1FfaExkYlhRY3A5SFFKSnVSdjhRWlVONTJ6WlBLUld5RVo0dzRsMDIzdTdoTUo4bFJval90VmlySXZOaFpSWHM3RHA2d3FsMzZWVmVUMG9oekl2cmxaTGR5QTNwLTdBM0l5UzBSemlHTUg5WjBQa2o3cjRuLWhNVFRyb1lYTFZvclhRUVhPSzR0UC1MZ3VGaUJ1VVhzRENZWDJ3SGhYRjZ5RDk3Q1k4b0Utam1UbUJPWXZndw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-03T13:38:14.846280+00:00"
+  },
+  {
+    "id": "INC-0656F770",
+    "date": "2026-11-02T16:02:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Fact Check: Dublin 2023 knife attack and riot misrepresented as happening in 2026 - Reuters",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlJycnFyVTdJLWRTa0NsU1FJVGFCZmlvTm5nbHh6WVRFZTJoZ3g4TkprSy1JN3oweWxQTlN5cWt0VEx2SS14Wmh6X1NidXVUUy1BSTZERE85VXhjRFNnNE1hOFVpUU5iN1VhaHlJQ0hQX3dyTldIY05ocENaMFU3T3h0bzdoZ0JNMndPTHVtNjlMOXhOYnE4ZWk5Wl8yeTVyWUZlMXBQYmRrdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-03T13:38:14.846618+00:00"
+  },
+  {
+    "id": "INC-47026073",
+    "date": "2026-11-02T14:46:17+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Self-styled \u2018jihadi\u2019 who stabbed garda and attacked Conor McGregor pub jailed - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTjJERmpLbWVTVzh6S2dsRXBudkpyeEVBaXRlZ0ZPTjJ3U2xoVzEtLTZrZ0ZQVjBRdnhsU1B3aFMwdEhrWlZ1cmdwMHM0OUgzbkJvdllFREFrS3Z5YU9vdHlHdDVBdVRIQk5ZRU4tWmU4RWRkbzVPNzlPOUZXbHFpS3k3ZVRUYXVudUxiTGJyMVh6UDd1NWtJMWZleXR1b09MRW5DOG1qb0dwOGYyTjktVnFOVWZHUHZKZTgzNEVBTGNDT3prOHQ1T2o5cFgyYXhGUHZrWV93bVFJTVNZYWM0UWk1VEJFQlk?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-03T13:38:13.253107+00:00"
+  },
+  {
+    "id": "INC-347BF5C4",
+    "date": "2026-11-02T14:22:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Abdullah Khan given 6.5 years for stabbing garda and setting fire to McGregor pub - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uSmUxOHZXQngwdlpGaVNoaTVJT0xNWkVFYmVHM0Y1Unc1Rno0ZzVMank2c3ZXSF9iWndtLVNGYTdWX054Q281bVdHMndCRzRXb3BzeGhBWjQyQTZ6TFRNZlNSS0NPYzRyMDVDb2M3RXpYYVlfVnc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-03T13:38:13.251041+00:00"
+  },
   {
     "id": "INC-5BFCA137",
     "date": "2026-11-02T13:57:24+00:00",
