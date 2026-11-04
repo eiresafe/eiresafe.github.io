@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1005
+// Total incidents: 1008
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-7F572471",
+    "date": "2026-11-04T11:15:00+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Garda\u00ed investigate as man taken to hospital following Limerick city stabbing - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPenJtM2RYY1lwZjBlUU9FSmRYX3NvaUJnRnpGeXZ0N0h0YkcxUER6NzFBNXBBZWN0aTUxYVZERGxZSjhRNWdUZFlPRC1UeHVnOGxUTlFzQXRfc0dZRDllOEt6eFExS2lhVHhRSW81aGlVLW13Q0xVQk85b1lFSHpzQmpfNktQZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-04T13:47:01.251867+00:00"
+  },
+  {
+    "id": "INC-FF976010",
+    "date": "2026-11-04T10:06:58+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Man stabbed in city - Limerick Post",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5WTUFPbC00REt6UGZkYjZQeXkteWxHSGNlaTRVeHdDazl2TjRxcEQyYkpUaEtnR1VabF96bVFyMDNLM1dqT0NFSVlPY1R5bjJhQVAxcFc1NXoxa3dRQ2ZpbGNsdU1feDN5QjVV?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-04T13:47:01.252187+00:00"
+  },
   {
     "id": "INC-264DB323",
     "date": "2026-11-03T12:20:34+00:00",
@@ -48,6 +74,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-11-03T13:38:23.262137+00:00"
+  },
+  {
+    "id": "INC-A4B8C699",
+    "date": "2026-11-03T00:55:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Abdullah Khan: Garda\u00ed may appeal length of Islamist knife attacker's 6.5-year sentence - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56TV9hWlVDTU1BM2RGdEY2R3BYZ3FJQUlIWHZGYlR4eWNLSEkxaEVxUS1fRDI4Mi04elE3a3lualMzV1hGY2Zmd0VNT1NyRlJkOVRsaVJYWTctUEJ5aV9KQkVGT2JnQjJEemVRYVQ4bVdTeXJLTmc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-04T13:46:48.263993+00:00"
   },
   {
     "id": "INC-9AA2411D",
