@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1008
+// Total incidents: 1010
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -35,6 +35,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-11-04T13:47:01.252187+00:00"
+  },
+  {
+    "id": "INC-FDABD8EA",
+    "date": "2026-11-04T08:54:00+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Garda\u00ed investigating after man (30s) stabbed in attack in Limerick - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaWM4ei1nWG5nZy16cF9ILWtpdDk5SXFwelNxWnJSSmdMcVFOUV9SVW82cnQtdV9RVUZ0amZ1SDgyUVBMZGctb09VMXp3Snlwa0tlQ3k0WWFscC16bTZSR2lvRHU0LTNpdXFEYzBBNWtFWVBaZWtsN2xTYUJvSlg5bkp2dVJJZ1JvVUR6Q2xPbnBZUkc4V0liVVNlT1RVSVVKaGVDdkpkTkdYSXhjQWVibGFuN0FKeHc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-05T13:59:12.734007+00:00"
   },
   {
     "id": "INC-264DB323",
@@ -178,6 +191,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-11-03T13:38:13.253107+00:00"
+  },
+  {
+    "id": "INC-5752DB46",
+    "date": "2026-11-02T14:46:00+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Self-styled \u2018jihadi\u2019 who stabbed garda and attacked Conor McGregor pub jailed - Limerick Leader",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVEEweS13QV9aYmRNVnVFNk5iRnRJOXk0WWF1YmJkRTBpaG1WU1RYZWJLSFBTb1h6MDdCWXFDSVBERU1sWGFCZmlxUlZqNDhta0pBb2c4VkRWbG45cVk3ZVpOeGZYU1duWDBjcVB6emlteFpUY2daTk1aRUJjT2NqSkJwTi1VTmQ2bVhTQnNsQnVsZFNQcy1hV2dLdTRhcUlEalQ4RjY1SkxRYUNSZ0EyRUtkLTJrMEwyOUFZc1R1OA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-05T13:59:20.572959+00:00"
   },
   {
     "id": "INC-347BF5C4",
