@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1010
+// Total incidents: 1016
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,84 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-4D3C778D",
+    "date": "2026-11-06T09:01:48+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Teenager arrested in connection to fatal stabbing of Limerick man - - limerickvoice.com",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYWh6NDFwcTNuUmZxUVRGbkhseUlLVkJBTEVMLVBzSlZ2b3ZuTWVYNlZvR29MZE52SjlOc3gtRFRua0tLN0hIYmNvTFhyWmRtSWFadTN1T2FFejlWeHRhdW9nWmlHMmFUbldKVExtejZKTlRVaFEzWEFwQUpQdGlFLWxvR0NnZzVGYVQyYnQ1bmUzTTNVV3F3SFJISzk3dw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-06T13:44:41.885884+00:00"
+  },
+  {
+    "id": "INC-A7753662",
+    "date": "2026-11-05T18:01:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Gardai arrest chief suspect over murder of grandad (38) stabbed to death in Dublin - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZ3drNjllRHJ4OVRRUkM0S1pseHhPN2M2RjhhRnFMalk0cEJmc2xIQmhjckU5WlVkSlhRWW01UXlhQ0daNVBES3RBcFpjNHpZUEpZc0haVVk5dlR1dzJCSnNnOUdiVEpfU25OZDdHMjFVWVUxNXNKcDdBbEZvdDk5OWVWalBMRkZrekUyWVBVcUhCLTZPbEN5bzJHb19CMTRmVjZhTXAtWDdCVmd2S3ROaUUycDA1TENZTTN1c2ZSdlAyd0VVVEJQWnlXdjM?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-06T13:44:29.714854+00:00"
+  },
+  {
+    "id": "INC-775909AD",
+    "date": "2026-11-05T16:48:44+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Teen arrested over fatal assault of Limerick man who died after being stabbed - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZDBKTHJKd0x5QURrRUcxNllBeEtsXzU4bS03VUthaDNJdHBmU2U0c3ltQlZXV212Q2lPNF9uSFMwVkdqaHhvbEJrcXB0U1JDMWtSYjcwTDZ0WUpaZlFEZ2lDOVFIdU9lbExxRDRKd0V1Q25vbjAtSmdKQVdpUDUyWEVrWDNwMFZvUDdXRWl5ekVEZk1VVk9ocg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-06T13:44:37.315294+00:00"
+  },
+  {
+    "id": "INC-AE4FBD82",
+    "date": "2026-11-05T16:31:21+00:00",
+    "county": "Dublin",
+    "location": "Blackhorse Avenue",
+    "description": "Teen arrested in connection with fatal stabbing of Jamie Bailey on Blackhorse Avenue - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT3hzNGNXYkZqa2JjOXFoUE9SR0luTS1JYTdJMmFzZ2xTT0lPX1RfdTZGQ0dqRElKemxUM0xHMEJzX0ltTnJJNnNFM3JNckowR1NSblNCdmsxZXBTOVJiUnplMUFLY2R0Q3lyZXRZdURraWRtamd3SUg1T1B3ZHVUejlmb3E2bmlPMnYxZlNmV0RENm1RSGfSAZsBQVVfeXFMTjJPaXh6dGlacmEyWk1kbXNoQjRFZE85cDNwQTRvc0NKbGh6WXBCbkstX2dMYzhKaWZ0YVBnZXhVVGp0c3hWLVNzREpxY2FTMkJvZDgzWC04aTFicTg3cEdjN29jV2ZIMFg1eVJxeHhJbGJtbFJPR3FTTXMxc2RfaVRBRUZyWjhlNndZWm5BN0JSYnVhZXpTWjIxZmc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-06T13:44:37.308351+00:00"
+  },
+  {
+    "id": "INC-F8B97BF1",
+    "date": "2026-11-05T15:56:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Teenager arrested in relation to fatal stabbing of Limerick man in north Dublin - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVlFSZldtWFFpa3B1Vk9UekhGQ3RreTJuS2kyVkZoWVlOeWw2VXJvZzFwV2VtbWtRRVE3RU9DVTBwVlVGV2ZLOFRFVjRCVlFaS1l5RV94VGtTcWxmVlN4LXZCSlZ1SHRRWTFBT3ROUVJaZUs3QU1aeWx0R295aUZSdzM4M0t5UzVUOU9WaGhaSjVWOXBGUkFyTzl3MS1SeWRxOV9XcUxDd1lxeWRfX0ZsX2N2RkVkdjltU215Vk5WUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-06T13:44:37.308825+00:00"
+  },
+  {
+    "id": "INC-29E599E1",
+    "date": "2026-11-05T11:28:40+00:00",
+    "county": "Galway",
+    "location": "",
+    "description": "Man injured in Galway knife incident as video shows horror assault - Galway Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMjJjZjczbTY4c3NuT2FHSS1rdC1seTVRWDlVWldYdk9jWkJicFhXYU50WXRzQVhkSUh2ZlRoQ3ZFUGNFekl2Z1BybkFTWl93UXh3cjJrejdNaWxoSWdSOEVZeldibFR0enJGelE5RDEyN0liS3B6QmUyaUMyTEhWTm9oM2hpLVhhSnY1edIBkgFBVV95cUxPTUZBNHpxWFI4TGlLdERETkxYaHduOU1QekxKSm05bHRtcjhCdmxvOVNUQnZsVC1SZHc5aVBybmlPRm0tb2E0VGdra3p4X3kxdUpxRjROWDU5dk5uZVR0N29ldjEwS3JjclRIRy0tZ1JVd0pMYjRLYVNrelF2NGxIRS04U1diUlpxeWtWVHZ6TWRYQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-06T13:44:40.300167+00:00"
+  },
   {
     "id": "INC-7F572471",
     "date": "2026-11-04T11:15:00+00:00",
