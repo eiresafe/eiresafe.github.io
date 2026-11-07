@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1016
+// Total incidents: 1019
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-1B733C24",
+    "date": "2026-11-07T12:22:51+00:00",
+    "county": "Cork",
+    "location": "County",
+    "description": "Man in serious condition after stabbing incident in County Cork overnight - wlrfm.com",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03MkZIaEhlbzBQZjZGZ0RnZDdyWVBQZ1BJXzV3bFg0b1FsZkstLXVLeHhibGg2SzFlNjlIMGFXVkM2dUxyOUdTbTBZOUwwM2VHX29nakFSc3JHYlotd2FYMWV6b2E2NTgySGJvVDFR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-07T12:28:01.915347+00:00"
+  },
+  {
+    "id": "INC-AA1A64D9",
+    "date": "2026-11-07T10:25:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man (40s) hospitalised with serious stab injury in Cork village - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZnRmOWxQbVFNM2dSMmFPMjkycWMwV1dWVFlwY09ReHhMS0hCc3hFYjR3QmZzZTVJNXh6bTI5VmhySlRnbkpzSmJ6M1BiWmZmV2Eya0dxME1RTjRpdWIxWGoyeFZ1Mk90MGNxOFh6c2JLVDE0LXNaRjRULVpoQ0lSRUZNeWRFaTlCbVdUVUpiXzJGdnRsMWN4TWQ1Uk0yY1dtem1jV3pENWRtWGhNSEtqMFpTUlRteWs?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-07T12:28:01.915617+00:00"
+  },
+  {
+    "id": "INC-D4EA6DC2",
+    "date": "2026-11-06T19:04:49+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Stabbings, Fights, Shooting, Death and an Alleged Cover-Up. Cork & Thorn Gets a Fourth Chance From City Hall - Network in Vegas",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQelN6M3RyazY2S2FTQkx5NkdiWEI5VkZTY1k2Q0t0TWxPb1BCazdXOFlETEJldDRELU9nZzJMN0pYOUl3X1NEa2FuN0JsZGlfc1YydFE1MnowaXc2RE5Vem1nQzI3T3JsSmpQNThTT2I3OXpxWkVHc2Z0NnU3aTA5YkNSc2dRQ3hXU3d2LUdhWF85c3BzUmdkMHVGVU5HMUZSTDVFMGt6RVhuRGNrUkJFWTFRaTZqMlhqVzVkUV9kRTZIMExuMXlkQ3Z3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-07T12:28:01.923379+00:00"
+  },
   {
     "id": "INC-4D3C778D",
     "date": "2026-11-06T09:01:48+00:00",
