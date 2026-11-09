@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1019
+// Total incidents: 1022
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-8CEA3E4E",
+    "date": "2026-11-09T02:00:00+00:00",
+    "county": "Down",
+    "location": "",
+    "description": "HSTikkyTokky officially shuts down Unhinged Promotions after Tommy Robinson brawl and reported stabbing in Ireland - Bloody Elbow",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUTVPemhfN1N3UDdQdWQyajRTVm9QekJtSW9zTllMQnh6eTlfZFB3MmFLOXdMMmVkVl9mU0lhS0JCX0NUR01nREhET0NQR1c3LXExVzBtcy1PcXJwVW5GdFQzaUxVQjI0VVoxekdDTlRwR3BIRTRJRWRGYTNVWFFIc3pMaXFQNXNqWW5RR1ZENE94ekFsa3BfRnZDdmRfY0d6SmhkZmRUQml2SlAya2YzWmY5U0YtTVlqNEtmS1JNZlc0ZUxjdURXNnZwU3ktRlBpQ2t1czhPSWw5eGZHakMwZ1M0d3k?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-09T15:11:51.818267+00:00"
+  },
+  {
+    "id": "INC-9FB629F8",
+    "date": "2026-11-08T15:19:43+00:00",
+    "county": "Dublin",
+    "location": "Kilkenny -",
+    "description": "Man, 30s, stabbed as chaos erupts at influencer boxing event in Kilkenny - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9vOGJNZzFLZHBRN0ZHWkVwSnoxallIeS1vMU16akY5ZjZVcEFLYk1rMW1YamRxVU1GWkw5d3lwTHRQNmtUXzJyTVFWZ3pzaGRlTkNRd1NtNVo2ejZUTFJyeWY5RG9RUWJOcjkxdGdodkRCV1R6NzJv?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-09T15:11:59.381896+00:00"
+  },
+  {
+    "id": "INC-49BA1868",
+    "date": "2026-11-08T12:42:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man in his 30s stabbed as chaos erupts at influencer boxing event involving Tommy Robinson - Belfast Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOck12aWdBdzdxMWdHX0JEdWpTd2RBSmNRbkZfX0xOR3AzQ09nWDktbXlIbG5DWEhMNEhXZGF0OFVBaEdLZnVIREJTclFSQW16Z21nQWxHZEtlNHdBXzlEbkpLb3l6OEhRT1dLYnVScmdGRThjdUtpR1FJRWpIYkl1SzE3MmhreGdqZzB4X1ZoNA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-09T15:12:08.605240+00:00"
+  },
   {
     "id": "INC-1B733C24",
     "date": "2026-11-07T12:22:51+00:00",
