@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1022
+// Total incidents: 1027
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,71 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-723FD692",
+    "date": "2026-11-10T09:29:16+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man left with protruding intestines after daytime stabbing in Dublin city centre - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSGdHZ3ZuR2pRR2VjczBXLU5rR1dLNGpJYlhWSFVsRHBjSVpHeVY4c05wZEZxeW1rbDlFNkFCSGNPZVQ2MTJrMXNkeXlBS284aTc4dDhNbm5ZU1J4cXVOeU1PdWZZQ3BrQlFmN1U4S3pWWU9HekpyWm84bjAxTk9ISXJLRVl0RVNnaVNheHp4M2Q3b2JjRGJPNUswdkttYWE0MzR5WWFSNnhDeThjQ2Nja1dPbFpOYnc1aFNVTy1MclR5Y0hSb0hTZWU1Zw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-10T14:20:26.240762+00:00"
+  },
+  {
+    "id": "INC-53F57361",
+    "date": "2026-11-10T08:49:47+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Ireland weather: Stabbing sub-zero ice blast to strike within 48 hours as Met Eireann sound alarm - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMUlOa1BhSnA5bXdUZEpZbnZBMkJSWmZPRXlEbFlrRUdtQXpIMUNwdnN6eGRteVItUFQ0MHJNOE1Fcm1fLW55N2tYRF9CaHdtUGdySlZ2S3liZG9KWjZ2QXZnX2ZlaWJTd0lxSkowRHd1eGpjaFZScVFPa3IzM0piMEtZYkRYUDdaelZDLWVR0gGTAUFVX3lxTE9JcGdaQURwNXBvN1pSSkd2amRSMzVhTTZvVlFRVUZ3T3g1NlpMbFd1VU1mamswZ1lqOHlicVhQSkhrZmdUYUdOUkNJZ2hXeWRFM1M5OGcwMTZpc0hiTVJJUi1IVElRcHNCQVdBRU4zeG5aS21PUkI3NXd1cnhuOXEwX2V3dGlHNzRQZGpDTGkwNzVxRQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-10T14:20:17.310611+00:00"
+  },
+  {
+    "id": "INC-6B3AD0A8",
+    "date": "2026-11-10T07:01:23+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "I was stabbed 10 times by woman in Dublin but no one will tell me where she is - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRjcyaWxWcUxGZTVRR1paMFVGUTdHQlU1NXpnaWRUeWY1UEItbjhLcXVkYlNucTNVRU5Zd3dkckpzYnpITkl0c3E4cE1qY25uZTVLWl9vNE5Hd2FXUVZ1dUQzOG4yb0RqZjRJejVzRXRnM09HeF80VmdFSkVQTl9oREVtN0RIWVR4SDlMaVBhZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-10T14:20:26.240480+00:00"
+  },
+  {
+    "id": "INC-814480C7",
+    "date": "2026-11-09T16:00:03+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Knifeman left victim with protruding intestines after targeted Dublin attack - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUkVDbzVfbHBLM2JvQzZuQUZyR3NabGc3cWEzcGZqOWZUaEVxWnR2djVpUUxDMVpXU1lFaHlKMnVJUkEzcWpNMHp3VGI5eFNPOE5DYkdCbUN5RC0wZE9UUFd1Q0wwLWY1OFg5Z3RZdmV6UmxFMld5cFVfVXNtRF9HVTBSZFREaUkyTjB2T25XVDhubE5GVWFGRVB30gGfAUFVX3lxTFBiSmJ3TFVDNnNkNTNvTWQtVU5nTC0tRlloSmhmMHhORnN0WVg0aFZmWW9QNWZyOVJVSTU1dmtsNnRzLXNVcDVoYUg3dWJZZkRZS3ZwMnRzRmVHSUVWay1WV0xYUWZBVThUdnJtMzJNbm4wMW0zTFdGOFh1azlyaWd3TXRNYjV5OVZ2bnMtWUxoQ1BnZnBxS1pKWHM3Z19DQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-10T14:20:18.884890+00:00"
+  },
+  {
+    "id": "INC-4C262C13",
+    "date": "2026-11-09T09:34:11+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "HSTikkyTokky defends 'brilliant' Kilkenny boxing event after stabbing and Tommy Robinson brawl shut it down - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeHVZNlRRSVBvMDRoWnUyWW1SWTBfQkk2MExvaUZjdVIzYkNDNjNPY2F1MVhSTGJLNmNQeU1PNWJxUXJvZEQzTzBCWFM0akZJMUVyWFJrenZPLVRoa2czWHZQZ2pjeTFUbFNKU0U2cDAtbTJFSktsTy1Xd3ZYeFhPQzBtcDJrUVp5ZDFWaURwVdIBlAFBVV95cUxPaTRkUC1OcHNXcHpVX2tMd2dheURKX2xOQ3NSdVVoT2xPVnVqMWZIRXR0aGlSM3dXQmJJN0poWE9ZSy1VOFJ3TmJtdmo1eVliUEJsUVp4MkZrTlpYYjZKamVUdnIxRkxKcGlhUTRXcG9Ba0pRVnY1RktZbHhhVzZwdU14QzBiMkF6Z2ItUXl4ZGR0UUtT?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-10T14:20:26.228790+00:00"
+  },
   {
     "id": "INC-8CEA3E4E",
     "date": "2026-11-09T02:00:00+00:00",
