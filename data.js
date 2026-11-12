@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1027
+// Total incidents: 1028
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,19 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-1B7AD5C0",
+    "date": "2026-11-11T14:05:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Judge grants bail to teenager accused of Cork bus station stabbing despite garda objections - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxSXFDQnkxS2wtbUxXelY0TGcwdGZ5X2xlaUl0TzlmaHNBSktSam93S1BoOUs2X1p2bFU4X2dqa0RqdUo4c3Mydi0yOTVwY1NmdWhkYThNNElpb3EtZEFPdGVrMXE5bEJVYU53M3lBNThOMDBQeXc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-12T14:38:22.303175+00:00"
+  },
   {
     "id": "INC-723FD692",
     "date": "2026-11-10T09:29:16+00:00",
