@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1028
+// Total incidents: 1030
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-171D7573",
+    "date": "2026-11-13T12:28:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man found dead with suspected stab wounds in Dublin\u2019s Phoenix Park - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDaDloanN6V182ZTlaSnBVLWJGMEUyWHc0MFpyQ19mM0JCelFKa3BDOVlWaVg5NkJjWlFsNnJWakxkMXJUTzMyYVV0R2dRVlVWNnJPeS1pNmFVMzFVUWZ4SFFZUnkxMjRTa0tMNzYteTVCQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-13T13:56:00.975964+00:00"
+  },
+  {
+    "id": "INC-1C777B01",
+    "date": "2026-11-13T12:23:38+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Body of man found in Dublin\u2019s Phoenix Park following suspected stabbing - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQS01MXg4eUc1N3NQZUVVZk1pX2V0R1dUT3RNSWtPVXNCaG50VFpSMzlQNFc2U2tROURqQWpHTDRabFFNTHVKdXdRZVBLMENocmE0VnUxV1BTRTNBR0hGeUlnX1k2ckVkYzFDRTFsMXp0cmlmdmhKWkdVTS1wSldTT2dxazBrVFZjcmJhbTFnTWdUMEhvT3lsUThtLW01LWpZekY5S1d5UWQwT3c1V3VTMm9RVVhBenEzd09WU3hrYXhZZ2M?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-13T13:55:52.856136+00:00"
+  },
   {
     "id": "INC-1B7AD5C0",
     "date": "2026-11-11T14:05:00+00:00",
