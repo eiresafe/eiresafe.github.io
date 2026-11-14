@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1030
+// Total incidents: 1032
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-F04C6F8B",
+    "date": "2026-11-13T18:38:53+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Garda\u00ed seek \u2018possibly Italian\u2019 couple after suspected stabbing death of homeless man in Phoenix Park - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORlpXMU1COE9Gd0tLREp6UTFBWUgyRVZCUGVtX0FZekNhcnNFcmpJVmo5Zk1vMDdhVGtQS04yVi1hRmtubWpybzVXcXBKSGQzdDFha2lkTE1MTXpXQVB5WjR0SkxEX1hOam5ZR3NGbWVWeVRPLTkxdXZTcktJRDF2ckx0QWpvRnVfNm5JN1NFTTU?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-14T12:58:03.430701+00:00"
+  },
+  {
+    "id": "INC-EC736C4E",
+    "date": "2026-11-13T16:20:25+00:00",
+    "county": "Limerick",
+    "location": "",
+    "description": "Lower Pottsgrove man convicted of stabbing romantic rival in Limerick - The Mercury",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWHpITDVWbjNUTWZpSUh0Q202NEpUS09JREpqYTlwRWo1TkhHV2dtbS05cW1pMjZuY3Ezb0xyRFhkTTFjX0ZHS3ZOaUVEUVdsSHc5QUw0WUxseW9SNXgtbmtFQzJ2Ti1uTm0yU0JHaHo5RWdOeFNzTkNNM3ZfaDRLMWhNcXFSYzhxd3EwelE1bFdvWHRQSHlRb2U4YjJiSVlsQVY1UVhPZ1hUNmc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-14T12:58:08.121040+00:00"
+  },
   {
     "id": "INC-171D7573",
     "date": "2026-11-13T12:28:00+00:00",
