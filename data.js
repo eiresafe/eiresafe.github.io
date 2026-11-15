@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1032
+// Total incidents: 1036
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,58 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-7EC96E0F",
+    "date": "2026-11-15T13:10:52+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man stabbed in chest in suspected hate crime in Belfast - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSUxYVE12VmRCQ2drX254c3M2NU5lajc5QVNtSFY4M2o5VXVhdU45Ulp4WlVydlJXeVVjSER0Vm0yai1id1djZkFVRFZXTHJLSkprcGp0cllvcUZ6dzJnbnV3bkhXVEpKRTdtOU8wTzJ4dWJ1RkVWY2dsQy1nSC1YUWRxY091SFZOMENUa1ZDTmtmeHM2TFFNWE9NSUk2Z1B1dlBlTQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-15T13:26:45.631012+00:00"
+  },
+  {
+    "id": "INC-E3D02E49",
+    "date": "2026-11-15T12:31:05+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Police investigate potential hate crime after man stabbed in chest while out walking in Belfast - www.irishpost.com",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNR3hpRzFOWHFyNldjYU85U2dZdE1mQlk4aVZwUTdaYUMyZHFOMThWblVwaTNaTVVIUHZwUTk3TUs5X0lib0hOREdTRlhMbnlPM1VOWkNvcHhGMkxMRjR6TTNvN1Y0MlA4QjNRTG5GMFpUOFJYTHM0bkxYZzB0MGNKTkczZ2FDNDYxU0E2NF82QlZFYjJjMnZ1dU9fVl9RS0tNRmJRVWZSZ010N1F6dFNSaWJneEcxOUs5bGRVU2czRXQteVI2NW1kNUdBSF9Cdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-15T13:26:45.631621+00:00"
+  },
+  {
+    "id": "INC-14FA8093",
+    "date": "2026-11-15T11:43:00+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man stabbed in chest in Belfast hate crime attack after being confronted by three assailants - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPMUdGT2x2U0diUlNvc1BhWUJWaVdlb1pyM3dxMjIyaXV2dVFxdURzMDMxaHNiNHRfY28xcWpkZmFBMWlvZGEweDhnRG9kYmFkSGZZUE5hSG1WbWZkVHBzYVlFTnp0N0Y0ZExRQ0VTZjZnbzJuUjAyUXMyR0dRVExVZ1BXbUZuczIzSkJCLVBXREtpMk9BYnEza3F2a0s2Uk1jTVRaN09zMThUS1NRVzEteU1XSThIbGVUX2JHU0JrNFR6cFFjSWczSWdMY0FFbklZWEprb29lZ1JESHdKeGVfOUhJdkVtdDVsdFJ5Q21RdHR3QlhKblRCOWE1X3lHdU11MHNHT2VxczhsTkpqU1E?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-15T13:26:45.632533+00:00"
+  },
+  {
+    "id": "INC-940C15C2",
+    "date": "2026-11-14T12:11:39+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Man stabbed in broad daylight in Belfast city as cops launch urgent hunt for three suspects - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPX29KWG1KVnUzZ1liR0plQnRUc0lXbDI5djlZbmlNa210Sm10d0NWcEFtTzFGV0M0OGtpbTVjZVZaRjVyUi1hZkhPVW1aUEt1YW5jZEhSZ1NzeGM0MTkwT2djZHd6NE52QmJuaUgyV19MVUdYQWpkQWRtYzVlMGEwZ0tlWQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-15T13:26:45.640712+00:00"
+  },
   {
     "id": "INC-F04C6F8B",
     "date": "2026-11-13T18:38:53+00:00",
