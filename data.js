@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1036
+// Total incidents: 1042
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,71 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-5CC2257E",
+    "date": "2026-11-16T13:43:12+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man jailed for life over school stabbing that sparked Dublin riots - Hounslow Herald",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOckZGWWk5aFlYaU5hdGpObUJDS2ZpYV9BY21COWdCOFl0ekVIZU5Qb0xCS2lWVE9NdU84RmNYWXZCZ3RCS0d4Q2V3Ti1PdlZLX2hYX1JfNklNWlBmYWdPZW9fTFhzN2pQSXNUNVJWWEh1ZHRHdnd2ZHgwMzNtRGdYZ1E3RTBJSGtnMlYwWERYRFphQ2RweWVEdmt0UG9ma29MYzNuOTZWRTg5OE0t?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-16T14:48:11.627648+00:00"
+  },
+  {
+    "id": "INC-9FC9334E",
+    "date": "2026-11-16T12:42:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Riad Bouchaker jailed for life after knife attack on 3 children that sparked Dublin riots - The Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMnAwSmxPY3dxNmhaMTNmblo4aEs3YTltYXpKcnVYLTBVTlN1Q3RISUZwSTA1YVpMMy03SjJpVVk3NzB0Wi13VDVJUTJibUVkanpYaDM2WkhyVWhIRmFaeU9XSk5IcUpLeVZyOVBhZ0dWQ3d1cDJlYUMydWcyaElvMURpRGZnSW5FX2NPWEZyVGYzdEha0gGaAUFVX3lxTFA3RU5hZlJpSnMyNXhtdGd4MllZYXdrVVNlWHpwakhQN0FSbVJKRjJhd3Nlanl0QXFzUktGMkFIejd2Y3JLQ3VvWEZFeTRZTm0wMG84dkoxM29SU1Fscl9nRnE0bnp0X1pIbHVwancyT05KUlBRTjc3bl9ZQTBOZFdkeFRORTJVX1FmTXhVVU1XOC13OWxyN3BQcWc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-16T14:48:04.983239+00:00"
+  },
+  {
+    "id": "INC-79E133E6",
+    "date": "2026-11-16T12:10:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin knife attacker jailed for life after stabbing three young children - Yorkshire Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUkp3X2owZzVuTmk3enBBdUdOTkRWSHllUjJwaVZnODNmV1hFSVJlNTVsN3BtdDhKNzUteXEzSHEwSV9WYjByVUkzWHlMeElfNnBYVXFhYUhUUk51cS1QQ00yc0pucUhFYmFxTDVPaEFsaHFBaHhjbml6b0NWcmVHeDlDR0hSMFc4bzN3ME5mY25ZY2hFbUJz0gGcAUFVX3lxTFBkTXRLX09nZXIyaFFLZEgySlVXNGZ6dzNRYi1OdU16RmFuVDV5TVlvZkFDN3g0Vk9SZmVHSERhdUxjdHU0MUZ2LW16U01IRkFNQk9Lb05LUElYZERlN1hBTjZ5aGhIZmlnU25uT1VOVXBEZktoRXN2amRyRUhkMU5jbG5UTHJSdWJRMHlEdU1pZWNUejJzNzdGX2ktTw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-16T14:48:11.636418+00:00"
+  },
+  {
+    "id": "INC-4909AE0F",
+    "date": "2026-11-16T11:56:13+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Riad Bouchaker: Dublin stabbing attack victim's mother speaks exclusively to Sky News - Sky News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON0VZX0tfbGlybE5OVkdwUTB0a3BLVmJBaWFrSFVaTHVGNG9ramFocmFPekFFaGZWUmVybno2OXRncm9YRDZiVUQtMXE1azktZFBUYXF4cy05SzYwUGdxUFpWZHZSVkRnaXlJZW1hUmN5TlZmTHNWc0ZNazFDT1NSZFYyejB6ZWtKbjNQOTU5Z2pCZEJUZ0NsMUZrY09RUjBueFNsdUFYdUg4SVNzWkpzUE1tWFBsQjVKZGhz?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-16T14:48:11.627461+00:00"
+  },
+  {
+    "id": "INC-1E03F383",
+    "date": "2026-11-16T11:34:21+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Migrant knifeman who sparked Dublin riots jailed for life over attempted murder of children - GB News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV2hpSnh6bkhfQUZLWmhlQU45aHpGNW9BbWxhNnFrU0pkNm5QaHpvdnFKNFZ3OW1SbzVmQWtHMkdUbXVPQlh4UVJLTlUyZVlFNjFqLXdkRHhyZ2JfQjlUYTBNWFdHXzRiUDVqU0NPMmI0ODlXSlRWVlVGVVFKSnZ5X1B1TURCdm5abW95aERBRjZVdHZHLUpQM0NyT09GNTlxOU5mS1F2OTRzWEU?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-16T14:48:06.603805+00:00"
+  },
   {
     "id": "INC-7EC96E0F",
     "date": "2026-11-15T13:10:52+00:00",
@@ -35,6 +100,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-11-15T13:26:45.631621+00:00"
+  },
+  {
+    "id": "INC-5F6FC252",
+    "date": "2026-11-15T12:04:05+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Belfast: Police treating stabbing as hate crime incident - BBC",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15NEwtYmNuYnZoZ1l3a18ydndicm9yNTJNM1ViS010SlEyc2NJa2M4U0dyOHQ2eHJyRnpwQkEyS25tX0VtQXJHMnUtZml1NkVyMGFQZklyNXFpalNNeWc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-16T14:48:03.409345+00:00"
   },
   {
     "id": "INC-14FA8093",
