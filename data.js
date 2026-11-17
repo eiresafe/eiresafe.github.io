@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1042
+// Total incidents: 1053
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,149 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-977B904B",
+    "date": "2026-11-17T14:39:19+00:00",
+    "county": "Dublin",
+    "location": "London is arrested in",
+    "description": "Man wanted over fatal stabbing in London is arrested in Dublin - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSUZ2MHRwLXo5bGxLQWwwclZuZDNyUV84Rjc3OGVwSHVsV0U0TWx6Q1dHYUE5dWtSNU1TMlpjbEE0OG9XLWZhY2xpZ1J3NDhBcy0zeVJCRjEtWWM3bHhNY1M2TE9kVEJyU1B0bHJSLVVkeUlxZ0RRTXgwVkV2WGtzOFZ5Qlgxcms2X2k4dF8zcnY0Uk5zeWpuNkNzZW56aXZkQm1Hak0zVV83UUZ0RXBaTXlWZ3lJcWRDLXc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-17T15:29:40.961385+00:00"
+  },
+  {
+    "id": "INC-9C8D667E",
+    "date": "2026-11-17T14:38:09+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Garda\u00ed respond to serious stabbing incident at Kent station in Cork city - echo live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tRk5BakxxczgtYjdlNDJDemhWVkdPTjd6cmtuSVFWdmVSWnUyQ1BJcThNbmExZXlYUFBYT3VNRnZzLUNXY3E5ZnQzNHlHcE1zaGVCUTZBUkNmR1BCRzZ3NA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-17T15:29:42.580517+00:00"
+  },
+  {
+    "id": "INC-DA83DD7F",
+    "date": "2026-11-17T14:32:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man seriously injured in suspected stabbing at Cork train station - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rSUNLb2ZaeUhSU2ZmVV9QZGdjcWg3NTUwNjFoeVVHRUo4QXlfeE9fdTFOa3pZTFVvMnY5X1U1d0N1UHZYVS1CSkhGeG8yRmhCajU4SXZ2VjNMb1VkSTVsaWZYWkxqa3N2eDV1MWRR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-17T15:29:32.948930+00:00"
+  },
+  {
+    "id": "INC-3CD52472",
+    "date": "2026-11-17T14:30:36+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "'I want my solicitor': Man boarded flight out of Dublin hours after being named as stabbing suspect - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQV84aWVMdXQxQkRjVE9BMXFORzRnMW5OMkNMQk80TVRjaTVJMWNyN2VQdktDc29lWTlVWFFVNElQZVdBbENheEtYSGlVcHJxS1hLN1JkbnVEU0FGaUxGaDV5dDhwQkZkOXZzQjV3Y3BwcW90dVFMd0pEZy1rU1FNWUxSWjV2UkpKeXJ4TGZqTQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-17T15:29:40.980287+00:00"
+  },
+  {
+    "id": "INC-23DC8CC7",
+    "date": "2026-11-17T13:51:30+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Thomas Oduro Killing: Suspect Held in Dublin After Fleeing Tottenham Stabbing - The Daily Dazzling Dawn",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeTd2RzJIWTNUdGNnMnB6QjB4V0xGbUNiNkt1WElrUC1wUXRlWTBFbXBPaTFjRUhpWV94MEFTSTg3ZWc1R0FUUElZUXFjdVNrZmRhNmF0WlZiNE54anJucktlS0p2VF9HQXZ4TVB0N0R4ZUpkaDYxOTBNZGlKSzVzYlBWeTZXYjBDcktfdFFhMjhFLUhxemhLYjlPdEYzalhDakZTNXNmVDhtREdPYkRJQ3RB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-17T15:29:40.980948+00:00"
+  },
+  {
+    "id": "INC-E779662E",
+    "date": "2026-11-17T12:53:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man (30s) arrested in Ireland in connection with fatal stabbing in London - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9PN1BjeGtMdHBlbmNlam11Z1ZMcG11dFl1dG5hMk9zSDVQUTB2bmJKa05rUnhqbzNFRktVS3N3VEhRcWJVUDc1enBPQjA1RE1WclhpN2dUZUh5Zzdja3NxbU5xLThHQWNhZWVRLTRybUpCSFNtLUV4QWxaaw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-17T15:29:32.948049+00:00"
+  },
+  {
+    "id": "INC-FBD6468F",
+    "date": "2026-11-17T08:47:19+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Suspect arrested in Ireland after 21-year-old man stabbed to death in north London - Enfield Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOGhXbGVxUHpLS0xqRmxRSWVfVjBMeDMySmZ6TVYzZnFtTE9VdmFFUFl5dnNZVGhxcm9sZUFHYThPUlc2X3ZpZjJISzAzejZud0lTTmRrcF94cU1zVlFyclZRWkh2RmZBNkVpZFg0dEl5UlpQdm1iVFVBWExYalloYVdOeUlpQ3dPcVNmSGZnS0dGNTl4eWxGQUhYZkgwNHVJbzZhd241TXY?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-17T15:29:32.950427+00:00"
+  },
+  {
+    "id": "INC-128A1A39",
+    "date": "2026-11-17T01:30:16+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man jailed for life over school stabbing that sparked Dublin riots - Hounslow Herald",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOckZGWWk5aFlYaU5hdGpObUJDS2ZpYV9BY21COWdCOFl0ekVIZU5Qb0xCS2lWVE9NdU84RmNYWXZCZ3RCS0d4Q2V3Ti1PdlZLX2hYX1JfNklNWlBmYWdPZW9fTFhzN2pQSXNUNVJWWEh1ZHRHdnd2ZHgwMzNtRGdYZ1E3RTBJSGtnMlYwWERYRFphQ2RweWVEdmt0UG9ma29MYzNuOTZWRTg5OE0t?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-17T15:29:40.962417+00:00"
+  },
+  {
+    "id": "INC-FAF7CBBC",
+    "date": "2026-11-17T01:21:33+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Irish court jails man for life over Dublin knife attack that sparked riots - Al Jazeera",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRjB5MXZCcnFhOVBYaS1uenFTR2cyV0h3TWI0MDFpamU1enJqeC1RZ1B1LVJEd3Zsbm10UlhsQllxbzJQUDk2LUZaM21Oc29qekRVdmZNOHRCT0VsaUZZbEcyczdVUXVoaExBV1FRLUhXM2QtUmxWQWJhQW1Ra283V2M3dS1VdWY5bHBYMUsyRHBFRFFHSFhJMUVyRlE5SHhjNUZneTUyZGo5Zy1YQllTdGt4a1FGdFHSAbwBQVVfeXFMUEVaYzlzU2FwWHNKc2drdjlOSzF4STJGTU9SZllIZTFheHRMbmpBcWkwQWVIQnAxY3g1LUczSUNVM09lNFdtbGNya1RoM2xzdTZ0RTFFQTBzZkF4MEpkYUpPWDdzZDhRQTZGVlJWNEsyQkh1WDFxY1RjVEJqZ0ZJMjc2aFdFd0V2Nnhfal9iNHJVS3Q2MGlNN2xwa2h0bzBaRk82SzhNaV9pVUJ1SlAycGpHMlVPMm1LdXpCYWw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-17T15:29:34.612409+00:00"
+  },
+  {
+    "id": "INC-F03937F7",
+    "date": "2026-11-16T20:16:04+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Gardai swoop on Dublin hostel & arrest suspect wanted for London stabbing murder - The Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbnZQc25JUVV4THZfWWxtUDdjTkVKVFcxYzlBVEdjbXpsNHZmb2dWcWtSbXV5QWc0V1puQXM4bnpjNDF0bnRKc1lwN01uWU1meTVfOUNqOHp1bnRNTUZUT0RRbXFZSWdpZjNxcGg1VWw2X3Q1Y254bmlCT3pWRlE1dXJEdGhLODEySWc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-17T15:29:32.962579+00:00"
+  },
+  {
+    "id": "INC-10DA0FC0",
+    "date": "2026-11-16T14:57:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Migrant who stabbed three children in Dublin is jailed for life - The Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQamlmWC0wMVVESjh5X0tQcWlKR2FPRFVha3QwU0RfdWwyRHMtMHIxbHRZSzFyek5ldnZVaGJXMW0wUGFRcVNCeU9ORHhJRmdmUzc5N2Q1SlhISmhQaFZSUVY2ZDZHcWJWQmFYd3pfWFRaWGhaMWFtZEtRaWlIc2Y1bnh0NXEyc2hlSmRicU1CT29jNmRyRzJuVDc1dlhGdHFIVFQ5LUdaRlhpSlJUUl8w?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-17T15:29:40.963807+00:00"
+  },
   {
     "id": "INC-5CC2257E",
     "date": "2026-11-16T13:43:12+00:00",
