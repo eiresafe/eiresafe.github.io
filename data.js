@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1053
+// Total incidents: 1074
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,279 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-A2E4DEFF",
+    "date": "2026-11-18T14:37:30+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Garda\u00ed keen to speak with key witness to fatal Cork city stabbing - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaWRtci0wcDZ2RlFhZTlwWFpUdWVSanBQM0pOdUp6bXU2QlVtU1F5b3JoTDNhZThKTVpqeWVMR3UxUHRKUmlZR2taMnl1TEl4OHBpUUVkR2tlNXk5Uy1GWDhyTlBzOWdWVndfekhlSGw1QVN0ank0Wnk5N0lCMjJfME1kWQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:15.081765+00:00"
+  },
+  {
+    "id": "INC-9E1EAB1A",
+    "date": "2026-11-18T14:36:52+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Appeal to contact female witness to fatal Cork stabbing - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB4WXJVMThIQ3loMEJuOTFVbTR2MVBlR1d0RUZXZmNSR3c4cUFpc3dIVGpjeDdIQmxNcy1sUUhEVEVERWRzSklIaUVrNVdMZEZEU3oySEpxS0lUankwRUtOTkg3MkdJWkhUcFRZcC1PTHdyZXZoX0Y3bDJB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:05.771383+00:00"
+  },
+  {
+    "id": "INC-0A61B23A",
+    "date": "2026-11-18T12:51:43+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teenager stabbed near Cork train station pictured as Garda\u00ed ramp up murder probe - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pb2pfTHluS09KYTVPN2ZKbzJEbTg5VkFwZFMxSWRqRENlWDRYa0RDRzNfSXpLZDQyVUhFMUk0NFhVTkdZZVRqekZOSHdyc3I2a3FJaUI5VklkUjNzc20ta2ZVY1RxNUg4a0RPZEpSOEhTenB4MDU5aw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:15.082326+00:00"
+  },
+  {
+    "id": "INC-C270826F",
+    "date": "2026-11-18T12:45:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teen who died in Cork stabbing pictured as friends pay tribute to 'one of a kind' - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNb25qcGh5QWZxQU1wdklIcm5OUk1ETmVGSVlNblhfV0d4b3BxSHZRd25kT0xzTVAyQUxTalpuV05YR1lYdloyNHhLLVd5bXpKdzhFeC1VLVVZaldlZ3lsQjJxWS1NWko4T0p3VXMzTlVPNVdvV3pkS2EzOGJhTEt4OGZFd05ENjRHOTdIdlpn0gGTAUFVX3lxTFBiMmxQYzRsOHJ5XzRBV3FPeF9ZTmNRVWJlWlJzanVjZmUxOXJXTjVlRTNTZmZfX1ZYOE9TNGhLbTl4X3ZzLTVGUTV1blhVLU9fVm0xTnE1MWhrRnlzNFlfcjkwWm1oRk95bkNQVjFTQ196RWt3bXFieXFUUG5XTHRraEVuVXlEaFZzQThWZ095MnluUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:15.091096+00:00"
+  },
+  {
+    "id": "INC-2C80849C",
+    "date": "2026-11-18T12:39:09+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Gardai search for witness to Cork city stabbing of teen, 18, amid hunt for knife - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQlozVHI3RFJtUFl0OHlYYmVra2Jyc0hGSExwbmx3Z3RmYWF2LUVvNFZWWVpzX0VEVEVzdllDTGRrVXZzaUsyT3MyRTRsMFhFcTZXMG9hdGJSSjE2bVlwWi1hMXV6QmFXNk11QnM5X2YxdXhreWZzR2xDWE8yWUdfdmJ5SGZHaW9q?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:05.779967+00:00"
+  },
+  {
+    "id": "INC-0F38DDD6",
+    "date": "2026-11-18T12:27:54+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Garda\u00ed begin murder inquiry following Cork stabbing - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYTdjLW05RTdqN1dLNXpwbGVlNVg1RlEwTjVfcFFPbjF2WU54NUpDRjRVTmVQblF0NENoaWkwdXk2SDVfa2ZTd25VenZrZllBNDRISzczU1g5Z0F2OXFvWTI3N0NwRkZRZzR3bmQ4QTVYMkQ0YzltYXo5b3ZuTGNJWmlDSFdaV3lQSkIxSjF4S2diNjlEVUVmc0Q4eS1IUUlHZ2c?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:15.080306+00:00"
+  },
+  {
+    "id": "INC-87B855BE",
+    "date": "2026-11-18T12:15:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Garda\u00ed look to speak to woman who boarded particular bus following fatal stabbing in Cork - Ireland Live News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcTF3TXZTUTJkbFNJWjc2UVR2S2cyMVBybVhSc0pDbFljcXQ2Vk1KNW5KbUtQdGxnNTBRUVFyREgtZlRyRUtxNGd3QmtrbzFhNGFKSDJ5TU8wR24yT0pxUTNfN2dQQW1hM0Q2UDFYN3RicDljbFVZRFNlR0hmQlBEN1ZFTEYwLWJVR0tHYldRclF1bUlEQXdPb2Vkako2S21WaW8wZFUzNzh6VzhoRmM3UFgwSndUalVadkM4SjdTTEhXN2pyclpaaERn?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:15.083021+00:00"
+  },
+  {
+    "id": "INC-5382D42F",
+    "date": "2026-11-18T12:14:45+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teenager Who Died In Cork Stabbing Named Locally - Ireland's Classic Hits Radio",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeWJycGNSTEEwOXJrWHdfQkhSMGpIeEdmUGM3Y1JDQVFVZFdJeXVySF9ZZGwzbjhlenVKck43ek9XNEtCS1drMXFYamRISjZmYjBYa3NtOVRZSVJWNmdtVmx4QTZDYnhlS0EzUXl6ZHplN04wSnVpU0JXNzlhdGQtVDBVejFPdFdtX1lfN0VSY2g4d1djdXc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:05.772540+00:00"
+  },
+  {
+    "id": "INC-CD4A5269",
+    "date": "2026-11-18T11:55:21+00:00",
+    "county": "Cork",
+    "location": "Cork -",
+    "description": "Garda\u00ed seek bus stop witness in probe into teenager\u2019s fatal stabbing in Cork - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQY0pFUXh0VlJfQVRYblZUbUlSZnBwVjlIUmdOWnJaY1dXVHpPQWE1akxleXhGV2xQNm9Fa2R5emRxMVBPVGVweFlKSko3YXYwM3d5eGNERmFVRVBRQ1pWNWlpcEJzZmNfNW05VVh4ZnVmLWpfWlRlMzJLR2RDeUhwMU1ienhLZzFqX09kUGRzYWJYc2FpdFFVZnM2VG9neFJtenJMTFZoU0FQX0xUSXVaSnNIVUJtc2pTenZneGtnczRPbmxWZmRmYzFKMld0SDFXWXdlNTlKVG5oQnM5aElXdVlHZU5ocjg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:05.772735+00:00"
+  },
+  {
+    "id": "INC-F2B03740",
+    "date": "2026-11-18T11:00:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Garda\u00ed seek female witness who was standing at bus stop moments before teenager died in Cork street stabbing - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQlhkYlk4R0pwRkRvb3ZaSHIyTko0NU12R2w4cnJUakFZRzVDZW5Mb1k5WmYzbWhfQkVYdlJaU0k4VEhoOGtua2hHZ3paME1BY0ZQYV9zOVhXbVFheVQyNmlsLUE2RGk1SWZTQWlOM2lVZUpQQzl2UWxBc0twOVlFOG0wampMeVlRcmV4ZVFfVkVJTTJ4akFRLWNndGVzMkNTV18wcGg1RlJkWVlqalgyUVlVUGF2eEtVQjF3d0lHTWpJVGRiYUliNEp2MFVfY3hyXzdMU2xHeHViRUY1SklBTzlWZjJjMFFib3U2S0ZTbjJsMVNRRmc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:05.773193+00:00"
+  },
+  {
+    "id": "INC-4173E2A3",
+    "date": "2026-11-18T08:45:04+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teenager stabbed to death in Cork is named locally - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMi1LUjV2b2g1ZnRoZ29mX0FfOTYwbTRXX19fcjlEODdHZmxpYXJIODlPUWhfNWNLZWMwVS0zb1RPVWRwczNsanFzQ2VMNi1MRldLVWc0SjBIYkd5NVc5QjlGelB4T3JqVnhsSExrOS1jX29CV3pzV29FTkJMdXlIMW9rT3RnUElFcGRtWS1B?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:15.091263+00:00"
+  },
+  {
+    "id": "INC-D2C21892",
+    "date": "2026-11-18T08:23:37+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Two Teenagers Arrested After 19-Year-Old Dies In Cork City Stabbing - Kfm Radio",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMHZ3aG92S25YN2dwSllwZTdIZXYwLVl4UG9lRjBjTGVWQ2E3d0xsOUVpVzJIakJTeTdnNTcyWWZsN1JrVDJOSnYyMkUtbmlxWVlBaVJCVllmS0ZqRVZ2OXBxTEl5WktEdlJUU3Y3WDNON2NRRUpyZTlWWFJDUDJjQ1lGVVpHc3dvTE0wMmp3R01kd0dDMXRpbUdPOC1vSExaMVQ3cEJGd1pGeFU?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:15.080556+00:00"
+  },
+  {
+    "id": "INC-E3954FC0",
+    "date": "2026-11-18T06:07:28+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Murder investigation launched after teenager stabbed outside Cork train station dies - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQkpNRU50TDN3MklzYWlEWmRfaWtfbnpCdThncmhvU01yYkR3aWxXQXhPcUs0ZDcwOGJUM0w5MlVpYUljZ2h2eS1WZ2EyUldkbVVlVXNZOGJ0bHJaRkFwN3Z3aVhsZ2stSjI2Wmo0OUczdnV0eERpVExlSUdQd0d3U1dscmRocGxnOUVZNVFDekhvZDFITU9Dc1pMNEx0d2d3UFdibVB2QTcwb0hzdkx6SUJPODF3Y05ybGNUczVUam5xSnE3Umd5QXdIa24xcFRRRkJKd0Znclg2cVNUZGc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:05.771660+00:00"
+  },
+  {
+    "id": "INC-AF86AB5F",
+    "date": "2026-11-17T21:06:38+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Two arrested after young man dies following stabbing in Cork as Garda\u00ed launch murder probe - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcXZ0cjk0U2cxY0hSTzltV3JhYi1tbmxuVlJqeUdLS2hyZ21FRF85c0RNN3RPczZKdzI1b09zN0NPbVFXV1M0VzJOVFExelBxYTQ5cmpUSkZYUXdOelVPbGhQR0tDekN0am56ZzBORDZWRXJ1MHRUaUJXSlhxVnN1d2NWSnFLS03SAYwBQVVfeXFMTzFWN2dTeVRqZ0thMmt3aGxWRno0UWFhd1doLTFIT3VDczJyY3pIcFl4S2xLUHlvZ25YdlNlWWVsbm9udjM2SzlLejFhNVdHTXdZci1WcjExMjd1dmZvOHkweVNuN0hCOTJxZ3ktVXJUeWIxVmZMU0EtUFNLdU9fcHZFQVlybFM3N3pWSXY?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:15.091689+00:00"
+  },
+  {
+    "id": "INC-AA047DAC",
+    "date": "2026-11-17T20:36:09+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man, 19, killed in stabbing near busy Cork train station after \u2018row between two groups\u2019 as teen & man arrested - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE44SjJxYnNxZ0wyZUl2UlhseHRIT3VsTlNUa2cwVXBpRlZQeWtoSXF5UVpybmJxSmhPNXhONHhiWWM2TjZfMTdnVDBqN3k0dWdBemRWQk50RUFQZG1xV20za3lxUUVyZUZ1ckpWQjdFQ2swN1BY?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:15.090917+00:00"
+  },
+  {
+    "id": "INC-BF794D91",
+    "date": "2026-11-17T19:39:51+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Two arrested after teenager dies in stabbing attack on Cork street - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVWUyb2IyRmNDWnIwbldscWxRVkg4ekNPc2M3WU9WNEpScnFSeUZucmZJUHBiSkF6bHJGVHgxb1pTZWZlUFJwY0pFODZuLUM0aERnWjQzTXhLdUthX3dzamNkOWNnVUxCb29WS0RTSVJ6VHd3X1BXSGNxN2ZRdjV4SHc5U2pjd05sVEo5TEdqLUpzSGZ2bnhWbzFjelpFUUZETjZXMzMwc1RrS0ZGa2dKY2RGX2V5Q3hfTXVLYUpMb0dZdWFxRmhjQXBLUDJCSm1WVXVhRHNUNzg4WDQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:05.773461+00:00"
+  },
+  {
+    "id": "INC-C22018E6",
+    "date": "2026-11-17T18:17:44+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Young man dies after suspected stabbing in Cork city as Garda\u00ed make arrests - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQazktVXBmbFlUeEs5QV9ZcWIyWGpadEVJVFNoXzNXa3NwMHo4NkRsZHQ3aTlPWkcwTUl6Y2prOW5iQWxjNkFNaEh5ODJDRU9QeXBkWGd0YTFid0F2MTdkZFBydWdwdnllendHWnhSN1Nwd3FheHV6QmplVHBrUnB1bDJPZFM?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:15.081423+00:00"
+  },
+  {
+    "id": "INC-912DE48D",
+    "date": "2026-11-17T17:59:40+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teenager dies following suspected stabbing near Cork train station - RSVP Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbm45S3FZODZzeDlNQ2R6cHJhYTBXc2R4ZjhMS1RMWGVHRzZfWmxZQmJjZG9ieFlBdm5TakNRYTFLelZxWUlNYmFqdndUTW5TcTgyazhwbC16el9kNzdRcF8xWjBwZDFYSGgwOEotSnFMdEZLcTFwTXVyaWcyRUZzZENFSmtJOThyaEowZ05XOFg3ckNBYmfSAZsBQVVfeXFMT0hJeHZxUnFYeDFmYTNSNlphUTJiUVZTVjNqS25LY0UtQmZocWtCOEFHVk1xb0NBVk84Ny1hR3YwaUVnaHIyNE9jUFpLRVl5ZER0NUFxUHM2VDBlNGRpZF9sNVFoZWdiYXlvaVJxSG5FcEFNMXhfb3FNSWdVVkNURlRxUkZMSXJkcUNXNGtBQkxHeHF3eXlOelRkbTg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:05.780145+00:00"
+  },
+  {
+    "id": "INC-18EA7581",
+    "date": "2026-11-17T16:58:36+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "19 year-old dies after stabbing in Cork - JOE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAyYVltQ3hYa1NDZEoxOXdkUTM5Q3VPRUs5b0t1dmR0ckxqMzhJcXlLUkN0Qnl5RTNCQzJ4eklmMVpFb3hUTWQtVGxXakJMR1lDUG9HMlVIMDljdlpYNFZFYkxzTS1JNThDb1NMdGctOV9FbnQxSi1rMnhFRQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:15.084101+00:00"
+  },
+  {
+    "id": "INC-9A673F3B",
+    "date": "2026-11-17T16:55:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man (19) dies after stabbing outside Cork railway station - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcDZTRUE5SjJra25DVGp5aERfOEQ5QUpWTVJWVjI5bDlpaXVEdEI5U2Z5OE5qYzU3QXoxS3paTDU1d1JSSzBSV3k1czFMYkEtdThTUmtmOWluaWtBbUpmLXZzTHdFWTh6cWg5bmVQd1Z2bk1ka2ZRUzhBZzg1ZkJ4dlp0Q2RkNmZfY0l5VHI0cmFDOWZyMVdVeVJvQmk5TF90S3dnQjc1UHVQQWdPaHBR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:05.772149+00:00"
+  },
+  {
+    "id": "INC-D7FD75D7",
+    "date": "2026-11-17T16:40:35+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Young man dies following stabbing on street in Cork - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbldjSURBU2N0aFNkMDhZSXJ0Mmx1MUxCSG1paU5MNS1wSk9idTJ2SlpPeXFjd3JQYnBXSEp5MnphRmluR3oxNUgybXVabXFscnljWVYtVC1EYnlBQU83SERYak1ySHZzUGREa1FhUFZvQ2pnN0NIcEtFdzNyZHhaUmtKZXhkN3FSV0hfX1RTSzdCd1NtdTQyWkhOemQ3M3JuUC1BRmQ4aw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-18T15:06:15.081594+00:00"
+  },
   {
     "id": "INC-977B904B",
     "date": "2026-11-17T14:39:19+00:00",
