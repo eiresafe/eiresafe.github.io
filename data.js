@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1074
+// Total incidents: 1088
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,162 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-D0133253",
+    "date": "2026-11-19T15:03:28+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man arrested in Dublin over fatal stabbing of 21-year-old Thomas Oduro in London - Adomonline.com",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPb0hFdlpCQnZqNEk1MnZyaXlLdWVWa1kyZmc2OXpSUWJjY1FQMnVYZF9QN1dKdy1qQUtKZU9DTDRWVVJRM0ZHQ1BFVzRNRk96WEpFZWZBeUlQeVZNcHBubzI4aFYtSFFKZ3RKVzhTRXFfZ002dnQtb05fRlpsdzU0TVM2aVRINDFvaGo4WlRDeDZROVhnQ1FmY2xpa09rdXFWV1RGRllnVDNubzRS?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:15:51.811994+00:00"
+  },
+  {
+    "id": "INC-CF630CB4",
+    "date": "2026-11-19T14:46:20+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Man, 30, arrested in Ireland over fatal stabbing of Ghanaian in London - CitiNewsroom.com",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcmpIaTJMQTdzZEhYd1hxbWxOMEc3UlgzNTJTbjFrQzdFa3J0b09KUGoyYjBpTEYyV3VJSFBhalBIRTNaaG42YVE3bm4yeURHYzlHUFR5OW5IT2Y2VUdJZGZndHEwYnJMUS1fWmZmRF9VMEhKcERxaTZPamxnMTU5aVQ0Z1FTc1hSZDhUNWdxd2N0VUg2bmo0SGxlVUpEQVJoamVjdDZCaWcyZw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:15:51.801572+00:00"
+  },
+  {
+    "id": "INC-7F360D45",
+    "date": "2026-11-19T13:25:40+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Cork teenager named in court charged with fatal Kent Station stabbing - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUmNCLW9UWFl6cFFtZU1yTGx4bjV6bzRLSnVPQ0UtUzR1XzlfVjNQeEVsaG1xck1QR2gxbm5yd3lUcDh1a25yRm83eUxCeHdBLWZCd0lTRWwwN1BDOVZESmF5RW5vVWZMZWg3OFN4d2tqRzZmT3RwUktoZ1hZRFNSX2NEVDNtNVlU?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:16:01.632619+00:00"
+  },
+  {
+    "id": "INC-775BE8CD",
+    "date": "2026-11-19T10:28:24+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teenager charged over fatal stabbing of 18-year-old in Cork - Extra.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBGbXRaUlNpTGt2ejhxQ3RBZmV2YXA3NXRZQzAwVmNTZkRJMFNZZ2g2emhEbVlNMDRvZDc1Tm4wVDQwV2J4c0E0d1hEREtUaTNhaXpJZERfS2VCZVI0RjZiNnQ2MktSZ3FOSWlaNUZISXA1WnRQNUt4Zg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:16:01.637080+00:00"
+  },
+  {
+    "id": "INC-DB3B91F3",
+    "date": "2026-11-19T10:15:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teenager charged in connection with fatal stabbing of another teenager in Cork - Ireland Live News",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMkNlU0V5UF9HZm5IcklhYzA5NzRGdEtIMjZFdUI4OS1qMkFlT2FqQTBITDJXUFdjUS1jc0ZBVmJWdFFoV242bGdENjJWMEZ4bjNRZ3I2VUlqWUtkRkl3dnIyNGdXTTIzOFdxbXFPdFBGSkRDT2l2QWE3V1JiS2dBRjVoWXc3Sm5MTGNWR0RWTXRpRXV5a0Zocy1MQ3Eyd0tzQkhVZ1FqSGE0el9ETVJXWUE2emhMMDdnRDRR?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:15:51.794776+00:00"
+  },
+  {
+    "id": "INC-17FD0E11",
+    "date": "2026-11-19T09:07:51+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teen charged over fatal stabbing of man, 18, in Cork as second juvenile released & cops probe 'all circumstances' - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBXUlY3UjNMU2VaRTEweHQyYUZNQ1NJaUZHTEtVSjRlM3FCZU1UZ0tWS09UWDQ4X3ZuTEhZdnBmZEtrb1RYVlg0LUt3LWh0d1dReC1oVUNTSzlUY2RpZVZ1TnRFTWs5Y19jTFlNcGtwWnpYazhOeWZ2Sg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:16:01.654871+00:00"
+  },
+  {
+    "id": "INC-0D801BBC",
+    "date": "2026-11-19T08:36:50+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Teenager charged in connection with fatal stabbing of Adam McSweeney - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYWlsTjBoTUpaOU1RaGJfeFJIeGpiQXVfT0luQ3kydGpQWmJZamo4YnVmT3d6Q3B6VGQ2UGhDeHpnbGVVNHU2azkwdl9XcUVZU2dIWkc2RWM4dEZkb1NQX00zcE1lRnNfdHZOa1JaRENZSGhWYklKX0xvREx4UmppWExucTZObGlkRkE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:15:59.838514+00:00"
+  },
+  {
+    "id": "INC-85EBE38F",
+    "date": "2026-11-19T07:36:42+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teen to face Cork Court on charges related to fatal stabbing of Adam McSweeney - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdTNCS3lndzkyaE1WRHlYMmpJVkZyeUszay1hak53UkpNZnI3UHZjdU5pTG14cTZfZHhiMVc1VXQtVDczbFAzcjJ4bHVLRFV2TzZMdjFQRldrN3pzR1N3eW5IWFhhdldIbzhwTkh2VHRpd2hlbzJzdy1ZRk5WUjE1dW530gGHAUFVX3lxTE9VQkNMRkxEWm9udVM2MzhXTHBza3ZqM0lYcHhsY1M5emZicTAwQTJaaXVZbHRDMTBQdVlidmJIekdGc1lzUVpRWVhIeU12UDFIU2d5VkdWMXlqZEIzOGYteWNqMTMyMFJfSlBzY3kxbWZzV3o5RUwwc1hIR0RQVUw4VVFBbEZvNA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:16:01.639310+00:00"
+  },
+  {
+    "id": "INC-98396A1D",
+    "date": "2026-11-19T00:14:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Cork murder investigation: Suspected weapon found after fatal stabbing of Adam McSweeney - Irish Examiner",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1RR19Wa282ZHBPQ09nMExkVjVVc3FyU0VXUFBzbHJYbnY3QnhtZXFra3NLa1o1QWhUNnYxa1Btc0dhSWlZeVI3YXVBc1lzbEFFZHBFQ0JlOXhxSklKdmZzRnlxUEZPdzdaQ09SRWZ3?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:15:51.794368+00:00"
+  },
+  {
+    "id": "INC-58768975",
+    "date": "2026-11-18T22:03:15+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Garda\u00ed recover weapons that may have been used in fatal stabbing of 18-year-old in Cork - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcjBqMzc2b2VfWkQyenQtOEVYSFJuaHU0dTFDUnVlem9OLXloV0VzSjlGM0l0QzF0SVZhaWtwV3ZLMklDQnVTc0FRVlk4UVMtMkY0QkVMS1I3SXFrc1puOWFuSWgtbGVGcFFzclpHVzltWHl4bF9tbHVzd3E2LXVUY0NnV3E3OFNuSTVWYWgzTUVRWFFpNy11WnJpU0R6UVY4VGtWaHRzZWJFcTlSQUxMc1FhQVA2OU1LYlYtbnc0OHp2RXViMklvNnFKUUNzVlhCMlE?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:16:01.635487+00:00"
+  },
+  {
+    "id": "INC-CB8806FF",
+    "date": "2026-11-18T22:02:36+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teen killed in Cork stabbing pictured after \u2018knife wound to heart\u2019 as cops find \u2018murder weapon\u2019 & probe 2nd attack link - The Irish Sun",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaW11cEtjLTc1Y1BCWEkxLURiREM5VW1hMFZBaEpTWmRELUxCRFJxMDdmTU9heG9BQ0I1Y3NJTDdSQTJLdVdnUURUS0xmWklvQ0Z5UU55c2dNUWl6cUlBekhmRXoyQUxna2RmdnUta1RGZTZUbWhRVnNrWUFIa2hjYw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:15:56.520160+00:00"
+  },
+  {
+    "id": "INC-1EFEEBB5",
+    "date": "2026-11-18T18:00:00+00:00",
+    "county": "Unknown",
+    "location": "",
+    "description": "Garda\u00ed seek female witness at bus stop moments before teenager Adam McSweeney (18) suffered fatal stab wounds - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQVmlKb1hmM1R1MHNEWm04M1lubHBKUHdhcTEwWjNPS2s5SGpFN3JhaV92TkJCcEgtWENoalVxUHZQNXVSaThQZGo3ckFrZmhiVlpwQmZOVm0yOEhlWWhhNk9uSG9OUkxEa3pnak95MmUyNXNxOWN5RHRpVm9JcGZ4dVNPc3lISUQyYS1FN2QwbVRpc1g2MElKTXFHVHFwSXBKR1JjRDdDZ3gyWEg2aHhaMnVWN0JQc2xqanVpTi0wc1F1MV9rVGU1bEx5UGVicTdrQ01HQV9tbjVuNERIdzFKeFBlR3hzSGVzSWwtZjJQaUw2OTM5?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:15:51.798152+00:00"
+  },
   {
     "id": "INC-A2E4DEFF",
     "date": "2026-11-18T14:37:30+00:00",
@@ -141,6 +297,19 @@ export const mockIncidents = [
     "addedAt": "2026-11-18T15:06:05.773193+00:00"
   },
   {
+    "id": "INC-9B29E125",
+    "date": "2026-11-18T10:57:48+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Garda\u00ed seek witness who boarded bus after fatal stabbing outside Cork's Kent Station - echo live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tYVRNMzU0UGRTbjVuaHZDNnNmTjFiOTBmM3czLVlSZk56eGRqUmlNYmhfd0tfOXBfRDdGSE4tbi1nQ0xRa3hyQS1NNTBvRE5ianVsbW9aaUVYYXVmQ1dQdA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:16:01.637366+00:00"
+  },
+  {
     "id": "INC-4173E2A3",
     "date": "2026-11-18T08:45:04+00:00",
     "county": "Cork",
@@ -165,6 +334,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-11-18T15:06:15.080556+00:00"
+  },
+  {
+    "id": "INC-5E7ABD42",
+    "date": "2026-11-18T06:34:58+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teen victim of fatal stabbing at Cork train station named as arrests made - Cork Beo",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQREVYVVNFb3lNX2hTU2hjaHNnenpMREFkNXhRaFRSRVhOandERUNFQjJWY3BPUVJXT0EtQ3F1bDh4Zm9fdG90NlEwN1ZHWDY3cExJblNad2JhOTk5UkhpQVhsbm9VaFNlMlphUExRMjJQeVc4M0NZUVFpMXlZM0swM3JYQ0JSQQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-19T15:16:01.633543+00:00"
   },
   {
     "id": "INC-E3954FC0",
