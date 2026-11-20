@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1088
+// Total incidents: 1091
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -113,6 +113,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-11-19T15:16:01.639310+00:00"
+  },
+  {
+    "id": "INC-1C014101",
+    "date": "2026-11-19T05:30:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Garda\u00ed suspect fatal stabbing in Cork was revenge attack between teen groups after earlier assault - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQLWFTNnNBbXBXaE5aZlpYSlZDNkxxTE9jVjNiLTBkcnM2LU1MMnNnQTl5OXc1QWpNaC0yT0hYRUNCcjl1TmZhQTl2bkItVldqMWtVWGFpaWhKT2xWOFEyVl94ZVkwMXN5YTRwT09RYnRNbDhGYzJIYnFPcnhOVDU3RmFKTDJhdXhCMGZaRmtHZ2I5Q3hXbkxLMVNRUnZPTHN1X0hIeEZna3NWNElvZEFaUjZtUFVYcUtHSmhDZExuVjRLQUxfbHlzUG9DWl9ucVJNS2REM2VFSE5JeWdrRWhKeVVRNUxha2Fi?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-20T14:54:03.579379+00:00"
   },
   {
     "id": "INC-98396A1D",
@@ -336,6 +349,19 @@ export const mockIncidents = [
     "addedAt": "2026-11-18T15:06:15.080556+00:00"
   },
   {
+    "id": "INC-5E392CEA",
+    "date": "2026-11-18T07:30:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Teenager who died in lunchtime street stabbing near Cork railway station is named - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVGRyVElrSHNBLUFOTzNUV1pObmppZ2Y5YUJjSVpHSXZkUnBVQnJJVzM5cnRCNTg2bi0tdDZwUWt2bjlRWkt1LXhpcDR3R0puTjhSR2QxMXpBc3ZMaE11X0JKMFA4STY3QkpnZWUyaHBwVXVJeVJjNGxHZmlxV1JZcGNwQnpqbFhqRFlLdkN1Q2tCbDVsRDRyNDR6NmpWbFhuSnNiOUFwSE1vLWtkbERsdVFQNHpsRzhGNGhfSWNhWVA4ZFhGeXhYZkNoRy1XV2JhWGc?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-20T14:54:03.577882+00:00"
+  },
+  {
     "id": "INC-5E7ABD42",
     "date": "2026-11-18T06:34:58+00:00",
     "county": "Cork",
@@ -425,6 +451,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-11-18T15:06:05.780145+00:00"
+  },
+  {
+    "id": "INC-4FD704E5",
+    "date": "2026-11-17T17:39:58+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Two arrested as teenager stabbed outside Cork train station dies in hospital - The Irish Times",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPN3VrbjBHaUZIeXJ0aG9pckN3VGRLVllqeW81TWtHM01ISnc5SldUbmY0WlZyZnhmVHZxZjlqWkpyUVcyTmt5X3ROaEpiX21LcjE5ZXU4RGhYc2NKbVBGNmtsZmxXSGlYc3ZxUVo5dmRvcHRnd1lzZ1dKWmd6UnEzeWxxS0xwSEg3Q1BYQmJZMGwyZGYtYlF3cHVtZkJVbkZrMTUyS0lhT203dzNHUzFKWFZtaTVJakVQQVZKZGZnWnFGdXJ6OVRPVmZCVE1lUQ?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-20T14:54:03.575914+00:00"
   },
   {
     "id": "INC-18EA7581",
