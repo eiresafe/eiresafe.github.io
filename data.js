@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1091
+// Total incidents: 1094
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-1610FC54",
+    "date": "2026-11-20T17:20:10+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Funeral details announced for teen who died following Cork stabbing - Dublin Live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qd3YxMnFEcFlnbGhNQ0N2SlhWdko4eUNOTnlId1pCY3BvMHdScEJHdE8zWm5KYnp4c2JGZFV5UURRNGtGbEphWnc3OFU4M0RNNUNXRENUakZoZ3k2T29qRkM0ZW1wZkFTOXRzeldCSnFoUkxmM0tmTXI4WEY3bEHSAYQBQVVfeXFMUEswaUstVVctS1o4MUN3TkFxME1YN3Bwc3IxTDNLdERxSGxEZVRLMjZldkdic2pKQWotby1ITHRWQUd6Q1U2Y2hET1lQYUQ2eTMwWUtFTFFfVHlQNVRLRm9WQWltN3EydTJiZGQ5OU0zbHVreDlVb3pVa0Q3SUNvUmd2SmxN?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-21T14:13:02.250461+00:00"
+  },
+  {
+    "id": "INC-C758FF5D",
+    "date": "2026-11-20T16:20:53+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Funeral details announced for Cork teen who died in Kent Station stabbing as tributes flow - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUVNhVU1NbnNBeHNmOWRqV29nak9uNWRtMS11VGtJUF9JdEFIcldCR2sxdk1qcUU4U3EzZXZ3Zm5SRFM4LTdndEFXUFlmV1JyRzdjQ192OW5hOUN5OGhyZmE3Tm5DYmt6Q0xBVllLeW90a25PU2NHVC0xSTZXM3FsYVRRVWpndEhvc1l2TkkzODXSAZYBQVVfeXFMTTdVb1dtZXh2cGdrWkFCU2Q2Y0xlTmVqOTZuUzhCbnEwMTItNFdnbXdDNVNTNTVZZlZPYTd5bEoxLUlmSWo5bkQyT05uaU1tNzlBQ0wtQW5TU1RacEZsU1BsMFlLaFRtc3ZHZUJkeHlCQ2NWV0liaktvTmt0V0VIN2ZwR3p3bVhER01mR1VkU0tJZXNqX3RB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-21T14:12:50.825539+00:00"
+  },
+  {
+    "id": "INC-4EA6EA2B",
+    "date": "2026-11-19T16:05:59+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man charged with murder of 18-year-old in Cork - RTE.ie",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxcTZ4cUY0RjdKaVNLNTNTcG1laUV0VGdvR29PY2haczFHaDczZzdMZXVNeVNfUjVCdGx4VnllTmx4akJtQnZtLTUtT29XVXJpd29LMXlzbFVSWjFXZTVzb1hfc2l5cEpxVWpvZG5uTm1RMFNBSmZz?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-21T14:13:03.930889+00:00"
+  },
   {
     "id": "INC-D0133253",
     "date": "2026-11-19T15:03:28+00:00",
