@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1094
+// Total incidents: 1096
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-9F7C5E9F",
+    "date": "2026-11-23T16:17:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Debunked: False claims about a 'stabbing' or 'murder' at Dublin's Connolly Station last week - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaTR3eGpiZnZtU0JUdzJKbTZkMFc1UjZXS05PcVRxTk5JWGpReHhjNFZfY0k0RlRkTmJZTUZkc1c1OEFIM0FIbVdXejNqTG9zZUFUT2xVVy1wMXRDU1pnOGVySE9SOXFHdHhqNERjX3FfdmNTbTBfNzk2LU9nMklYY2Y0Nk1RdENDTVRCMFROWl8?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-23T17:24:22.854289+00:00"
+  },
+  {
+    "id": "INC-2063A992",
+    "date": "2026-11-22T19:06:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Dublin man (22) to face trial over alleged Clontarf melee knife incident - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc2hydjZvZ1YtckYxUkVkVHdsU0dmTEg4NElMMzRlSEhwM1RSLUFKa05WTnAtQU5iLWJPSmdXNXE4cm5DM3dudm9pc25EMlFwbzRGVzI3R0hkRUJwRmhORGp5V1lzV1NlTDRMYlZqVDdsZDVHemVRQmEzaUtnb0xjOWdDanhZVjV5NWM1LXR3WWgtQkNJa292U1Nla0pIamZFeEtrVWMxTkpnZjdWWHV6dVBoMGctM1Z0bFYtdFhB?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-23T17:24:26.075851+00:00"
+  },
   {
     "id": "INC-1610FC54",
     "date": "2026-11-20T17:20:10+00:00",
