@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1096
+// Total incidents: 1099
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-E474EAA4",
+    "date": "2026-11-24T16:12:00+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "\u2018Eighteen years was nowhere near enough for us\u2019 \u2013 parents deliver moving eulogy at funeral of Cork stabbing victim - Irish Independent",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxON0R1WTlQXzdSdlN6S1RhS25zdFh1VHVxY3JQYXptQ0NZMnQtNUxual9fcVlKNnlVeDdYYW1nRG5ncG1GdkNqRXN5dmE1NGN1REVnYWNncjRkTGFxc3dXckRhTzYtSUk0YktWcEZGUW91T0N4Wi03bk1ORVB5R2p1RmxXVmlYV2dwcW1SMmtJTDc2ejdyVGpxRjQ1bjBqa0ZEVFRVNHk1ajNkUTNfdFhXWmQzZzk0UWxfX2tMOUdYSUVWQS1MTFg2X0FpWGVHbEFFY0xCb2ZMaDZyYk5WeElwc1Y5enRwaTU2Ni1YVFJ5Vkp1dF9uSHd1Rg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-24T16:58:12.728555+00:00"
+  },
+  {
+    "id": "INC-16597AA3",
+    "date": "2026-11-24T14:53:39+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "'He mattered' - Funeral of Cork stab victim Adam McSweeney erupts in applause - Irish Mirror",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcnUzMnY0QndsTTZMY0hQUlJiNjZoNF82VXJrWFdlTnpBYUZhX3h5MTlQOS1WNzhTUTF0NFgwdk5GMTNWa0h2eFZ0eXBiY2c0eGpnR1VUeHpKeEIwX0psNUszOHU3NkRITW9nM3NXdDQ0aEFuVXRkSmoyQzBhOE9BeTlhU2NacVo30gGOAUFVX3lxTFB5RzdzSW13TExFVHktbHEtQXlZQnVUVVJ6bEstcGFPSWtPTXZYWGlBanRWXzBPZVZyR0dlTGZadVRqYWo3T1BnXzVxb3QxQjk2a2U1VC1Qd01XZWU4c1BjemNqd2p5Q2NaZWxrX3U1MFdLSE1aY3MtT0dXNVRpQ1ozN3pXS0c1cUdDUDdfR2c?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-24T16:58:12.741320+00:00"
+  },
   {
     "id": "INC-9F7C5E9F",
     "date": "2026-11-23T16:17:00+00:00",
@@ -35,6 +61,19 @@ export const mockIncidents = [
     },
     "status": "Media Reported",
     "addedAt": "2026-11-23T17:24:26.075851+00:00"
+  },
+  {
+    "id": "INC-9C7284A5",
+    "date": "2026-11-21T17:00:32+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "Man sentenced for robbery with knife at Cork city skate park - echo live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZbDlweVh2WlJ5aUl0Zk1TSVhBcjZ3akdiakNhcEc1TnR6YTdlWUlvbHFONHNJdkpGVUk0eHAtcEpPLVZoQ2NUWEtOQ0dyQm5Db29fMHV0N3BBTE9EcF80dA?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-24T16:58:07.556304+00:00"
   },
   {
     "id": "INC-1610FC54",
