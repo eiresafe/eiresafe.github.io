@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1099
+// Total incidents: 1102
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,45 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-6658B6F5",
+    "date": "2026-11-25T13:11:12+00:00",
+    "county": "Cork",
+    "location": "",
+    "description": "\u2018Don\u2019t seek revenge,\u2019 urges priest at funeral of Cork stabbing victim - echo live",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xOFpBaENyVTNoR3ZOUHlSdm9QazEtUjJIa1VuWjJDM3dDM2d0eE5za2gyeWpPTmJtYVhGQV93UTJwclRyNXJ4UlpncmlieW41SXJMR183QnZDczl6SXJ0Qg?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-25T16:47:55.451260+00:00"
+  },
+  {
+    "id": "INC-0E1CB0D9",
+    "date": "2026-11-25T12:36:41+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Mandatory knife licences risk burdening responsible sellers, retailers warn - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ0xXRzRLcUtXX2NSOWxmdkZpd01oS2xwa3VwZmI5VjZYNVJ6ZTlvYUhKOHd3MEZfNnltWldOSWJQY2oyYUdkY2NYMTRRRXhrekt5c1N6OFQwT2JIRlF2TXdPdW03bTRTSjVuQS02RUIwQ3NGbzRUbGFzeUNSOWdhUmI1S0pJckF5SlU5SDZEWHpXMUY0MEZOUTJmckgtZlVWVTFycGF0M2szcTFOOHBPTnVrMlJPRk9kZGs1d1ZvMzlkTFVQeGVHU2JmWlJqSEJWcWtJWEZhclZkR1da?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-25T16:47:52.102347+00:00"
+  },
+  {
+    "id": "INC-D493F967",
+    "date": "2026-11-24T18:50:54+00:00",
+    "county": "Antrim",
+    "location": "",
+    "description": "Police at the scene of stabbing incident in north Belfast - Belfast Telegraph",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQTJ3VEk2bnNpTVh2dnVsLVc3M0tTbWhVdnoyVkRpdG9OVWh6ZHJtQVRlNGxfUlN2Ynh1LTcyZnNENWY1d28tTTdmUFIxaGdhWUFCdmxTUHJfY0daQ2dILWMtMVhlNGZNMHJRazdKN3JIN0E2azJKNGdZNGdnX2hmTVZLSmhCNnJSOHBwQ0ZQQmxZWjdlSDROVllVTWJ0ZmlpNWVCcFo3VWhHZTN2MWtjV3dNTmtrdw?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-25T16:47:45.292353+00:00"
+  },
   {
     "id": "INC-E474EAA4",
     "date": "2026-11-24T16:12:00+00:00",
