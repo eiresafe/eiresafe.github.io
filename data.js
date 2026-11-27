@@ -1,6 +1,6 @@
 // Irish Stabbings & Crime Tracker - Database of Confirmed/Reported Incidents
 // Automatically updated by GitHub Actions scraper bot.
-// Total incidents: 1102
+// Total incidents: 1104
 
 export const countiesList = [
   "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry",
@@ -10,6 +10,32 @@ export const countiesList = [
 ];
 
 export const mockIncidents = [
+  {
+    "id": "INC-4FDF9382",
+    "date": "2026-11-27T10:20:09+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man (20s) charged over fatal stabbing of young student in Dublin city centre - Sunday World",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZXpId0NFNFNTdnhRc3pROW1uS0pld29kZFNfTVdJT1ZwQ3FQYnRZRTk5QkpxY3l6X2tPOTJXTzRrQ00zRDlUdjJHSVhXZUgxR1JNa3BIRVZCTUF4MVZ5RUdNUDJxb1Nxbzhpc1kxV2Rrb29TaEpGZ203eXVLOEppQVl1TUJVMUwta2NDXzVocEdTc1dsRkd2RWlNalpwazkzd1pqcnVsQ3JIclhtaWRBWW5xY2pyVTR1cXRFNFV2N3hwUVRG?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-27T16:09:16.401238+00:00"
+  },
+  {
+    "id": "INC-3C4E06B4",
+    "date": "2026-11-25T21:33:00+00:00",
+    "county": "Dublin",
+    "location": "",
+    "description": "Man (30s) stabbed while trying to prevent bike theft in Co Dublin - The Journal",
+    "source": {
+      "title": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPblhMejhSSHUwZE5HNXFJLTlzcHJFeUpyanpwZENuTmpVd015dmZRTVVIRW9FSFEyU2hkMlZ5UWhfR1ZONkZWTHUwQUdxLUpGZEZGeHlZbVJ1alBVLXZUZlRxQmZxellyNzdkd0dhMThJZk9QSG9NanlXeGcyODRrMEctNGdRaTRQWWxQTlJIbmxTRlRlTkFz?oc=5"
+    },
+    "status": "Media Reported",
+    "addedAt": "2026-11-27T16:09:06.626311+00:00"
+  },
   {
     "id": "INC-6658B6F5",
     "date": "2026-11-25T13:11:12+00:00",
